@@ -6,5 +6,6 @@ title: Welcome message
 ogImage: Welcome message
 featured: true
 draft: false
+description: Testing
 ---
 Testing
