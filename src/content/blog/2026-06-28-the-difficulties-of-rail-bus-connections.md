@@ -4,7 +4,7 @@ pubDatetime: 2026-06-28
 modDatetime: 2026-06-28
 title: The difficulties of Rail-Bus Connections
 ogImage: Title
-slug: slug
+slug: slug-slug
 featured: false
 draft: true
 tags:
