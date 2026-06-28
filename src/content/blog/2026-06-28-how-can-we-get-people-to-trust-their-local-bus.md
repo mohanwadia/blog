@@ -5,6 +5,8 @@ modDatetime: 2026-06-28
 title: How can we get people to trust their local bus?
 featured: false
 draft: true
+tags:
+  - LinkedIn
 ---
 Melbourne is plagued with un-useable routes. My personal threshold for a useable service is a 30 minute 'bare minimum' frequency which should be reserved for local routes. However, that's an extremely common arterial frequency, with many bus routes suffering from 40-60 minute or worse waiting times. 
 
