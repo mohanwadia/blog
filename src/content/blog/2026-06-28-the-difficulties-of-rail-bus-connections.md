@@ -3,8 +3,12 @@ author: Mohan Wadia
 pubDatetime: 2026-06-28
 modDatetime: 2026-06-28
 title: The difficulties of Rail-Bus Connections
+ogImage: Title
+slug: slug
 featured: false
 draft: true
+tags:
+  - Article
 description: Article
 ---
 The recently released [Victorian Auditor-General's Office inquiry](https://www.audit.vic.gov.au/report/improving-bus-services/?section=) into the [Department of Transport's Bus Plan](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) placed a heavy emphasis on timetabling 'High priority connections'
