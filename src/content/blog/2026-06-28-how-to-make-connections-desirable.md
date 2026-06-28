@@ -17,5 +17,8 @@ However, the major multi-modal interchange Caulfield Station was not adequately 
 
 ### Bus Interchanges
 
-A bus route that operates three buses an hour sounds way better when you omit regular 30-minute gaps (cough cough 903), however bus connections with routes duplicating bus corridoors creates this exact dilema for transferring passengers. 
+A bus route that operates three buses an hour sounds way better when you omit regular 30-minute gaps (cough cough 903), however bus connections with routes duplicating bus corridoors creates this exact dilema for transferring passengers. It always comes down to luck when a connecting bus will arrive with unreliable infrequent routes, creating a poor worst-case scenario that people must rely on.
 
+
+
+&nbsp;
