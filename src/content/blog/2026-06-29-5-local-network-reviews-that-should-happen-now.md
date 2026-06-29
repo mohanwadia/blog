@@ -47,3 +47,29 @@ Coverage between Parkmore and Noble Park is provided a much needed high-frequenc
 A big upgrade for Wheelers Hill and Noble Park North residents.
 
 The 848 already has low patronage, so a reutilization of it's resources is much needed.
+
+## #2 - 742/737/734/732 Network Review
+
+No changes made to Knox Transit Link
+
+### New 734/737: Glen Iris - Knox City SC Via Glen Waverley RS
+
+**Frequency:** 20min  
+**Resources:** 732 (Box Hill - Vermont South), 737 (Monash-Knox)
+
+Follows 734/737 Alignment
+
+### New 732: Burwood RS - Glen Waverley RS Via Highbury Rd
+
+**Frequency:** 30min  
+**Resources:** 734
+
+From Glen Waverley, Visit The Glen SC Via Sneddon Dr, High St, and Springvale Rd. Route goes west at Highbury Rd, continuing along Warragal Rd and Madeline St to Burwood RS.
+
+### New 742: Mitcham RS - Clayton RS
+
+++Via Glen Waverley RS, Vermont South SC, Monash University++  
+**Frequency:** 20min  
+**Resources:** 742 (All)
+
+From Mitcham Station, continues along Mitcham Rd and Terrara Rd to Vermont South SC, following the existing alignment to Brandon Park SC Via Glen Waverley, and continuing along Springvale Rd to Wellington Rd where the route heads to the Monash University Bus Loop. Finally, the route continues to Clayton RS. 
