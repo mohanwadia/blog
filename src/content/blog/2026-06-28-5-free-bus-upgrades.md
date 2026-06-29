@@ -2,7 +2,7 @@
 author: Mohan Wadia
 pubDatetime: 2026-06-28
 modDatetime: 2026-06-28
-title: 5 "Free" Bus Upgrades
+title: 10 "Free" Bus Upgrades
 featured: true
 draft: true
 tags:
@@ -127,10 +127,7 @@ From Sandringham RS, this route will travel along Bay Rd to Southland, taking Be
 
 This route used to operate on a 40 minute frequency. I propose shortening it to Bulleen P&R.
 
-### #11 - 624/548
-
-**Frequency:** 30min  
-**Resources:** 624 (All), 548 (All)
+## #11 - 612 Chadstone SC - Camberwell  RS Via Caulfield RS, Gardiner RS
 
 
 
