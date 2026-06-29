@@ -20,10 +20,17 @@ However, the [2026 Inquiry](https://www.audit.vic.gov.au/report/improving-bus-se
 
 The Audit's definition of a **high-quality service** was set to a 20min frequency 6am-8pm, with services until 9pm on weekdays and services on weekends. By not setting *useable* frequencies on weekends, they disappointingly retro-fitted existing acceptable notions of weekend demand onto our existing routes. The SmartBus standard of weekend frequency is 30 minutes, which has clearly out-grown demand as seen by continuous fully-packed buses entering and exiting interchanges. 
 
-My question I wanted to answer is can we create a *useable* network using the resources we already have. This question made me reflect on the disproportional allocation of transportation resources amongst local government areas (LGAs), duplication of existing resources, existing low-patronage routes that don't care about service productivity, and so many relics of a system that has been left unchanged for decades. 
+It goes without saying that the majority of bus routes in Melbourne don't run to the frequency they should. I believe all bus routes should fall under one of the following categories:
+
+1. Local: Connecting multiple destinations however mostly serving local coverage. 30 minute frequency. (eg. 625)
+2. Arterial: An efficient straight route with the goal of productivity. 20 minute frequency. (eg. 630)
+3. Rapid: Servicing a busy corridor linking key destinations. 10-15 minute frequency. (eg. 903)
+
+My question I wanted to answer is can we create a *useable* network ++using the resources we already have.++ This question made me reflect on the disproportional allocation of transportation resources amongst local government areas (LGAs), duplication of existing resources, existing low-patronage routes that don't care about service productivity, and so many relics of a system that has been left unchanged for decades. 
 
 To truly improve our network, let's ignore the one-time costs of building bus stop infrastructure, re-tendering contracts, planning, consultation etc. in light of creating services that permanently serve our communities. 
 
+There's a critical psychological trick when bus routes go from needing to check a timetable to turn-up-and-go. Forcing passengers to sprint for the chance of catching an earlier service serves the existing anxiety of trusting a bus route. For infrequent routes, trying to get to a bus stop five minutes before you should need to in order to factor in early-running buses and any last-minute personal delays adds on to travel time and stress.
+
 ---
 
-There's a critical psychological trick when bus routes go from needing to check a timetable to turn-up-and-go. Forcing passengers to sprint for the chance of catching an earlier service serves the existing anxiety of trusting a bus route. For infrequent routes, trying to get to a bus stop five minutes before you should need to adds on to travel time and 
