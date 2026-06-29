@@ -48,7 +48,7 @@ A big upgrade for Wheelers Hill and Noble Park North residents.
 
 The 848 already has low patronage, so a reutilization of it's resources is much needed.
 
-## #2 - 742/737/734/732 Network Review
+## #2 - Monash/Whitehorse
 
 No changes made to Knox Transit Link
 
@@ -73,3 +73,44 @@ From Glen Waverley, Visit The Glen SC Via Sneddon Dr, High St, and Springvale Rd
 **Resources:** 742 (All)
 
 From Mitcham Station, continues along Mitcham Rd and Terrara Rd to Vermont South SC, following the existing alignment to Brandon Park SC Via Glen Waverley, and continuing along Springvale Rd to Wellington Rd where the route heads to the Monash University Bus Loop. Finally, the route continues to Clayton RS. 
+
+## #3 - Knox
+
+I decided to keep the 901 and 670.
+
+### New: Ferntree Gully RS - Croydon RS Via Boronia RS
+
+**Frequency:** 30min  
+**Resources:** 755 (Ferntree Gully - Boronia), 737 (Boronia - Croydon)
+
+From Ferntree Gully RS, 755 alignment to Boronia, and 737 alignment to Croydon.
+
+### New: Chirnside Park SC - Knox City SC Via Mooroolbark RS, Boronia RS
+
+**Frequency:** 30min  
+**Resources:** 675, 690, 737 (Knox - Boronia), 680 (All)
+
+690 Alignment (Straightened) from Boronia - Moorolbark RS  
+737 Alignment (Straigtned) from Knox City SC - Boronia RS  
+675 Alignment from Mooroolbark RS - Chirnside Park SC
+
+### New 677/671: Lilydale - Croydon Via Chirnside Park
+
+**Frequency:** 30min  
+Resources: 664 (Croydon - Chirnside Park), 677 (All), 671 (All)
+
+New Alignment
+
+### 679 Lilydale - Croydon Via Mount Evelyn
+
+**Frequency:** 30min  
+**Resources:** 679 (All)
+
+Goes into Croydon rather than Ringwood for a faster connection towards the city via rail.
+
+### 664 Croydon RS - Knox SC Via Bayswater RS
+
+**Frequency:** 30min  
+**Resources:** 664 (All)
+
+Re-routed via Scoresby Rd.
