@@ -153,3 +153,13 @@ From Glen Waverley, Visit The Glen SC Via Sneddon Dr, High St, and Springvale Rd
 
 From Mitcham Station, continues along Mitcham Rd and Terrara Rd to Vermont South SC, following the existing alignment to Brandon Park SC Via Glen Waverley, and continuing along Springvale Rd to Wellington Rd where the route heads to the Monash University Bus Loop. Finally, the route continues to Clayton RS. 
 
+## #12 - 612 Chadstone - Camberwell RS
+
+**Frequency:** 20min  
+**Resources:** 612 (All), 624 (East of Caulfield)
+
+From Chadstone SC, the route goes via Chadstone Rd and Waverley Rd to Caulfield RS, continuing north via Bourke Rd to Gardiner RS. The route then takes Valley Pde, Glen Iris Rd, and Toorak Rd for local coverage. Finally, it heads north along Rowen St and Trafalgar Rd to the terminus at Camberwell RS.
+
+
+
+&nbsp;
