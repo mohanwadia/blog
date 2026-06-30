@@ -24,11 +24,13 @@ mohanwadia.com/transport/boxhill
 
 ---
 
-Huntingdale Station has four spaced platform-style PIDs with only the departures that serve certain bays, and this arrangement works well. The recent 
+Huntingdale Station has four spaced platform-style PIDs with only the departures that serve certain bays, and this arrangement works well. 
+
+The recent Department of Transport and Planning letter to the Victorian Auditor-General's Report stated the following. Information is the bare minimum and should not be seen as a positive but rather a lacking part of the customer experience.
 
 > Real time information displays installed at over 30 sites across the state. Live e-ink displays have been deployed at over 60 locations with more to come.
 
-**Every** bus interchange needs to have proper information for the large amount of people who move through each day. E-ink displays and atavistic SmartBus PIDs are not suitable for larger interchanges such as Oakleigh who recently had one of them installed, full-sized screens with bus information is greatly needed.
+Every bus interchange needs to have proper information for the large amount of people who move through each day. E-ink displays and atavistic SmartBus PIDs are not suitable for larger interchanges such as Oakleigh who recently had one of them installed. Full-sized screens with bus information is greatly needed.
 
 ---
 
