@@ -12,5 +12,6 @@ I was at Southern Cross Station yesterday with a friend who moved to Melbourne a
 
 Entering the station from the Bourke Street Bridge, he was immediately perplexed seeing the departures on a dozen screens for every train line.. except his own. Realizing Pakenham and Cranbourne looked familiar, the only imperative was 'Town Hall Station.' For a train line that was removed just a few months ago from the station, you would think there would be more signage of it's absence. 
 
-Realising he needed to go to a different station, he had a close look at the network map to his left and found 'Clayton Station'. Not paying attention, as he traced his finger back along the light blue line, I realized that the map was outdated with pre-metro tunnel information. Highly confusing!
+Realising he needed to go to a different station, he had a close look at the network map to his left and found 'Clayton Station'. Not paying attention, as he traced his finger back along the light blue line and formed a circle, I realized that the map was outdated with pre-metro tunnel information. Highly confusing!
 
+At this point, he gave up on finding his way home so we walked along the bridge to each platform and I tried to find the next train to Flinders Street. There's a great interchange PID created for this situation however it was nowhere to be found once you enter the myki gates. 
