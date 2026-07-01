@@ -14,7 +14,7 @@ I believe it's important to regularly examine the productivity of all bus routes
 
 I set out to see which Bus Routes are under-performing relative to the resources provided, as well as which routes require more resources to sustain demand
 
-## Part I: Method
+# Part I: Method
 
 It's important to normalize patronage data per route in order to make comparisons. I decided to test patronage data against the following three metrics to see which has the strongest correlation. 
 
@@ -47,7 +47,7 @@ print(model.summary())
 {python}
 ```
 
-## Part II: Findings
+# Part II: Findings
 
 
 | Independent Variable | **R-squared Value** | **F-statistic Value** |
@@ -65,7 +65,7 @@ As a result, the number of service hours of a route has the strongest associatio
 
 ![image.png](/image-12.png)
 
-## Part III: So what?
+# Part III: So what?
 
 The orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 703, 900, 907, and 906 follow which are all SmartBuses. It's clear that the SmartBus program has been a decade-long success by creating new high-performing routes, however their extreme length has proved tricky to update as demand has increased over time and bounced back over COVID.
 
