@@ -63,4 +63,4 @@ As a result, it can be determined that the number of service hours of a route is
 
 ## Part III: So what?
 
-The orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 703, 900, 907, and 906 follow which are all SmartBuses. The next greatest buses with overperforming patronage are the 246, 733, 828, 402, 767, and 737. Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes. 
+The orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 703, 900, 907, and 906 follow which are all SmartBuses. The next greatest buses with overperforming patronage are the 246, 733, 828, 402, 767, and 737. Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes 7 days and great span. 
