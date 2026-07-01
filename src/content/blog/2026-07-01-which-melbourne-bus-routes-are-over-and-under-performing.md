@@ -89,10 +89,10 @@ The patronage per hour histogram provides a mean of 18.3 passengers/hour. The Ro
 
 ![Figure 5](../../../public/images/scatter_all.png)
 
-Over 80 routes have a patronage per service hour at less than half of the average, including the 788 as aforementioned. This is also seen in the histogram, with an interquartile range of 9.5 to 24.2 passengers/hour. While there are other goals for routes such as maximizing coverage, low patronage is a key indicator that the route may be underperforming.
+Over 80 routes have a patronage per service hour at less than half of the average, including the 788 as aforementioned. This is also seen in the histogram, which has an interquartile range of 9.5 to 24.2 passengers/hour. While there are other goals for routes such as maximizing coverage, low patronage is a key indicator that the route may be underperforming.
 
 # So What?
 
 By isolating service hours as one variable, patronage data assists in evaluating the performance of a route. However, there is more nuance to this that requires data that isn't currently publicly available. 
 
-Is an off-peak and weekend patronage drop proportional to the service hours provided? Moreover, how have recent upgrades in service hours affect patronage, and can the discussed model accurately predict said change? And looking at the other two metrics discussed, can service distance or number of stops become more useful metrics by looking at local area coverage and unique coverage?
+Is an off-peak and weekend patronage drop proportional to the service hours provided? Moreover, how have recent upgrades in service hours affect patronage, and can the discussed model accurately predict said change? Finally, looking at the other two metrics discussed, can service distance or number of stops become more useful metrics by observing local area coverage and unique coverage?
