@@ -48,11 +48,11 @@ print(model.summary())
 # Part II: Findings
 
 
-| Independent Variable | **R-squared Value** | **F-statistic Value** |
-| -------------------- | ------------------- | --------------------- |
-| 1. Service Duration | 0.797 | 1314 |
-| 2. Service Distance | 0.750 | 1005 |
-| 3. Service Stops | 0.762 | 1086 |
+| Independent Variable | **R-squared Value** | **F-statistic Value** | **P value** |
+| -------------------- | ------------------- | --------------------- | ----------- |
+| 1. Service Duration | 0.797 | 1314 | <0.001 |
+| 2. Service Distance | 0.750 | 1005 | <0.001 |
+| 3. Service Stops | 0.762 | 1086 | <0.001 |
 
 
 As a result, the number of service hours of a route has the strongest association with patronage. Therefore, I will use Service Duration as the independent variable in the following visual analysis. 
