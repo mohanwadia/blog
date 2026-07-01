@@ -9,17 +9,20 @@ tags:
   - Article
 ---
 ---
+
 # frontmatter
+
 ---
 
-<!-- [!code ++] -->
+
+
 ## Table of contents
 
-<!-- the rest of the post -->
+
 
 I believe it's important to regularly examine the productivity of all bus routes, making resource-effective changes to create a more useful network for more people. [Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) agrees with this.
 
-> 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners." -
+> 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners.
 
 I set out to see which Bus Routes are under-performing relative to the resources provided, as well as which routes require more resources to sustain demand
 
@@ -90,10 +93,6 @@ The patronage per hour histogram provides a mean of 18.3 passengers/hour, with a
 
 The Route 601 as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
 
-
-> [!NOTE]
-> Supplementary information.
-
 > [!WARNING]- Collapsed by default
 > Hidden until expanded.
 
@@ -102,3 +101,4 @@ The Route 601 as an outlier with a historic 261 passengers per hour. I suspect t
 
 > [!DANGER] Custom title
 > Replaces the default heading.
+
