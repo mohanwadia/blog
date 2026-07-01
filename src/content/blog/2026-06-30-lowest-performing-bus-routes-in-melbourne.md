@@ -71,8 +71,10 @@ The orbitals (901/902/903) are the most resource intensive routes, however their
 | 903 | 3,770,586 | 5,752,859 | 2,874,268 | 3,302,643 | 4,387,537 | 5,548,020 |
 
 
-The next greatest buses with overperforming patronage are the 246, 733, 828, 402, 767, and 737. The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. Both the 737 and 828 are due for an upgrade, with the 737 running a worse than 30 minute off-peak frequency.
+The next greatest buses with overperforming patronage are the 246, 733, 828, 402, 767, and 737. The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. Both the 737 and 828 are due for an upgrade, with the 737 running a worse than 30 minute off-peak frequency. 
 
 Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes 7 days and great span. 
 
-The patronage per hour histogram provides a mean of 18.3 passengers/hour with the Route 601 as an outlier with a historic 261 passengers per hour. This may be from a variety of factors, including limited stops, a high speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
+The patronage per hour histogram provides a mean of 18.3 passengers/hour, with an IQR of 9.5 to 24.2 passengers/hour. There is a large range of routes (82 to be exact) that have a patronage per service hour at less than half of the average. 
+
+The Route 601 as an outlier with a historic 261 passengers per hour. This may be from a variety of factors, including limited stops, a high speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
