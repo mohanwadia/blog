@@ -85,7 +85,7 @@ SmartBuses 703, 900, 906 and 907 all follow as the most popular routes in Melbou
 
 ![Figure 4](../../../public/images/histogram.png)
 
-The patronage per hour histogram provides a mean of 18.3 passengers/hour. The Route 601 stands as an outlier with a maximum 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, high demand from students, and possible low fare avoidance due to most connecting with rail.
+The patronage per hour histogram provides a mean of 18.3 passengers/hour. Route 601 stands as an outlier with a maximum 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, high demand from students, and possible low fare avoidance due to most connecting with rail.
 
 ![Figure 5](../../../public/images/scatter_all.png)
 
