@@ -82,22 +82,3 @@ Meanwhile, 788 stands alone as the most underperforming from the top 50 most ser
 The patronage per hour histogram provides a mean of 18.3 passengers/hour, with an IQR of 9.5 to 24.2 passengers/hour. There is a large range of routes (82 to be exact) that have a patronage per service hour at less than half of the average. While there are other goals for routes such as maximizing coverage, low patronage is a key indicator that the route may be underperforming.
 
 The Route 601 as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
-
-> [!WARNING]- Collapsed by default
-> Hidden until expanded.
-
-> [!TIP]+ Expanded, but collapsible
-> Starts open.
-
-> [!DANGER] Custom title
-> Replaces the default heading.
-
-<details>
-  <summary>⚠️ Collapsed by default</summary>
-  Hidden until expanded.
-</details>
-
-<details open>
-  <summary>💡 Expanded, but collapsible</summary>
-  Starts open.
-</details>
