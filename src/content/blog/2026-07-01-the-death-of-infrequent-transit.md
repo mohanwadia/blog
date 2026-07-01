@@ -10,7 +10,7 @@ I believe that a service that operates at a greater than 30 minute frequency is 
 
 ## Inner Suburbs
 
-**Route 236** -   
+**Route 236** -  
 Every 40 min, Lots of unique coverage 
 
 **Route 350 - **  
