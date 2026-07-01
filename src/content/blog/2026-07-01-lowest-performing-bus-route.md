@@ -34,7 +34,7 @@ trip_stats = feed.compute_trip_stats()
 route_stats = gk.routes.compute_route_stats(feed, dates, trip_stats
 ```
 
-I then used `statsmodels.api` on the three metrics, deploying an Ordinar Least Squares Regression to find the R-squared and F-statistic values.
+I then used `statsmodels.api` on the three metrics, deploying an Ordinary Least Squares Regression to find the R-squared and F-statistic values.
 
 ```python file="statsmodels.py"
 import statsmodels.api as sm
@@ -75,7 +75,7 @@ Meanwhile, 788 stands alone as the most underperforming from the top 50 most ser
 
 ![Figure 2](../../../public/images/histogram.png)
 
-The patronage per hour histogram provides a mean of 18.3 passengers/hourThe Route 601 as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
+The patronage per hour histogram provides a mean of 18.3 passengers/hour. The Route 601 stands as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
 
 ![Figure 3](../../../public/images/scatter_all.png)
 
