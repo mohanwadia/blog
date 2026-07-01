@@ -8,15 +8,13 @@ draft: true
 ---
 Drivers hate to see empty buses, while regular bus commuters hate to be in overcrowded buses. 
 
-The 6th objective of [Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) is to create a more resource-efficient network. 
+The 6th objective of [Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) is to create a more resource-efficient network. I believe it's important to regularly examine the productivity of all bus routes and make changes that create a more useful network for more people.
 
-> "
->
 > 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners."
 
 ## Part I: Method
 
-1. Service Hours: The number of hours in a normal week a service runs
+1. Service Duration: The number of hours in a normal week a service runs
 2. Service Distance: The total distance covered by the route in a normal week.
 3. Service Stops: The total non-unique number of stops visited by a route in a normal week.
 
@@ -44,16 +42,20 @@ print(model.summary())
 ```
 
 
+
+## Part II: Findings
+
+
 | Independent Variable | **R-squared Value** | **F-statistic Value** |
 | -------------------- | ------------------- | --------------------- |
-| 1. Service Hours | 0.797 | 1314 |
+| 1. Service Duration | 0.797 | 1314 |
 | 2. Service Distance | 0.750 | 1005 |
 | 3. Service Stops | 0.762 | 1086 |
 
 
-As a result, it can be determined that the number of service hours of a route is most correlated to the patronage on said route.
+As a result, it can be determined that the number of service hours of a route is the strongest predictor of patronage. Therefore, I will use Service Duration as the independent variable in the following visual analysis. 
 
-## Part II: Findings
+![image.png](/image-9.png)
 
 ## Part III: So what?
 
