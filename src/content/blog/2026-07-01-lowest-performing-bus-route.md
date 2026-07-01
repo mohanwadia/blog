@@ -14,10 +14,6 @@ I believe it's important to regularly examine the productivity of all bus routes
 
 I set out to see which Bus Routes are under-performing relative to the resources provided, as well as which routes require more resources to sustain demand
 
-## Table of contents
-
-# Part I: Method
-
 It's important to normalize patronage data per route in order to make comparisons. I decided to test patronage data against the following three metrics to see which has the strongest correlation. 
 
 1. Service Duration: The total number of timetabled service hours
@@ -47,9 +43,6 @@ model = sm.OLS(y, X, missing='drop').fit()
 print(model.summary())
 ```
 
-# Part II: Findings
-
-
 | Independent Variable | **R-squared Value** | **F-statistic Value** | **P value** |
 | -------------------- | ------------------- | --------------------- | ----------- |
 | 1. Service Duration | 0.797 | 1314 | <0.001 |
@@ -59,8 +52,7 @@ print(model.summary())
 
 As a result, the number of service hours of a route has the strongest association with patronage. Therefore, I will use Service Duration as the independent variable in the following visual analysis. 
 
-![Figure 1](../../../public/images/scatter_all.png)
-![Figure 2](../../../public/images/scatter_50.png)
+![Figure 1](../../../public/images/scatter_50.png)
 
 The orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 703, 900, 907, and 906 follow which are all SmartBuses. It's clear that the SmartBus program has been a decade-long success by creating new high-performing routes, however their extreme length has proved tricky to update as demand has increased over time and bounced back over COVID.
 
@@ -76,11 +68,12 @@ The next greatest buses with overperforming patronage are the 246, 733, 828, 402
 
 Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes over a solid span.
 
-![Figure 3](../../../public/images/histogram.png)
+![Figure 2](../../../public/images/histogram.png)
 
-The patronage per hour histogram provides a mean of 18.3 passengers/hour, with an IQR of 9.5 to 24.2 passengers/hour. There is a large range of routes (82 to be exact) that have a patronage per service hour at less than half of the average. While there are other goals for routes such as maximizing coverage, low patronage is a key indicator that the route may be underperforming.
+The patronage per hour histogram provides a mean of 18.3 passengers/hourThe Route 601 as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
 
-The Route 601 as an outlier with a historic 261 passengers per hour. I suspect this is the result of a variety of factors, including limited stops, an average speed of 29km/h, lengthy bus lanes, and possible low fare avoidance due to most connecting with rail.
+![Figure 3](../../../public/images/scatter_all.png)
 
-# Part III: So what?
+There is a large range of routes (82 to be exact) that have a patronage per service hour at less than half of the average. This is also seen in the histogram, with an IQR of 9.5 to 24.2 passengers/hour. While there are other goals for routes such as maximizing coverage, low patronage is a key indicator that the route may be underperforming.
 
+So What?
