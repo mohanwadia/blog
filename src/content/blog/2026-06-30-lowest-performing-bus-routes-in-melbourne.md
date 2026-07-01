@@ -12,8 +12,6 @@ tags:
 # frontmatter
 ---
 
-Here are some recommendations, tips & tricks for creating new posts in AstroPaper blog theme.
-
 <!-- [!code ++] -->
 ## Table of contents
 
