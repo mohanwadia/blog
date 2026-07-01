@@ -61,9 +61,9 @@ The number of service hours of a route has the strongest association with patron
 
 ![Figure 1](../../../public/images/scatter_50.png)
 
-Routes 246, 402, 733, 737, 767, and 828 are over-performing their peers. The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. Both the 737 and 828 are due for an upgrade, with the 737 running a worse than 30 minute off-peak frequency. 
+Routes 246 (36.9 people/hr), 402 (31.8 people/hr), 733 (45.6 people/hr), 737 (36.3 people/hr), 767 (32.6 people/hr), and 828 (23.2 people/hr) are over-performing other non SmartBus routes with high level of service. The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. Both the 737 and 828 are due for an upgrade, with the 737 running a worse than 30 minute off-peak frequency. 
 
-Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes over a solid span.
+Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes over a solid span. It has a very poor patronage of 7.9 people per service hour which is less than half of the mean of all routes. 
 
 
 | **Route** | **Description** | **Patronage ('000)** | **Service Hours** | **Patronage Per Service Hour** |
