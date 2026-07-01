@@ -8,11 +8,15 @@ draft: false
 tags:
   - Article
 ---
+I believe it's important to regularly examine the productivity of all bus routes, making resource-effective changes to create a more useful network for more people. 
+
+[Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) agrees
+
+> 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners." - 
+
 Drivers hate to see empty buses, while regular bus commuters hate to be in overcrowded buses. 
 
-The 6th objective of [Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) is to create a more resource-efficient network. I believe it's important to regularly examine the productivity of all bus routes and make changes that create a more useful network for more people.
-
-> 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners."
+I set out to see if 
 
 ## Part I: Method
 
@@ -53,7 +57,7 @@ print(model.summary())
 | 3. Service Stops | 0.762 | 1086 |
 
 
-As a result, it can be determined that the number of service hours of a route is the strongest predictor of patronage. Therefore, I will use Service Duration as the independent variable in the following visual analysis. 
+As a result, the number of service hours of a route has the strongest association with patronage. Therefore, I will use Service Duration as the independent variable in the following visual analysis. 
 
 ![image.png](/image-11.png)
 
