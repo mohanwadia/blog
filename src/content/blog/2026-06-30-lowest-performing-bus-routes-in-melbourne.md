@@ -73,7 +73,7 @@ The orbitals (901/902/903) are the most resource intensive routes, however their
 
 The next greatest buses with overperforming patronage are the 246, 733, 828, 402, 767, and 737. 
 
-The 733 just got upgraded to 15min off-peak, the 402 runs every 10-minutes off-peak
+The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. Both the 737 and 828 are due for an upgrade, with the 737 running a worse than 30 minute off-peak frequency.
 
 Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes 7 days and great span. 
 
