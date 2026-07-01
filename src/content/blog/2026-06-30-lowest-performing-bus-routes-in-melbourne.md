@@ -10,7 +10,9 @@ Drivers hate to see empty buses, while regular bus commuters hate to be in overc
 
 The 6th objective of [Victoria's Bus Plan (2021)](https://www.vic.gov.au/sites/default/files/2023-09/victorias-bus-plan-bus-reform-roadmap.pdf) is to create a more resource-efficient network. 
 
-> "6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners."
+> "
+>
+> 6. Deliver better value for money – ensuring value for money and continual service improvement under existing and new contracts with bus operators, manufacturers and infrastructure partners."
 
 ## Part I: Method
 
