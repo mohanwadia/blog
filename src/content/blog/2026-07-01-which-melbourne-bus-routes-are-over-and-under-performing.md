@@ -65,7 +65,19 @@ Routes 246, 402, 733, 737, 767, and 828 are over-performing their peers. The [73
 
 Meanwhile, 788 stands alone as the most underperforming from the top 50 most served routes, running over 50km and taking 100+ minutes with a frequency of between 30-40 minutes over a solid span.
 
-The three orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 703, 900, 907, and 906 follow which are all SmartBuses. It's clear that the SmartBus program has been a decade-long success by creating new high-performing routes, however their extreme length has proved tricky to update as demand has increased over time. Patronage levels on the three orbitals in 2023 are within 5% of 2019 levels of patronage, almost returning to pre-COVID.
+
+| **Route** | **Description** | **Patronage ('000)** | **Service Hours** | **Patronage Per Service Hour** |
+| --------- | ---------------------------------------------- | -------------------- | ----------------- | ------------------------------ |
+| 903 | Mordialloc SC - Altona Station | 5548.0 | 2725.0 | 39.0 |
+| 901 | Melbourne Airport - Frankston | 4329.6 | 1965.8 | 42.2 |
+| 902 | Chelsea Station - Airport West Shopping Centre | 4418.0 | 1250.7 | 67.8 |
+| 907 | City (Spencer Street) - Mitcham | 2436.2 | 1022.2 | 45.7 |
+| 703 | Blackburn - Middle Brighton | 2603.0 | 1018.0 | 49.0 |
+
+
+The table above displays the 5 routes with the greatest number of service hours. The three orbitals (901/902/903) are the most resource intensive routes, however their patronage is proportional to the number of service hours run. The 902 in particular is super productive for a 78 kilometre journey. 
+
+The 703, 900, 907, and 906 follow which are all SmartBuses. It's clear that the SmartBus program has been a decade-long success by creating new high-performing routes, however their extreme length has proved tricky to update as demand has increased over time. Patronage levels on the three orbitals in 2023 are within 5% of 2019 levels of patronage, almost returning to pre-COVID displaying the demand for reliable travel remains.
 
 ![Figure 2](../../../public/images/histogram.png)
 
