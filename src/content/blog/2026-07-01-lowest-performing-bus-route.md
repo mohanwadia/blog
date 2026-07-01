@@ -83,4 +83,6 @@ There is a large range of routes (82 to be exact) that have a patronage per serv
 
 # So What?
 
-By isolating service hours as one variable, patronage data assists in evaluating the performance of a route. However, there is more nuance to this that requires data that isn't currently publicly available. Is an off-peak and weekend patronage drop proportional to the service hours provided? Moreover, how have recent upgrades in service hours affect patronage, and can the discussed model accurately predict said change?
+By isolating service hours as one variable, patronage data assists in evaluating the performance of a route. However, there is more nuance to this that requires data that isn't currently publicly available. 
+
+Is an off-peak and weekend patronage drop proportional to the service hours provided? Moreover, how have recent upgrades in service hours affect patronage, and can the discussed model accurately predict said change? And looking at the other two metrics discussed, can service distance or number of stops become more useful metrics by looking at local area coverage and unique coverage?
