@@ -63,7 +63,7 @@ The number of service hours of a route has the strongest association with patron
 
 ![Figure 1](../../../public/images/bar.png)
 
-7 Routes (150, 160, 182, 481, 485, 495 and 497) all stand out with off-peak frequencies of worse than 30 minutes whilst sustaining high patronage per service hour. Each of them run in the ever-growing Western suburbs, serving as an important reminder that transport has not kept up with the increase in population.
+Excluding the Route 601 (which will be discussed later), we find that 902 is the most productive bus route in Melbourne. 7 Routes (150, 160, 182, 481, 485, 495 and 497) all stand out with off-peak frequencies of worse than 30 minutes whilst sustaining high patronage per service hour. Each of them run in the ever-growing Western suburbs, serving as an important reminder that transport has not kept up with the increase in population.
 
 Routes 246 (36.9 people/hr), 402 (31.8 people/hr), 733 (45.6 people/hr), 737 (36.3 people/hr), and 767 (32.6 people/hr) are over-performing other non SmartBus routes with high level of service. The [733 and 767](https://www.premier.vic.gov.au/community-gets-board-extra-bus-services) both got upgraded in 2022, and the 246 and 402 runs an elite 10-minute off-peak frequency. However the 737 is due for an upgrade, running a worse than 30 minute off-peak frequency. 
 
