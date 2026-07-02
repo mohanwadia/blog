@@ -2,7 +2,8 @@
 author: Mohan Wadia
 pubDatetime: 2026-06-29
 modDatetime: 2026-06-29
-title: 5 Local Network Reviews that should happen NOW
+title: 3 Local Network Reviews that should happen NOW
+slug: local-network-reviews
 featured: true
 draft: true
 tags:
@@ -76,7 +77,7 @@ From Mitcham Station, continues along Mitcham Rd and Terrara Rd to Vermont South
 
 ## #3 - Knox
 
-I decided to keep the 901 and 670.
+I decided to keep the 901 and 670 as people build their lives around high-frequency transportation.
 
 ### New: Ferntree Gully RS - Croydon RS Via Boronia RS
 
