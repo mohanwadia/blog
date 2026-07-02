@@ -15,12 +15,12 @@ It should never be the expectation at an interchange that you must look at your 
 
 Box Hill serves more bus passengers than any other bus stop in Melbourne, however it might just be the most frustrating major bus interchange commuters have to face. 
 
-1. The escallator is constantly breaking. Don't believe me? Phillip Mallis [created a website](https://philam.github.io/days-since-box-hill-escalator/) to track the occasion.
-2. There's limited real-time information on bus and no tram departures from the bus interchange.
+1. The escalator is constantly breaking. Don't believe me? Phillip Mallis [created a website](https://philam.github.io/days-since-box-hill-escalator/) to track the occasion.
+2. There's limited real-time information on bus departures and no information of tram departures from the bus interchange.
 3. Buses face constant traffic entering and exiting through a prioritization of car parks over bus lanes.
 4. Overcrowding and forcing commuters through the crowded food court
 
-mohanwadia.com/transport/boxhill
+[mohanwadia.com/transport/boxhill](https://mohanwadia.com/transport/boxhill)
 
 ---
 
@@ -34,7 +34,7 @@ Every bus interchange needs to have proper information for the large amount of p
 
 ---
 
-Train stations often receive one PID per 160m platform, with countless stations omitting them from the down platform, and some even with no PIDs at all! This is unacceptable for the most high-quality transportation service in the state.
+Train stations often receive one PID per 160m platform, with countless stations omitting them from the down platform, and a few remain with no PIDs at all. This is unacceptable for the most high-quality transportation service in the state.
 
 ---
 
@@ -42,26 +42,26 @@ I took the top 20 most popular bus interchanges using the [most recently availab
 
 
 | **Rank** | **Stop Name** | **2018-19 Daily Patronage** | **Real-Time Information** |
-| -------- | ------------------------------------------------- | --------------------------- | ------------------------- |
+| -------- | -------------------------------------------------------- | --------------------------- | ------------------------- |
 | **1** | Monash University (Clayton) | 5911.68 | SmartBus PID |
 | **2** | Box Hill Bus Station/Station St (Box Hill) | 4547.58 | SmartBus PID |
-| **3** | North Melbourne Station/Dryburgh St (West Melb... | 3412.53 |  |
+| **3** | North Melbourne Station/Dryburgh St (West Melbourne) | 3412.53 | None |
 | **4** | Chadstone SC/Eastern Access Rd (Malvern East) | 3273.50 | SmartBus PID |
-| **5** | Lilydale Railway Station/Maroondah Hwy (Lilydale) | 3025.56 |  |
-| **6** | Footscray Station/Irving St (Footscray) | 2373.59 |  |
+| **5** | Lilydale Railway Station/Maroondah Hwy (Lilydale) | 3025.56 | None |
+| **6** | Footscray Station/Irving St (Footscray) | 2373.59 | None |
 | **7** | Huntingdale Station/Haughton Rd (Oakleigh) | 2253.68 | 4 Bay PIDs |
 | **8** | Glen Waverley Station/Railway Pde (Glen Waverley) | 2235.27 | None |
-| **9** | Northland SC/Murray Rd (Preston) | 2183.85 |  |
-| **10** | Williams Landing Station (Williams Landing) | 1910.06 |  |
-| **11** | County Court/Lonsdale St (Melbourne City) | 1856.28 |  |
+| **9** | Northland SC/Murray Rd (Preston) | 2183.85 | None |
+| **10** | Williams Landing Station (Williams Landing) | 1910.06 | None |
+| **11** | County Court/Lonsdale St (Melbourne City) | 1856.28 | SmartBus PID |
 | **12** | Clayton Shopping Centre/Clayton Rd (Clayton) | 1818.08 | E-ink + SmartBus PID |
-| **13** | Swanston St/Lonsdale St (Melbourne City) | 1744.69 |  |
+| **13** | Swanston St/Lonsdale St (Melbourne City) | 1744.69 | SmartBus PID |
 | **14** | Oakleigh Station/Portman St (Oakleigh) | 1737.16 | E-ink + SmartBus PID |
-| **15** | Moonee Ponds Interchange/Mt Alexander Rd (Moon... | 1628.65 |  |
+| **15** | Moonee Ponds Interchange/Mt Alexander Rd (Moonee Ponds) | 1628.65 | None |
 | **16** | Springvale Station/Springvale Rd (Springvale) | 1491.25 | SmartBus PID |
-| **17** | Dandenong Railway Station/Foster St (Dandenong) | 1405.99 |  |
-| **18** | Caulfield Railway Station/Sir John Monash Dr (... | 1367.24 | SmartBus PID |
-| **19** | Frankston Railway Station/Young St (Frankston) | 1362.33 |  |
-| **20** | Tarneit Station (Tarneit) | 1316.20 |  |
+| **17** | Dandenong Railway Station/Foster St (Dandenong) | 1405.99 | SmartBus PID |
+| **18** | Caulfield Railway Station/Sir John Monash Dr (Caulfield) | 1367.24 | SmartBus PID |
+| **19** | Frankston Railway Station/Young St (Frankston) | 1362.33 | Modern PID |
+| **20** | Tarneit Station (Tarneit) | 1316.20 | None |
 
 
