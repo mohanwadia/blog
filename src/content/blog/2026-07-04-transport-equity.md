@@ -13,9 +13,9 @@ tags:
 
 
 
-The current distribution of transportation resources contributes to a systemic socioeconomic issue that can be solved through reforming our network. This inequality stems beyond transport; change is nessesary in order to meet equity goals. Transport historically within Melbourne favors wealthier communities, while those purchased cheaper homes further from the CBD are given a 'Transport Tax'.
+The current distribution of transportation resources contributes to a systemic socioeconomic issue that can be solved through reforming our network. This inequality stems beyond transport; change is nessesary in order to meet equity goals, which are as much about access as it is about inclusiveness. 
 
-Public Transport is a fundamental civil right and should be treated as a public service. Equity is as much about access as it is about inclusiveness. 
+Public Transport is a fundamental civil right and should be treated as a public service. However, Transport historically within Melbourne favors wealthier communities, while those purchased cheaper homes further from the CBD are given a 'Transport Tax'.
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
@@ -37,7 +37,6 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 | **9** | Hampton Park – West | 2.0 | 9.5% | 0.730437 |
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
-
 How can we reach as many people as possible with network resources? The following map shows a dot density of people served by low-quality and no PT.
 
 ![Figure 3](/blog/images/transport-equity/dot-density-people-not-served.png)
@@ -47,20 +46,6 @@ Looking at places with the greatest difference between % with PT and % with high
 ![Figure 4](/blog/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
-
-> [!NOTE]
-> Supplementary information.
-
-> [!WARNING]- Collapsed by default
-> Hidden until expanded.
-
-> [!TIP]+ Expanded, but collapsible
-> Starts open.
-
-> [!DANGER] Custom title
-> Replaces the default heading.
-
-
 
 - 481 ++Sunbury Station++ - Mountain Lion
 - 483 ++Sunbury Station++ - Moonee Ponds
