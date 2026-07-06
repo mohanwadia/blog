@@ -5,7 +5,7 @@ modDatetime: 2026-07-04
 title: Transport Equity
 slug: transport-equity
 featured: true
-draft: false
+draft: true
 tags:
   - Article
   - GTFS
@@ -19,7 +19,7 @@ Public Transport is a fundamental civil right and should be treated as a public 
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](/images/transport-equity/seifa.jpg)
+![Figure 1](../../../public/images/transport-equity/seifa.jpg)
 
 To better quantify this data, I calculated a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport:
 
@@ -40,19 +40,19 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 
 How can we reach as many people as possible with network resources? The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500.
 
-![Figure 3](/images/transport-equity/dot-density.png)
+![Figure 3](../../../public/images/transport-equity/dot-density.png)
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
 
-![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
+![Figure 4](../../../public/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays at midday that fit this criteria.
 
-![Figure 5](/public/images/transport-equity/infrequent.jpg)
+![Figure 5](../../../public/images/transport-equity/infrequent.jpg)
 
 There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
-![Figure 6](/public/images/transport-equity/dandenong.png)
+![Figure 6](../../../public/images/transport-equity/dandenong.png)
 
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
@@ -64,7 +64,7 @@ Children and youth creating positive habits of public transport use is equally i
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
-![Figure 7](/public/images/transport-equity/vehicles-plus-dot-density.png)
+![Figure 3](../../../public/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
@@ -74,16 +74,16 @@ Universal design benefits all riders, where platform stops separate passengers f
 
 Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
-![Figure 8](/public/images/transport-equity/income.png)
+![Figure 8](../../../public/images/transport-equity/income.png)
 
 When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a necessity for basic mobility.
 
 Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
-![Figure 9](/public/images/transport-equity/car-vs-pt.png)
+![Figure 9](../../../public/images/transport-equity/car-vs-pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
-![Figure 10](/public/images/transport-equity/car-ownership.png)
+![Figure 10](../../../public/images/transport-equity/car-ownership.png)
