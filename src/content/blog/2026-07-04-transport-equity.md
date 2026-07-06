@@ -38,27 +38,25 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-How can we reach as many people as possible with network resources? The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500.
+A significant portion of these areas are outer-suburban growth corridoors with rapidly growing housing developments. St Albans-North, Kings Park Lalor East, and Noble Park West are more established middle-to-outer suburbs that have a perception of transport however routes run at low frequencies making them functionally unusable. Combining poor public transit with an extremely low SEIFA score means that residents are paying the highest Transport Tax in Melbourne.
+
+How can we reach as many people as possible with network resources? 
 
 ![Figure 3](/blog/images/transport-equity/dot-density.png)
 
-Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
+Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500. This is overlayed with a choropleth of residents with only access to infrequent public transport, where red indicated regions of high access to low frequency options but low access to the useable network. Therefore, we can see where continued investments in services should be allocated to reach the most amount of people.
 
 ![Figure 4](/blog/images/transport-equity/map-of-transport-illusion.png)
-
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays at midday that fit this criteria.
-
-![Figure 5](/blog/images/transport-equity/infrequent.jpg)
-
-There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
-
-![Figure 6](/blog/images/dandenong.png)
 
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
 > Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women... One of the strategies of safety work is to adopt precautionary measures...also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications.
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access. Moreover, I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all. 
+
+There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
+
+![Figure 5](/blog/images/dandenong.png)
 
 Children and youth effectively using public transport use is crucial for forming positive sustainable habits, forming a major incentive to recently provide [free travel for under-18s.](https://transport.vic.gov.au/news-and-resources/campaigns/travel-freeeeeeeee) According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. Both of these real issues can be mitigated by transit agencies through thought-out integrated systems.
 
