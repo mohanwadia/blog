@@ -19,7 +19,7 @@ Public Transport is a fundamental civil right and should be treated as a public 
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](/images/transport-equity/seifa.png)
+![Figure 1](/blog/images/transport-equity/seifa.png)
 
 To better quantify this data, I calculated a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport:
 
