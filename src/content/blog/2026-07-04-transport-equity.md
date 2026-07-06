@@ -70,7 +70,7 @@ When cities invest heavily in dense, frequent, and reliable transit corridors, t
 
 ![Figure 6](/blog/images/transport-equity/car_vs_pt.png)
 
-Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A recent [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) insightfully illuminates the cultural expectations of parents requiring cars, referencing an excerpt from [Kenta and Mulley (2022):](https://ses.library.usyd.edu.au/handle/2123/27224)
+Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A recent [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) insightfully illuminates the cultural expectations of parents requiring cars, referencing an excerpt from [Kent and Mulley (2022):](https://ses.library.usyd.edu.au/handle/2123/27224)
 
 > This restrictive policy stance reflects the city’s approach to public transport provision that, through both its network structure and mode of operation, prioritises predictable “clean” trips, primarily the journey to work, over the less predictable “messy” trips that are more likely to make up modern life.
 
