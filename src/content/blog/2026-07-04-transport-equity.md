@@ -58,19 +58,17 @@ For public transport to be useable to young people, it cannot simply focus on th
 
 > By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly.
 
-![Figure 5](/blog/images/transport-equity/vehicles-plus-dot-density.png)
-
 Providing access for disabled and aging riders is also important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
 However in 2023-24, [only 18% of tram services were accessible.](https://www.audit.vic.gov.au/report/accessibility-tram-services-follow?section=#key-facts:~:text=Key%20background%20information) When relying on a legacy network that runs high-floor trams on stops that do not provide level-access, both need to be upgraded through an accelerated rollout to meet the [Disability Standards for Accessible Public Transport](https://www.infrastructure.gov.au/infrastructure-transport-vehicles/transport-accessibility/transport-disability-standards) guidelines. Universal design benefits all riders, where platform stops separate passengers from traffic, and wheelchair spaces and level boarding providing space for prams, and support travellers with luggage, injured, elderly, etc.
 
 Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and erases the benefits of subsidising public transit fares. Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are economic lifelines for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however with low-income suburbs stretching away from the CBD, it also takes lower earners longer to take these journeys.
 
-![Figure 6](/blog/images/transport-equity/income.png)
+![Figure 5](/blog/images/transport-equity/income.png)
 
 When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a necessity for basic mobility. Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R² value of `0.577` compared to `0.248`. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
-![Figure 7](/blog/images/transport-equity/car_vs_pt.png)
+![Figure 6](/blog/images/transport-equity/car_vs_pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A recent [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) insightfully illuminates the cultural expectations of parents requiring cars, referencing an excerpt from [Kenta and Mulley (2022):](https://ses.library.usyd.edu.au/handle/2123/27224)
 
@@ -78,6 +76,6 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty. 
 
-![Figure 8](/blog/images/transport-equity/car-ownership.png)
+![Figure 7](/blog/images/transport-equity/car-ownership.png)
 
 Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vulnerable groups. While recent network investments are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
