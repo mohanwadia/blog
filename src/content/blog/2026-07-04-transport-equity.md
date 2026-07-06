@@ -80,7 +80,7 @@ When cities invest heavily in dense, frequent, and reliable transit corridors, t
 
 Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
-![Figure 9](../../../public/images/transport-equity/car-vs-pt.png)
+![Figure 9](../../../public/images/transport-equity/car_vs_pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
