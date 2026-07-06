@@ -3,7 +3,6 @@ author: Mohan Wadia
 pubDatetime: 2026-07-04
 modDatetime: 2026-07-04
 title: Transport Equity
-ogImage: ../../../public/images/transport-equity/seifa.png
 slug: transport-equity
 featured: true
 draft: false
