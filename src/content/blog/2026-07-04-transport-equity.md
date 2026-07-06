@@ -17,7 +17,7 @@ Public Transport is a fundamental civil right and should be treated as a public 
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](/blog/images/transport-equity/seifa.png)
+![Figure 1](/images/transport-equity/seifa.png)
 
 To better quantify this data, I calculated a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport:
 
@@ -35,42 +35,22 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 | **9** | Hampton Park – West | 2.0 | 9.5% | 0.730437 |
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
+
 How can we reach as many people as possible with network resources? The following map shows a dot density of people served by low-quality and no PT.
 
-![Figure 3](/blog/images/transport-equity/dot-density-people-not-served.png)
+![Figure 3](/images/transport-equity/dot-density-people-not-served.png)
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the 'Map of Transport Illusion'.
 
-![Figure 4](/blog/images/transport-equity/map-of-transport-illusion.png)
+![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
-- 481 ++Sunbury Station++ - Mountain Lion
-- 483 ++Sunbury Station++ - Moonee Ponds
-- 488 ++Sunbury Station++ - Jacksons Hill
-- 489 ++Sunbury Station++ - Canterbury Hills
-- 511 Mandalay - Craigieburn Station
-- 681 ++Knox City SC++ - Knox City SC
-- 682 ++Knox City SC++ - Knox City SC
-- 699 Upwey - Belgrave
-- 706 Chelsea Station - Mordialloc SC
-- 740 Vermont East - Mitcham
-- 757 ++Knox City SC++ - Scoresby
-- 758 ++Knox City SC++ - Knoxfield
-- 776 ++Frankston++ - Pearcedale
-- 782 ++Frankston++ - Flinders
-- 783 ++Frankston++ - Hastings
-- 795 ++Cranbourne++ - Warneet
-- 796 ++Cranbourne++ - Clyde
-- 823 Southland SC - North Brighton
-- 838 Emerald - Fountain Gate SC
-- 840 Gembrook - Pakenham Station
-
----
+![Figure 3](/public/images/transport-equity/infrequent.png)
 
 There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
-![Figure 3](/blog/public/images/transport-equity/dandenong.png)
+![Figure 3](/public/images/transport-equity/dandenong.png)
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
 
@@ -88,7 +68,7 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
-![Figure 4](/blog/public/images/transport-equity/vehicles-plus-dot-density.png)
+![Figure 4](/public/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
@@ -98,5 +78,5 @@ Universal design benefits all riders, where platform stops separate passengers f
 
 Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
-![Figure 5](/blog/public/images/transport-equity/household-income.png)
+![Figure 5](/public/images/transport-equity/household-income.png)
 
