@@ -11,13 +11,15 @@ tags:
 ---
 "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich
 
-The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are taxed with transport.
+The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are given a 'Transport Tax': an inability to travel on public transport.
 
-How can we reach as many people as possible with new resources?
+How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
 
-Looking at places with the greatest delta between % with PT and % with high-quality PT, we get the Map of Transport Illusion.
+[Insert Map]
 
+Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
 
+[Insert Map]
 
 I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
@@ -36,7 +38,7 @@ I created a Transport Disadvantage Index by taking the product of a SA2's normal
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. Below are the routes on weekdays that fit the criteria, noting some major places as repeat offenders.
+Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting some major places as repeat offenders.
 
 - 481 Sunbury Station - Mountain Lion
 - 483 Sunbury Station - Moonee Ponds
@@ -59,3 +61,6 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 - 838 Emerald - Fountain Gate SC
 - 840 Gembrook - Pakenham Station
 
+---
+
+There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Leaving Monash Uni 
