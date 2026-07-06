@@ -78,7 +78,7 @@ Affordability concerns were partially alleviated in 2026, with [Cost of Living R
 
 When cities invest heavily in dense, frequent, and reliable transit corridoors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a nessesity for basic mobility.
 
-![Figure 9](/public/images/transport-equity/car-ownership-map.png)
+![Figure 9](/public/images/transport-equity/car-ownership.png)
 
 Comparing household car ownerships against the accessability of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. 
 
