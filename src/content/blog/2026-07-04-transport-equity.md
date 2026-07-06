@@ -11,7 +11,7 @@ tags:
   - GTFS
 description: Exploring how Melbourne's transport network drives socio-economic inequality.
 ---
-> "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich. 
+"Tell me how fast you go and I'll tell you who you are" - Ivan D Illich. 
 
 The current distribution of transportation resources contributes to a systemic socioeconomic issue that can be solved through reforming our network. This inequality stems beyond transport; change is nessesary in order to meet equity goals, which are as much about access as it is about inclusiveness. 
 
@@ -56,13 +56,13 @@ There are multiple places on our network where there are a many of buses, yet no
 
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
-> "Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women... One of the strategies of safety work is to adopt precautionary measures...also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications."
+> Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women... One of the strategies of safety work is to adopt precautionary measures...also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications.
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access. Moreover, I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all. 
 
 Children and youth effectively using public transport use is crucial for forming positive sustainable habits, forming a major incentive to recently provide [free travel for under-18s.](https://transport.vic.gov.au/news-and-resources/campaigns/travel-freeeeeeeee) According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. Both of these real issues can be mitigated by transit agencies through thought-out integrated systems.
 
-> "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
+> By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly.
 
 ![Figure 6](/blog/images/transport-equity/vehicles-plus-dot-density.png)
 
@@ -80,7 +80,7 @@ When cities invest heavily in dense, frequent, and reliable transit corridors, t
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
-> "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
+> Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system.
 
 ![Figure 9](/blog/images/transport-equity/car-ownership.png)
 
