@@ -44,7 +44,7 @@ How can we reach as many people as possible with network resources? The followin
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
 
-![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
+![Figure 4](/public/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays at midday that fit this criteria.
 
