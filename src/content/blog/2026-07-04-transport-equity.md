@@ -13,16 +13,11 @@ tags:
 
 The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are given a 'Transport Tax': an inability to travel on public transport.
 
-How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
+The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data against the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](../../../public/images/transport-equity/dot-density-people-not-served.png)
+![Figure 1](../../../public/images/transport-equity/seifa.png)
 
-Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
-
-![Figure 2](../../../public/images/transport-equity/map-of-transport-illusion.png)
-
-I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
-
+To better quantify this data, I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
 | **Rank** | **SA2** | **SEIFA Decile** | **% dwellings with 800m of a high quality public transport service** | **Disadvantage Index** |
 | -------- | ------------------------- | ---------------- | -------------------------------------------------------------------- | ---------------------- |
@@ -37,6 +32,13 @@ I created a Transport Disadvantage Index by taking the product of a SA2's normal
 | **9** | Hampton Park – West | 2.0 | 9.5% | 0.730437 |
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
+How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
+
+![Figure 3](../../../public/images/transport-equity/dot-density-people-not-served.png)
+
+Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
+
+![Figure 4](../../../public/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
