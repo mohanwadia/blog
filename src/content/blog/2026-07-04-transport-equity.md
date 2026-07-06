@@ -38,11 +38,11 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-How can we reach as many people as possible with network resources? The following map shows a dot density of people served by low-quality and no PT.
+How can we reach as many people as possible with network resources? The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500.
 
-![Figure 3](/images/transport-equity/dot-density-people-not-served.png)
+![Figure 3](/images/transport-equity/dot-density.png)
 
-Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Red indicated regions of high access to low frequency options but low access to the useable network. Each dot represents 500 dwellings coloured to represent access to PT.
+Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
 
 ![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
 
