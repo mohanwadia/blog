@@ -19,6 +19,7 @@ The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based m
 
 To better quantify this data, I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
+
 | **Rank** | **SA2** | **SEIFA Decile** | **% dwellings with 800m of a high quality public transport service** | **Disadvantage Index** |
 | -------- | ------------------------- | ---------------- | -------------------------------------------------------------------- | ---------------------- |
 | **1** | Melton | 1.0 | 0.0% | 0.978261 |
@@ -31,6 +32,7 @@ To better quantify this data, I created a Transport Disadvantage Index by taking
 | **8** | Kurunjang – Toolern Vale | 2.0 | 0.0% | 0.736025 |
 | **9** | Hampton Park – West | 2.0 | 9.5% | 0.730437 |
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
+
 
 How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
 
@@ -69,10 +71,15 @@ There are multiple places on our network where frequency appears to be good, how
 
 ![Figure 3](../../../public/images/transport-equity/dandenong.png)
 
-Poor transport wait times at perceived unsafe locations disproportionally impacts women and vunreable groups. 
+Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and vulnerable groups. According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. 
+
+I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction between 8-9pm on weekdays and absence of frequency and span restrictions on weekends. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excellent excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
+
+> "Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women (Gekoski et al., 2015). Vera-Gray and Kelly define the ‘personal burden’ as safety work (Vera-Gray & and Kelly, 2020). One of the strategies of safety work is to adopt precautionary measures. Precautionary measures, also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications (Ison et al., 2023; Vera-Gray & and Kelly, 2020)."
 
 ---
 
 When public transport is unusable, low-income households are forced to buy and maintain cars they cannot comfortably afford, leading to transport poverty.
 
 ![Figure 4](../../../public/images/transport-equity/vehicles-plus-dot-density.png)
+
