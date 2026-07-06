@@ -2,7 +2,7 @@
 author: Mohan Wadia
 pubDatetime: 2026-07-07
 modDatetime: 2026-07-07
-title: Transport Equity
+title: Mapping Melbourne's Transit Inequality
 slug: transport-equity
 featured: true
 draft: false
