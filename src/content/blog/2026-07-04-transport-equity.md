@@ -80,3 +80,4 @@ Affordability concerns were partially alleviated in 2026, with [Cost of Living R
 
 ![Figure 5](/public/images/transport-equity/household-income.png)
 
+Household car ownership is directly linked to public transportation usage. 
