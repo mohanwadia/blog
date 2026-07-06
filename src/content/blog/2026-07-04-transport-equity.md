@@ -15,7 +15,9 @@ The poor allocation of transportation resources creates a systemic socioeconomic
 
 How can we reach as many people as possible with new resources?
 
-Looking at places with the greatest delta between % with PT and % with high-quality PT.
+Looking at places with the greatest delta between % with PT and % with high-quality PT, we get the Map of Transport Illusion.
+
+
 
 I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
