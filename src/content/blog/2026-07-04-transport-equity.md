@@ -9,7 +9,7 @@ draft: true
 tags:
   - Article
 ---
-"Tell me how fast you go and I'll tell you who you are" - Ivan D Illich
+"Tell me how fast you go and I'll tell you who you are" - Ivan D Illich.
 
 The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are given a 'Transport Tax': an inability to travel on public transport.
 
@@ -77,7 +77,7 @@ According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-a
 
 > "Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women... One of the strategies of safety work is to adopt precautionary measures...also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications."
 
-Children and youth creating positive habits of public transport use is equally important. According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. While there are excellent strategies provided in this report, the policy implications listed I believe should be seen as a priority by all agencies. 
+Children and youth creating positive habits of public transport use is equally important. According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. While there are excellent strategies provided in this report for individual families, the policy implications listed I believe should be seen as a priority by all agencies. 
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
