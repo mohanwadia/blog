@@ -6,7 +6,7 @@ title: Transport Equity
 ogImage: ../../../public/images/transport-equity/seifa.png
 slug: transport-equity
 featured: true
-draft: true
+draft: false
 tags:
   - Article
   - GTFS
