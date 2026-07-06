@@ -69,3 +69,10 @@ There are multiple places on our network where frequency appears to be good, how
 
 ![Figure 3](../../../public/images/transport-equity/dandenong.png)
 
+Poor transport wait times at perceived unsafe locations disproportionally impacts women and vunreable groups. 
+
+---
+
+When public transport is unusable, low-income households are forced to buy and maintain cars they cannot comfortably afford, leading to transport poverty.
+
+![Figure 4](../../../public/images/transport-equity/vehicles-plus-dot-density.png)
