@@ -40,7 +40,7 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 
 How can we reach as many people as possible with network resources? The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500.
 
-![Figure 3](../../assets/transport-equity/dot-density.png)
+![Figure 3](@assets/transport-equity/dot-density.png)
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
 
