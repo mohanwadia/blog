@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-07-07
-modDatetime: 2026-07-07
+pubDatetime: 2026-07-06
+modDatetime: 2026-07-06
 title: Mapping Melbourne's Transit Inequality
 slug: transport-equity
 featured: true
