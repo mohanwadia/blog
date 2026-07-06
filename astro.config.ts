@@ -4,6 +4,7 @@ import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
+import rehypeCallouts from "rehype-callouts"; 
 import { SITE } from "./src/config";
 
 // https://astro.build/config
@@ -26,6 +27,10 @@ export default defineConfig({
           test: "Table of contents",
         },
       ],
+    ],
+    // 2. Add the rehypePlugins array right here
+    rehypePlugins: [
+      rehypeCallouts,
     ],
     shikiConfig: {
       theme: "one-dark-pro",
