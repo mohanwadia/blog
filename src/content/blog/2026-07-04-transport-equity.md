@@ -5,7 +5,7 @@ modDatetime: 2026-07-04
 title: Transport Equity
 slug: transport-equity
 featured: true
-draft: true
+draft: false
 tags:
   - Article
   - GTFS
