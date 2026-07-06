@@ -46,11 +46,11 @@ Looking at places with the greatest difference between % with PT and % with high
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
-![Figure 3](/public/images/transport-equity/infrequent.jpg)
+![Figure 5](/public/images/transport-equity/infrequent.jpg)
 
 There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
-![Figure 3](/public/images/transport-equity/dandenong.png)
+![Figure 6](/public/images/transport-equity/dandenong.png)
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
 
@@ -64,7 +64,7 @@ Children and youth creating positive habits of public transport use is equally i
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
-![Figure 4](/public/images/transport-equity/vehicles-plus-dot-density.png)
+![Figure 7](/public/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
@@ -74,15 +74,15 @@ Universal design benefits all riders, where platform stops separate passengers f
 
 Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
-![Figure 5](/public/images/transport-equity/household-income.png)
+![Figure 8](/public/images/transport-equity/household-income.png)
 
 When cities invest heavily in dense, frequent, and reliable transit corridoors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a nessesity for basic mobility.
 
-![Figure 5](/public/images/transport-equity/car-ownership-map.png)
+![Figure 9](/public/images/transport-equity/car-ownership-map.png)
 
 Comparing household car ownerships against the accessability of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. 
 
-![Figure 5](/public/images/transport-equity/car-vs-pt.png)
+![Figure 10](/public/images/transport-equity/car-vs-pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
