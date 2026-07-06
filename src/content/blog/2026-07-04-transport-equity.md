@@ -41,11 +41,11 @@ How can we reach as many people as possible with network resources? The followin
 
 ![Figure 3](/images/transport-equity/dot-density-people-not-served.png)
 
-Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'.
+Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Red indicated regions of high access to low frequency options but low access to the useable network. Each dot represents 500 dwellings coloured to represent access to PT.
 
 ![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
 
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
+Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays at midday that fit this criteria.
 
 ![Figure 5](/public/images/transport-equity/infrequent.jpg)
 
@@ -53,13 +53,11 @@ There are multiple places on our network where there are a many of buses, yet no
 
 ![Figure 6](/public/images/transport-equity/dandenong.png)
 
-Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
-
-I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all.
-
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
 > "Harassment of women on transit is widely recognized as a major factor influencing personal safety perceptions and places a ‘personal burden’ on women... One of the strategies of safety work is to adopt precautionary measures...also referred to as coping mechanisms, include planning strategies, surveillance, becoming invisible and relying on technology for separation and communications."
+
+Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access. Moreover, I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all. 
 
 Children and youth creating positive habits of public transport use is equally important. According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. While there are excellent strategies provided in this report for individual families, the policy implications listed I believe should be seen as a priority by all agencies. 
 
