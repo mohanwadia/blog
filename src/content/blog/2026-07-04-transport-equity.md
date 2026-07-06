@@ -9,6 +9,7 @@ draft: true
 tags:
   - Article
   - GTFS
+description: Exploring how Melbourne's transport network drives socio-economic inequality.
 ---
 "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich.
 
