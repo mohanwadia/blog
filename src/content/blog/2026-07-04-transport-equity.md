@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-07-04
-modDatetime: 2026-07-04
+pubDatetime: 2026-07-07
+modDatetime: 2026-07-07
 title: Transport Equity
 slug: transport-equity
 featured: true
@@ -82,4 +82,4 @@ Kent and Mulley (2022)
 
 ![Figure 8](/blog/images/transport-equity/car-ownership.png)
 
-Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vunreable groups. While recent interventions are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
+Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vulnerable groups. While recent interventions are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
