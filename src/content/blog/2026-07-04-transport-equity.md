@@ -40,19 +40,19 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 
 How can we reach as many people as possible with network resources? The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500.
 
-![Figure 3](/images/transport-equity/dot-density.png)
+![Figure 3](/blog/images/transport-equity/dot-density.png)
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. Overlaying the previous map with a choropleth, red indicated regions of high access to low frequency options but low access to the useable network. 
 
-![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
+![Figure 4](/blog/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays at midday that fit this criteria.
 
-![Figure 5](/images/transport-equity/infrequent.jpg)
+![Figure 5](/blog/images/transport-equity/infrequent.jpg)
 
 There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
-![Figure 6](/images/dandenong.png)
+![Figure 6](/blog/images/dandenong.png)
 
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
@@ -64,7 +64,7 @@ Children and youth effectively using public transport use is crucial for forming
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
-![Figure 6](/images/transport-equity/vehicles-plus-dot-density.png)
+![Figure 6](/blog/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is also important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
@@ -72,15 +72,15 @@ However in 2023-24, [only 18% of tram services were accessible.](https://www.aud
 
 Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and erases the benefits of subsidising public transit fares. Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are economic lifelines for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however with low-income suburbs stretching away from the CBD, it also takes lower earners longer to take these journeys.
 
-![Figure 7](/images/transport-equity/income.png)
+![Figure 7](/blog/images/transport-equity/income.png)
 
 When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a necessity for basic mobility. Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R² value of `0.577` compared to `0.248`. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
-![Figure 8](/images/transport-equity/car_vs_pt.png)
+![Figure 8](/blog/images/transport-equity/car_vs_pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
-![Figure 9](/images/transport-equity/car-ownership.png)
+![Figure 9](/blog/images/transport-equity/car-ownership.png)
 
