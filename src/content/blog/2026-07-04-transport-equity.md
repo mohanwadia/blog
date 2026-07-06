@@ -54,8 +54,6 @@ There are multiple places on our network where there are a many of buses, yet no
 
 ![Figure 4](/blog/images/dandenong.png)
 
-Reframe this like “For public transport to be useable to young people, it cannot simply focus on the needs of 9-5 commuters”
-
 For public transport to be useable to young people, it cannot simply focus on the needs of 9-5 commuters. Forming a new generation of willing transport users is crucial for forming positive sustainable habits, forming a major incentive to recently provide [free travel for under-18s.](https://transport.vic.gov.au/news-and-resources/campaigns/travel-freeeeeeeee) However According to a [Melbourne study by Jafari et al. (2026)](https://australasiantransportresearchforum.org.au/raising-a-kid-is-like-sending-a-rocket-ship-to-the-moon-exploring-parents-role-in-childrens-independent-use-of-public-transport/) attitudes vary between teenagers focusing on navigation concerns, while parents focus on safety concerns. Both of these real issues can be mitigated by transit agencies through thought-out integrated systems.
 
 > By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly.
@@ -74,11 +72,11 @@ When cities invest heavily in dense, frequent, and reliable transit corridors, t
 
 ![Figure 7](/blog/images/transport-equity/car_vs_pt.png)
 
-Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
+Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A recent [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) insightfully illuminates the cultural expectations of parents requiring cars, referencing an excerpt from [Kenta and Mulley (2022):](https://ses.library.usyd.edu.au/handle/2123/27224)
 
 > This restrictive policy stance reflects the city’s approach to public transport provision that, through both its network structure and mode of operation, prioritises predictable “clean” trips, primarily the journey to work, over the less predictable “messy” trips that are more likely to make up modern life.
 
-Kent and Mulley (2022)
+However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty. 
 
 ![Figure 8](/blog/images/transport-equity/car-ownership.png)
 
