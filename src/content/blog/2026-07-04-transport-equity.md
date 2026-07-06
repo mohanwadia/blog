@@ -64,10 +64,6 @@ Children and youth creating positive habits of public transport use is equally i
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
-Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
-
-> "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
-
 ![Figure 4](/public/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
@@ -80,4 +76,14 @@ Affordability concerns were partially alleviated in 2026, with [Cost of Living R
 
 ![Figure 5](/public/images/transport-equity/household-income.png)
 
-Household car ownership is directly linked to public transportation usage. 
+When cities invest heavily in dense, frequent, and reliable transit corridoors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a nessesity for basic mobility.
+
+![Figure 5](/public/images/transport-equity/car-ownership-map.png)
+
+Comparing household car ownerships against the accessability of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. 
+
+![Figure 5](/public/images/transport-equity/car-vs-pt.png)
+
+Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
+
+> "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
