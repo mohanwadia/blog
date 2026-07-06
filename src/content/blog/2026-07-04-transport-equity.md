@@ -76,15 +76,14 @@ Affordability concerns were partially alleviated in 2026, with [Cost of Living R
 
 ![Figure 8](/public/images/transport-equity/income.png)
 
-When cities invest heavily in dense, frequent, and reliable transit corridoors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a nessesity for basic mobility.
+When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a necessity for basic mobility.
 
-![Figure 9](/public/images/transport-equity/car-ownership.png)
+Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
-Comparing household car ownerships against the accessability of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R^2 value of 0.577 compared to 0.248. 
-
-![Figure 10](/public/images/transport-equity/car-vs-pt.png)
+![Figure 9](/public/images/transport-equity/car-vs-pt.png)
 
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
+![Figure 10](/public/images/transport-equity/car-ownership.png)
