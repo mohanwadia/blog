@@ -11,15 +11,17 @@ tags:
 ---
 "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich.
 
+
+
+The current distribution of transportation resources contributes to a systemic socioeconomic issue that can be solved through reforming our network. This inequality stems beyond transport; change is nessesary in order to meet equity goals. Transport historically within Melbourne favors wealthier communities, while those purchased cheaper homes further from the CBD are given a 'Transport Tax'.
+
 Public Transport is a fundamental civil right and should be treated as a public service. Equity is as much about access as it is about inclusiveness. 
 
-The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are given a 'Transport Tax': an inability to travel on public transport.
-
-The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data against the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
+The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
 ![Figure 1](/blog/images/transport-equity/seifa.png)
 
-To better quantify this data, I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
+To better quantify this data, I calculated a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport:
 
 
 | **Rank** | **SA2** | **SEIFA Decile** | **% dwellings with 800m of a high quality public transport service** | **Disadvantage Index** |
@@ -36,15 +38,15 @@ To better quantify this data, I created a Transport Disadvantage Index by taking
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
+How can we reach as many people as possible with network resources? The following map shows a dot density of people served by low-quality and no PT.
 
 ![Figure 3](/blog/images/transport-equity/dot-density-people-not-served.png)
 
-Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
+Looking at places with the greatest difference between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the 'Map of Transport Illusion'.
 
 ![Figure 4](/blog/images/transport-equity/map-of-transport-illusion.png)
 
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
+Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
 > [!NOTE]
 > Supplementary information.
@@ -83,11 +85,13 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 
 ---
 
-There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
+There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
 ![Figure 3](/blog/public/images/transport-equity/dandenong.png)
 
-Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and vulnerable groups. I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction between 8-9pm on weekdays and absence of frequency and span restrictions on weekends. Creating a network that supports vulnerable groups supports all users, and is something all transport agency should be striving for. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
+Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
+
+I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all.
 
 According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-and-justice/general-feelings-safety/latest-release), among those who do not use public transport after dark, women are six times more likely than men to avoid it specifically because they feel unsafe. Service gaps and extended wait times effect the perceived safety of a network, shifting the 'personal burden' of safety onto vulnerable group and forcing them into hypervigilant coping behaviours or total avoidance. The excerpt below is from a [Melbourne study by Sarker et al. (2026).](https://www.sciencedirect.com/science/article/pii/S1369847825003705?via%3Dihub)
 
@@ -97,7 +101,7 @@ Children and youth creating positive habits of public transport use is equally i
 
 > "By considering the perspectives of both parents and adolescents, and building on the strategies they already use to navigate transit challenges, policymakers can take further steps to design a public transport system that is more adolescent-friendly."
 
-Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in **transport poverty.**
+Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
@@ -107,9 +111,9 @@ Providing access for disabled and aging riders is important. Most buses are low-
 
 However in 2023-24, [only 18% of tram services were accessible.](https://www.audit.vic.gov.au/report/accessibility-tram-services-follow?section=#key-facts:~:text=Key%20background%20information) When relying on a legacy network that runs high-floor trams on stops that do not provide level-access, both need to be upgraded through an accelerated rollout to meet the [Disability Standards for Accessible Public Transport](https://www.infrastructure.gov.au/infrastructure-transport-vehicles/transport-accessibility/transport-disability-standards) guidelines. 
 
-**Universal design benefits all riders,** where platform stops separate passengers from traffic, and wheelchair spaces and level boarding providing space for prams, and support travellers with luggage, injured, elderly, etc. Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and **erases** the benefits of subsidising public transit fares.
+Universal design benefits all riders, where platform stops separate passengers from traffic, and wheelchair spaces and level boarding providing space for prams, and support travellers with luggage, injured, elderly, etc. Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and **erases** the benefits of subsidising public transit fares.
 
-Affordability concerns were reduced in [2026 with Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
+Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
 ![Figure 5](/blog/public/images/transport-equity/household-income.png)
 
