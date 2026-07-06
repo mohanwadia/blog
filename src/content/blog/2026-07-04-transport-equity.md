@@ -11,6 +11,10 @@ tags:
 ---
 "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich.
 
+Public Transport is a fundamental civil right,and should be treated as a public service.
+
+# Access
+
 The poor allocation of transportation resources creates a systemic socioeconomic issue that can be solved through a reforming re-distribution of services. This inequality stems beyond transport; change is nessesary in order to meet equity goals. At the moment, transport favors wealthier communities, while those purchasing cheaper outer houses are given a 'Transport Tax': an inability to travel on public transport.
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data against the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
@@ -69,6 +73,8 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 
 There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
+# Inclusiveness
+
 ![Figure 3](../../../public/images/transport-equity/dandenong.png)
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and vulnerable groups. I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction between 8-9pm on weekdays and absence of frequency and span restrictions on weekends. Creating a network that supports vulnerable groups supports all users, and is something all transport agency should be striving for. 
@@ -87,3 +93,6 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 ![Figure 4](../../../public/images/transport-equity/vehicles-plus-dot-density.png)
 
+Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. However in 2023-24, [only 18% of tram services were accessable.](https://www.audit.vic.gov.au/report/accessibility-tram-services-follow?section=#key-facts:~:text=Key%20background%20information)
+
+Affordability concerns were reduced in [2026 with Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income. 
