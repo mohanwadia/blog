@@ -40,7 +40,7 @@ Looking at places with the greatest delta between % with PT and % with high-qual
 
 ![Figure 4](../../../public/images/transport-equity/map-of-transport-illusion.png)
 
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
+Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
 - 481 ++Sunbury Station++ - Mountain Lion
 - 483 ++Sunbury Station++ - Moonee Ponds
