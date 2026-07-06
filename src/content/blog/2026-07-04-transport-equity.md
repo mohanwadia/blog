@@ -11,8 +11,6 @@ tags:
 ---
 "Tell me how fast you go and I'll tell you who you are" - Ivan D Illich.
 
-
-
 The current distribution of transportation resources contributes to a systemic socioeconomic issue that can be solved through reforming our network. This inequality stems beyond transport; change is nessesary in order to meet equity goals, which are as much about access as it is about inclusiveness. 
 
 Public Transport is a fundamental civil right and should be treated as a public service. However, Transport historically within Melbourne favors wealthier communities, while those purchased cheaper homes further from the CBD are given a 'Transport Tax'.
