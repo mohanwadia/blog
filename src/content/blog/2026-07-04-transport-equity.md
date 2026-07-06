@@ -40,7 +40,7 @@ How can we reach as many people as possible with network resources? The followin
 
 ![Figure 3](/images/transport-equity/dot-density-people-not-served.png)
 
-Looking at places with the greatest difference between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the 'Map of Transport Illusion'.
+Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'.
 
 ![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
 
