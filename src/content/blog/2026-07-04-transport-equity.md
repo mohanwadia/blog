@@ -78,3 +78,4 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 ![Figure 8](/blog/images/transport-equity/car-ownership.png)
 
+Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vunreable groups. While recent interventions are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
