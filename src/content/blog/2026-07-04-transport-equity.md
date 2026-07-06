@@ -63,4 +63,5 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 
 ---
 
-There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Leaving Monash Uni 
+There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
+
