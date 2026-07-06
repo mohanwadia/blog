@@ -82,4 +82,4 @@ Kent and Mulley (2022)
 
 ![Figure 8](/blog/images/transport-equity/car-ownership.png)
 
-Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vulnerable groups. While recent interventions are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
+Public transport is the backbone of social mobility, yet Melbourne's current system acts as a barrier rather than an enabler, particularly towards vulnerable groups. While recent network investments are a step in the right direction, small changes can not achieve the deep reform needed to build a system where every resident, regardless of their background, has the freedom to move.
