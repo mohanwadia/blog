@@ -17,7 +17,7 @@ The poor allocation of transportation resources creates a systemic socioeconomic
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data against the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](../../../public/images/transport-equity/seifa.png)
+![Figure 1](/images/transport-equity/seifa.png)
 
 To better quantify this data, I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
@@ -38,11 +38,11 @@ To better quantify this data, I created a Transport Disadvantage Index by taking
 
 How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
 
-![Figure 3](../../../public/images/transport-equity/dot-density-people-not-served.png)
+![Figure 3](/images/transport-equity/dot-density-people-not-served.png)
 
 Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
 
-![Figure 4](../../../public/images/transport-equity/map-of-transport-illusion.png)
+![Figure 4](/images/transport-equity/map-of-transport-illusion.png)
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
@@ -85,7 +85,7 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 
 There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
-![Figure 3](../../../public/images/transport-equity/dandenong.png)
+![Figure 3](/public/images/transport-equity/dandenong.png)
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and vulnerable groups. I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction between 8-9pm on weekdays and absence of frequency and span restrictions on weekends. Creating a network that supports vulnerable groups supports all users, and is something all transport agency should be striving for. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access.
 
@@ -101,7 +101,7 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
 
-![Figure 4](../../../public/images/transport-equity/vehicles-plus-dot-density.png)
+![Figure 4](/public/images/transport-equity/vehicles-plus-dot-density.png)
 
 Providing access for disabled and aging riders is important. Most buses are low-floor with ramps and wheelchair spaces, and all train stations except Heyington do support wheelchair, strollers, and mobility aids. [Hailo Solutions](https://www.hailo.co/) is doing a superb job in Melbourne in making catching transport accessible and stress-free by allowing users to digitally hail supported buses.
 
@@ -111,5 +111,5 @@ However in 2023-24, [only 18% of tram services were accessible.](https://www.aud
 
 Affordability concerns were reduced in [2026 with Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
-![Figure 5](../../../public/images/transport-equity/household-income.png)
+![Figure 5](/public/images/transport-equity/household-income.png)
 
