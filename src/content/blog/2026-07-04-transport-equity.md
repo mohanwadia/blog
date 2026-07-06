@@ -62,7 +62,7 @@ Providing access for disabled and aging riders is also important. Most buses are
 
 However in 2023-24, [only 18% of tram services were accessible.](https://www.audit.vic.gov.au/report/accessibility-tram-services-follow?section=#key-facts:~:text=Key%20background%20information) When relying on a legacy network that runs high-floor trams on stops that do not provide level-access, both need to be upgraded through an accelerated rollout to meet the [Disability Standards for Accessible Public Transport](https://www.infrastructure.gov.au/infrastructure-transport-vehicles/transport-accessibility/transport-disability-standards) guidelines. Universal design benefits all riders, where platform stops separate passengers from traffic, and wheelchair spaces and level boarding providing space for prams, and support travellers with luggage, injured, elderly, etc.
 
-Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and erases the benefits of subsidising public transit fares. Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are economic lifelines for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however with low-income suburbs stretching away from the CBD, it also takes lower earners longer to take these journeys.
+Forcing vulnerable riders onto more expensive modes such as rideshare is not inclusive, and erases the benefits of subsidising public transit fares. Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are economic lifelines for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however with low-income suburbs stretching away from the CBD, it also takes lower earners longer to take these journeys. The choropleth below maps household income (darker is greater).
 
 ![Figure 5](/blog/images/transport-equity/income.png)
 
@@ -74,7 +74,7 @@ Increasing the usage of public transport comes down to expanding it's usefulness
 
 > This restrictive policy stance reflects the city’s approach to public transport provision that, through both its network structure and mode of operation, prioritises predictable “clean” trips, primarily the journey to work, over the less predictable “messy” trips that are more likely to make up modern life.
 
-However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty. 
+However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty. Below maps number of cars (lighter is less) against dot density.
 
 ![Figure 7](/blog/images/transport-equity/car-ownership.png)
 
