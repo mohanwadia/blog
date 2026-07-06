@@ -17,7 +17,7 @@ Public Transport is a fundamental civil right and should be treated as a public 
 
 The SEIFA (Socio-Economic Indexes for Areas) decile is an excellent area-based metric for measuring relative socio-economic advantage and disadvantage across Australian communities. By overlaying SEIFA data on top of the high-quality network and including a dot density of dwellings, we can see the communities most in need of transport.
 
-![Figure 1](/images/transport-equity/seifa.png)
+![Figure 1](/images/transport-equity/seifa.jpg)
 
 To better quantify this data, I calculated a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport:
 
@@ -46,7 +46,7 @@ Looking at places with the greatest difference between % with PT and % with high
 
 Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at such a low frequency. Below are the routes on weekdays that fit this criteria, noting the outer locations Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
-![Figure 3](/public/images/transport-equity/infrequent.png)
+![Figure 3](/public/images/transport-equity/infrequent.jpg)
 
 There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
@@ -87,3 +87,4 @@ Comparing household car ownerships against the accessability of both high-qualit
 Increasing the usage of public transport comes down to expanding it's usefulness beyond a commuter based service. A [Sydney study by Jennifer Kent](https://link.springer.com/article/10.1007/s11116-024-10466-9) illuminates the cultural expectations of parents requiring cars. However most outer-suburban families which tend to be lower income aren't given a choice and are forced to buy and maintain cars they cannot comfortably afford, trapping them in transport poverty.
 
 > "Scrutinising the strength of the link between parenting and automobility has become an alluring challenge to those seeking to puncture the private car system."
+
