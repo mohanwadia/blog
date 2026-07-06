@@ -15,11 +15,11 @@ The poor allocation of transportation resources creates a systemic socioeconomic
 
 How can we reach as many people as possible with new resources? The following map shows a dot density of people served by low-quality and no PT.
 
-[Insert Map]
+![Figure 1](../../../public/images/transport-equity/dot-density-people-not-served.png)
 
 Looking at places with the greatest delta between % with PT and % with high-quality PT, as well as plotting locations with each type of PT access, we get the Map of Transport Illusion.
 
-[Insert Map]
+![Figure 2](../../../public/images/transport-equity/map-of-transport-illusion.png)
 
 I created a Transport Disadvantage Index by taking the product of a SA2's normalized SEIFA score and the percentage of dwellings with high-quality public transport. 
 
@@ -65,3 +65,4 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 
 There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
+![Figure 3](../../../public/images/transport-equity/dandenong.png)
