@@ -74,7 +74,7 @@ Universal design benefits all riders, where platform stops separate passengers f
 
 Affordability concerns were partially alleviated in 2026, with [Cost of Living Relief](https://transport.vic.gov.au/news-and-resources/news/public-transport-now-half-price-for-everyone) through free and cheaper fares. Further subsidised concession fares are crucial for attracting users that could otherwise not afford it. Flat-rate fares will always hit low-income riders much harder as a proportion of their income, however it's also important to keep the perception of service quality high. 
 
-![Figure 8](/public/images/transport-equity/household-income.png)
+![Figure 8](/public/images/transport-equity/income.png)
 
 When cities invest heavily in dense, frequent, and reliable transit corridoors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a nessesity for basic mobility.
 
