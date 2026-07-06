@@ -38,25 +38,25 @@ I created a Transport Disadvantage Index by taking the product of a SA2's normal
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting some major places as repeat offenders.
+Multiple routes continue to exist on our bus network with worse than 60 minute frequencies. It's impossible to claim a bus route is useable when it runs at an unusable frequency. Below are the routes on weekdays that fit the criteria, noting Sunbury, Knox, Frankston, and Cranbourne as repeat offenders.
 
-- 481 Sunbury Station - Mountain Lion
-- 483 Sunbury Station - Moonee Ponds
-- 488 Sunbury Station - Jacksons Hill
-- 489 Sunbury Station - Canterbury Hills
+- 481 ++Sunbury Station++ - Mountain Lion
+- 483 ++Sunbury Station++ - Moonee Ponds
+- 488 ++Sunbury Station++ - Jacksons Hill
+- 489 ++Sunbury Station++ - Canterbury Hills
 - 511 Mandalay - Craigieburn Station
-- 681 Knox City SC - Knox City SC
-- 682 Knox City SC - Knox City SC
+- 681 ++Knox City SC++ - Knox City SC
+- 682 ++Knox City SC++ - Knox City SC
 - 699 Upwey - Belgrave
 - 706 Chelsea Station - Mordialloc SC
 - 740 Vermont East - Mitcham
-- 757 Scoresby - Knox City SC
-- 758 Knoxfield - Knox City SC
-- 776 Frankston - Pearcedale
-- 782 Frankston - Flinders
-- 783 Frankston - Hastings
-- 795 Cranbourne - Warneet
-- 796 Cranbourne - Clyde
+- 757 ++Knox City SC++ - Scoresby
+- 758 ++Knox City SC++ - Knoxfield
+- 776 ++Frankston++ - Pearcedale
+- 782 ++Frankston++ - Flinders
+- 783 ++Frankston++ - Hastings
+- 795 ++Cranbourne++ - Warneet
+- 796 ++Cranbourne++ - Clyde
 - 823 Southland SC - North Brighton
 - 838 Emerald - Fountain Gate SC
 - 840 Gembrook - Pakenham Station
@@ -66,3 +66,4 @@ Multiple routes continue to exist on our bus network with worse than 60 minute f
 There are multiple places on our network where frequency appears to be good, however the maximum wait is often decided by the most frequent route. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
 ![Figure 3](../../../public/images/transport-equity/dandenong.png)
+
