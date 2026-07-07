@@ -38,7 +38,7 @@ To better quantify this data, I calculated a Transport Disadvantage Index by tak
 | **10** | Pakenham – South East | 2.0 | 1.2% | 0.717932 |
 
 
-A significant portion of these areas are outer-suburban growth corridoors with rapidly growing housing developments. St Albans-North, Kings Park Lalor East, and Noble Park West are more established middle-to-outer suburbs that have a perception of transport however routes run at low frequencies making them functionally unusable. Combining poor public transit with an extremely low SEIFA score means that residents are paying the highest Transport Tax in Melbourne.
+A significant portion of these areas are outer-suburban growth corridors with rapidly growing housing developments. St Albans-North, Kings Park Lalor East, and Noble Park West are more established middle-to-outer suburbs that have a perception of transport however routes run at low frequencies making them functionally unusable. Combining poor public transit with an extremely low SEIFA score means that residents are paying the highest Transport Tax in Melbourne.
 
 Looking at places with the greatest difference between % with PT and % with high-quality PT, we get the 'Map of Transport Illusion'. The following map shows a dot density of dwellings served by high-quality (green), low-quality (yellow), and no (red) public transit services at a scale of 1:500. This is overlayed with a choropleth of residents with only access to infrequent public transport, where red indicated regions of high access to low frequency options but low access to the useable network. Therefore, we can see where continued investments in services should be allocated to reach the most amount of people.
 
