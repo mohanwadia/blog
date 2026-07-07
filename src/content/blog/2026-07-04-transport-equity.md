@@ -50,7 +50,7 @@ According to [2021-22 ABS Data](https://www.abs.gov.au/statistics/people/crime-a
 
 Poor wait times for public transportation at perceived unsafe locations disproportionally impacts women and other vulnerable groups. It should be noted that distance isn't the only metric of walkability; active transport infrastructure, pedestrian crossings, and street lights also contribute to the illusion of access. Moreover, I believe VAGO's classification of a [high-quality public transport service](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=in%20this%20report-,High%20quality%20public%20transport,-High%20quality%20public) is limited because of its absence of a frequency restriction after 8pm on weekdays and a lack of consideration for weekend frequency at all. 
 
-There are multiple places on our network where there are a many of buses, yet no one corridoor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
+There are multiple places on our network where there are a many of buses, yet no one corridor has a frequent service. Going to the Dandenong Station Bus Interchange on a Sunday, you can get on a bus on average within 3 minutes.. but only if you don't care in which direction you're travelling.
 
 ![Figure 4](/blog/images/dandenong.png)
 
