@@ -66,7 +66,7 @@ Forcing vulnerable riders onto more expensive modes such as rideshare is not inc
 
 ![Figure 5](/blog/images/transport-equity/income.png)
 
-When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shits away as a necessity for basic mobility. Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R² value of `0.577` compared to `0.248`. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
+When cities invest heavily in dense, frequent, and reliable transit corridors, the financial and logistical burdens of maintaining multiple cars reduces, and shifts away as a necessity for basic mobility. Comparing household car ownerships against the accessibility of both high-quality and any PT, there's a much stronger relationship with high-quality transit at a R² value of `0.577` compared to `0.248`. Low quality bus services are ignored by most, while high-quality transit corridors form positive household habits.
 
 ![Figure 6](/blog/images/transport-equity/car_vs_pt.png)
 
