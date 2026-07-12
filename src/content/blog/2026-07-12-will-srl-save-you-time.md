@@ -5,12 +5,9 @@ modDatetime: 2026-07-12
 title: Will SRL save you time?
 slug: srl
 featured: true
-draft: true
-description: Find out how much time you'll save with SRL and Bus Reform at
-  [mohanwadia.com/srl](https://mohanwadia.com/srl/)
+draft: false
+description: Mapping Isochrones from the 6 SRL stations
 ---
-Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/srl](https://mohanwadia.com/srl/)
-
 ## Box Hill
 
 <iframe 
@@ -23,7 +20,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Box Hill">
 
 </iframe>
 
@@ -39,7 +36,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Deakin">
 
 </iframe>
 
@@ -55,7 +52,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Glen Waverley">
 
 </iframe>
 
@@ -71,7 +68,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Monash">
 
 </iframe>
 
@@ -87,7 +84,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Clayton">
 
 </iframe>
 
@@ -103,7 +100,7 @@ Find out how much time you'll save with SRL and Bus Reform at [mohanwadia.com/sr
 
     frameborder="0" 
 
-    title="Embedded Content">
+    title="Cheltenham">
 
 </iframe>
 
