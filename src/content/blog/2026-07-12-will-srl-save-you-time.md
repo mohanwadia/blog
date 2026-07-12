@@ -12,6 +12,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.818676,145.122647" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
@@ -22,6 +23,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.850552,145.111145" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
@@ -32,6 +34,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.880023,145.162885" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
@@ -42,6 +45,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.902229,145.142042" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
@@ -52,6 +56,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.923677,145.119583" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
@@ -62,6 +67,7 @@ description: Mapping Isochrones from the 6 SRL stations
 
 <iframe 
     src="https://mohanwadia.com/srl/?preview=1&mode=isochrone&point=-37.956515,145.049572" 
+    loading="lazy" 
     width="100%" 
     height="600px" 
     frameborder="0" 
