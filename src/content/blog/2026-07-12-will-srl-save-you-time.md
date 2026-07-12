@@ -3,7 +3,7 @@ author: Mohan Wadia
 pubDatetime: 2026-07-12
 modDatetime: 2026-07-12
 title: Will SRL save you time?
-slug: srl-journey-planner
+slug: srl
 featured: true
 draft: true
 description: Find out how much time you'll save with SRL and Bus Reform at
