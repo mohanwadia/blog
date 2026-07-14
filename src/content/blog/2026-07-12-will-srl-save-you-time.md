@@ -21,6 +21,7 @@ Using our current PT network as a baseline, we get the following increases in th
 | Glen Waverley | +37% | +44% | +65% |
 | Burwood | +50% | +95% | +121% |
 | Box Hill | +7% | +27% | +38% |
+| Averages: |  |  |  |
 
 
 **SRL Cheltenham** receives a higher combined 
@@ -32,3 +33,17 @@ Using our current PT network as a baseline, we get the following increases in th
 **SRL Burwood** currently is still poorly served by it's tram and bus network. The express Route 201 will be fully replaced by SRL, saving students 15 minutes each way. However, Route 75 slowly visits limited destinations along Burwood Hwy and Route 70 falls short of the new station. Two other bus routes (767 and 903) serve the university and connect it to Box Hill. To improve bus services, the Bus Map crucially upgrades the 903 to an all-day 5 minute frequency, straightening it via Station St. Replacing the 767, a more useful and extended north-south route connecting Doncaster to Clarinda will run every 10 minutes. Additionally a new route via Eley Rd to Mitcham RS connects residents east of the campus and station.
 
 **SRL Box Hill:** Lowest improvement seen here out of the six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. and as a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
+
+### Will non-SRL hubs benefit from SRL?
+
+
+| Hub |  |  |
+| --------- | --- | --- |
+| Rowville |  |  |
+| Dandenong |  |  |
+| Doncaster |  |  |
+| Caulfield |  |  |
+|  |  |  |
+|  |  |  |
+
+
