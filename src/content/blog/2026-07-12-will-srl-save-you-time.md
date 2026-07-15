@@ -10,8 +10,7 @@ description: Mapping isochrones and calculating journey times of an improved net
 ---
 The most polarizing topic in Melbourne has been the viability of the Suburban Rail Loop. Its swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project will be, and how we can improve its effectiveness to create a modern multi-modal network. 
 
-> [!NOTE]  
-> View your future commute time with SRL at [mohanwadia.com/srl](https://mohanwadia.com/srl/).
+This post is supported by a new SRL Journey Planner I created. Try it out at [mohanwadia.com/srl.](https://mohanwadia.com/srl/)
 
 ## Methodology
 
@@ -52,7 +51,7 @@ Using our current PT network as a baseline, we get the following increases in th
 | Averages | +34% | +61% | +87% |
 
 
-It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
+It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them. Unfortunately, the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used unrealistic 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
 
 ![Figure 2](/blog/images/srl/boardings.png)
 
@@ -127,7 +126,7 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 # Will other major destinations benefit from SRL?
 
-While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. Click the following places to see an interactive map of each Major Destination, and see the effects of any destination at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone)
+While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. Click the following places to see an interactive map of each major destination, and see the effects of any destination at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone)
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
