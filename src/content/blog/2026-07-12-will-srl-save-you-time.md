@@ -12,8 +12,6 @@ SRL published [unverifiable journey time figures](https://bigbuild.vic.gov.au/__
 
 SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
-A lot of journey planners create 
-
 ![Figure 1](/blog/images/srl/clayton_isochrone_official.jpg)
 
 ### Methodology
@@ -77,7 +75,7 @@ It's important to note that while the quantity of destinations may increase, man
 
 ### How much faster will journeys be with SRL?
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
@@ -114,11 +112,11 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 | **Averages** | **63** | **56 (-6)** | **41 (-22)** |
 
 
-Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. However, my calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. Discrepancies may partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes.
+Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. However, my calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. Discrepancies may partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes. 
 
 ### Will other major destinations benefit from SRL?
 
-I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Sandringham desperately needs a high-frequency route via Bay Rd to supplement its exclusion from an additional heavy rail line. While Caulfield and Dandenong Station are both 6-7 stations away from Clayton SRL, users will be able to access all SRL stations but not travel much further within 60 minutes. 
+I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Sandringham desperately needs a high-frequency route via Bay Rd to supplement its exclusion from an additional heavy rail line. While Caulfield and Dandenong Station are both 6-7 stations away from Clayton SRL, users will be able to access all SRL stations but not travel much further within 60 minutes. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." This is evident by Knox City SC, Chadstone SC, and Stud Park SC currently lacking high-frequency connections to future SRL Stations. 
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
