@@ -14,7 +14,7 @@ The data in this post is supported by my new SRL Journey Planner. Try it out at 
 
 ## Methodology
 
-My aim was to observe both the effect of SRL and Bus Reform as standalone projects as well as combined to see the effectiveness of each, and if they compliment each other. In order to test multiple variables, I developed four treatments to test each scenario:
+My aim was to observe both the effect of SRL and a greater investment into buses as standalone projects as well as combined to see the effectiveness of each, and if they compliment each other. In order to test multiple variables, I developed four treatments to test each scenario:
 
 1. 'Current': The current transport network of buses, trains, and trams with existing frequencies.
 2. 'Better Buses': Creating new reformed bus routes running 5-10 minute frequencies. A proposal from the Department of Transport was rejected by Cabinet as seen in the figure below.
@@ -31,11 +31,11 @@ While SRL and existing routes keep their stop locations, the Reformed Bus Networ
 
 All of this pre-processing means that any browser can load the graph and run Dijkstra's Algorithm (which is used to calculate shortest paths) either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including [Leaflet](https://leafletjs.com/) & [Nominatim](https://nominatim.org/)) were used for the frontend.
 
-As this is a post on SRL East, Bus Reform travel times have been scoped for suburbs south of the Yarra. The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), walking durations, and isochrone coverage along non-inhabitable areas.
+As this is a post on SRL East, travel times have been scoped for suburbs south of the Yarra. The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), walking durations, and isochrone coverage along non-inhabitable areas.
 
 ## Will SRL stations benefit more from a new train line or better buses?
 
-SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
+SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of greater investment into buses along with SRL.
 
 Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. Click the following stations for an interactive isochrone map.
 
@@ -145,4 +145,4 @@ Sandringham desperately needs a high-frequency route via Bay Rd to supplement it
 
 ### Conclusion
 
-Melbourne's eastern and south-eastern suburbs need better buses, regardless of the progress of the Suburban Rail Loop. How does this change your views on Bus Reform and SRL? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
+Melbourne's eastern and south-eastern suburbs need better buses, regardless of the progress of the Suburban Rail Loop. How does this change your views on SRL and investing in buses? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
