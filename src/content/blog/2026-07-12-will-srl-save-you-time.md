@@ -124,7 +124,6 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 ![Figure 9](/blog/images/srl/bayswater.png)
 
-
 # Will other major destinations benefit from SRL?
 
 While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. You can view the effects of SRL on any location in the Eastern or South-Eastern suburbs at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. 
