@@ -8,7 +8,9 @@ featured: true
 draft: true
 description: Mapping Isochrones & Calculating Journey Times of an Improved Network
 ---
-SRL have also published isochrones for all six stations
+SRL published [unverifiable journey time figures](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) using a variety of current and future timetable information.
+
+SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
 ![Figure 1](/blog/images/srl/clayton_isochrone_official.jpg)
 
@@ -31,19 +33,21 @@ The following accuracy limitations are known: Doncaster Busway & DART network, T
 
 ### Will SRL stations benefit more from a new train line or better buses?
 
-Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments and 
+Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. 
 
 
-| SRL Station | Better Buses | SRL | Combined |
-| ------------- | ------------ | ---- | -------- |
-| Cheltenham | +35% | +66% | +101% |
-| Clayton | +37% | +41% | +66% |
-| Monash | +36% | +95% | +131% |
-| Glen Waverley | +37% | +44% | +65% |
-| Burwood | +50% | +95% | +121% |
-| Box Hill | +7% | +27% | +38% |
-| Averages: | +34% | +61% | +87% |
+| **SRL Station** | **Better Buses** | **SRL** | **Combined** |
+| ----------------------------------------------------------------------------------------- | ---------------- | ------- | ------------ |
+| [Cheltenham](https://mohanwadia.com/srl/?mode=isochrone&point=-37.956491%2C145.049600) | +35% | +66% | +100% |
+| [Clayton](https://mohanwadia.com/srl/?mode=isochrone&point=-37.923676%2C145.119578) | +37% | +41% | +66% |
+| [Monash](https://mohanwadia.com/srl/?mode=isochrone&point=-37.902237%2C145.142055) | +59% | +94% | +128% |
+| [Glen Waverley](https://mohanwadia.com/srl/?mode=isochrone&point=-37.880029%2C145.162885) | +36% | +44% | +65% |
+| [Burwood](https://mohanwadia.com/srl/?mode=isochrone&point=-37.850558%2C145.111145) | +50% | +95% | +121% |
+| [Box Hill](https://mohanwadia.com/srl/?mode=isochrone&point=-37.818671%2C145.122646) | +7% | +27% | +38% |
+| Averages | +34% | +61% | +87% |
 
+
+It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
 
 **SRL Cheltenham** receives a higher combined 
 
@@ -51,7 +55,7 @@ Using our current PT network as a baseline, we get the following increases in th
 
 **SRL Glen Waverley** currently has only has one frequent bus route (Route 902), which has the _____-highest patronage of all routes, despite it's large bus interchange. The rejected map would provide the precinct with 4 high-frequency buses: A Route 902 which continues to the City from Doncaster SC, a Route 734 extended to Knox City SC, an extended and straightened Route 623 along Waverley Rd to Caulfield RS, and a new route towards Dandenong via Wheelers Hill SC.
 
-**SRL Burwood** currently is still poorly served by it's tram and bus network. The express Route 201 will be fully replaced by SRL, saving students 15 minutes each way. However, Route 75 slowly visits limited destinations along Burwood Hwy and Route 70 falls short of the new station. Two other bus routes (767 and 903) serve the university and connect it to Box Hill. To improve bus services, the Bus Map crucially upgrades the 903 to an all-day 5 minute frequency, straightening it via Station St. Replacing the 767, a more useful and extended north-south route connecting Doncaster to Clarinda will run every 10 minutes. Additionally a new route via Eley Rd to Mitcham RS connects residents east of the campus and station.
+**SRL Burwood** currently is still poorly served by it's tram and bus network. The express Route 201 will be fully replaced by SRL, saving students 15 minutes each way. However, Route 75 slowly visits limited destinations along Burwood Hwy and Route 70 falls short of the new station. Two other bus routes (767 and 903) serve the university and connect it to Box Hill. To improve bus services, Treatment 2 crucially upgrades the 903 to an all-day 5 minute frequency, straightening it via Station St. Replacing the 767, a more useful and extended north-south route connecting Doncaster to Clarinda will run every 10 minutes. Additionally a new route via Eley Rd to Mitcham RS connects residents east of the campus and station.
 
 **SRL Box Hill:** Lowest improvement seen here out of the six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. As a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
 
