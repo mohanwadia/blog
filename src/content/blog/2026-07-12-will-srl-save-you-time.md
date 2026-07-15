@@ -6,7 +6,7 @@ title: Will SRL save you time?
 slug: srl
 featured: true
 draft: true
-description: Mapping Isochrones of an Improved Network
+description: Mapping Isochrones & Calculating Journey Times of an Improved Network
 ---
 ### Methodology
 
@@ -25,7 +25,7 @@ This all means that the browser can load the graph and run Dijkstra's Algorithm 
 
 The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), and walking durations.
 
-### Will SRL stations benefit more from a train line or better buses?
+### Will SRL stations benefit more from a new train line or better buses?
 
 Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations, where SRL will deliver activity hubs.
 
@@ -49,13 +49,11 @@ Using our current PT network as a baseline, we get the following increases in th
 
 **SRL Burwood** currently is still poorly served by it's tram and bus network. The express Route 201 will be fully replaced by SRL, saving students 15 minutes each way. However, Route 75 slowly visits limited destinations along Burwood Hwy and Route 70 falls short of the new station. Two other bus routes (767 and 903) serve the university and connect it to Box Hill. To improve bus services, the Bus Map crucially upgrades the 903 to an all-day 5 minute frequency, straightening it via Station St. Replacing the 767, a more useful and extended north-south route connecting Doncaster to Clarinda will run every 10 minutes. Additionally a new route via Eley Rd to Mitcham RS connects residents east of the campus and station.
 
-**SRL Box Hill:** Lowest improvement seen here out of the six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. and as a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
+**SRL Box Hill:** Lowest improvement seen here out of the six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. As a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
 
 ### How much faster will journeys be with SRL?
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) on these hand-picked journeys commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
-
-Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. 
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
@@ -92,9 +90,11 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 | **Averages** | **63** | **56 (-6)** | **41 (-22)** |
 
 
+Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. However, my calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. Discrepancies may partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes.
+
 ### Will other major destinations benefit from SRL?
 
-I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs (including your house) at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone)
+I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) 
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
@@ -109,5 +109,5 @@ I've included a few below, however you can view any location in the Eastern or S
 
 ### Will you benefit from SRL?
 
-If you live in the east or south-east, view your commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/)
+If you live in the east or south-east, view your commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/) 
 
