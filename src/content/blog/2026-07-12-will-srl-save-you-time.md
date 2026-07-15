@@ -55,7 +55,7 @@ It's important to note that while the quantity of destinations may increase, man
 
 **[SRL Cheltenham](https://mohanwadia.com/srl/?mode=isochrone&point=-37.956491%2C145.049600)** currently has
 
-
+![Figure 4](/blog/images/srl/southland-interchange.png)
 
 [SRL Clayton](https://mohanwadia.com/srl/?mode=isochrone&point=-37.923676%2C145.119578) interestingly has just a 4% difference between the Better Buses and SRL treatments, suggesting bus investments can deliver access improvements for the activity centre on an unprecidented scale. Treatment 2 will simplify it down to just three routes: an east-west along Centre Rd between Brighton and Dandenong, a north-south route along Clayton Rd between The Pines SC and Carrum RS, and the northern part of the existing 703 extended to The Pines SC too. 
 
