@@ -16,10 +16,10 @@ If you live in the east or south-east, view your future commute time and how far
 
 I created four treatments:
 
-1. Current Network: Using current bus, train, and tram frequencies.
-2. Better Buses: Creating new reformed bus routes running 5-10 minute frequencies. A proposal from the Department of Transport was rejected by Cabinet as seen in the figure below.
-3. SRL: The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
-4. Combined: Opening SRL with the reformed Bus Network as proposed in Treatment 2.
+1. 'Current': The current transport network of buses, trains, and trams with existing frequencies.
+2. 'Better Buses': Creating new reformed bus routes running 5-10 minute frequencies. A proposal from the Department of Transport was rejected by Cabinet as seen in the figure below.
+3. 'SRL': The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
+4. 'Combined': Opening SRL with the reformed Bus Network as proposed in Treatment 2.
 
 ![Figure 2](/blog/images/srl/draft-bus-network.png)
 
