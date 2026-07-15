@@ -27,7 +27,7 @@ I initially wanted to create this project by creating fictional GTFS feeds and u
 
 ![Figure 3](/blog/images/srl/revised-network.png)
 
-While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
+While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined penalty applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
 
 This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including [Leaflet](https://leafletjs.com/) & [Nominatim](https://nominatim.org/)) were used for the frontend.
 
@@ -47,6 +47,7 @@ Using our current PT network as a baseline, we get the following increases in th
 | [Burwood](https://mohanwadia.com/srl/?mode=isochrone&point=-37.850558%2C145.111145) | +50% | +95% | +121% |
 | [Box Hill](https://mohanwadia.com/srl/?mode=isochrone&point=-37.818671%2C145.122646) | +7% | +27% | +38% |
 | Averages | +34% | +61% | +87% |
+
 
 SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
@@ -79,6 +80,7 @@ It's important to note that while the quantity of destinations may increase, man
 ### How much faster will journeys be with SRL?
 
 Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
+
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | ---------------------- | ------------- |
