@@ -35,6 +35,7 @@ As this is a post on SRL East, Bus Reform travel times have been scoped for subu
 
 ### Will SRL stations benefit more from a new train line or better buses?
 
+SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. 
 
 
@@ -48,8 +49,6 @@ Using our current PT network as a baseline, we get the following increases in th
 | [Box Hill](https://mohanwadia.com/srl/?mode=isochrone&point=-37.818671%2C145.122646) | +7% | +27% | +38% |
 | Averages | +34% | +61% | +87% |
 
-
-SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
 It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
 
