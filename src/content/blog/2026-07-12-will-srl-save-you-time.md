@@ -56,8 +56,8 @@ Using our current PT network as a baseline, we get the following increases in th
 Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
 
 
-| Common Journey | Current (min) | Better Buses (min) | SRL (min) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | ------------------ | --------- |
+| **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | ---------------------- | ------------- |
 | [Bayswater to Monash University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.841739%2C145.268121&dest=-37.902283%2C145.142012) | 61 | 54 (-7) | 43 (-18) |
 | [Belgrave to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.909695%2C145.354858&dest=-37.850556%2C145.111134) | 67 | 62 (-5) | 53 (-14) |
 | [Burwood to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.818674%2C145.122645&dest=-37.850556%2C145.111145) | 22 | 16 (-6) | 6 (-16) |
@@ -87,14 +87,14 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 | [Sandringham to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&origin=-37.950259%2C145.004387&dest=-37.880043%2C145.162879) | 64 | 61 (-3) | 46 (-18) |
 | [Springvale to Cheltenham](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.948674%2C145.152725&dest=-37.956411%2C145.049572) | 49 | 44 (-5) | 24 (-25) |
 | [Waverley Gardens to Cheltenham](https://mohanwadia.com/srl/?mode=journey&origin=-37.935002%2C145.189331&dest=-37.956411%2C145.049572) | 78 | 55 (-23) | 50 (-28) |
-| Averages |  |  |  |
+| **Averages** | **63** | **56 (-6)** | **41 (-22)** |
 
 
 ### Will other major destinations benefit from SRL?
 
 
-| Major Destination | Better Buses | SRL | Combined |
-| ----------------- | ------------ | --- | -------- |
+| **Major Destination** | **Better Buses** | **SRL** | **Combined** |
+| --------------------- | ---------------- | ------- | ------------ |
 | Caulfield RS | +19% | +3% | +20% |
 | Chadstone SC | +47% | +1% | +48% |
 | Dandenong RS | +46% | +9% | +53% |
