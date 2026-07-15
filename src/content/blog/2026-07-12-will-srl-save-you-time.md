@@ -12,8 +12,6 @@ The most polarizing topic in Melbourne has been the viability of the Suburban Ra
 
 If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl](https://mohanwadia.com/srl/).
 
-SRL published [unverifiable journey time figures](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) using a variety of current and future timetable information.
-
 ### Methodology
 
 I created four treatments:
@@ -81,7 +79,6 @@ It's important to note that while the quantity of destinations may increase, man
 ### How much faster will journeys be with SRL?
 
 Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
-
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- | ---------------------- | ------------- |
