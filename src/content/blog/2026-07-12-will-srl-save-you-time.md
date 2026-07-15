@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-07-12
-modDatetime: 2026-07-12
+pubDatetime: 2026-07-15
+modDatetime: 2026-07-15
 title: Will SRL save you time?
 slug: srl
 featured: true
@@ -11,6 +11,8 @@ description: Mapping Isochrones & Calculating Journey Times of an Improved Netwo
 SRL published [unverifiable journey time figures](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) using a variety of current and future timetable information.
 
 SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
+
+A lot of journey planners create 
 
 ![Figure 1](/blog/images/srl/clayton_isochrone_official.jpg)
 
