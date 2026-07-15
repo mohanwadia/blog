@@ -12,7 +12,7 @@ The most polarizing topic in Melbourne has been the viability of the Suburban Ra
 
 If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl](https://mohanwadia.com/srl/).
 
-### Methodology
+# Methodology
 
 I created four treatments:
 
@@ -33,7 +33,7 @@ All of this pre-processing means that any browser can load the graph and run Dij
 
 As this is a post on SRL East, Bus Reform travel times have been scoped for suburbs south of the Yarra. The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), walking durations, and isochrone coverage along non-inhabitable areas.
 
-### Will SRL stations benefit more from a new train line or better buses?
+## Will SRL stations benefit more from a new train line or better buses?
 
 SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
