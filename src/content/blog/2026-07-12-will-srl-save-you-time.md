@@ -8,9 +8,9 @@ featured: true
 draft: false
 description: Mapping isochrones and calculating journey times of an improved network
 ---
-The most polarizing topic in Melbourne has been the viability of the Suburban Rail Loop. Its swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project will be, and how we can improve its effectiveness to create a modern multi-modal network. 
+The most polarizing topic in Melbourne recently has been the viability of the Suburban Rail Loop. Its swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project will be, and how we can improve its effectiveness to create a modern multi-modal network. 
 
-This post is supported by a new SRL Journey Planner I created. Try it out at [mohanwadia.com/srl.](https://mohanwadia.com/srl/)
+The data in this post is supported by my new SRL Journey Planner. Try it out at [mohanwadia.com/srl.](https://mohanwadia.com/srl/)
 
 ## Methodology
 
@@ -93,10 +93,10 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 | [Burwood to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.818674%2C145.122645&dest=-37.850556%2C145.111145) | 22 | 16 (-6) | 6 (-16) |
 | [Carrum to Box Hill Hospital](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.077525%2C145.123062&dest=-37.813614%2C145.118405) | 91 | N/A | 65 (-26) |
 | [Caulfield to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.877294%2C145.043079&dest=-37.880025%2C145.162885) | 43 | 34 (-9) | 29 (-14) |
-| [Cheltenham to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.877294%2C145.043079&dest=-37.880025%2C145.162885) | 61 | 58 (-3) | 24 (-37) |
+| [Cheltenham to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.956497%2C145.049615&dest=-37.818673%2C145.122646) | 61 | 58 (-3) | 24 (-37) |
 | [Cheltenham to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.956513%2C145.049572&dest=-37.850555%2C145.111150) | 63 | 47 (-16) | 21 (-42) |
 | [Cheltenham to M City](https://mohanwadia.com/srl/?mode=journey&origin=-37.956513%2C145.049572&dest=-37.921227%2C145.140180) | 58 | 48 (-10) | 33 (-25) |
-| [Cranbourne to Deakin University](https://mohanwadia.com/srl/?mode=journey&origin=-37.956513%2C145.049572&dest=-37.921227%2C145.140180) | 80 | 73 (-7) | 59 (-21) |
+| [Cranbourne to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.099796%2C145.280504&dest=-37.850450%2C145.111027) | 79 | 73 (-6) | 58 (-21) |
 | [Dandenong to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.989684%2C145.209757&dest=-37.818766%2C145.122657) | 67 | 62 (-5) | 41 (-26) |
 | [Doncaster to Clayton](https://mohanwadia.com/srl/?mode=journey&origin=-37.784601%2C145.126439&dest=-37.923692%2C145.119599) | 64 | 58 (-6) | 39 (-25) |
 | [East Pakenham to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.084325%2C145.506738&dest=-37.818700%2C145.122635) | 110 | 105 (-5) | 84 (-26) |
