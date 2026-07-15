@@ -120,6 +120,9 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 
 Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. However, my calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. Discrepancies partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes, as well as I used inter-peak frequencies to provide a better snapshot of all-day travel while Big Build used peak period services.
 
+![Figure 8](/blog/images/srl/bayswater.png)
+
+
 # Will other major destinations benefit from SRL?
 
 While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. You can view the effects of SRL on any location in the Eastern or South-Eastern suburbs at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. 
