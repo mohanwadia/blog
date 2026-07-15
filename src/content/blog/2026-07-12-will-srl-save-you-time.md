@@ -33,7 +33,7 @@ All of this pre-processing means that any browser can load the graph and run Dij
 
 As this is a post on SRL East, Bus Reform travel times have been scoped for suburbs south of the Yarra. The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), walking durations, and isochrone coverage along non-inhabitable areas.
 
-## Will SRL stations benefit more from a new train line or better buses?
+# Will SRL stations benefit more from a new train line or better buses?
 
 SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
@@ -77,7 +77,7 @@ It's important to note that while the quantity of destinations may increase, man
 
 ![Figure 7](/blog/images/srl/box-hill-star.png)
 
-### How much faster will journeys be with SRL?
+# How much faster will journeys be with SRL?
 
 Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
 
@@ -118,7 +118,7 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 
 Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. However, my calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. Discrepancies may partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes. 
 
-### Will other major destinations benefit from SRL?
+# Will other major destinations benefit from SRL?
 
 While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. You can view the effects of SRL on any location in the Eastern or South-Eastern suburbs at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Within a 60 minute journey, SRL needs Better Buses to amplify coverage for those travelling from further away. 
 
