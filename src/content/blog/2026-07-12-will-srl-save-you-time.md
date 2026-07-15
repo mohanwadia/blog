@@ -17,13 +17,13 @@ I created four treatments:
 3. SRL: The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
 4. Combined: Opening SRL with the reformed Bus Network as proposed in Treatment 2.
 
-I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however this would have required creating a backend. I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from FrequencyFinder on trams and existing buses by Adam Bain, and a geoJSON file I created using ArcGISPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP. 
+I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however this would have required creating a backend. I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) on trams and existing buses by [Adam Bain](https://adambain1.substack.com/), and a GeoJSON file I created using ArcGisPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP. 
 
 While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
 
-This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including Leaflet & Nominatim) were used for the frontend.
+This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including [Leaflet](https://leafletjs.com/) & [Nominatim](https://nominatim.org/)) were used for the frontend.
 
-The following accuracy limitations are known: Doncaster Busway & DART network and Train Frequencies.
+The following accuracy limitations are known: Doncaster Busway & DART network and Train Frequencies. A few constants were needed 
 
 ### Will SRL stations benefit more from a train line or better buses?
 
@@ -53,7 +53,7 @@ Using our current PT network as a baseline, we get the following increases in th
 
 ### How much faster will journeys be with SRL?
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. Previous analysis by Peter Parker commented that most of the I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
