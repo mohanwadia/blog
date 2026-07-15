@@ -10,7 +10,7 @@ description: Mapping Isochrones & Calculating Journey Times of an Improved Netwo
 ---
 SRL have also published isochrones for all six stations
 
-
+![Figure 1](/blog/images/srl/clayton_isochrone_official.jpg)
 
 ### Methodology
 
