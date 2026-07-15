@@ -122,7 +122,7 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 
 ![Figure 10](/blog/images/srl/scatter_accuracy_combined.png)
 
-Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. My calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. R² values of the variation in the above chart are high at 0.91 for pre-SRL and 0.93 for post-SRL. Discrepancies partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes, as well as I used inter-peak frequencies to provide a better snapshot of all-day travel while Big Build used peak period services.
+Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. My calculated SRL journey times were calculated to be 7 minutes longer, while current network times were found to be 2 minutes longer. R² values of the relationships in the above chart are high at 0.91 for pre-SRL and 0.93 for post-SRL. Discrepancies partly exist due to by Big Build starting journeys at irregular times by using existing timetable data of infrequent routes, as well as I used inter-peak frequencies to provide a better snapshot of all-day travel while Big Build used peak period services.
 
 ![Figure 11](/blog/images/srl/bayswater.png)
 
