@@ -8,7 +8,7 @@ featured: true
 draft: false
 description: Mapping isochrones and calculating journey times of an improved network.
 ---
-The most polarizing topic in Melbourne has been the viability of the Suburban Rail Loop. It's swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project will be, and how we can improve it's effectiveness to create a truly multi-modal network. 
+The most polarizing topic in Melbourne has been the viability of the Suburban Rail Loop. It's swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project will be, and how we can improve it's effectiveness to create a modern multi-modal network. 
 
 If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl](https://mohanwadia.com/srl/).
 
