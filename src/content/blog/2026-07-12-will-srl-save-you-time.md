@@ -53,7 +53,9 @@ Using our current PT network as a baseline, we get the following increases in th
 
 ### How much faster will journeys be with SRL?
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. Previous analysis by Peter Parker commented that most of the I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) on these hand-picked journeys commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
+
+Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (which is in-line with the 23 minute average improvement from the document) while the Better Buses treatment averaged just a 6 minute improvement. 
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
@@ -92,15 +94,17 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 
 ### Will other major destinations benefit from SRL?
 
+I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs (including your house) at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone)
+
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
-| --------------------- | ---------------- | ------- | ------------ |
-| Caulfield RS | +19% | +3% | +20% |
-| Chadstone SC | +47% | +1% | +48% |
-| Dandenong RS | +46% | +9% | +53% |
-| Knox City SC | +73% | +1% | +83% |
-| Sandringham RS | +48% | +4% | +90% |
-| Stud Park SC | +97% | +0% | +104% |
+| ------------------------------------------------------------------------------------------ | ---------------- | ------- | ------------ |
+| [Caulfield RS](https://mohanwadia.com/srl/?mode=isochrone&point=-37.877513%2C145.041881) | +19% | +3% | +20% |
+| [Chadstone SC](https://mohanwadia.com/srl/?mode=isochrone&point=-37.887826%2C145.083668) | +47% | 0% | +49% |
+| [Dandenong RS](https://mohanwadia.com/srl/?mode=isochrone&point=-37.989979%2C145.209859) | +46% | +10% | +53% |
+| [Knox City SC](https://mohanwadia.com/srl/?mode=isochrone&point=-37.868857%2C145.238142) | +72% | +1% | +82% |
+| [Sandringham RS](https://mohanwadia.com/srl/?mode=isochrone&point=-37.950259%2C145.004387) | +49% | +4% | +92% |
+| [Stud Park SC](https://mohanwadia.com/srl/?mode=isochrone&point=-37.919417%2C145.236602) | +92% | 0% | +94% |
 
 
 ### Will you benefit from SRL?
