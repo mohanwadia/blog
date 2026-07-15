@@ -65,6 +65,8 @@ It's important to note that while the quantity of destinations may increase, man
 
 **SRL Box Hill** will see the lowest improvement out of the six stations, however is estimated to have the highest ridership numbers out of all six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. [Adam Bain reports](https://adambain1.substack.com/p/the-activity-centres-need-good-non#:~:text=As%20an%20example%20of%20a%20centre%20that%20plausibly%20passes%20the%20test%2C%20I%20will%20use%20Box%20Hill%2C%20perhaps%20Melbourne%E2%80%99s%20most%20successful%20cluster%20of%20suburban%20density%2C%20with%20a%20notably%20low%20car%20ownership%20rate%2C%20where%2017%25%20of%20households%20are%20car%20free%2C%20in%20contrast%20to%207%25%20statewide.) the activity hub is a  As a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
 
+![Figure 4](/blog/images/srl/box-hill-star.png)
+
 ### How much faster will journeys be with SRL?
 
 Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
