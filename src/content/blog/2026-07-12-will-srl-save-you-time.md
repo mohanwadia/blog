@@ -8,13 +8,20 @@ featured: true
 draft: true
 description: Mapping Isochrones of an Improved Network
 ---
-It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations, where SRL will deliver activity hubs.
+
 
 ### Methodology
 
+I created four treatments:
+
+1. Current Network: Using current bus, train, and tram frequencies.
+2. Better Buses: Using Bus Reform to create new routes running 5-10 minute frequencies as proposed by the Department of Transport in ___ and rejected by cabinet in ____. The plan would have cost $__ billion.
+3. SRL: The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
+4. Combined: Opening SRL with the reformed Bus Network as proposed in Treatment 2.
+
 ### Will SRL stations benefit more from a train line or better buses?
 
-Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes.
+Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations, where SRL will deliver activity hubs.
 
 
 | SRL Station | Better Buses | SRL | Combined |
@@ -40,7 +47,7 @@ Using our current PT network as a baseline, we get the following increases in th
 
 ### How much faster will journeys be with SRL?
 
-Big Build published a document in June 2025 with indicative travel time improvements between select destinations. I decided to find the journeys from this report that are within the scope of my Journey Planner.
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
 
 
 | Common Journey | Current (min) | Better Buses (min) | SRL (min) |
@@ -91,5 +98,5 @@ Big Build published a document in June 2025 with indicative travel time improvem
 
 ### Will you benefit from SRL?
 
-If you live in the east or south-east, view your commute time and averag
+If you live in the east or south-east, view your commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/)
 
