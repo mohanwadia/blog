@@ -51,6 +51,8 @@ Using our current PT network as a baseline, we get the following increases in th
 
 It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
 
+![Figure 3](/blog/images/srl/boardings.png)
+
 **SRL Cheltenham** receives a higher combined 
 
 **SRL Monash** will likely re-route some bus routes towards the station when it's closer to completion. For now, it serves Routes 693, 703, 737, and 742. As part of the Bus Map, only two routes serve the station however being 10-minute frequency routes there's a 36% increase recorded. While the east-west alignment of Route 693 remains unchanged, the Bus Map extends Route 703 to The Pines SC. As the northern location of the station currently has low patronage, it's lack of transport options means that it will receive the biggest boost out of all stations at +95%, and also has the most potential with a bus and rail investment at +131%.
