@@ -14,7 +14,7 @@ If you live in the east or south-east, view your future commute time and how far
 
 ## Methodology
 
-In order to test the two variables, I developed four treatments to test each scenario:
+In order to test multiple variables, I developed four treatments to test each scenario:
 
 1. 'Current': The current transport network of buses, trains, and trams with existing frequencies.
 2. 'Better Buses': Creating new reformed bus routes running 5-10 minute frequencies. A proposal from the Department of Transport was rejected by Cabinet as seen in the figure below.
@@ -23,7 +23,7 @@ In order to test the two variables, I developed four treatments to test each sce
 
 ![Figure 2](/blog/images/srl/draft-bus-network.png)
 
-I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however this would have required creating a backend. I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) on trams and existing buses by [Adam Bain](https://adambain1.substack.com/), and a GeoJSON file I created using ArcGisPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP.
+I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) on trams and existing buses by [Adam Bain](https://adambain1.substack.com/), and a GeoJSON file I created using ArcGisPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP.
 
 ![Figure 3](/blog/images/srl/revised-network.png)
 
