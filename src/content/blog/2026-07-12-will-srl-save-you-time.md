@@ -73,7 +73,7 @@ It's important to note that while the quantity of destinations may increase, man
 
 ### How much faster will journeys be with SRL?
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments.
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
