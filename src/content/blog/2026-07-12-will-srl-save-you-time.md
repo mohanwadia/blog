@@ -63,17 +63,17 @@ It's important to note that while the quantity of destinations may increase, man
 
 **[SRL Monash](https://mohanwadia.com/srl/?mode=isochrone&point=-37.902237%2C145.142055)** will likely re-route some bus routes towards the station when it's closer to completion. For now, it serves Routes 693, 703, 737, and 742. As part of Treatment 2, only two routes serve the station however being 10-minute frequency routes there's a 36% increase recorded. While the east-west alignment of Route 693 remains unchanged, the Bus Map extends Route 703 to The Pines SC. As the northern location of the station currently has low patronage, it's lack of transport options means that it will receive the biggest boost out of all stations at +94%, and also has the most potential with a bus and rail investment at +128%.
 
-![Figure 4](/blog/images/srl/monash-station-layout.png)
+![Figure 5](/blog/images/srl/monash-station-layout.png)
 
 **[SRL Glen Waverley](https://mohanwadia.com/srl/?mode=isochrone&point=-37.880029%2C145.162885)** currently has only has one frequent bus route (Route 902), which has the _____-highest patronage of all routes, despite it's large bus interchange. The rejected map would provide the precinct with 4 high-frequency buses: A Route 902 which continues to the City from Doncaster SC, a Route 734 extended to Knox City SC, an extended and straightened Route 623 along Waverley Rd to Caulfield RS, and a new route towards Dandenong via Wheelers Hill SC.
 
 **[SRL Burwood](https://mohanwadia.com/srl/?mode=isochrone&point=-37.850558%2C145.111145)** currently is still poorly served by it's tram and bus network. The express Route 201 will be fully replaced by SRL, saving students 15 minutes each way. However, Route 75 slowly visits limited destinations along Burwood Hwy and Route 70 falls short of the new station. Two other bus routes (767 and 903) serve the university and connect it to Box Hill. To improve bus services, Treatment 2 crucially upgrades the 903 to an all-day 5 minute frequency, straightening it via Station St. Replacing the 767, a more useful and extended north-south route connecting Doncaster to Clarinda will run every 10 minutes. Additionally a new route via Eley Rd to Mitcham RS connects residents east of the campus and station.
 
-![Figure 5](/blog/images/srl/burwood-station-layout.png)
+![Figure 6](/blog/images/srl/burwood-station-layout.png)
 
 **[SRL Box Hill](https://mohanwadia.com/srl/?mode=isochrone&point=-37.818671%2C145.122646)** will see the lowest improvement out of the six stations, however is estimated to have the highest ridership numbers out of all six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. As a terminus for SRL East it's waiting to be extended to Doncaster and beyond. The strength of pre-SRL transport in the activity centre is illustrated by [Adam Bain below.](https://adambain1.substack.com/p/the-activity-centres-need-good-non#:~:text=As%20an%20example%20of%20a%20centre%20that%20plausibly%20passes%20the%20test%2C%20I%20will%20use%20Box%20Hill%2C%20perhaps%20Melbourne%E2%80%99s%20most%20successful%20cluster%20of%20suburban%20density%2C%20with%20a%20notably%20low%20car%20ownership%20rate%2C%20where%2017%25%20of%20households%20are%20car%20free%2C%20in%20contrast%20to%207%25%20statewide.)
 
-![Figure 6](/blog/images/srl/box-hill-star.png)
+![Figure 7](/blog/images/srl/box-hill-star.png)
 
 ### How much faster will journeys be with SRL?
 
