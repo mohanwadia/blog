@@ -8,16 +8,22 @@ featured: true
 draft: true
 description: Mapping Isochrones of an Improved Network
 ---
-
-
 ### Methodology
 
 I created four treatments:
 
 1. Current Network: Using current bus, train, and tram frequencies.
-2. Better Buses: Using Bus Reform to create new routes running 5-10 minute frequencies as proposed by the Department of Transport in ___ and rejected by cabinet in ____. The plan would have cost $__ billion.
+2. Better Buses: Using Bus Reform to create new routes running 5-10 minute frequencies as proposed by the Department of Transport in ___ and rejected by cabinet in __**.** The plan would have cost $ billion.
 3. SRL: The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
 4. Combined: Opening SRL with the reformed Bus Network as proposed in Treatment 2.
+
+I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however this would have required creating a backend. I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from FrequencyFinder on trams and existing buses by Adam Bain, and a geoJSON file I created using ArcGISPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP. 
+
+While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
+
+This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including Leaflet & Nominatim) were used for the frontend.
+
+The following limitations are known: Doncaster Busway Stop Spacing, Train Frequencies, 
 
 ### Will SRL stations benefit more from a train line or better buses?
 
@@ -81,6 +87,7 @@ Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data
 | [Sandringham to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&origin=-37.950259%2C145.004387&dest=-37.880043%2C145.162879) | 64 | 61 (-3) | 46 (-18) |
 | [Springvale to Cheltenham](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.948674%2C145.152725&dest=-37.956411%2C145.049572) | 49 | 44 (-5) | 24 (-25) |
 | [Waverley Gardens to Cheltenham](https://mohanwadia.com/srl/?mode=journey&origin=-37.935002%2C145.189331&dest=-37.956411%2C145.049572) | 78 | 55 (-23) | 50 (-28) |
+| Averages |  |  |  |
 
 
 ### Will other major destinations benefit from SRL?
