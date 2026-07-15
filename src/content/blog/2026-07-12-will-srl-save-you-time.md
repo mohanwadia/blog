@@ -15,7 +15,7 @@ The most polarizing topic in Melbourne has been the viability of the Suburban Ra
 
 ## Methodology
 
-In order to test multiple variables, I developed four treatments to test each scenario:
+My aim was to observe both the effect of SRL and Bus Reform as standalone projects as well as combined to see the effectiveness of each, and if they compliment each other. In order to test multiple variables, I developed four treatments to test each scenario:
 
 1. 'Current': The current transport network of buses, trains, and trams with existing frequencies.
 2. 'Better Buses': Creating new reformed bus routes running 5-10 minute frequencies. A proposal from the Department of Transport was rejected by Cabinet as seen in the figure below.
@@ -38,7 +38,7 @@ As this is a post on SRL East, Bus Reform travel times have been scoped for subu
 
 SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
-Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes:
+Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. Click the following stations for an interactive isochrone map.
 
 
 | **SRL Station** | **Better Buses** | **SRL** | **Combined** |
@@ -84,7 +84,7 @@ It's important to note that while the quantity of destinations may increase, man
 
 ![Figure 8](/blog/images/srl/bayswater-mine.png)
 
-Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey)
+Big Build [published a document in June 2025](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) with indicative travel time improvements between select destinations.  I decided to find the journeys from this report that are within the scope of my Journey Planner, and compare connecting these destinations between the two treatments using [my journey planner.](https://mohanwadia.com/srl/?mode=journey) You can click the following journeys to see the modes and routes taken by each method.
 
 
 | **Common Journey** | **Current (min)** | **Better Buses (min)** | **SRL (min)** |
@@ -127,7 +127,7 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 # Will other major destinations benefit from SRL?
 
-While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. You can view the effects of SRL on any location in the Eastern or South-Eastern suburbs at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. 
+While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres, therefore SRL needs Better Buses to amplify coverage for those travelling from further away. Click the following places to see an interactive map of each Major Destination, and see the effects of any destination at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone)
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
