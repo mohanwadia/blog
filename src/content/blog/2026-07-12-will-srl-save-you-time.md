@@ -135,10 +135,6 @@ While SRL serves some of the biggest activity centres in the East and South-East
 
 Sandringham desperately needs a high-frequency route via Bay Rd to supplement its exclusion from an additional heavy rail line. While Caulfield and Dandenong Station are both 6-7 stations away from Clayton SRL, users will be able to access all SRL stations but not travel much further within 60 minutes. [Previous analysis by Peter Parker](https://melbourneontransit.blogspot.com/2025/07/un-209-how-much-time-will-srl-east-save.html) commented that "the SRL's usefulness for people in outer eastern suburbs...will be heavily constrained by low Metro train frequencies and inefficient bus networks." This is evident by Knox City SC, Chadstone SC, and Stud Park SC currently lacking high-frequency connections to future SRL Stations. 
 
-### Will you benefit from SRL?
+### Conclusion
 
-If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/) 
-
-My biggest takeaway from the following research is that Melbourne's eastern and south-eastern suburbs need better buses, regardless of the progress of the Suburban Rail Loop.
-
-How does this change your views on Bus Reform and SRL? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
+Melbourne's eastern and south-eastern suburbs need better buses, regardless of the progress of the Suburban Rail Loop. How does this change your views on Bus Reform and SRL? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
