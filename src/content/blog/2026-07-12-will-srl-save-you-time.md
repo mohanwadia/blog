@@ -19,13 +19,15 @@ SRL have also published isochrones for all six stations, however they are hidden
 I created four treatments:
 
 1. Current Network: Using current bus, train, and tram frequencies.
-2. Better Buses: Using Bus Reform to create new routes running 5-10 minute frequencies as proposed by the Department of Transport in ___ and rejected by cabinet in __**.** The plan would have cost $ billion.
+2. Better Buses: Using Bus Reform to create new routes running 5-10 minute frequencies as proposed by the Department of Transport and rejected by Cabinet. The plan would have cost $ billion.
 3. SRL: The opening of the Suburban Rail Loop in 2035 at a cost of $35 billion.
 4. Combined: Opening SRL with the reformed Bus Network as proposed in Treatment 2.
 
+![Figure 2](/blog/images/srl/draft-bus-network.png)
+
 I initially wanted to create this project by creating fictional GTFS feeds and using Open Trip Planner, however this would have required creating a backend. I decided on creating a Python pre-processing script that creates a network graph by merging in GTFS data, data from [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) on trams and existing buses by [Adam Bain](https://adambain1.substack.com/), and a GeoJSON file I created using ArcGisPro that illustrates my interpretation of a reformed network using the corridoors and frequencies by DTP.
 
-![Figure 2](/blog/images/srl/draft-bus-network.png)
+![Figure 3](/blog/images/srl/revised-network.png)
 
 While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
 
