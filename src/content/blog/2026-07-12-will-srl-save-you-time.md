@@ -110,7 +110,7 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 ### Will other major destinations benefit from SRL?
 
-I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) 
+I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Sandringham desperately needs a high-frequency route via Bay Rd to supplement its exclusion from an additional heavy rail line. While Caulfield and Dandenong Station are both 6-7 stations away from Clayton SRL, users will be able to access all SRL stations but not travel much further within 60 minutes. 
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
