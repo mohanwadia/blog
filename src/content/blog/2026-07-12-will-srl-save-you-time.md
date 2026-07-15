@@ -55,6 +55,8 @@ It's important to note that while the quantity of destinations may increase, man
 
 ![Figure 2](/blog/images/srl/boardings.png)
 
+## Simplifying our buses
+
 **[SRL Cheltenham](https://mohanwadia.com/srl/?mode=isochrone&point=-37.956491%2C145.049600)** currently has 11 routes visiting Southland SC providing lots of coverage, however no one route has a turn-up-and-go frequency. A revised network as seen in Treatment 2 (Better Buses) would provide a 5-minute frequent service between Sandringham, SRL Cheltenham, Chadstone, SRL Box Hill, Doncaster, and beyond. Other routes will connect it to Doncaster via Huntingdale RS and Deakin SRL, as well as another running along Nepean Hwy from Dandenong to the city. 
 
 ![Figure 3](/blog/images/srl/southland-interchange.png)
