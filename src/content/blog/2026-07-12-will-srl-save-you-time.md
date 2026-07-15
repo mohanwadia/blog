@@ -118,7 +118,7 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 ### Will other major destinations benefit from SRL?
 
-I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Melbourne's Eastern suburbs need Better Buses, regardless of the state of SRL. Within a 60 minute journey, SRL needs Better Buses to amplify coverage for those travelling from further away. 
+While SRL serves some of the biggest activity centres in the East and South-East, it won't serve them all. Some of the biggest destinations can be included by creating high-quality transport connections where they currently don't exist. You can view the effects of SRL on any location in the Eastern or South-Eastern suburbs at [mohanwadia.com/srl.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Within a 60 minute journey, SRL needs Better Buses to amplify coverage for those travelling from further away. 
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
@@ -136,5 +136,7 @@ Sandringham desperately needs a high-frequency route via Bay Rd to supplement it
 ### Will you benefit from SRL?
 
 If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/) 
+
+My biggest takeaway from the following research is that Melbourne's eastern and south-eastern suburbs need better buses, regardless of the progress of the Suburban Rail Loop.
 
 How does this change your views on Bus Reform and SRL? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
