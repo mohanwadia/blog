@@ -27,9 +27,9 @@ I initially wanted to create this project by creating fictional GTFS feeds and u
 
 ![Figure 3](/blog/images/srl/revised-network.png)
 
-While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined penalty applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are eligible for a walking connection. 
+While SRL and existing routes keep their stop locations, the Reformed Bus Network places stops every 400m except where an interchange is nearby. When moving between unique routes, a combined penalty applied for connecting between services, which includes walking time, a two minute interchange penalty, and halving the connection time of the subsequent service. Any two stops that are within 1km are potentially eligible for a connection.
 
-This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including [Leaflet](https://leafletjs.com/) & [Nominatim](https://nominatim.org/)) were used for the frontend.
+All of this pre-processing means that any browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including [Leaflet](https://leafletjs.com/) & [Nominatim](https://nominatim.org/)) were used for the frontend.
 
 As this is a post on SRL East, Bus Reform travel times have been scoped for suburbs south of the Yarra. The following accuracy limitations are known: Doncaster Busway & DART network, Train Frequencies, speeds are set by mode (excluding SRL), walking durations, and isochrone coverage along non-inhabitable areas.
 
