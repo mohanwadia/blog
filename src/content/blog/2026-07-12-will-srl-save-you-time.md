@@ -27,7 +27,7 @@ The following accuracy limitations are known: Doncaster Busway & DART network, T
 
 ### Will SRL stations benefit more from a new train line or better buses?
 
-Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations, where SRL will deliver activity hubs.
+Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments and 
 
 
 | SRL Station | Better Buses | SRL | Combined |
