@@ -118,7 +118,7 @@ Out of the 29 journeys, the SRL treatment averaged a 22 minute improvement (whic
 
 ### Will other major destinations benefit from SRL?
 
-I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Melbourne's Eastern suburbs need Better Buses, regardless of the state of SRL.
+I've included a few below, however you can view any location in the Eastern or South-Eastern suburbs at [https://mohanwadia.com/srl/?mode=isochrone.](https://mohanwadia.com/srl/?mode=isochrone) Minor benefits of SRL within a 60-minute travel time are seen across nearby activity centres. Melbourne's Eastern suburbs need Better Buses, regardless of the state of SRL. Within a 60 minute journey, SRL needs Better Buses to amplify coverage for those travelling from further away. 
 
 
 | **Major Destination** | **Better Buses** | **SRL** | **Combined** |
