@@ -10,6 +10,12 @@ description: Mapping Isochrones of an Improved Network
 ---
 It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations, where SRL will deliver activity hubs.
 
+### Methodology
+
+
+
+### Will SRL stations benefit more from a train line or better buses?
+
 Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes.
 
 
@@ -21,7 +27,7 @@ Using our current PT network as a baseline, we get the following increases in th
 | Glen Waverley | +37% | +44% | +65% |
 | Burwood | +50% | +95% | +121% |
 | Box Hill | +7% | +27% | +38% |
-| Averages: |  |  |  |
+| Averages: | +34% | +61% | +87% |
 
 
 **SRL Cheltenham** receives a higher combined 
@@ -34,16 +40,32 @@ Using our current PT network as a baseline, we get the following increases in th
 
 **SRL Box Hill:** Lowest improvement seen here out of the six stations. It's clear that Box Hill is very well served by bus routes already in all directions, as well as heavy rail east-west of the station. and as a terminus for SRL East it's waiting to be extended to Doncaster and beyond.
 
-### Will non-SRL hubs benefit from SRL?
+### How much faster will journeys be with SRL?
+
+I chose a selection of north-south journeys that will be made faster with SRL.
 
 
-| Hub |  |  |
-| --------- | --- | --- |
-| Rowville |  |  |
-| Dandenong |  |  |
-| Doncaster |  |  |
-| Caulfield |  |  |
-|  |  |  |
-|  |  |  |
+| Common Journey | Current (min) | Better Buses (min) | SRL (min) |
+| ------------------------------ | ------------- | ------------------ | --------- |
+| Ringwood RS to Chadstone SC | 57 | 53 | 49 |
+| Camberwell RS to Springvale RS | 65 | 60 | 50 |
+| Doncaster SC to Stud Park SC | 91 | 77 | 69 |
 
+
+### Will other major destinations benefit from SRL?
+
+
+| Major Destination | Better Buses | SRL | Combined |
+| ----------------- | ------------ | --- | -------- |
+| Caulfield RS | +19% | +3% | +20% |
+| Chadstone SC | +47% | +1% | +48% |
+| Dandenong RS | +46% | +9% | +53% |
+| Knox City SC | +73% | +1% | +83% |
+| Sandringham RS | +48% | +4% | +90% |
+| Stud Park SC | +97% | +0% | +104% |
+
+
+### Will you benefit from SRL?
+
+If you live in the east or south-east, view your commute time and averag
 
