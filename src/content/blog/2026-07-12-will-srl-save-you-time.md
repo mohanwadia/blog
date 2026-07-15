@@ -133,5 +133,6 @@ I've included a few below, however you can view any location in the Eastern or S
 
 ### Will you benefit from SRL?
 
-If you live in the east or south-east, view your commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/) How does this change your views on Bus Reform and SRL? Let me know.
+If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl.](https://mohanwadia.com/srl/) 
 
+How does this change your views on Bus Reform and SRL? [Let me know in the comments.](https://www.linkedin.com/in/mohanwadia/recent-activity/all/)
