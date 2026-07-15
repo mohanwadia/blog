@@ -23,7 +23,7 @@ While SRL and existing routes keep their stop locations, the Reformed Bus Networ
 
 This all means that the browser can load the graph and run Dijkstra's Algorithm which is used to calculate shortest paths, either between two points for the journey planner, or using a one-to-all approach for Isochrones. Since there's only one graph file and four treatments, all calculations are made four times with certain edges turned on or off. HTML, CSS, JS (including Leaflet & Nominatim) were used for the frontend.
 
-The following limitations are known: Doncaster Busway & DART network and Train Frequencies.
+The following accuracy limitations are known: Doncaster Busway & DART network and Train Frequencies.
 
 ### Will SRL stations benefit more from a train line or better buses?
 
