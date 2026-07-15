@@ -37,7 +37,7 @@ As this is a post on SRL East, Bus Reform travel times have been scoped for subu
 
 SRL have published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) Additionally, no modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
-Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes. 
+Using our current PT network as a baseline, we get the following increases in the amount of area coverage reachable within 60 minutes:
 
 
 | **SRL Station** | **Better Buses** | **SRL** | **Combined** |
