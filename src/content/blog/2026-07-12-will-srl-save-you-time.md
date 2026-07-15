@@ -64,14 +64,14 @@ Big Build published a document in June 2025 with indicative travel time improvem
 | [Glenferrie to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.821590%2C145.036795&dest=-37.880042%2C145.162901) | 42 | 42 | 31 |
 | [Glen Waverley to Monash Uni](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.902354%2C145.141990&dest=-37.880043%2C145.162890) | 26 | 23 | 6 |
 | [Kew to Monash Medical Centre](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.807535%2C145.028870&dest=-37.920848%2C145.120458) | 56 | 56 | 53 |
-| [Kew to Monash University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.807535%2C145.028870&dest=-37.902223%2C145.142044) | 46 | 61 | 62 |
+| [Kew to Monash University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.807535%2C145.028870&dest=-37.902223%2C145.142044) | 62 | 61 | 46 |
 | [Mentone to Monash Medical Centre](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.982043%2C145.064896&dest=-37.920848%2C145.120458) | 43 | 42 | 27 |
-| [Mordialloc to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.005913%2C145.087280&dest=-37.850556%2C145.111139) | 40 | 63 | 67 |
-| [Narre Warren to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.026967%2C145.303191&dest=-37.850556%2C145.111139) | 52 | 67 | 73 |
+| [Mordialloc to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.005913%2C145.087280&dest=-37.850556%2C145.111139) | 67 | 63 | 40 |
+| [Narre Warren to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-38.026967%2C145.303191&dest=-37.850556%2C145.111139) | 73 | 67 | 52 |
 | [Ringwood to Deakin University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.815823%2C145.228557&dest=-37.850554%2C145.111145) | 42 | 37 | 28 |
 | [Ringwood to Monash University](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.815823%2C145.228557&dest=-37.850554%2C145.111145) | 54 | 48 | 36 |
 | [Sandown Park to Box Hill](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.956660%2C145.163015&dest=-37.818671%2C145.122649) | 58 | 54 | 32 |
-| [Sandringham to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&origin=-37.950259%2C145.004387&dest=-37.880043%2C145.162879) | 46 | 61 | 64 |
+| [Sandringham to Glen Waverley](https://mohanwadia.com/srl/?mode=journey&origin=-37.950259%2C145.004387&dest=-37.880043%2C145.162879) | 64 | 61 | 46 |
 | [Springvale to Cheltenham](https://mohanwadia.com/srl/?mode=journey&busReform=0&origin=-37.948674%2C145.152725&dest=-37.956411%2C145.049572) | 49 | 44 | 24 |
 | [Waverley Gardens to Cheltenham](https://mohanwadia.com/srl/?mode=journey&origin=-37.935002%2C145.189331&dest=-37.956411%2C145.049572) | 78 | 55 | 50 |
 
