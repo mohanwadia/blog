@@ -8,11 +8,11 @@ featured: true
 draft: true
 description: Mapping Isochrones & Calculating Journey Times of an Improved Network
 ---
+The most polarizing topic in Melbourne has been the viability of the Suburban Rail Loop. It's swept other major infrastructure projects under the rug, and appeared to left no money for increasing service levels. I set to find out how useful the multi-billion dollar project would be, and how we can improve it to create a truly multi-modal network. 
+
+If you live in the east or south-east, view your future commute time and how far you can travel within 20, 40, and 60 minutes at [mohanwadia.com/srl](https://mohanwadia.com/srl/).
+
 SRL published [unverifiable journey time figures](https://bigbuild.vic.gov.au/__data/assets/pdf_file/0019/944110/SRL-East-travel-time-estimates-report.pdf) using a variety of current and future timetable information.
-
-SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
-
-![Figure 1](/blog/images/srl/clayton_isochrone_official.jpg)
 
 ### Methodology
 
@@ -50,16 +50,19 @@ Using our current PT network as a baseline, we get the following increases in th
 | [Box Hill](https://mohanwadia.com/srl/?mode=isochrone&point=-37.818671%2C145.122646) | +7% | +27% | +38% |
 | Averages | +34% | +61% | +87% |
 
+SRL have also published isochrones for all six stations, however they are hidden inside this [800-page 2021 Traffic and Transport Impact Assessment.](https://srleastees.vic.gov.au/#/documents) No modelling has yet been completed for understanding the benefits of Bus Reform along with SRL.
 
 It's important to note that while the quantity of destinations may increase, many commuters are looking for an increase in quality destinations as SRL will deliver activity hubs. However, bus coverage and cycling access around stations is still very important in deciding who can access them, while the [Victorian Integrated Transport Model as reported by Peter Parker](https://melbourneontransit.blogspot.com/2021/11/building-melbournes-useful-network-part_19.html#:~:text=What%27s%20SRL%27s%20impact%20on%20bus%20usage%3F) instead used 1600m walking catchments, does not account for cycling, and does not see buses as a major access mode to SRL stations.
 
-![Figure 3](/blog/images/srl/boardings.png)
+![Figure 2](/blog/images/srl/boardings.png)
 
 **[SRL Cheltenham](https://mohanwadia.com/srl/?mode=isochrone&point=-37.956491%2C145.049600)** currently has 11 routes visiting Southland SC providing lots of coverage, however no one route has a turn-up-and-go frequency. A revised network as seen in Treatment 2 (Better Buses) would provide a 5-minute frequent service between Sandringham, SRL Cheltenham, Chadstone, SRL Box Hill, Doncaster, and beyond. Other routes will connect it to Doncaster via Huntingdale RS and Deakin SRL, as well as another running along Nepean Hwy from Dandenong to the city. 
 
-![Figure 4](/blog/images/srl/southland-interchange.png)
+![Figure 3](/blog/images/srl/southland-interchange.png)
 
 [SRL Clayton](https://mohanwadia.com/srl/?mode=isochrone&point=-37.923676%2C145.119578) interestingly has just a 4% difference between the Better Buses and SRL treatments, suggesting bus investments can deliver access improvements for the activity centre on an unprecidented scale. Treatment 2 will simplify it down to just three routes: an east-west along Centre Rd between Brighton and Dandenong, a north-south route along Clayton Rd between The Pines SC and Carrum RS, and the northern part of the existing 703 extended to The Pines SC too. 
+
+![Figure 4](/blog/images/srl/clayton_isochrone_official.jpg)
 
 **[SRL Monash](https://mohanwadia.com/srl/?mode=isochrone&point=-37.902237%2C145.142055)** will likely re-route some bus routes towards the station when it's closer to completion. For now, it serves Routes 693, 703, 737, and 742. As part of Treatment 2, only two routes serve the station however being 10-minute frequency routes there's a 36% increase recorded. While the east-west alignment of Route 693 remains unchanged, the Bus Map extends Route 703 to The Pines SC. As the northern location of the station currently has low patronage, it's lack of transport options means that it will receive the biggest boost out of all stations at +94%, and also has the most potential with a bus and rail investment at +128%.
 
