@@ -8,8 +8,8 @@ featured: false
 draft: false
 description: Comparing arterial traffic to transit service levels
 ---
-![](/blog/images/traffic/transit_trips.png)
+![Figure](/blog/images/traffic/transit_trips.png)
 
-![](/blog/images/traffic/traffic_volume.png)
+![Figure](/blog/images/traffic/traffic_volume.png)
 
-![](/blog/images/traffic/cars_per_transit_trip.png)
+![Figure](/blog/images/traffic/cars_per_transit_trip.png)
