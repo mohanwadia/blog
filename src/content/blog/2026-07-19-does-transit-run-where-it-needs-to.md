@@ -8,3 +8,4 @@ featured: true
 draft: true
 description: Comparing car traffic to transit service levels
 ---
+![Figure 1](/blog/images/traffic/traffic_map.png)
