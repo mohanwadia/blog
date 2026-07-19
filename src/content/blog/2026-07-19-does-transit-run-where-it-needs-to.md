@@ -13,3 +13,5 @@ description: Comparing arterial traffic to transit service levels
 ![Figure](/blog/images/traffic/traffic_volume.png)
 
 ![Figure](/blog/images/traffic/cars_per_transit_trip.png)
+
+When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a R^2 value of 0.33.
