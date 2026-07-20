@@ -21,8 +21,8 @@ When completing a linear regression between traffic and transit service levels, 
 Highest Traffic with zero transit on non-freeways. 
 
 
-| Road | Busiest Segment | LGA | Average Annual Daily Traffic Volume |
-| ------------- | ------------------------------------------ | ------------- | ----------------------------------- |
+| Road | Busiest Segment | LGA | Traffic Volume |
+| ------------- | ------------------------------------------ | ------------- | -------------- |
 | Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
 | Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
 | Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
@@ -33,8 +33,8 @@ Highest Traffic with zero transit on non-freeways.
 Highest Traffic with some transit
 
 
-| Road | Busiest Segment | LGA | Traffic | Routes | Daily Trips | Ratio |
-| ------------------- | ------------------------------------------ | --------------- | ------- | ---------------------------------------------------------- | ----------- | ------ |
+| Road | Busiest Segment | LGA | Traffic Volume | Route Numbers | Transit Trips | Ratio |
+| ------------------- | ------------------------------------------ | --------------- | -------------- | ---------------------------------------------------------- | ------------- | ------ |
 | Kings Way | Sturt St - York St heading North-West | South Melbourne | 50165 | 58 | 510 | 98:1 |
 | Eastern Freeway | Hoddle St - Alexandra Pde heading West | Abbotsford | 45670 | 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 388 | 117:1 |
 | Nepean Hwy | Dendy St - Patterson Rd heading South-East | Bentleigh | 42290 | 823 | 13 | 3020:1 |
@@ -45,8 +45,8 @@ Highest Traffic with some transit
 Highest transit trips per car ratio
 
 
-| Road | Busiest Segment | LGA | Traffic | Routes | Daily Trips |
-| -------------------------- | -------------------------------------- | ------------ | ------- | -------------------------- | ----------- |
+| Road | Busiest Segment | LGA | Traffic Volume | Route Numbers | Transit Trips |
+| -------------------------- | -------------------------------------- | ------------ | -------------- | -------------------------- | ------------- |
 | Swanston St | Latrobe St - Franklin St heading North | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 |
 | Diggers Rest-Coimadai Road | Vineyard Rd - Calder Hwy heading East | Diggers Rest | 135 | 475, 483 | 118 |
 | Wellington Pde | Flinders St - Jolimont Rd heading East | Melbourne | 703 | 35, 75 | 452 |
