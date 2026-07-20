@@ -98,7 +98,7 @@ And which routes run on the quietest stretches of roads?
 
 Car dependency vs distance from the CBD.
 
-![](/images/traffic/dist_from_cbd_plot.png)
+![Figure](/images/traffic/dist_from_cbd_plot.png)
 
 
 | **Distance from CBD (km)** | **Median Cars Per Transit Trip** |
@@ -115,13 +115,13 @@ Car dependency vs distance from the CBD.
 
 So we know that car dependency increases as you go away from the CBD, but is transit equally distributed radially? I think we all know the answer to this.
 
-![](/images/traffic/compass.png)
+![Figure](/blog/images/traffic/compass.png)
 
 Which areas have the most simplified transit networks? 
 
-It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where they could
+It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
-![](/images/traffic/simplified_corridors_map.png)
+![Figure](/blog/images/traffic/simplified_corridors_map.png)
 
-![](/images/traffic/route_multiplicity.png)
+![Figure](/blog/images/traffic/route_multiplicity.png)
 
