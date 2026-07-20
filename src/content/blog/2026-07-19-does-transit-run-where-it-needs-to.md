@@ -12,7 +12,7 @@ I collected the average daily traffic volume from [Transport Victoria](https://o
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
-Public Transport is very visible in Melbourne across each mode, however **36.25%** of road segments don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices. Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
+Public Transport is very visible in Melbourne across each mode, however one-third of road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices. Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** |
@@ -117,13 +117,11 @@ So we know that car dependency increases as you go away from the CBD, but is tra
 
 ![Figure](/blog/images/traffic/compass.png)
 
-Which areas have the most simplified transit networks? 
+It's natural for activity centres to have multiple routes running into their bus interchange. However a simple memorable network is a useable network. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
-It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
+![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
-![](</blog/images/traffic/simplified_corridors_map (1).png>)
+Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4% as previously mentioned. Road segments with lots of routes are likely to be serving bus interchanges. 
 
-Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 28.24% which is slightly less frequent than 0 routes at 36.25% as previously mentioned. Road segments with lots of routes are likely to be serving bus interchanges. 
-
-![Figure](/blog/images/traffic/route_multiplicity.png)
+![](/blog/images/traffic/pie_segments-1.png)
 
