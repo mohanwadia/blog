@@ -119,7 +119,7 @@ So we know that car dependency increases as you go away from the CBD, but is tra
 
 Which areas have the most simplified transit networks? 
 
-It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner
+It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where they could
 
 ![](/images/traffic/simplified_corridors_map.png)
 
