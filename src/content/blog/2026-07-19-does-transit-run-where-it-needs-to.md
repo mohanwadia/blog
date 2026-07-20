@@ -26,7 +26,7 @@ While roads may have some public transport choices, only high-quality public tra
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
-Highest Traffic with some transit
+All streets can be designed to be inclusive of all user groups, however many aren't. I found the five busiest roads that have public transport running along them. Kings Way is very wide with four car lanes and dedicated tram lanes for the Route 58, which allows an interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the Route 823, and in Beaconsfield three bus routes provide a poor service along the busy Old Princes Hwy. 
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
@@ -38,17 +38,19 @@ Highest Traffic with some transit
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
 
-Highest transit trips per car ratio. These serve as good candidates for implementing bus lanes. 
+Calculating the top 5 highest transit trips per car ratio segments of roads, multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** |
-| -------------------------- | -------------------------------------- | ------------ | ------------------ | -------------------------- | ----------------- |
+| -------------- | -------------------------------------- | --------- | ------------------ | -------------------------- | ----------------- |
 | Swanston St | Latrobe St - Franklin St heading North | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 |
-| Diggers Rest-Coimadai Road | Vineyard Rd - Calder Hwy heading East | Diggers Rest | 135 | 475, 483 | 118 |
 | Wellington Pde | Flinders St - Jolimont Rd heading East | Melbourne | 703 | 35, 75 | 452 |
 | Elizabeth St | Collins St - Flinders St heading South | Melbourne | 2941 | 19, 57, 59 | 1584 |
 | Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
+| Collins St | Spencer St - King St heading East | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 |
 
+
+Creating a geospacial visualization of this ratio
 
 ![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
