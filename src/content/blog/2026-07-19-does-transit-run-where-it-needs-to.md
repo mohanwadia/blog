@@ -12,7 +12,7 @@ description: Comparing arterial traffic to transit service levels
 
 ![Figure](/blog/images/traffic/traffic_volume.png)
 
-![Figure](/blog/images/traffic/cars_per_transit_trip.png)
+![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
 When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R^2 value of 0.11.
 
@@ -40,5 +40,17 @@ Highest Traffic with some transit
 | Nepean Hwy | Dendy St - Patterson Rd heading South-East | Bentleigh | 42290 | 823 | 13 | 3020:1 |
 | Hoddle St | Johnston St - Alexandra Pde heading North | Collingwood | 40823 | 246, 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 943 | 43:1 |
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
+
+
+Highest transit trips per car ratio
+
+
+| Road | Busiest Segment | LGA | Traffic | Routes | Daily Trips |
+| -------------------------- | -------------------------------------- | ------------ | ------- | -------------------------- | ----------- |
+| Swanston St | Latrobe St - Franklin St heading North | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 |
+| Diggers Rest-Coimadai Road | Vineyard Rd - Calder Hwy heading East | Diggers Rest | 135 | 475, 483 | 118 |
+| Wellington Pde | Flinders St - Jolimont Rd heading East | Melbourne | 703 | 35, 75 | 452 |
+| Elizabeth St | Collins St - Flinders St heading South | Melbourne | 2941 | 19, 57, 59 | 1584 |
+| Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
 
 
