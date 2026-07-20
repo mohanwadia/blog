@@ -58,7 +58,7 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-Highest transit trips per car ratio per local government area
+Local government areas find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. 
 
 
 | **LGA** | **Total Traffic Volume** | **Total Transit Volume** | **Ratio** |
@@ -75,7 +75,7 @@ Highest transit trips per car ratio per local government area
 Which routes run on the busiest stretches of road?
 
 
-| **Route Number** | **Mean Traffic Volume per Segment** |
+| **Route** | **Mean Traffic Volume per Segment** |
 | ------------------------------ | ----------------------------------- |
 | 232 Altona North - City | 10174 |
 | 795 Warneet - Cranbourne | 7563 |
@@ -87,13 +87,13 @@ Which routes run on the busiest stretches of road?
 And which routes run on the quietest stretches of roads?
 
 
-| **Route Number** | **Mean Traffic Volume per Segment** |  |  |
-| ---------------- | ----------------------------------- | --- | --- |
-| 192 | 10174 |  |  |
-| 12 | 7563 |  |  |
-| 96 | 20980 |  |  |
-| 16 | 9438 |  |  |
-| 1 | 12452 |  |  |
+| **Route** | **Mean Traffic Volume per Segment** |  |  |
+| ------------------------------------- | ----------------------------------- | --- | --- |
+| 192 Wyndam Vale - Werribee | 10174 |  |  |
+| 12 Victoria Gardens - St Kilda | 7563 |  |  |
+| 96 East Brunswick - St Kilda Beach | 20980 |  |  |
+| 16 Melbourne University - Kew | 9438 |  |  |
+| 1 East Coburg - South Melbourne Beach | 12452 |  |  |
 
 
 Car dependency vs distance from the CBD.
