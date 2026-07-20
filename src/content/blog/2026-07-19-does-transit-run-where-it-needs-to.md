@@ -119,6 +119,8 @@ So we know that car dependency increases as you go away from the CBD, but is tra
 
 Which areas have the most simplified transit networks? 
 
+It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner
+
 ![](/images/traffic/simplified_corridors_map.png)
 
 ![](/images/traffic/route_multiplicity.png)
