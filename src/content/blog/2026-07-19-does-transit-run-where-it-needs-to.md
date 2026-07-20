@@ -10,7 +10,7 @@ description: Comparing arterial traffic to transit service levels
 ---
 I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
 
-![](</images/traffic/traffic_volume (2) (1).png>)
+![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
 Public Transport is very visible in Melbourne across each mode, however **36.25%** of road segments don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices. Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
 
@@ -24,7 +24,7 @@ Public Transport is very visible in Melbourne across each mode, however **36.25%
 
 Where does transit run map
 
-![Figure](/images/traffic/transit_trips.png)
+![Figure](/blog/images/traffic/transit_trips.png)
 
 Highest Traffic with some transit
 
@@ -50,11 +50,11 @@ Highest transit trips per car ratio. These serve as good candidates for implemen
 | Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
 
 
-![Figure](</images/traffic/cars_per_transit_trip (1).png>)
+![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
 When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R^2 value of 0.11.
 
-![Figure](/images/traffic/transit_services_vs_all_traffic.png)
+![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
 Highest transit trips per car ratio per local government area
 
@@ -96,7 +96,7 @@ And which routes run on the quietest stretches of roads?
 
 Car dependency vs distance from the CBD.
 
-![Figure](/images/traffic/dist_from_cbd_plot.png)
+![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
 
 | **Distance from CBD (km)** | **Median Cars Per Transit Trip** |
@@ -113,13 +113,13 @@ Car dependency vs distance from the CBD.
 
 So we know that car dependency increases as you go away from the CBD, but is transit equally distributed radially? I think we all know the answer to this.
 
-![Figure](/blog/images/traffic/compass.png)
+![Figure](/blog/blog/images/traffic/compass.png)
 
 Which areas have the most simplified transit networks? 
 
 It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
-![Figure](/images/traffic/simplified_corridors_map.png)
+![Figure](/blog/images/traffic/simplified_corridors_map.png)
 
-![Figure](/images/traffic/route_multiplicity.png)
+![Figure](/blog/images/traffic/route_multiplicity.png)
 
