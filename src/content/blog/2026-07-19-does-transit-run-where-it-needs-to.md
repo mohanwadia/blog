@@ -26,7 +26,7 @@ While roads may have some public transport choices, only high-quality public tra
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
-Highest Traffic with some transit
+Roads can be designed to handle multiple user groups. Freeways should cater for express
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
