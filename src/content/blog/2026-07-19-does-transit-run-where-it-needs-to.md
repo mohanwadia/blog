@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-07-19
-modDatetime: 2026-07-19
+pubDatetime: 2026-07-20
+modDatetime: 2026-07-20
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
@@ -23,6 +23,7 @@ Highest Traffic with zero transit on non-freeways.
 | Alexandra Pde | Wellington St - Eastern Fwy heading East | Clifton Hill | 37317 |
 | College Cres | Swanston St - Cemetary Rd heading West | Parkville | 32100 |
 
+
 Where does transit run map
 
 ![Figure](/blog/images/traffic/transit_trips.png)
@@ -39,8 +40,8 @@ Highest Traffic with some transit
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
 
-
 Highest transit trips per car ratio
+
 
 | Road | Busiest Segment | LGA | Traffic Volume | Route Numbers | Transit Trips |
 | -------------------------- | -------------------------------------- | ------------ | -------------- | -------------------------- | ------------- |
@@ -49,6 +50,7 @@ Highest transit trips per car ratio
 | Wellington Pde | Flinders St - Jolimont Rd heading East | Melbourne | 703 | 35, 75 | 452 |
 | Elizabeth St | Collins St - Flinders St heading South | Melbourne | 2941 | 19, 57, 59 | 1584 |
 | Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
+
 
 ![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
@@ -60,12 +62,15 @@ Highest transit trips per car ratio per local government area
 
 
 | LGA | Total Traffic Volume | Total Transit Volume | Ratio |
-| ------------ | -------------------- | -------------------- | ----- |
-| Little River | 498 | 95 | 5:1 |
-| Melbourne |  |  |  |
+| --- | -------------------- | -------------------- | ----- |
+|  |  |  |  |
+|  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 
 
 [insert LGA map]
+
+Which routes run on the busiest stretches of road?
+
