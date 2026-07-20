@@ -75,12 +75,14 @@ Highest transit trips per car ratio per local government area
 Which routes run on the busiest stretches of road?
 
 
-| Route Number |  |  |
-| ------------------------------ | --- | --- |
-| 232 Altona North - City |  |  |
-| 795 Warneet - Cranbourne |  |  |
-| 823 North Brighton - Southland |  |  |
-| 609 Hawthorn - Fairfield |  |  |
-| 745 |  |  |
+| Route Number | Mean Traffic Volume per Segment |  |  |
+| ------------------------------ | ------------------------------- | --- | --- |
+| 232 Altona North - City | 10174 |  |  |
+| 795 Warneet - Cranbourne | 7563 |  |  |
+| 823 North Brighton - Southland | 20980 |  |  |
+| 609 Hawthorn - Fairfield | 9438 |  |  |
+| 745 Knox City - Bayswater | 12452 |  |  |
 
+
+And which routes run on the quietest stretches of roads?
 
