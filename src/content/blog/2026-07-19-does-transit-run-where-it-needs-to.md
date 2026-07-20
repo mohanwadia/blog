@@ -5,7 +5,7 @@ modDatetime: 2026-07-20
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
-draft: false
+draft: true
 description: Comparing arterial traffic to transit service levels
 ---
 I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
@@ -26,7 +26,7 @@ While roads may have some public transport choices, only high-quality public tra
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
-Roads can be designed to handle multiple user groups. Freeways should cater for express
+Highest Traffic with some transit
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
