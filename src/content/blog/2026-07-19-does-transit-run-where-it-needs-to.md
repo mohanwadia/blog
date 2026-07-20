@@ -18,15 +18,15 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-Highest Traffic but 0 Buses
+Highest Traffic but 0 Buses on non-freeways. 
 
 
-| Road | LGA | **Average Annual Daily Traffic Volume** |
-| --------------------------------------------- | ------------- | --------------------------------------- |
-| KINGS WAY SE BD BTWN ALBERT RD & QUEENS RD | MELBOURNE | 51468 |
-| QUEENS RD S BD BTWN LAKESIDE DRIVE & LORNE ST | MELBOURNE | 43184 |
-| NEPEAN HWY NW BD BTWN CENTRE RD & HAWTHORN RD | BRIGHTON EAST | 37361 |
-|  |  |  |
-|  |  |  |
+| Road | Busiest Segment | LGA | Average Annual Daily Traffic Volume |
+| ------------- | ------------------------------------------ | ------------- | ----------------------------------- |
+| Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
+| Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
+| Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
+| Alexandra Pde | Wellington St - Eastern Fwy heading East | Clifton Hill | 37317 |
+| College Cres | Swanston St - Cemetary Rd heading West | Parkville | 32100 |
 
 
