@@ -121,7 +121,7 @@ It's natural for activity centres to have multiple routes running into their bus
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
-Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4% as previously mentioned. Road segments with lots of routes are likely to be serving bus interchanges. 
+Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
 
 ![](/blog/images/traffic/pie_segments-1.png)
 
