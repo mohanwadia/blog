@@ -74,3 +74,13 @@ Highest transit trips per car ratio per local government area
 
 Which routes run on the busiest stretches of road?
 
+
+| Route Number |  |  |
+| ------------------------------ | --- | --- |
+| 232 Altona North - City |  |  |
+| 795 Warneet - Cranbourne |  |  |
+| 823 North Brighton - Southland |  |  |
+| 609 Hawthorn - Fairfield |  |  |
+| 745 |  |  |
+
+
