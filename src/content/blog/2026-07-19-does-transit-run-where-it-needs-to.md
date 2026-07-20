@@ -5,7 +5,7 @@ modDatetime: 2026-07-19
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
-draft: false
+draft: true
 description: Comparing arterial traffic to transit service levels
 ---
 ![Figure](/blog/images/traffic/transit_trips.png)
