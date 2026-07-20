@@ -37,6 +37,9 @@ All streets can be designed to be inclusive of all user groups, however many are
 | Hoddle St | Johnston St - Alexandra Pde heading North | Collingwood | 40823 | 246, 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 943 | 43:1 |
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
+Creating a geospacial visualization of this ratio
+
+![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
 Calculating the top 5 highest transit trips per car ratio segments of roads, multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
@@ -48,11 +51,6 @@ Calculating the top 5 highest transit trips per car ratio segments of roads, mul
 | Elizabeth St | Collins St - Flinders St heading South | Melbourne | 2941 | 19, 57, 59 | 1584 |
 | Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
 | Collins St | Spencer St - King St heading East | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 |
-
-
-Creating a geospacial visualization of this ratio
-
-![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
 When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R^2 value of 0.11.
 
