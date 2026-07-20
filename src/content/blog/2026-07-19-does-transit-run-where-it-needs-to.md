@@ -5,7 +5,7 @@ modDatetime: 2026-07-20
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
-draft: true
+draft: false
 description: Comparing arterial traffic to transit service levels
 ---
 Map with highest traffic volumes
@@ -95,4 +95,8 @@ And which routes run on the quietest stretches of roads?
 | 16 | 9438 |  |  |
 | 1 | 12452 |  |  |
 
+
+Car dependency vs distance from the CBD.
+
+![](/images/traffic/dist_from_cbd_plot.png)
 
