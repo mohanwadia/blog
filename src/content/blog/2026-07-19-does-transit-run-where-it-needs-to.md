@@ -117,7 +117,9 @@ So we know that car dependency increases as you go away from the CBD, but is tra
 
 ![](/images/traffic/compass.png)
 
-Which areas have the most simplified transit networks?
+Which areas have the most simplified transit networks? 
 
 ![](/images/traffic/simplified_corridors_map.png)
+
+![](/images/traffic/route_multiplicity.png)
 
