@@ -22,7 +22,7 @@ Public Transport is very visible in Melbourne across each mode, however **36.25%
 | Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
 
 
-Where does transit run map
+While roads may have some public transport choices, only high-quality public transport is useable at scale. Plotting the number of trips along each arterial road, roads with trams provide constant high levels of daily trips with long spans and high frequencies that few bus routes currently compete with. SmartBus Routes 901 and 902 fail to provide a dark green colour for their unique segments, while Route 900's peak service increase and other routes which share the Wellington Rd corridor sets itself as a contender for continuous bus lanes. Doncaster's bus network goes strong with DART routes in all directions. The inner north has strong north-south tram routes however connecting east-west buses provide limited service. In the west, there are unfortunately very limited high-frequency routes that need to catch up with demand. 
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
