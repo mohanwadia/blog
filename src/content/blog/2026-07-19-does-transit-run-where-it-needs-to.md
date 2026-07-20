@@ -86,3 +86,10 @@ Which routes run on the busiest stretches of road?
 
 And which routes run on the quietest stretches of roads?
 
+| Route Number | Mean Traffic Volume per Segment |  |  |
+| ------------------------------ | ------------------------------- | --- | --- |
+| 232 Altona North - City | 10174 |  |  |
+| 795 Warneet - Cranbourne | 7563 |  |  |
+| 823 North Brighton - Southland | 20980 |  |  |
+| 609 Hawthorn - Fairfield | 9438 |  |  |
+| 745 Knox City - Bayswater | 12452 |  |  |
