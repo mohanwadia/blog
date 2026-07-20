@@ -123,5 +123,7 @@ It's natural for activity centres to have multiple routes running into their bus
 
 ![Figure](/blog/images/traffic/simplified_corridors_map.png)
 
+Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 28.24% which is slightly less frequent than 0 routes at 36.25% as previously mentioned. Road segments with lots of routes are likely to be serving bus interchanges. 
+
 ![Figure](/blog/images/traffic/route_multiplicity.png)
 
