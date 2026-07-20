@@ -5,7 +5,7 @@ modDatetime: 2026-07-20
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
-draft: true
+draft: false
 description: Comparing arterial traffic to transit service levels
 ---
 Map with highest traffic volumes
