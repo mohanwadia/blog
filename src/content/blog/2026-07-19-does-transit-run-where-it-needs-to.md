@@ -115,7 +115,7 @@ Car dependency vs distance from the CBD.
 
 So we know that car dependency increases as you go away from the CBD, but is transit equally distributed radially? I think we all know the answer to this.
 
-![Figure](/blog/blog/images/traffic/compass.png)
+![Figure](/blog/images/traffic/compass.png)
 
 Which areas have the most simplified transit networks? 
 
