@@ -121,7 +121,7 @@ Which areas have the most simplified transit networks?
 
 It's natural for activity centres to have multiple routes running into their bus interchange. However, a purist planner. Routes 600, 922, and 923 along ___ all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
-![Figure](/blog/images/traffic/simplified_corridors_map.png)
+![Figure](/images/traffic/simplified_corridors_map.png)
 
-![Figure](/blog/images/traffic/route_multiplicity.png)
+![Figure](/images/traffic/route_multiplicity.png)
 
