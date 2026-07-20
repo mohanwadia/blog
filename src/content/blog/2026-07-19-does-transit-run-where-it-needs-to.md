@@ -18,7 +18,7 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-Highest Traffic but 0 Buses on non-freeways. 
+Highest Traffic with zero transit on non-freeways. 
 
 
 | Road | Busiest Segment | LGA | Average Annual Daily Traffic Volume |
@@ -28,5 +28,17 @@ Highest Traffic but 0 Buses on non-freeways.
 | Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
 | Alexandra Pde | Wellington St - Eastern Fwy heading East | Clifton Hill | 37317 |
 | College Cres | Swanston St - Cemetary Rd heading West | Parkville | 32100 |
+
+
+Highest Traffic with some transit
+
+
+| Road | Busiest Segment | LGA | Traffic | Routes | Daily Trips | Ratio |
+| ------------------- | ------------------------------------------ | --------------- | ------- | ---------------------------------------------------------- | ----------- | ------ |
+| Kings Way | Sturt St - York St heading North-West | South Melbourne | 50165 | 58 | 510 | 98:1 |
+| Eastern Freeway | Hoddle St - Alexandra Pde heading West | Abbotsford | 45670 | 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 388 | 117:1 |
+| Nepean Hwy | Dendy St - Patterson Rd heading South-East | Bentleigh | 42290 | 823 | 13 | 3020:1 |
+| Hoddle St | Johnston St - Alexandra Pde heading North | Collingwood | 40823 | 246, 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 943 | 43:1 |
+| Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
 
