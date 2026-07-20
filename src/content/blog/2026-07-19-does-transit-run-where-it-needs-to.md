@@ -10,7 +10,7 @@ description: Comparing arterial traffic to transit service levels
 ---
 Map with highest traffic volumes
 
-![Figure](/blog/images/traffic/traffic_volume.png)
+![Figure](/images/traffic/traffic_volume.png)
 
 Highest Traffic with zero transit on non-freeways. 
 
@@ -26,7 +26,7 @@ Highest Traffic with zero transit on non-freeways.
 
 Where does transit run map
 
-![Figure](/blog/images/traffic/transit_trips.png)
+![Figure](/images/traffic/transit_trips.png)
 
 Highest Traffic with some transit
 
@@ -52,11 +52,11 @@ Highest transit trips per car ratio. These serve as good candidates for implemen
 | Bourke St | King St - Spencer St heading West | Melbourne | 2178 | 86, 96 | 990 |
 
 
-![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
+![Figure](</images/traffic/cars_per_transit_trip (1).png>)
 
 When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R^2 value of 0.11.
 
-![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
+![Figure](/images/traffic/transit_services_vs_all_traffic.png)
 
 Highest transit trips per car ratio per local government area
 
