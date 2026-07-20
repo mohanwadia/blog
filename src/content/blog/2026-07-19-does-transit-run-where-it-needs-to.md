@@ -8,20 +8,18 @@ featured: false
 draft: false
 description: Comparing arterial traffic to transit service levels
 ---
-Map with highest traffic volumes
+I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
 
-![Figure](/images/traffic/traffic_volume.png)
+![](</images/traffic/traffic_volume (2) (1).png>)
 
-Highest Traffic with zero transit on non-freeways. 
+Public Transport is very visible in Melbourne across each mode, however **36.25%** of road segments don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices. Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
 
 
 | **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** |
-| ------------- | ------------------------------------------ | ------------- | ------------------ |
+| ---------- | ------------------------------------------ | ------------- | ------------------ |
 | Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
 | Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
 | Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
-| Alexandra Pde | Wellington St - Eastern Fwy heading East | Clifton Hill | 37317 |
-| College Cres | Swanston St - Cemetary Rd heading West | Parkville | 32100 |
 
 
 Where does transit run map
