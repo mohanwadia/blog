@@ -1,6 +1,6 @@
 media:
-  input: public
-  output: /
+  input: public/blog/images
+  output: /blog/images
 content:
   - name: posts
     label: Posts
