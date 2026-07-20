@@ -40,7 +40,7 @@ Highest Traffic with some transit
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
 
-Highest transit trips per car ratio
+Highest transit trips per car ratio. These serve as good candidates for implementing bus lanes. 
 
 
 | Road | Busiest Segment | LGA | Traffic Volume | Route Numbers | Transit Trips |
@@ -86,10 +86,13 @@ Which routes run on the busiest stretches of road?
 
 And which routes run on the quietest stretches of roads?
 
+
 | Route Number | Mean Traffic Volume per Segment |  |  |
-| ------------------------------ | ------------------------------- | --- | --- |
-| 232 Altona North - City | 10174 |  |  |
-| 795 Warneet - Cranbourne | 7563 |  |  |
-| 823 North Brighton - Southland | 20980 |  |  |
-| 609 Hawthorn - Fairfield | 9438 |  |  |
-| 745 Knox City - Bayswater | 12452 |  |  |
+| ------------ | ------------------------------- | --- | --- |
+| 192 | 10174 |  |  |
+| 12 | 7563 |  |  |
+| 96 | 20980 |  |  |
+| 16 | 9438 |  |  |
+| 1 | 12452 |  |  |
+
+
