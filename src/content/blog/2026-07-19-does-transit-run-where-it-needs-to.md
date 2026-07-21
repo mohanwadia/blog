@@ -14,11 +14,11 @@ Should public transport services be increased along roads with proven high vehic
 
 # Vehicle Traffic and PT Trips
 
-I collected the latest average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume) and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using `Pandas`. Mapping the raw arterial vehicle volume data, the greatest demand along major freeways is primarily visible, but it also highlights continuous vehicle demand corridors along Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd.
+I collected the latest average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume) and found each segment of road (minimum of 40m) that aligned with a bus or tram route (within 35°) using `Pandas`. Mapping the raw arterial vehicle volume data, the greatest demand along major freeways is primarily visible, but it also highlights continuous vehicle demand corridors along Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd.
+
+![](</blog/images/traffic/daily_vehicle_volume (1).png>)
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
-
-![](/blog/images/traffic/traffic_volume.png)
 
 Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three segments of road with the highest car traffic but zero public transportation choices:
 
