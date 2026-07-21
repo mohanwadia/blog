@@ -2,7 +2,7 @@
 author: Mohan Wadia
 pubDatetime: 2026-07-20
 modDatetime: 2026-07-20
-title: Does transit run where it needs to?
+title: Should traffic volume decide where buses run?
 slug: traffic
 featured: false
 draft: false
