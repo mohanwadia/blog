@@ -54,7 +54,7 @@ All roads can be designed to be inclusive of all user groups; however many aren'
 
 While the very busy Kings Way is partly unserved by PT, it's also finds itself at the top of this table as it provides dedicated tram lanes for the Route 58, allowing an uninterrupted interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the infrequent Route 823, and Old Princes Hwy in Beaconsfield has three bus routes which provide a poor service.
 
-Creating a geospatial visualization of the ratio between the previously two daily calculated values, total vehicle volume and total number of public transit trips, we get the following. 
+Creating a geospatial visualization of the ratio between the previously two daily calculated values, total vehicle volume and total number of public transit trips, we get the following map. A high cars-per-transit-trip ratio on a given corridor doesn't prove residents want to drive; rather if they wanted to take PT instead, the service on offer couldn't realistically absorb that demand. 
 
 ![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
