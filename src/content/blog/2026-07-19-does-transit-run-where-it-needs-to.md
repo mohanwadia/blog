@@ -8,7 +8,7 @@ featured: false
 draft: true
 description: Comparing arterial traffic to transit service levels
 ---
-Can high-patronage public transport services and high-volume roads exist together? 
+I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
@@ -16,10 +16,10 @@ Can high-patronage public transport services and high-volume roads exist togethe
 
 [Insert image of average daily traffic per road]
 
-Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume) of each arterial road, using 2019 data as it was the last available. This allowed me to find the top three roads with the highest car traffic but zero public transportation choices excluding freeways:
+Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices:
 
 
-| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** |
+| **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** |
 | ---------- | ------------------------------------------ | ------------- | ------------------ |
 | Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
 | Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
@@ -37,7 +37,7 @@ SmartBus Routes 901 and 902 fail to provide a dark green colour for their unique
 All streets can be designed to be inclusive of all user groups, however many aren't. I found the five busiest roads that have public transport running along them. 
 
 
-| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
+| **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
 | ------------------- | ------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------- | ----------------- | --------- |
 | Kings Way | Sturt St - York St heading North-West | South Melbourne | 50165 | 58 | 510 | 98:1 |
 | Eastern Freeway | Hoddle St - Alexandra Pde heading West | Abbotsford | 45670 | 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 388 | 117:1 |
@@ -57,8 +57,8 @@ While the service level of particularly trams in the inner north and east provid
 On a positive note, I calculated the top 5 highest transit trips per car ratio segments of roads, and as expected multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
 
-| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** |
-| -------------- | -------------------------------------- | --------- | ------------------ | -------------------------- | ----------------- |
+| **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** |
+| -------------- | -------------------------------------- | ---------- | ------------------ | -------------------------- | ----------------- |
 | Swanston St | Latrobe St - Franklin St heading North | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 |
 | Wellington Pde | Flinders St - Jolimont Rd heading East | Melbourne | 703 | 35, 75 | 452 |
 | Elizabeth St | Collins St - Flinders St heading South | Melbourne | 2941 | 19, 57, 59 | 1584 |
@@ -72,7 +72,7 @@ When completing a linear regression between traffic and transit service levels, 
 
 ## Which suburbs are the most served?
 
-Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the worst ratios (10 road segments and some PT to qualify):
+Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the worst ratios (10 road segments within Melbourne and some PT to qualify):
 
 
 | **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
@@ -90,11 +90,11 @@ Local governments find themselves continuing to advocate for better public trans
 
 ## Which routes experience the most traffic?
 
-Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO and compared it to the 
+Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO.
 
 
-| **Route** | **Mean Traffic Volume per Segment** | **On-Time Performance** |
-| ------------------------------ | ----------------------------------- | ----------------------- |
+| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
+| ------------------------------ | ----------------------------------- | ------------------- |
 | 232 Altona North - City | 10174 |  |
 | 795 Warneet - Cranbourne | 7563 |  |
 | 823 North Brighton - Southland | 20980 |  |
@@ -102,21 +102,21 @@ Which routes run on the busiest stretches of road? Variable traffic times can im
 | 745 Knox City - Bayswater | 12452 |  |
 
 
-And which routes run on the quietest stretches of roads? 
+And which routes run on the quietest stretches of roads?
 
 
-| **Route** | **Mean Traffic Volume per Segment** | **On-Time Performance** |
-| ------------------------------------- | ----------------------------------- | ----------------------- |
-| 192 Wyndham Vale - Werribee | 10174 |  |
+| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
+| ------------------------------------- | ----------------------------------- | ------------------- |
+| 192 Wyndam Vale - Werribee | 10174 |  |
 | 12 Victoria Gardens - St Kilda | 7563 |  |
 | 96 East Brunswick - St Kilda Beach | 20980 |  |
 | 16 Melbourne University - Kew | 9438 |  |
 | 1 East Coburg - South Melbourne Beach | 12452 |  |
 
 
-I expected to see a relationship between traffic along a route and on-time performance, however I found a R^2 value of ____. I think this speaks to how difficult of a job timetabling services in mixed traffic is, and how easy it is for services to bunch, so it's always useful to look into ditching a timetable for high-frequency services like the Route 246's Rapid Running trial. It also shows how important it is for real-time information to be available to passengers that doesn't require them to have their phone on a transit-related app constantly. 
+I wanted to see if there is a relationship between traffic along a route and on-time performance, and there is a R^2 value of ___.
 
-## Car dependency vs distance from the CBD.
+## Car dependency
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
@@ -149,4 +149,3 @@ Aggregating the number of road segments with each number of routes running along
 
 ## Conclusion
 
-Currently there's a disconnect between the level of car traffic on our roads with the public transit services we have today. High-demand transit services can co-exist in both the private and public spheres, and it's important to invest in both. However the current in-balance needs to be adjusted in order for both modes to be practical and useful. 
