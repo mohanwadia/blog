@@ -86,20 +86,22 @@ Local governments find themselves continuing to advocate for better public trans
 | **241** | Keilor | 21 | 421, 476, 483 | 245 164 | 409 | 599.4 |
 
 
- Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come to close to meeting car demand. Keilor has twice as much services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
+Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come to close to meeting car demand. Keilor has twice as much services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
 
 ## Which routes experience the most traffic?
 
 Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO which states a mean on-time percentage of 72%.
 
 
-| **Route** | **Mean Traffic Volume per Segment** | **On-Time Performance** |
-| ------------------------------ | ----------------------------------- | ----------------------- |
-| 232 Altona North - City | 10174 | 59.23% |
-| 795 Warneet - Cranbourne | 7563 | 67.85% |
-| 823 North Brighton - Southland | 20980 | 73.05% |
-| 609 Hawthorn - Fairfield | 9438 | 60.30% |
-| 745 Knox City - Bayswater | 12452 | 70.36% |
+| **Route** | **Traffic Volume per km** | **On-Time Performance** |
+| ---------------------------------- | ------------------------- | ----------------------- |
+| 232 Altona North - City | 4166 | 59.23% |
+| 511 Craigieburn - Mandalay | 1317 | 45.74% |
+| 483 Sunbury - Moonee Ponds | 1071 | 71.31% |
+| 816 Keysborough South - Noble Park | 702 | 76.94% |
+| 795 Warneet - Cranbourne | 660 | 67.85% |
+
+
 
 
 I wanted to see if there is a relationship between traffic along a route and on-time performance, which provided a R² value of 0.03, hinting that there are a lot of factors that go into timetabling a service. If you're wondering what the bus route with <40% punctuality, that's the Route 490: a demand-responsive service in Gowanbrae. 
