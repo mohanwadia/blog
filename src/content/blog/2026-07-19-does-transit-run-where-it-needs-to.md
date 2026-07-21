@@ -63,13 +63,13 @@ While the service quality of particularly trams in the inner north and east prov
 On a positive note, I calculated the top 5 highest transit trips per car ratio segments of roads, and as expected multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
 
-| **Rank** | **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** |
-| -------- | -------------- | -------------------------------------- | ---------- | ------------------ | -------------------------- | ----------------- |
-| **1** | Swanston St | Latrobe St - Franklin St heading north | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 |
-| **2** | Wellington Pde | Flinders St - Jolimont Rd heading east | Melbourne | 703 | 35, 75 | 452 |
-| **3** | Elizabeth St | Collins St - Flinders St heading south | Melbourne | 2941 | 19, 57, 59 | 1584 |
-| **4** | Bourke St | King St - Spencer St heading west | Melbourne | 2178 | 86, 96 | 990 |
-| **5** | Collins St | Spencer St - King St heading east | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 |
+| **Rank** | **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Vehicles Per PT Trip** |
+| -------- | -------------- | -------------------------------------- | ---------- | ------------------ | -------------------------- | ----------------- | ------------------------ |
+| **1** | Swanston St | Latrobe St - Franklin St heading north | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 | **1.01:1** |
+| **2** | Wellington Pde | Flinders St - Jolimont Rd heading east | Melbourne | 703 | 48, 75 | 452 | **1.56:1** |
+| **3** | Elizabeth St | Collins St - Flinders St heading south | Melbourne | 2941 | 19, 57, 59 | 1584 | **1.86:1** |
+| **4** | Bourke St | King St - Spencer St heading west | Melbourne | 2178 | 86, 96 | 990 | **2.20:1** |
+| **5** | Collins St | Spencer St - King St heading east | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 | **2.32:1** |
 
 
 When completing a linear regression between traffic demand and the allocation of PT services, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options.
