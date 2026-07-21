@@ -68,9 +68,7 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-## Which suburbs are the most served?
-
-Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios (10 road segments within Melbourne and some PT to qualify):
+Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios along arterials (10 road segments within Melbourne and some PT to qualify):
 
 
 | **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
@@ -86,9 +84,7 @@ Local governments find themselves continuing to advocate for better public trans
 
 Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come to close to meeting car demand. Keilor has twice as much services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
 
-## Which routes experience the most traffic?
-
-Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO which states a mean on-time percentage of 72%.
+I found out which routes run on the busiest stretches of arterial road. Variable traffic times can impact how late a bus is, so I combined this with recently published data from the Victorian Auditor-General's Office on on-time performance (mean of 72%).
 
 
 | **Route** | **Traffic Volume per km** | **On-Time Performance** |
@@ -99,8 +95,6 @@ Which routes run on the busiest stretches of road? Variable traffic times can im
 
 
 Each of these routes run along very busy freeways with limited stopping patterns along them. There's potential to see if there's a relationship between traffic along a route and on-time performance, however the traffic volume dataset only provides data across arterials while many routes run along local roads too. 
-
-## Car dependency
 
 The level of public transit service per car trip dramatically decreases away from the CBD.
 
