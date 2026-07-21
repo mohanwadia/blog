@@ -8,7 +8,7 @@ featured: false
 draft: false
 description: Comparing arterial traffic demand to public transport supply.
 ---
-Roads provide data on where real demand is for buses to replace existing traffic. 
+Can newly funded public transport services be targeted for areas with proven high vehicle road demand in order to most efficiently steal users from private vehicle journeys?
 
 ## Vehicle Traffic and PT Trips
 
@@ -100,7 +100,7 @@ Melbourne unsurprisingly tops the list with 51 bus and tram routes either termin
 
 ## Service Per Route
 
-I found out which routes run on the busiest stretches of arterial road. Variable traffic times can impact how late a bus is, so I combined this with recently published data from the Victorian Auditor-General's Office on on-time performance (mean of 72%).
+I found out which routes run on the busiest stretches of arterial road. Variable traffic times can impact how late a bus is, so I combined this with recently published data from the Victorian Auditor-General's Office on on-time performance (which reported a mean of 72%).
 
 
 | **Route** | **Traffic Volume per km** | **On-Time Performance** |
