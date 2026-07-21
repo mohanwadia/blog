@@ -36,9 +36,9 @@ While roads may have some public transport choices, only high-quality public tra
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
-# Comparing PT and Traffic
-
 SmartBus Routes 901 and 902 on the previous map fail to provide a dark green colour for their unique segments, while Route 900's peak service increase and other routes which share the Wellington Rd corridor set itself as a contender for continuous bus lanes. Doncaster's bus network goes strong with DART routes in all directions. The inner north has strong north-south tram routes; however connecting east-west buses provide limited service. In the west, there are unfortunately very limited high-frequency routes that need to catch up with demand. 
+
+# Comparing PT and Traffic
 
 All roads can be designed to be inclusive of all user groups; however many aren't. I found the five busiest roads that have public transport running along them. 
 
