@@ -4,7 +4,7 @@ pubDatetime: 2026-07-15
 modDatetime: 2026-07-15
 title: Will SRL save you time?
 slug: srl
-featured: true
+featured: false
 draft: false
 description: Mapping isochrones and calculating journey times of an improved network
 ---
