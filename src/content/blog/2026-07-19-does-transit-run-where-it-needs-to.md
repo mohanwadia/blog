@@ -56,7 +56,7 @@ While the very busy Kings Way is partly unserved by PT, it's also finds itself a
 
 Creating a geospatial visualization of the ratio between the previously two daily calculated values, total vehicle volume and total number of public transit trips, we get the following map. A high cars-per-transit-trip ratio on a given corridor doesn't prove residents want to drive; rather if they wanted to take PT instead, the service on offer couldn't realistically absorb that demand. 
 
-![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
+![](</blog/images/traffic/vehicles_per_pt_trip (1).png>)
 
 While the service quality of particularly trams in the inner north and east provides a real incentive to rely on public transport, middle- and outer-suburbs force residents to find alternative travel options with inaccessible bus frequencies. While there are stretches of road that provide a decent quality of service compared to car demand, the current quantity of resources in Melbourne's bus network means that it cannot compete with private vehicles. 
 
