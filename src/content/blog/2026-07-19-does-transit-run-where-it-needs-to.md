@@ -10,7 +10,7 @@ tags:
   - gtfs
 description: Comparing arterial traffic demand to public transport supply.
 ---
-Can newly funded public transport services be targeted for areas with proven high vehicle road demand in order to most efficiently divert trips away from private vehicles?
+Should public transport services be target along roads with proven high vehicle demand in order to most efficiently divert trips away from private vehicles?
 
 # Vehicle Traffic and PT Trips
 
