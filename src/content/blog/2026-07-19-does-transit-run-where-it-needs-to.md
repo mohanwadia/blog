@@ -108,6 +108,8 @@ I wanted to see if there is a relationship between traffic along a route and on-
 
 ## Car dependency
 
+The level of public transit service per car trip dramatically decreases away from the CBD.
+
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
 
