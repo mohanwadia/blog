@@ -96,30 +96,17 @@ I found out which routes run on the busiest stretches of arterial road. Variable
 
 Each of these routes run along very busy freeways with limited stopping patterns along them. There's potential to see if there's a relationship between traffic along a route and on-time performance, however the traffic volume dataset only provides data across arterials while many routes run along local roads too. 
 
-The level of public transit service per car trip dramatically decreases away from the CBD.
+
+
+~~~~~~~~ SHOULD I OMIT THIS PART OR IS THERE POTENTIAL
+
+
+
+We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to create Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below.
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
-
-| **Distance from CBD (km)** | **Median Cars Per Transit Trip** |
-| -------------------------- | -------------------------------- |
-| (0, 5] | 43.20 |
-| (5, 10] | 58.00 |
-| (10, 15] | 85.55 |
-| (15, 20] | 87.54 |
-| (20, 25] | 112.06 |
-| (25, 30] | 147.21 |
-| (30, 40] | 139.67 |
-| (40, 60] | 534.00 |
-
-
-So we know that car dependency increases as you go away from the CBD, but is transit equally distributed radially? I think we all know the answer to this.
-
-![Figure](/blog/images/traffic/compass.png)
-
-## Simplifying our transit network
-
-It's natural for activity centres to have multiple routes running into their bus interchange. However a simple memorable network is a useable network. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
+It's natural for activity centres to have multiple routes running into their bus interchange, however a simple memorable network is a useable network, which means that roads should strive for less routes if it results in higher frequencies. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
