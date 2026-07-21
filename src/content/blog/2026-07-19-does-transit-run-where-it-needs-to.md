@@ -12,14 +12,18 @@ I collected the average daily traffic volume from [Transport Victoria](https://o
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
+## The Busiest Roads in Melbourne
+
+[Insert image of average daily traffic per road]
+
 Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices. Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
 
 
-| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** |
-| ---------- | ------------------------------------------ | ------------- | ------------------ |
-| Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
-| Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
-| Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
+| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
+| ---------- | ------------------------------------------ | ------------- | ------------------ | ----------------- | ----------------- | --------- |
+| Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |  |  |  |
+| Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |  |  |  |
+| Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |  |  |  |
 
 
 While roads may have some public transport choices, only high-quality public transport is useable at scale. Plotting the number of trips along each arterial road, roads with trams provide constant high levels of daily trips with long spans and high frequencies that few bus routes currently compete with. SmartBus Routes 901 and 902 fail to provide a dark green colour for their unique segments, while Route 900's peak service increase and other routes which share the Wellington Rd corridor sets itself as a contender for continuous bus lanes. Doncaster's bus network goes strong with DART routes in all directions. The inner north has strong north-south tram routes however connecting east-west buses provide limited service. In the west, there are unfortunately very limited high-frequency routes that need to catch up with demand. 
@@ -58,45 +62,51 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-Local government areas find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. 
+Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the worst ratios (10 road segments and some PT to qualify):
 
 
-| **LGA** | **Total Traffic Volume** | **Total Transit Volume** | **Ratio** |
-| ------- | ------------------------ | ------------------------ | --------- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| Rank | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
+| ---- | ----------------- | -------------------------- | ---------------- | -------------------------- | ------------------------ | ------------------------- |
+| 1 | Melbourne | 0 | Bus x29 Tram x22 | 1 907 108 | 200 778 | 9.5 |
+| 2 | Albert Park | 4 | 12, 606 | 48 335 | 3 750 | 12.9 |
+| 3 | Middle Park | 3 | 1, 12, 236, 606 | 38 635 | 2 934 | 13.2 |
+| ... |  |  |  |  |  |  |
+| 239 | Melbourne Airport | 20 | 479, 901 | 233 174 | 415 | 561.9 |
+| 240 | Moorooduc | 58 | 782, 783, 887 | 123 321 | 215 | 573.6 |
+| 241 | Keilor | 21 | 421, 476, 483 | 245 164 | 409 | 599.4 |
 
 
 [insert LGA map]
 
-Which routes run on the busiest stretches of road?
+## Which routes experience the most traffic?
+
+Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO.
 
 
-| **Route** | **Mean Traffic Volume per Segment** |
-| ------------------------------ | ----------------------------------- |
-| 232 Altona North - City | 10174 |
-| 795 Warneet - Cranbourne | 7563 |
-| 823 North Brighton - Southland | 20980 |
-| 609 Hawthorn - Fairfield | 9438 |
-| 745 Knox City - Bayswater | 12452 |
+| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
+| ------------------------------ | ----------------------------------- | ------------------- |
+| 232 Altona North - City | 10174 |  |
+| 795 Warneet - Cranbourne | 7563 |  |
+| 823 North Brighton - Southland | 20980 |  |
+| 609 Hawthorn - Fairfield | 9438 |  |
+| 745 Knox City - Bayswater | 12452 |  |
 
 
 And which routes run on the quietest stretches of roads?
 
 
-| **Route** | **Mean Traffic Volume per Segment** |  |  |
-| ------------------------------------- | ----------------------------------- | --- | --- |
-| 192 Wyndam Vale - Werribee | 10174 |  |  |
-| 12 Victoria Gardens - St Kilda | 7563 |  |  |
-| 96 East Brunswick - St Kilda Beach | 20980 |  |  |
-| 16 Melbourne University - Kew | 9438 |  |  |
-| 1 East Coburg - South Melbourne Beach | 12452 |  |  |
+| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
+| ------------------------------------- | ----------------------------------- | ------------------- |
+| 192 Wyndam Vale - Werribee | 10174 |  |
+| 12 Victoria Gardens - St Kilda | 7563 |  |
+| 96 East Brunswick - St Kilda Beach | 20980 |  |
+| 16 Melbourne University - Kew | 9438 |  |
+| 1 East Coburg - South Melbourne Beach | 12452 |  |
 
 
-Car dependency vs distance from the CBD.
+I wanted to see if there is a relationship between traffic along a route and on-time performance, and there is a R^2 value of ___.
+
+## Car dependency vs distance from the CBD.
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
@@ -117,11 +127,15 @@ So we know that car dependency increases as you go away from the CBD, but is tra
 
 ![Figure](/blog/images/traffic/compass.png)
 
+## Simplifying our transit network
+
 It's natural for activity centres to have multiple routes running into their bus interchange. However a simple memorable network is a useable network. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
 Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
 
-![](/blog/images/traffic/pie_segments-1.png)
+[insert pie chart]
+
+## Conclusion
 
