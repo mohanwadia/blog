@@ -102,7 +102,7 @@ Each of these routes run along very busy freeways with limited stopping patterns
 
 ## Car Dependency
 
-We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to create Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
+We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
