@@ -8,7 +8,7 @@ featured: false
 draft: true
 description: Comparing arterial traffic to transit service levels
 ---
-I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
+Can high-patronage public transport services and high-volume roads exist together? 
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
@@ -16,14 +16,14 @@ I collected the average daily traffic volume from [Transport Victoria](https://o
 
 [Insert image of average daily traffic per road]
 
-Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices:
+Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume) of each arterial road, using 2019 data as it was the last available. This allowed me to find the top three roads with the highest car traffic but zero public transportation choices excluding freeways:
 
 
-| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
-| ---------- | ------------------------------------------ | ------------- | ------------------ | ----------------- | ----------------- | --------- |
-| Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |  |  |  |
-| Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |  |  |  |
-| Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |  |  |  |
+| **Road** | **Busiest Segment** | **LGA** | **Traffic Volume** |
+| ---------- | ------------------------------------------ | ------------- | ------------------ |
+| Kings Way | Albert Rd - Queens Rd heading South-East | Melbourne | 51468 |
+| Queens Rd | Lakeside Drive - Lorne St heading South | Melbourne | 43184 |
+| Nepean Hwy | Centre Rd - Hawthorn Rd heading North-West | Brighton East | 37361 |
 
 
 Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is poorly served by the infrequent Route 823 which runs a roughly hourly service with poor span.
@@ -90,11 +90,11 @@ Local governments find themselves continuing to advocate for better public trans
 
 ## Which routes experience the most traffic?
 
-Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO.
+Which routes run on the busiest stretches of road? Variable traffic times can impact how late a bus is, so I found recently published data from VAGO and compared it to the 
 
 
-| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
-| ------------------------------ | ----------------------------------- | ------------------- |
+| **Route** | **Mean Traffic Volume per Segment** | **On-Time Performance** |
+| ------------------------------ | ----------------------------------- | ----------------------- |
 | 232 Altona North - City | 10174 |  |
 | 795 Warneet - Cranbourne | 7563 |  |
 | 823 North Brighton - Southland | 20980 |  |
@@ -102,19 +102,19 @@ Which routes run on the busiest stretches of road? Variable traffic times can im
 | 745 Knox City - Bayswater | 12452 |  |
 
 
-And which routes run on the quietest stretches of roads?
+And which routes run on the quietest stretches of roads? 
 
 
-| **Route** | **Mean Traffic Volume per Segment** | On-Time Performance |
-| ------------------------------------- | ----------------------------------- | ------------------- |
-| 192 Wyndam Vale - Werribee | 10174 |  |
+| **Route** | **Mean Traffic Volume per Segment** | **On-Time Performance** |
+| ------------------------------------- | ----------------------------------- | ----------------------- |
+| 192 Wyndham Vale - Werribee | 10174 |  |
 | 12 Victoria Gardens - St Kilda | 7563 |  |
 | 96 East Brunswick - St Kilda Beach | 20980 |  |
 | 16 Melbourne University - Kew | 9438 |  |
 | 1 East Coburg - South Melbourne Beach | 12452 |  |
 
 
-I wanted to see if there is a relationship between traffic along a route and on-time performance, and there is a R^2 value of ___.
+I expected to see a relationship between traffic along a route and on-time performance, however I found a R^2 value of ____. I think this speaks to how difficult of a job timetabling services in mixed traffic is, and how easy it is for services to bunch, so it's always useful to look into ditching a timetable for high-frequency services like the Route 246's Rapid Running trial. It also shows how important it is for real-time information to be available to passengers that doesn't require them to have their phone on a transit-related app constantly. 
 
 ## Car dependency vs distance from the CBD.
 
@@ -149,3 +149,4 @@ Aggregating the number of road segments with each number of routes running along
 
 ## Conclusion
 
+Currently there's a disconnect between the level of car traffic on our roads with the public transit services we have today. High-demand transit services can co-exist in both the private and public spheres, and it's important to invest in both. However the current in-balance needs to be adjusted in order for both modes to be practical and useful. 
