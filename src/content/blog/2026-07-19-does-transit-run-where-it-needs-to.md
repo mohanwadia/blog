@@ -20,7 +20,7 @@ I collected the latest average daily traffic volume from [Transport Victoria](ht
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
-Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three segments of road with the highest car traffic but zero public transportation choices:
+Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, these are the top three segments of road with the highest car traffic but zero public transportation choices:
 
 
 | **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** |
@@ -40,7 +40,7 @@ SmartBus Routes 901 and 902 on the previous map fail to provide a dark green col
 
 # Comparing PT and Traffic
 
-All roads can be designed to be inclusive of all user groups; however many aren't. I found the five busiest roads that have public transport running along them. 
+All roads can be designed to be inclusive of all user groups; however many aren't. Here are the five busiest roads that have public transport running along them:
 
 
 | **Road** | **Busiest Segment** | **Suburb** | **Route Numbers** | **Transit Trips** | **Vehicles Per PT Trip** | **Traffic Volume** |
