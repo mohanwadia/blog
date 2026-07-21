@@ -8,7 +8,7 @@ featured: false
 draft: true
 description: Comparing arterial traffic to transit service levels
 ---
-I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available.
+I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available, and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using Pandas.
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
@@ -133,4 +133,4 @@ Aggregating the number of arterial road segments with each number of routes runn
 
 ![](/blog/images/traffic/pie_segments.png)
 
-There's huge potential to simplify our network along arterials, but also to distribute resources to maximize patronage. 
+There's huge potential to simplify our network along arterials and to distribute resources to maximize patronage. 
