@@ -14,7 +14,7 @@ I collected the average daily traffic volume from [Transport Victoria](https://o
 
 ## The Busiest Roads in Melbourne
 
-[Insert image of average daily traffic per road]
+![](/blog/images/traffic/traffic_volume.png)
 
 Public Transport is very visible in Melbourne across each mode, however one-third of arterial road segments within Melbourne don't have buses or trams. Excluding freeways, I found the top three roads with the highest car traffic with zero public transportation choices:
 
