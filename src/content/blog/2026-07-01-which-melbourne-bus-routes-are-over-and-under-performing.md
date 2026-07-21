@@ -4,7 +4,7 @@ pubDatetime: 2026-07-01
 modDatetime: 2026-07-01
 title: Which Melbourne Bus Routes Are Over- and Under-Performing?
 slug: patronage-analysis
-featured: true
+featured: false
 draft: false
 tags:
   - article
