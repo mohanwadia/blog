@@ -116,13 +116,15 @@ Each of these routes runs along very busy freeways with limited stopping pattern
 
 # Simplifying our Network
 
-It's natural for activity centres to have multiple routes running into their bus interchange. However a simple memorable network is a useable network, which means that roads should generally strive for fewer routes if it results in higher frequencies. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a greater quality of service to it's coverage areas. 
+It's natural for activity centres to have multiple routes running into their bus interchange. However a simple memorable network is a useable network, which means that roads should generally strive for fewer routes if it results in higher frequencies. 
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
-Aggregating the number of arterial road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
+Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a greater quality of service to it's coverage areas. 
 
 ![](/blog/images/traffic/pie_segments.png)
+
+Aggregating the number of arterial road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
 
 # Conclusion
 
