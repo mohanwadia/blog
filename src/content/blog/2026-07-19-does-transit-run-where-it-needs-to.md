@@ -72,7 +72,7 @@ On a positive note, I calculated the top 5 highest transit trips per car ratio s
 | Collins St | Spencer St - King St heading east | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 |
 
 
-When completing a linear regression between traffic demand and the allocation of PT services, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options. This surprised me as I believe fare-paying commuters don't fundamentally take different kinds of trips than drivers.
+When completing a linear regression between traffic demand and the allocation of PT services, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options.
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
