@@ -8,7 +8,7 @@ featured: false
 draft: false
 tags:
   - gtfs
-description: Comparing arterial traffic demand to public transport supply.
+description: Comparing public transport supply to arterial traffic demand
 ---
 Should public transport services be target along roads with proven high vehicle demand in order to most efficiently divert trips away from private vehicles?
 
