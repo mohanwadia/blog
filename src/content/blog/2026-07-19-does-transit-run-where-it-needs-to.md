@@ -14,7 +14,7 @@ Should public transport services be increased along roads with proven high vehic
 
 # Vehicle Traffic and PT Trips
 
-I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available, and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using Pandas. Mapping the raw arterial vehicle volume data, the greatest demand along major freeways is primarily visible, but it also highlights continuous vehicle demand corridors along Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd.
+I collected the latest average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume) and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using `Pandas`. Mapping the raw arterial vehicle volume data, the greatest demand along major freeways is primarily visible, but it also highlights continuous vehicle demand corridors along Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd.
 
 ![](</blog/images/traffic/traffic_volume (2) (1).png>)
 
