@@ -43,16 +43,16 @@ SmartBus Routes 901 and 902 on the previous map fail to provide a dark green col
 All roads can be designed to be inclusive of all user groups; however many aren't. Here are the five busiest roads that have public transport running along them:
 
 
-| **Road** | **Busiest Segment** | **Suburb** | **Route Numbers** | **Transit Trips** | **Vehicles Per PT Trip** | **Traffic Volume** |
-| ----------------------- | ------------------------------------------ | --------------- | ---------------------------------------------------------- | ----------------- | ------------------------ | ------------------ |
-| **Kings Way** | Sturt St - York St heading north-west | South Melbourne | 58 | 510 | 98:1 | **50165** |
-| **Eastern Freeway** | Hoddle St - Alexandra Pde heading west | Abbotsford | 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 388 | 117:1 | **45670** |
-| **Nepean Hwy** | Dendy St - Patterson Rd heading south-east | Bentleigh | 823 | 13 | 3253:1 | **42290** |
-| **Hoddle St** | Johnston St - Alexandra Pde heading north | Collingwood | 246, 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 943 | 43:1 | **40823** |
-| **Old Princes Highway** | Offramp to Princes Hwy heading north | Beaconsfield | 837, 926, 928 | 115 | 344:1 | **39552** |
+| **Road** | **Busiest Segment** | **Suburb** | **Transit Trips** | **Traffic Volume** |
+| ----------------------- | ------------------------------------------ | --------------- | ----------------- | ------------------ |
+| **Kings Way** | Sturt St - York St heading north-west | South Melbourne | 510 | **50165** |
+| **Eastern Freeway** | Hoddle St - Alexandra Pde heading west | Abbotsford | 388 | **45670** |
+| **Nepean Hwy** | Dendy St - Patterson Rd heading south-east | Bentleigh | 13 | **42290** |
+| **Hoddle St** | Johnston St - Alexandra Pde heading north | Collingwood | 943 | **40823** |
+| **Old Princes Highway** | Offramp to Princes Hwy heading north | Beaconsfield | 115 | **39552** |
 
 
-While the very busy Kings Way is partly unserved by PT, it's also finds itself at the top of this table as it provides dedicated tram lanes for the Route 58, allowing an uninterrupted interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the infrequent Route 823, and Old Princes Hwy in Beaconsfield has three bus routes which provide a poor service.
+While the very busy Kings Way is partly unserved by PT, it's also finds itself at the top of this table as it provides dedicated tram lanes for the Route 58, allowing an uninterrupted interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the infrequent Route 823, and Old Princes Hwy in Beaconsfield has three bus routes (837, 926, 928) which provide a poor service.
 
 Creating a geospatial visualization of the ratio between the previously two daily calculated values, total vehicle volume and total number of public transit trips, we get the following map. A high cars-per-transit-trip ratio on a given corridor doesn't prove residents want to drive; rather if they wanted to take PT instead, the service on offer couldn't realistically absorb that demand. 
 
@@ -63,13 +63,13 @@ While the service quality of particularly trams in the inner north and east prov
 On a positive note, I calculated the top 5 highest transit trips per car ratio segments of roads, and as expected multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
 
-| **Rank** | **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Vehicles Per PT Trip** |
-| -------- | -------------- | -------------------------------------- | ---------- | ------------------ | -------------------------- | ----------------- | ------------------------ |
-| **1** | Swanston St | Latrobe St - Franklin St heading north | Melbourne | 2848 | 1, 3, 5, 6, 16, 64, 67, 72 | 2826 | **1.01:1** |
-| **2** | Wellington Pde | Flinders St - Jolimont Rd heading east | Melbourne | 703 | 48, 75 | 452 | **1.56:1** |
-| **3** | Elizabeth St | Collins St - Flinders St heading south | Melbourne | 2941 | 19, 57, 59 | 1584 | **1.86:1** |
-| **4** | Bourke St | King St - Spencer St heading west | Melbourne | 2178 | 86, 96 | 990 | **2.20:1** |
-| **5** | Collins St | Spencer St - King St heading east | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 | **2.32:1** |
+| **Rank** | **Road** | **Busiest Segment** | **Suburb** | **Vehicles Per PT Trip** |
+| -------- | -------------- | -------------------------------------- | ---------- | ------------------------ |
+| **1** | Swanston St | Latrobe St - Franklin St heading north | Melbourne | **1.01:1** |
+| **2** | Wellington Pde | Flinders St - Jolimont Rd heading east | Melbourne | **1.56:1** |
+| **3** | Elizabeth St | Collins St - Flinders St heading south | Melbourne | **1.86:1** |
+| **4** | Bourke St | King St - Spencer St heading west | Melbourne | **2.20:1** |
+| **5** | Collins St | Spencer St - King St heading east | Melbourne | **2.32:1** |
 
 
 When completing a linear regression between traffic demand and the allocation of PT services, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options.
@@ -87,18 +87,18 @@ We already know the quantity of public transit service per car trip dramatically
 Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios along arterials (minimum 10 arterial road segments and at least one PT route to qualify):
 
 
-| **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Vehicles Per PT Trip** |
-| -------- | --------------------- | -------------------------- | ---------------- | -------------------------- | ------------------------ | ------------------------ |
-| **1** | **Melbourne** | 0 | Bus x29 Tram x22 | 1 907 108 | 200 778 | **9.5** |
-| **2** | **Albert Park** | 4 | 12, 606 | 48 335 | 3 750 | **12.9** |
-| **3** | **Middle Park** | 3 | 1, 12, 236, 606 | 38 635 | 2 934 | **13.2** |
-| **...** |  |  |  |  |  |  |
-| **239** | **Melbourne Airport** | 20 | 478, 479, 901 | 233 174 | 415 | **561.9** |
-| **240** | **Moorooduc** | 58 | 782, 783, 887 | 123 321 | 215 | **573.6** |
-| **241** | **Keilor** | 21 | 421, 476, 483 | 245 164 | 409 | **599.4** |
+| **Rank** | **Suburb** | **Routes** | **Vehicles Per PT Trip** |
+| -------- | --------------------- | ---------------- | ------------------------ |
+| **1** | **Melbourne** | Bus x29 Tram x22 | **9.5** |
+| **2** | **Albert Park** | 12, 606 | **12.9** |
+| **3** | **Middle Park** | 1, 12, 236, 606 | **13.2** |
+| **...** |  |  |  |
+| **239** | **Melbourne Airport** | 478, 479, 901 | **561.9** |
+| **240** | **Moorooduc** | 782, 783, 887 | **573.6** |
+| **241** | **Keilor** | 421, 476, 483 | **599.4** |
 
 
-Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple of high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come close to meeting car demand. Keilor has twice as many services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
+Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple of high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes (782, 783, 887) with hourly frequencies or worse with very poor span which do not come close to meeting car demand. Keilor has twice as many services (421, 476, 483) but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
 
 # Service Per Route
 
