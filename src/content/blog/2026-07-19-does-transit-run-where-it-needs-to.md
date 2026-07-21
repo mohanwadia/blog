@@ -30,7 +30,7 @@ Public Transport is very visible in Melbourne across each mode, however one-thir
 
 Kings Way and Queens Rd are an inner-city connection allowing cars heading into the CBD to bypass St Kilda Rd. They intersect very close to Anzac Station and the St Kilda tram corridor. Nepean Hwy is a major 80km/h arterial that runs parallel to the Frankston line to Moorabbin Station. There is potential to create a high-frequency route out of SRL Cheltenham along Nepean Hwy, as the busiest segment in Brighton East is served by the infrequent Route 823 which runs a roughly hourly service with poor span.
 
-While roads may have some public transport choices, only high-quality public transport is useable at scale. Plotting the number of trips along each arterial road, roads with trams provide constant high levels of daily trips with long spans and high frequencies that few bus routes currently compete with.
+While roads may have some public transport choices, only high-quality public transport is useable at scale. Plotting the number of trips along each arterial road, roads with trams provide constant high quantities of daily trips with long spans and high frequencies that few bus routes currently compete with.
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
@@ -56,7 +56,7 @@ Creating a geospatial visualization of the ratio between the previously two dail
 
 ![Figure](</blog/images/traffic/cars_per_transit_trip (1).png>)
 
-While the service level of particularly trams in the inner north and east provide a real incentive to rely on public transport, middle- and outer- suburbs force residents to find alternative travel options with inaccessible bus frequencies. While there are stretches of road that provide a decent level of service compared to car demand, it's not going to be enough to re-allocate resources as part of a Bus Reform plan because of the existing poor level of service when combining all routes running along arterials. 
+While the service quality of particularly trams in the inner north and east provide a real incentive to rely on public transport, middle- and outer- suburbs force residents to find alternative travel options with inaccessible bus frequencies. While there are stretches of road that provide a decent quality of service compared to car demand, it's not going to be enough to re-allocate resources as part of a Bus Reform plan because of the existing poor quality of service when combining all routes running along arterials. 
 
 On a positive note, I calculated the top 5 highest transit trips per car ratio segments of roads, and as expected multiple-route tram corridors serving the CBD dominate this list. This is a useful metric to see roads that should potentially separate buses and trams into their own right-of-way. 
 
@@ -70,13 +70,13 @@ On a positive note, I calculated the top 5 highest transit trips per car ratio s
 | Collins St | Spencer St - King St heading east | Melbourne | 4308 | 11, 12, 48, 109, 232 | 1860 |
 
 
-When completing a linear regression between traffic and transit service levels, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options when I believe there should be as fare-paying commuters don't fundamentally take different types of trips. 
+When completing a linear regression between traffic demand and the allocation of PT services, removing roads where buses and trams cannot stop frequently including freeways, we get a poor R² value of 0.11. As visible in the below chart, there's not a clear relationship between demand for cars and public transport options when I believe there should be as fare-paying commuters don't fundamentally take different types of trips. 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
 ## Car Dependency
 
-We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
+We already know the quantity of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
@@ -114,7 +114,7 @@ Each of these routes run along very busy freeways with limited stopping patterns
 
 ## Simplifying our Network
 
-It's natural for activity centres to have multiple routes running into their bus interchange, however a simple memorable network is a useable network, which means that roads should strive for less routes if it results in higher frequencies. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a higher level of service to it's coverage areas. 
+It's natural for activity centres to have multiple routes running into their bus interchange, however a simple memorable network is a useable network, which means that roads should strive for less routes if it results in higher frequencies. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a greater quality of service to it's coverage areas. 
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
