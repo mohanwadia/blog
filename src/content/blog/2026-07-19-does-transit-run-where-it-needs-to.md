@@ -10,7 +10,7 @@ tags:
   - gtfs
 description: Comparing public transport supply to arterial traffic demand
 ---
-Should public transport services be target along roads with proven high vehicle demand in order to most efficiently divert trips away from private vehicles?
+Should public transport services be increased along roads with proven high vehicle demand in order to most efficiently divert trips away from private vehicles?
 
 # Vehicle Traffic and PT Trips
 
@@ -78,7 +78,7 @@ When completing a linear regression between traffic demand and the allocation of
 
 # Car Dependency
 
-We already know the quantity of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
+We already know the quantity of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median vehicles per PT trip is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
