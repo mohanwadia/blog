@@ -94,19 +94,13 @@ Which routes run on the busiest stretches of road? Variable traffic times can im
 
 
 | **Route** | **Traffic Volume per km** | **On-Time Performance** |
-| ---------------------------------- | ------------------------- | ----------------------- |
+| -------------------------- | ------------------------- | ----------------------- |
 | 232 Altona North - City | 4166 | 59.23% |
 | 511 Craigieburn - Mandalay | 1317 | 45.74% |
 | 483 Sunbury - Moonee Ponds | 1071 | 71.31% |
-| 816 Keysborough South - Noble Park | 702 | 76.94% |
-| 795 Warneet - Cranbourne | 660 | 67.85% |
 
 
-
-
-I wanted to see if there is a relationship between traffic along a route and on-time performance, which provided a R² value of 0.03, hinting that there are a lot of factors that go into timetabling a service. If you're wondering what the bus route with <40% punctuality, that's the Route 490: a demand-responsive service in Gowanbrae. 
-
-![](/blog/images/traffic/punctuality_plot.png)
+Each of these routes run along very busy freeways with limited stopping patterns along them. There's potential to see if there's a relationship between traffic along a route and on-time performance, however the traffic volume dataset only provides data across arterials while many routes run along local roads too. 
 
 ## Car dependency
 
@@ -137,9 +131,9 @@ It's natural for activity centres to have multiple routes running into their bus
 
 ![](</blog/images/traffic/simplified_corridors_map (2).png>)
 
-Aggregating the number of road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
+Aggregating the number of arterial road segments with each number of routes running along it at some point, roads with one route sit at 31.6% which is slightly less frequent than 0 routes at 34.4%. Road segments with lots of routes are likely to be serving bus interchanges, for example Box Hill has 16 routes that at some point run along the segment of Station St outside Box Hill Central. 
 
-[insert pie chart]
+![](/blog/images/traffic/pie_segments.png)
 
 ## Conclusion
 
