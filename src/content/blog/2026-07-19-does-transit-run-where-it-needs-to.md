@@ -68,10 +68,15 @@ When completing a linear regression between traffic and transit service levels, 
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
+## Car Dependency
+
+We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
+
+![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
+
 # Per Suburb
 
 Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios along arterials (10 road segments within Melbourne and some PT to qualify):
-
 
 | **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
 | -------- | ----------------- | -------------------------- | ---------------- | -------------------------- | ------------------------ | ------------------------- |
@@ -83,13 +88,11 @@ Local governments find themselves continuing to advocate for better public trans
 | **240** | Moorooduc | 58 | 782, 783, 887 | 123 321 | 215 | 573.6 |
 | **241** | Keilor | 21 | 421, 476, 483 | 245 164 | 409 | 599.4 |
 
-
 Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come to close to meeting car demand. Keilor has twice as much services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
 
 ## Per Route
 
 I found out which routes run on the busiest stretches of arterial road. Variable traffic times can impact how late a bus is, so I combined this with recently published data from the Victorian Auditor-General's Office on on-time performance (mean of 72%).
-
 
 | **Route** | **Traffic Volume per km** | **On-Time Performance** |
 | -------------------------- | ------------------------- | ----------------------- |
@@ -97,14 +100,7 @@ I found out which routes run on the busiest stretches of arterial road. Variable
 | 511 Craigieburn - Mandalay | 1317 | 45.74% |
 | 483 Sunbury - Moonee Ponds | 1071 | 71.31% |
 
-
 Each of these routes run along very busy freeways with limited stopping patterns along them. There's potential to see if there's a relationship between traffic along a route and on-time performance, however the traffic volume dataset only provides data across arterials while many routes run along local roads too. 
-
-## Car Dependency
-
-We already know the level of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
-
-![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
 ## Simplifying our network
 
