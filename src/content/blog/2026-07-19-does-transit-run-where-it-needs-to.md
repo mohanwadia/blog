@@ -46,7 +46,7 @@ All streets can be designed to be inclusive of all user groups, however many are
 | Old Princes Highway | Offramp to Princes Hwy heading North | Beaconsfield | 39552 | 837, 926, 928 | 115 | 340:1 |
 
 
-Kings Way is very wide with four car lanes and dedicated tram lanes for the Route 58, which allows an interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the Route 823, and in Beaconsfield three bus routes provide a poor service along the busy Old Princes Hwy. 
+Kings Way is very wide with four car lanes and dedicated tram lanes for the Route 58, which allows an uninterrupted interpeak frequency of 10 minutes. The Eastern Fwy and Hoddle St should both receive all-day bus lanes for their duration which the 10+ routes clearly demand. Nepean Hwy shows up again at #3 with the Route 823, and in Beaconsfield three bus routes provide a poor service along the busy Old Princes Hwy. 
 
 Creating a geospatial visualization of the ratio between the previously two daily calculated values, total vehicle volume and total number of public transit trips, we get the following. 
 
@@ -72,7 +72,7 @@ When completing a linear regression between traffic and transit service levels, 
 
 ## Which suburbs are the most served?
 
-Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the worst ratios (10 road segments within Melbourne and some PT to qualify):
+Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios (10 road segments within Melbourne and some PT to qualify):
 
 
 | **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
