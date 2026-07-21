@@ -5,7 +5,7 @@ modDatetime: 2026-07-20
 title: Does transit run where it needs to?
 slug: traffic
 featured: false
-draft: true
+draft: false
 description: Comparing arterial traffic to transit service levels
 ---
 I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available, and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using Pandas. Mapping the raw arterial vehicle volume data, you can see the level of service along major freeways, but also high demand roads like Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd. 
