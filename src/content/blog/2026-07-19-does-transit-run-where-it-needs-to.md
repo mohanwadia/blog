@@ -6,11 +6,13 @@ title: Should traffic volume decide where buses run?
 slug: traffic
 featured: false
 draft: false
+tags:
+  - gtfs
 description: Comparing arterial traffic demand to public transport supply.
 ---
 Can newly funded public transport services be targeted for areas with proven high vehicle road demand in order to most efficiently steal users from private vehicle journeys?
 
-## Vehicle Traffic and PT Trips
+# Vehicle Traffic and PT Trips
 
 I collected the average daily traffic volume from [Transport Victoria](https://opendata.transport.vic.gov.au/dataset/historical-annual-average-daily-traffic-volume), using 2019 data as it was the last available, and found each segment of road that aligned with a bus or tram route (within 35° for a minimum of 40m) using Pandas. Mapping the raw arterial vehicle volume data, you can see the greatest demand along major freeways, but also other roads like Wellington Rd / North Rd, Springvale Rd, Burwood Hwy, and Warrigal Rd.
 
@@ -34,7 +36,7 @@ While roads may have some public transport choices, only high-quality public tra
 
 ![Figure](/blog/images/traffic/transit_trips.png)
 
-## Comparing PT and Traffic
+# Comparing PT and Traffic
 
 SmartBus Routes 901 and 902 on the previous map fail to provide a dark green colour for their unique segments, while Route 900's peak service increase and other routes which share the Wellington Rd corridor sets itself as a contender for continuous bus lanes. Doncaster's bus network goes strong with DART routes in all directions. The inner north has strong north-south tram routes however connecting east-west buses provide limited service. In the west, there are unfortunately very limited high-frequency routes that need to catch up with demand. 
 
@@ -74,13 +76,13 @@ When completing a linear regression between traffic demand and the allocation of
 
 ![Figure](/blog/images/traffic/transit_services_vs_all_traffic.png)
 
-## Car Dependency
+# Car Dependency
 
 We already know the quantity of public transit service per car trip dramatically decreases away from the CBD, and it continues to contribute to Transport Inequality within Melbourne. Within 5km of the CBD, the median cars per PT service is 43.2, while between 10 and 15km of the CBD, it's over double. This trend can be seen below:
 
 ![Figure](/blog/images/traffic/dist_from_cbd_plot.png)
 
-## Service Per Suburb
+# Service Per Suburb
 
 Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios along arterials (10 road segments within Melbourne and some PT to qualify):
 
@@ -98,7 +100,7 @@ Local governments find themselves continuing to advocate for better public trans
 
 Melbourne unsurprisingly tops the list with 51 bus and tram routes either terminating or running through the CBD. Inner-city Albert Park and Middle Park have a couple high-frequent routes and minimal car demand, serving as ideal places to live without a car. Meanwhile, Moorooduc has three low-quality bus routes with hourly frequencies or worse with very poor span which do not come to close to meeting car demand. Keilor has twice as much services but also twice as much traffic volume which places it similarly. Melbourne Airport has limited connections for people choosing to fly; while the Route 901 is somewhat frequent there's not much service outside of it, and provides potential for future heavy-rail with most people driving to the destination. 
 
-## Service Per Route
+# Service Per Route
 
 I found out which routes run on the busiest stretches of arterial road. Variable traffic times can impact how late a bus is, so I combined this with recently published data from the Victorian Auditor-General's Office on on-time performance (which reported a mean of 72%).
 
@@ -112,7 +114,7 @@ I found out which routes run on the busiest stretches of arterial road. Variable
 
 Each of these routes run along very busy freeways with limited stopping patterns along them. There's potential to see if there's a relationship between traffic along a route and on-time performance, however the traffic volume dataset only provides data across arterials while many routes run along local roads too. 
 
-## Simplifying our Network
+# Simplifying our Network
 
 It's natural for activity centres to have multiple routes running into their bus interchange, however a simple memorable network is a useable network, which means that roads should strive for less routes if it results in higher frequencies. For example, Routes 600, 922, and 923 along the coast from Sandringham to St Kilda all run along a similar path at poor frequencies, where a combined bus would provide a greater quality of service to it's coverage areas. 
 
@@ -122,6 +124,6 @@ Aggregating the number of arterial road segments with each number of routes runn
 
 ![](/blog/images/traffic/pie_segments.png)
 
-## Conclusion
+# Conclusion
 
-There's huge potential to simplify our network along arterials and to distribute resources to maximize patronage. 
+There's huge potential to simplify our network along arterials and to distribute resources to maximize patronage. A bus reform plan for Melbourne will deliver the greatest benefits if it increases arterial coverage as well as service quality, otherwise it will never meet demand from private vehicles. 
