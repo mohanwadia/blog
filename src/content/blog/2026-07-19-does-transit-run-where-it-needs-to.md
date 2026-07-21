@@ -43,8 +43,8 @@ SmartBus Routes 901 and 902 on the previous map fail to provide a dark green col
 All roads can be designed to be inclusive of all user groups; however many aren't. I found the five busiest roads that have public transport running along them. 
 
 
-| **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Ratio** |
-| ------------------- | ------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------- | ----------------- | --------- |
+| **Road** | **Busiest Segment** | **Suburb** | **Traffic Volume** | **Route Numbers** | **Transit Trips** | **Vehicles Per PT Trip** |
+| ------------------- | ------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------- | ----------------- | ------------------------ |
 | Kings Way | Sturt St - York St heading north-west | South Melbourne | 50165 | 58 | 510 | 98:1 |
 | Eastern Freeway | Hoddle St - Alexandra Pde heading west | Abbotsford | 45670 | 302, 303, 304, 305, 309, 318, 350, 905, 906, 907, 908 | 388 | 117:1 |
 | Nepean Hwy | Dendy St - Patterson Rd heading south-east | Bentleigh | 42290 | 823 | 13 | 3253:1 |
@@ -87,8 +87,8 @@ We already know the quantity of public transit service per car trip dramatically
 Local governments find themselves continuing to advocate for better public transport services within their municipalities because of historical transit inequality. These suburbs have the best and worst PT to traffic ratios along arterials (minimum 10 arterial road segments and at least one PT route to qualify):
 
 
-| **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Cars Per Transit Trip** |
-| -------- | ----------------- | -------------------------- | ---------------- | -------------------------- | ------------------------ | ------------------------- |
+| **Rank** | **Suburb** | **Distance from CBD (km)** | **Routes** | **Average Traffic Volume** | **Total Transit Volume** | **Vehicles Per PT Trip** |
+| -------- | ----------------- | -------------------------- | ---------------- | -------------------------- | ------------------------ | ------------------------ |
 | **1** | Melbourne | 0 | Bus x29 Tram x22 | 1 907 108 | 200 778 | 9.5 |
 | **2** | Albert Park | 4 | 12, 606 | 48 335 | 3 750 | 12.9 |
 | **3** | Middle Park | 3 | 1, 12, 236, 606 | 38 635 | 2 934 | 13.2 |
