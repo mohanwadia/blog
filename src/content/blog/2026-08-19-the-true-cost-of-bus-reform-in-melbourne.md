@@ -27,7 +27,12 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-
+We see that the number of trips dramatically decreases on Saturdays (-__%) and Sundays (-__%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. 
 
 The [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) provides data on trip demand per time period as well as mode share. Comparing existing public transport supply to trip demand, we get the following:
 
+
+
+It's a myth that demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken each weekend (17 million) than weekday (16 million). 
+
+So how do we create a transport network that supports all types of trips and complements other transportation methods? 
