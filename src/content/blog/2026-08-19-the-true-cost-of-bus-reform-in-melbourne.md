@@ -7,8 +7,7 @@ slug: bus-reform
 featured: true
 draft: true
 ---
-  
-Using gtfs-kit with the following condensed code snippet, we get the following GTFS network statistics:
+Using `gtfs-kit` with the following condensed code snippet, we get the following GTFS network statistics:
 
 ```
 import gtfs_kit as gk
@@ -27,4 +26,6 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 | Service Distance (km) | 421457 | 264720 | 202101 |
 | Speed | 23.8 | 25.3 | 25.8 |
 
+
+Comparing trip demand to public transport trip supply:
 
