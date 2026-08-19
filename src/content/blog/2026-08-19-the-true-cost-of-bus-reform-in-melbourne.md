@@ -7,7 +7,7 @@ slug: bus-reform
 featured: true
 draft: true
 ---
-Using `gtfs-kit` with the following condensed code snippet, we get the following GTFS network statistics:
+
 
 ```
 import gtfs_kit as gk
@@ -16,7 +16,7 @@ trip_stats = feed.compute_trip_stats()
 dates = ['20260824', '20260825', '20260826', '20260827', '20260828', '20260829', '20260830']
 gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 ```
-
+Using gtfs-kit with the above condensed code snippet, we get the following GTFS network statistics:
 
 | Week starting 24/08/2026 | Monday | Saturday | Sunday |
 | ------------------------ | ------ | -------- | ------- |
@@ -27,12 +27,28 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-We see that the number of trips dramatically decreases on Saturdays (-__%) and Sundays (-__%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. 
+We see that the number of trips dramatically decreases on Saturdays (-**%) and Sundays (-**%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. 
 
 The [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) provides data on trip demand per time period as well as mode share. Comparing existing public transport supply to trip demand, we get the following:
 
 
 
-It's a myth that demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken each weekend (17 million) than weekday (16 million). 
+It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). So how do we create a transport network that supports all types of trips and complements other transportation methods? 
 
-So how do we create a transport network that supports all types of trips and complements other transportation methods? 
+## Creating a new bus network
+
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023.
+
+mohanwadia.com/srl/network
+
+Creating a new bus network from scratch isn't easy. There's a lot of local routes that do play a role in increasing coverage that wouldn't nessesarily deserve a route today. However, people do plan their lives around the available transport options. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
+
+[Image of journey planner]
+
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. My reformed network has 478 km of B1 and 2049 km of B2. Assuming B1 corridors are to be twice as frequent as B2 corridors, there are a few ways to divide up resources:
+
+1. Equal resources across days and hours
+2. Equal resources across hours
+3. Providing peak services on weekdays
+
+
