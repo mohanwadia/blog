@@ -27,5 +27,7 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-Comparing trip demand to public transport trip supply:
+
+
+The [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) provides data on trip demand per time period as well as mode share. Comparing existing public transport supply to trip demand, we get the following:
 
