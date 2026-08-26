@@ -51,6 +51,9 @@ Which frequency would these routes be able to achieve by utilizing current resou
 2. Equal resources across hours
 3. Providing peak services on weekdays
 
-Assuming the simplest -- a 6am-12am service which operates Monday to Sunday, we get B1 routes operating every 10 minutes, and B2 routes operating every 20 minutes. This is half the level of service that Victoria's Bus Plan suggested in 2023?.
+Assuming the simplest -- a 6am-12am service which operates Monday to Sunday, we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. Unfortunately, these frequencies record as half the level of service that Victoria's Bus Plan suggested in ____. 
 
-It is worth noting that a true Bus Plan can be paired with other measures such as bus priority, and also may receive improvements in network efficiency when removing peak periods and local routes. For example, 
+It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. For example, Auckland was able to achieve **% improvements when implementing their network wide improvements in ___.** 
+
+If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, frequency and span starts to look different. 
+
