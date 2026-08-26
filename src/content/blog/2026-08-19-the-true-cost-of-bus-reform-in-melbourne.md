@@ -53,4 +53,4 @@ Which frequency would these routes be able to achieve by utilizing current resou
 
 Assuming the simplest -- a 6am-12am service which operates Monday to Sunday, we get B1 routes operating every 10 minutes, and B2 routes operating every 20 minutes. This is half the level of service that Victoria's Bus Plan suggested in 2023?.
 
-It is worth noting that a true Bus Plan can be paired with other measures such as bus priority, and also may receive improvements in network efficiency when removing peak periods and local routes. Auckland 
+It is worth noting that a true Bus Plan can be paired with other measures such as bus priority, and also may receive improvements in network efficiency when removing peak periods and local routes. For example, 
