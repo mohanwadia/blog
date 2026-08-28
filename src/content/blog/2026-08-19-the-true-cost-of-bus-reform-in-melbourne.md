@@ -9,13 +9,24 @@ draft: true
 ---
 ## The difficulties with full network reform.
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ___ km to ___ km, and achieves __% uniqueness compared to the current _ %. It will be hard for some to understand that their historic local routes that play a role in increasing coverage doesn't nessesarily deserve a route today. However, people do plan their lives around the available transport options. 
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ___ km to ___ km, and achieves __% uniqueness compared to the current _ %. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs.
 
 mohanwadia.com/srl/network
 
 Shifting the standards from a bus within 400m to 800m of all residents is a huge shift that will leave many temporarily feeling isolated. On a trip by trip basis, it's impossible to please everyone when making any substantial changes, however within the same journey time (whilst may requiring walking further) bus reform has the potential to connect more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 [Image of journey planner]
+
+The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends.
+
+
+|  | Existing Network | New Network |
+| ---------------------------- | ---------------- | ----------------- |
+| Any bus within 400m |  | 2,106,401 (57.8%) |
+| High-quality bus within 400m |  | 2,106,401 (57.8%) |
+| Any bus within 800m |  | 3,083,187 (84.5%) |
+| High-quality bus within 800m |  | 3,083,187 (84.5%) |
+
 
 ## The Dangers of Cost-Neutral Bus Reform
 
