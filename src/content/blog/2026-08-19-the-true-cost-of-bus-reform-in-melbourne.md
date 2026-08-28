@@ -19,7 +19,7 @@ Shifting the standards from a bus within 400m to 800m of all residents is a huge
 
 [Image of journey planner]
 
-The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. At the moment, 
+The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. 
 
 
 |  | Existing Network | New Network |
@@ -38,7 +38,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 ![image.png](/blog/images/image-8.png)
 
-Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network which has 373 routes and 2284411, my reformed network has **478 km of B1** and **2049 km of B2**. Assuming B1 corridors are to be twice as frequent as B2 corridors, there are a few ways to divide up resources:
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network which has 373 routes spanning ____ km, my reformed network has **478 km of B1** and **2049 km of B2**. Assuming B1 corridors are to be twice as frequent as B2 corridors, there are a few ways to divide up resources:
 
 1. Equal resources across days and hours
 2. Equal resources across hours
@@ -56,7 +56,7 @@ If we instead implement the inefficient operations that attempt to respond to pe
 
 ![image.png](/blog/images/image-1.png)
 
-Let's convert the previous chart to frequency to find the average wait time of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, however the late starts on weekends reduce flexibility of passengers. Similarly, service stops between 10pm and 11pm as frequencies gradually reduce substantially.
+Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, however the late starts on weekends can deter passengers, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
 
