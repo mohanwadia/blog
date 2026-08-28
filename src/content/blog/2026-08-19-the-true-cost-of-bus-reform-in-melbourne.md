@@ -65,8 +65,8 @@ Using gtfs-kit with the above condensed code snippet, we get the following GTFS 
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-We see that the service distance dramatically decreases on Saturdays (-37.2**%**) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. However, when we compare this to the number of trips taken by passengers from the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista), we see a 67% decline on trains, 77% decline on trams, and 74% on buses. This could easily lead us to believe that services should be reduced because of low demand. However, comparing existing public transport supply to trip demand, we get the following:
+We see that the service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. However, when we compare this to the number of trips taken by passengers from the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista), we see a 67% decline on trains, 77% decline on trams, and 74% on buses on weekends. Similarly, Patronage Data records a __% decline on trains, __% on trams, and __% on buses. This could easily lead us to believe that services should be reduced because of low demand. However, comparing existing public transport supply to trip demand, we get the following:
 
-
+![image.png](/blog/images/image-3.png)
 
 It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). So how do we create a transport network that supports all types of trips and complements other transportation methods? Increase service hours at useable frequencies on our entire network. 
