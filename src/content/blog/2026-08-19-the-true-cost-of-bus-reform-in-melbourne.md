@@ -28,6 +28,14 @@ The following parallels the former Infrastructure Victoria's weak definition of 
 | High-quality bus within 800m |  | 3,083,187 (84.5%) |
 
 
+So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, very few people lose coverage. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
+
+![image.png](/blog/images/image-7.png)
+
+However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. Below shows the change in 
+
+![image.png](/blog/images/image-8.png)
+
 ## The Dangers of Cost-Neutral Bus Reform
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network which has 373 routes and 2284411, my reformed network has **478 km of B1** and **2049 km of B2**. Assuming B1 corridors are to be twice as frequent as B2 corridors, there are a few ways to divide up resources:
