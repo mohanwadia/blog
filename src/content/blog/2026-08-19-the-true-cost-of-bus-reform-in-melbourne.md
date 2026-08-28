@@ -7,7 +7,6 @@ slug: bus-reform
 featured: true
 draft: true
 ---
-
 ## Creating a new bus network
 
 This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023.
@@ -39,6 +38,8 @@ If we instead implement the inefficient operations that attempt to respond to pe
 Let's convert the previous chart to frequency to find the average wait time of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, however the late starts on weekends reduce flexibility of passengers. Similarly, service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
+
+This made me wonder, when does trip demand actually taper of, and is it un-met at non-commuting hours?
 
 ```
 import gtfs_kit as gk
