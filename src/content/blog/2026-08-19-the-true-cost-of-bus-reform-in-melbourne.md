@@ -7,13 +7,11 @@ slug: bus-reform
 featured: false
 draft: true
 ---
-## The difficulties with full network reform.
-
 Allow me to introduce you to your future bus network.
 
 mohanwadia.com/srl/network
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ____ km to 5231 km, with 941km of that having higher frequencies.   It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
 
 [windy local infrequent network from ptmapmelb]
 
@@ -39,8 +37,6 @@ So who wins and who loses? By mapping out the network in ArcGIS Pro, below are t
 However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. The map below shows the change in coverage with 400 metre requirements upon implementation of a reformed network. Within the grid, red areas begin to emerge from lost local routes, while the inner north has a reduced east-west network supplemented by high-frequency tram and train north-south routes. Low-patronage connecting routes in the outer east are left in for comprehensiveness, and I believe should be retained as low-frequency routes. 
 
 ![image.png](/blog/images/image-8.png)
-
-## The Dangers of Cost-Neutral Bus Reform
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network which has 373 routes and 2284411, my reformed network has **478 km of B1** and **2049 km of B2**. Assuming B1 corridors are to be twice as frequent as B2 corridors, there are a few ways to divide up resources:
 
