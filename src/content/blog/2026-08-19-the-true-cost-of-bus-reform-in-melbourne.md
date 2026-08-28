@@ -13,7 +13,7 @@ Allow me to introduce you to your future bus network.
 
 mohanwadia.com/srl/network
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ___ km to ___ km, and achieves __% uniqueness compared to the current _ %. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs. 
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ____ km to 5231 km, with 941km of that having higher frequencies.   It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
 
 [windy local infrequent network from ptmapmelb]
 
@@ -21,18 +21,18 @@ Shifting the standards from a bus within 400m to 800m of all residents is a huge
 
 [Image of journey planner]
 
-The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends.
+The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. At the moment, 
 
 
 |  | Existing Network | New Network |
-| ---------------------------- | ---------------- | ----------------- |
-| Any bus within 400m |  | 2,106,401 (57.8%) |
-| High-quality bus within 400m |  | 2,106,401 (57.8%) |
-| Any bus within 800m |  | 3,083,187 (84.5%) |
-| High-quality bus within 800m |  | 3,083,187 (84.5%) |
+| ---------------------------- | ----------------- | ----------------- |
+| Any bus within 400m | 3,024,287 (83.0%) | 2,106,401 (57.8%) |
+| High-quality bus within 400m | 1,527,328 (41.9%) | 2,106,401 (57.8%) |
+| Any bus within 800m | 3,462,648 (95.0%) | 3,083,187 (84.5%) |
+| High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
 
 
-So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, very few people lose coverage. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
+So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, ++very few people lose coverage++. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
 
 ![image.png](/blog/images/image-9.png)
 
