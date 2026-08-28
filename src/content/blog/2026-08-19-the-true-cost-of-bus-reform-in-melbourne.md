@@ -9,7 +9,9 @@ draft: true
 ---
 ## The difficulties with full network reform.
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ___ km to ___ km, and achieves __% uniqueness compared to the current _ %. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs.
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the distance served from ___ km to ___ km, and achieves __% uniqueness compared to the current _ %. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs. 
+
+Allow me to introduce you to your future bus network.
 
 mohanwadia.com/srl/network
 
@@ -30,7 +32,7 @@ The following parallels the former Infrastructure Victoria's weak definition of 
 
 So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, very few people lose coverage. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
 
-![image.png](/blog/images/image-7.png)
+![image.png](/blog/images/image-9.png)
 
 However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. The map below shows the change in coverage with 400 metre requirements upon implementation of a reformed network. Within the grid, red areas begin to emerge from lost local routes, while the inner north has a reduced east-west network supplemented by high-frequency tram and train north-south routes. Low-patronage connecting routes in the outer east are left in for comprehensiveness, and I believe should be retained as low-frequency routes. 
 
@@ -60,8 +62,6 @@ Let's convert the previous chart to frequency to find the average wait time of r
 
 ![image.png](/blog/images/image-2.png)
 
-
-
 This made me wonder, when does trip demand actually taper of, and is it un-met at non-commuting hours?
 
 ```
@@ -88,4 +88,4 @@ We see that the service distance dramatically decreases on Saturdays (-37.2%) an
 
 This could easily lead us to believe that services should in-fact be reduced because of low demand. However, It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to trip demand, we get the following: 
 
-So how do we create a transport network that supports all types of trips and complements other transportation methods? Increase service hours at useable frequencies on our entire network. 
+So how do we create a transport network that supports all types of trips and complements other transportation methods? It's simple: increase service hours at useable frequencies on our entire network. 
