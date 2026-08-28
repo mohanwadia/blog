@@ -32,7 +32,7 @@ So who wins and who loses? By mapping out the network in ArcGIS Pro, below are t
 
 ![image.png](/blog/images/image-7.png)
 
-However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. Below shows the change in 
+However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. The map below shows the change in coverage with 400 metre requirements upon implementation of a reformed network. Within the grid, red areas begin to emerge from lost local routes, while the inner north has a reduced east-west network supplemented by high-frequency tram and train north-south routes. Low-patronage connecting routes in the outer east are left in for comprehensiveness, and I believe should be retained as low-frequency routes. 
 
 ![image.png](/blog/images/image-8.png)
 
