@@ -128,6 +128,8 @@ This could easily lead us to believe that services should in-fact be reduced bec
 
 ![image.png](/blog/images/image-17.png)
 
+Weekdays 
+
 
 
 
@@ -138,4 +140,4 @@ This could easily lead us to believe that services should in-fact be reduced bec
 | Sunday (30/8/26) | 409.60 | 249.08 | 1.64 |
 
 
-So how do we create a transport network that supports all types of trips and complements other transportation methods? It's simple: increase service hours at useable frequencies on our entire network. 
+So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. 
