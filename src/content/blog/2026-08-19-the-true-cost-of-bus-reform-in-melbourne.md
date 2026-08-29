@@ -8,10 +8,9 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
-
 # Creating a new network
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
