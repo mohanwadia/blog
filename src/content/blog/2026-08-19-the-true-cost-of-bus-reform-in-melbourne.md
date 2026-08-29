@@ -7,7 +7,7 @@ slug: bus-reform
 featured: false
 draft: false
 ---
-## Creating a new network
+# Creating a new network
 
 This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
@@ -23,7 +23,7 @@ The corridors which are likely to be used by routes in the future were presented
 
 # Changes in coverage
 
-By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, ++very few people lose coverage++. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
+By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, **very few people lose coverage.** Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
 
 ![image.png](/blog/images/image-9.png)
 
@@ -59,7 +59,7 @@ While there are 25 point reductions in local coverage to achieve the following, 
 
 Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence will receive huge improvements too. 
 
-## What frequencies will these new routes run at?
+# What frequencies will these new routes run at?
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network spanning ____ km, my reformed network has less than half the routes with **478 km of B1** and **2049 km of B2**. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
 
@@ -81,7 +81,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
-## Cost-neutral bus reform
+# Cost-neutral bus reform
 
 If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
@@ -106,7 +106,7 @@ Let's convert the previous chart to frequency to find the average time between s
 
 This made me wonder, when does trip demand actually taper of, and is it un-met at non-commuting hours?
 
-## How should services be scheduled?
+# How should services be scheduled?
 
 ```
 import gtfs_kit as gk
