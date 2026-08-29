@@ -27,6 +27,17 @@ The corridors which are likely to be used by routes in the future were presented
 
 The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
 
+```
+routes = gpd.read_file("gis.geojson").to_crs("EPSG:7855")
+sa1 = gpd.read_file("G01_VIC_GDA2020.gpkg", layer="G01_SA1_2021_VIC").to_crs("EPSG:7855")
+check_scope = pd.read_csv('SA1.csv')
+sa1["sa1_area_m2"] = sa1.geometry.area
+buf = gpd.GeoDataFrame(geometry=[unary_union(routes.buffer(400))], crs=routes.crs)
+c = gpd.overlay(sa1, buf, how="intersection")
+c["pop_allocated"] = c["Tot_P_P"] * (c.geometry.area / c["sa1_area_m2"])
+print(c["pop_allocated"].sum())
+```
+
 
 |  | Existing Network | New Network |
 | ---------------------------- | ----------------- | ----------------- |
@@ -38,7 +49,7 @@ The following parallels the former Infrastructure Victoria's weak definition of 
 
 While there are 25 point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres then those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
 
-
+![image.png](/blog/images/image-13.png)
 
 So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, ++very few people lose coverage++. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
 
@@ -68,7 +79,20 @@ However, for this to happen in Melbourne, the department and state government ne
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
-If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. The B1 peaks reach 9 buses per hour, however they are expensive to operate and come at the cost of a reduced frequency during the interpeak and doesn't allow for sustained service in the late evening. 
+If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. 
+
+```
+df = gk.trips.locate_trips(feed, date, times)
+counts = df.groupby('time')['trip_id'].nunique().reset_index()
+counts['date'] = date
+pivot_df = counts.pivot(index='time', columns='date', values='trip_id').fillna(0)
+pivot_df.plot(kind='line', marker='o', ax=plt.gca())
+plt.show()
+```
+
+
+
+However, what if we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
 
 ![image.png](/blog/images/image-1.png)
 
@@ -100,6 +124,10 @@ Using gtfs-kit with the above condensed code snippet, we get the following GTFS 
 
 We see that the service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. However, when we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a 74% decline on buses on weekends, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
 
+![image.png](/blog/images/image-14.png)
+
 This could easily lead us to believe that services should in-fact be reduced because of low demand. However, It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to trip demand, we get the following: 
+
+
 
 So how do we create a transport network that supports all types of trips and complements other transportation methods? It's simple: increase service hours at useable frequencies on our entire network. 
