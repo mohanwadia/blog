@@ -23,8 +23,6 @@ The corridors which are likely to be used by routes in the future were presented
 
 ![image.png](/blog/images/image-11.png)
 
-![image.png](/blog/images/image-12.png)
-
 The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
 
 ```
