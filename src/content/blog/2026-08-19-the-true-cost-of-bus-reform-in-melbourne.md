@@ -126,6 +126,6 @@ We see that the service distance dramatically decreases on Saturdays (-37.2%) an
 
 This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
 
-
+![image.png](/blog/images/image-17.png)
 
 So how do we create a transport network that supports all types of trips and complements other transportation methods? It's simple: increase service hours at useable frequencies on our entire network. 
