@@ -59,7 +59,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 ![image.png](/blog/images/image-8.png)
 
-Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus networkspanning ____ km, my reformed network has less than half the routes with **478 km of B1** and **2049 km of B2**. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network spanning ____ km, my reformed network has less than half the routes with **478 km of B1** and **2049 km of B2**. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
 
 1. Equal resources across days and hours
 2. Equal resources across hours with reduced weekend frequencies on all routes
