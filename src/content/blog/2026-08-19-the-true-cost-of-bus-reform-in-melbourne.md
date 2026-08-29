@@ -25,7 +25,7 @@ The corridors which are likely to be used by routes in the future were presented
 
 
 
-# Which areas will benefit most?
+# Changes in coverage
 
 By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, ++very few people lose coverage++. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
 
@@ -59,7 +59,11 @@ print(c["pop_allocated"].sum())
 
 While there are 25 point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres then those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
 
-![image.png](/blog/images/image-13.png)
+![image.png](/blog/images/image-19.png)
+
+Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence will receive huge improvements too. 
+
+
 
 ## What frequencies will these new routes run at?
 
