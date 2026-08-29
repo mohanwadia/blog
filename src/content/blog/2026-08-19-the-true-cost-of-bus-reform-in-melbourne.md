@@ -146,4 +146,4 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 | Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
 
 
-From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. 
+From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
