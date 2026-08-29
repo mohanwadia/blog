@@ -19,6 +19,12 @@ Shifting the standards from a bus within 400m to 800m of all residents is a huge
 
 [Image of journey planner]
 
+The corridors which are likely to be used by routes in the future were presented in 2023 through a FOI request, and this allowed me to construct each route with the following criteria: maximize coverage, create easy interchanges, include strong termini, and standardize route length. Out of scope for this post were B3 and B4 routes which may be implemented for an additional cost. However, a consistent limitation is
+
+![image.png](/blog/images/image-11.png)
+
+![image.png](/blog/images/image-12.png)
+
 The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. 
 
 
@@ -48,9 +54,15 @@ Assuming the simplest -- a 6am-12am service which operates Monday to Sunday, we 
 
 Part of the issue is that Victoria historically spends less per capita on running bus services [than any other state](https://www.abc.net.au/news/2025-09-17/victoria-bus-system-public-transport/105780926) at $112 per capita. While our tram network is excellent, a great proportion of the state budget provides tram services ([$606.3M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serving 900,000 people within 800m while bus services ([$1008.2M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serve a [much larger 82% of Melbourne.](https://www.infrastructurevictoria.com.au/news-events/international-lessons-to-make-melbourne-buses-fairer-and-easier-to-use#:~:text=Around%2082%25%20of%20Melburnians%20live%20within%20a%205%2Dminute%20walk%20of%20a%20bus%20stop) This isn't to say spending on tram services isn't needed but rather buses are cheaper to provide yet continue to get neglected as the default public transport medium in most areas of Melbourne.
 
+![image.png](/blog/images/image-10.png)
+
 It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable.
 
 ![image.png](/blog/images/image.png)
+
+However, for this to happen in Melbourne, the department and state government need to fund and provide new routes at a much greater pace then the progress currently made since the introduction of the Bus Plan in 2021. As tabled in 2023, there's currently [50 tasks that must be completed](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392) before a route can be implemented. 
+
+> The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
 If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. The B1 peaks reach 9 buses per hour, however they are expensive to operate and come at the cost of a reduced frequency during the interpeak and doesn't allow for sustained service in the late evening. 
 
