@@ -25,7 +25,7 @@ The corridors which are likely to be used by routes in the future were presented
 
 ![image.png](/blog/images/image-12.png)
 
-The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. 
+The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
 
 
 |  | Existing Network | New Network |
@@ -34,6 +34,10 @@ The following parallels the former Infrastructure Victoria's weak definition of 
 | High-quality bus within 400m | 1,527,328 (41.9%) | 2,106,401 (57.8%) |
 | Any bus within 800m | 3,462,648 (95.0%) | 3,083,187 (84.5%) |
 | High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
+
+
+While there are 25 point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres then those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
+
 
 
 So who wins and who loses? By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, ++very few people lose coverage++. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
