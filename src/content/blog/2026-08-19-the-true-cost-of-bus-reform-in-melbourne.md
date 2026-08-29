@@ -133,9 +133,9 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 
 | Scheduled Bus Trips | Mean | Standard Deviation | Coefficient of Variance |
 | ------------------- | ------ | ------------------ | ----------------------- |
-| Weekday (31/8/26) | 915.45 | 461.25 | 1.98 |
-| Saturday (29/8/26) | 530.18 | 279.33 | 1.90 |
-| Sunday (30/8/26) | 409.60 | 249.08 | 1.64 |
+| Weekday (31/8/26) | 915.45 | 461.25 | 0.50 |
+| Saturday (29/8/26) | 530.18 | 279.33 | 0.53 |
+| Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
 
 
-So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. 
+From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. 
