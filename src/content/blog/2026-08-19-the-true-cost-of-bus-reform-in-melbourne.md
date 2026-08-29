@@ -128,9 +128,7 @@ This could easily lead us to believe that services should in-fact be reduced bec
 
 ![image.png](/blog/images/image-17.png)
 
-Weekdays 
-
-
+Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide then a consistent timetable, they often are created out of necessity, however uneven frequencies create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
 
 
 | Scheduled Bus Trips | Mean | Standard Deviation | Coefficient of Variance |
