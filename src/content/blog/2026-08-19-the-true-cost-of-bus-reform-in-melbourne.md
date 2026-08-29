@@ -7,21 +7,19 @@ slug: bus-reform
 featured: false
 draft: false
 ---
-Allow me to introduce you to your future bus network.
+## Creating a new network
 
-mohanwadia.com/srl/network
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. It cuts down the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
+![image.png](/blog/images/image-22.png)
 
-[windy local infrequent network from ptmapmelb]
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation.  It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. On a trip by trip basis, it's impossible to please everyone when making any substantial changes, however within the same journey time (whilst may requiring walking further) bus reform has the potential to connect more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
+It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst may requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
-[Image of journey planner]
+![image.png](/blog/images/image-21.png)
 
-The corridors which are likely to be used by routes in the future were presented in 2023 through a FOI request, and this allowed me to construct each route with the following criteria: maximize coverage, create easy interchanges, include strong termini, and standardize route length. Out of scope for this post were B3 and B4 routes which may be implemented for an additional cost. However, a consistent limitation is
-
-![image.png](/blog/images/image-11.png)
+The corridors which are likely to be used by routes in the future were presented in 2023 through a FOI request, and this allowed me to construct each route with the following criteria: maximize coverage, create easy interchanges, include strong termini, and standardize route length. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated.
 
 # Changes in coverage
 
