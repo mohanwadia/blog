@@ -6,8 +6,8 @@ title: The True Cost of Bus Reform in Melbourne
 slug: bus-reform
 featured: false
 draft: false
+description: Evaluating the effectiveness of simplifying bus services
 ---
-
 
 # Creating a new network
 
