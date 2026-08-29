@@ -100,6 +100,8 @@ Let's convert the previous chart to frequency to find the average time between s
 
 This made me wonder, when does trip demand actually taper of, and is it un-met at non-commuting hours?
 
+## How should services be scheduled?
+
 ```
 import gtfs_kit as gk
 feed = gk.read_feed("Desktop/google_transit.zip", dist_units="m")
@@ -139,3 +141,6 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 
 
 From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. 
+
+# Which areas will benefit most?
+
