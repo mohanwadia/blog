@@ -7,6 +7,8 @@ slug: bus-reform
 featured: false
 draft: false
 ---
+
+
 # Creating a new network
 
 This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served from ____ km to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
@@ -31,7 +33,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 ![image.png](/blog/images/image-8.png)
 
-The following parallels the former Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
+The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
 
 ```
 routes = gpd.read_file("gis.geojson").to_crs("EPSG:7855")
