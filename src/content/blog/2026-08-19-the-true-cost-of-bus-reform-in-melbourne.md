@@ -96,8 +96,6 @@ pivot_df.plot(kind='line', marker='o', ax=plt.gca())
 plt.show()
 ```
 
-
-
 However, what if we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
 
 ![image.png](/blog/images/image-1.png)
