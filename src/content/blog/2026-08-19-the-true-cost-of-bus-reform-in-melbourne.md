@@ -10,21 +10,21 @@ description: Evaluating the effectiveness of simplifying bus services
 ---
 # Creating a new network
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023. While DTP provided a map of where bus routes are likely to run, route creation is up to my personal implementation. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023 which was accessed through a FOI request. DTP provided a map of the corridors which are likely to be used by routes in the future which guided me to construct a completely new network. As I personally created each route, I had certain priorities: maximize coverage, create easy interchanges, include strong termini, and standardize route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation.  It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. However, people do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best. 
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst may requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 ![image.png](/blog/images/image-21.png)
 
-The corridors which are likely to be used by routes in the future were presented in 2023 through a FOI request, and this allowed me to construct each route with the following criteria: maximize coverage, create easy interchanges, include strong termini, and standardize route length. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated.
+
 
 # Changes in coverage
 
-By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, **very few people lose coverage.** Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. 
+By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, **very few people lose coverage.** Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
 
 ![image.png](/blog/images/image-9.png)
 
