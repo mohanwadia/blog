@@ -94,7 +94,7 @@ However, what if we normalize these charts to the new case using current resourc
 
 ![image.png](/blog/images/image-1.png)
 
-Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, however the late starts on weekends can deter passengers, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
+Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency. The late starts on weekends can deter patronage however, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
 
@@ -115,7 +115,7 @@ Using gtfs-kit with the above condensed code snippet, we get the following GTFS 
 | ------------------------ | ------ | -------- | ------- |
 | Number of Trips | 27398 | 16869 | 12668 |
 | Number of Routes | 658 | 571 | 480 |
-| Peak Time | 5:06pm | 12:30pm | 11:31pm |
+| Peak Time | 5:06pm | 12:30pm | 11:31am |
 | Service Distance (km) | 421457 | 264720 | 202101 |
 | Speed | 23.8 | 25.3 | 25.8 |
 
@@ -124,7 +124,7 @@ We see that the service distance dramatically decreases on Saturdays (-37.2%) an
 
 ![image.png](/blog/images/image-14.png)
 
-This could easily lead us to believe that services should in-fact be reduced because of low demand. However, It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to trip demand, we get the following: 
+This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, It's a myth that travel demand reduces on weekends -- rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
 
 
 
