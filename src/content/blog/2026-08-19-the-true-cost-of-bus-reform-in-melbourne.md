@@ -63,8 +63,6 @@ While there are 25 point reductions in local coverage to achieve the following, 
 
 Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence will receive huge improvements too. 
 
-
-
 ## What frequencies will these new routes run at?
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Compared to the current metropolitan bus network spanning ____ km, my reformed network has less than half the routes with **478 km of B1** and **2049 km of B2**. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
@@ -73,7 +71,7 @@ Which frequency would these routes be able to achieve by utilizing current resou
 2. Equal resources across hours with reduced weekend frequencies on all routes
 3. Providing peak services on weekdays at the cost of reduced span and/or off-peak frequencies.
 
-Assuming the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days, we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises. Therefore, significantly greater investment is required in order to achieve these frequencies. This calculation proves our current network both inefficient and underserved. 
+Assuming the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days, we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises. Therefore, significantly greater investment is required in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
 
 Part of the issue is that Victoria historically spends less per capita on running bus services [than any other state](https://www.abc.net.au/news/2025-09-17/victoria-bus-system-public-transport/105780926) at $112 per capita. While our tram network is excellent, a great proportion of the state budget provides tram services ([$606.3M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serving 900,000 people within 800m while bus services ([$1008.2M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serve a [much larger 82% of Melbourne.](https://www.infrastructurevictoria.com.au/news-events/international-lessons-to-make-melbourne-buses-fairer-and-easier-to-use#:~:text=Around%2082%25%20of%20Melburnians%20live%20within%20a%205%2Dminute%20walk%20of%20a%20bus%20stop) This isn't to say spending on tram services isn't needed but rather buses are cheaper to provide yet continue to get neglected as the default public transport medium in most areas of Melbourne.
 
