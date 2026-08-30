@@ -19,7 +19,7 @@ Melbourne has the worst bus network in Australia. It's infrequent on weekends wh
 
 ![image.png](/blog/images/image-34.png)
 
-This map above is a high-level spacial plan created by the Department of Transport and Planning (DTP) in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). It includes two frequency tiers where B1 corridors are likely to be used by routes twice as frequent as B2 corridors. 
+This map above is a high-level spatial plan created by the Department of Transport and Planning (DTP) in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). It includes two frequency tiers where B1 corridors are likely to be used by routes twice as frequent as B2 corridors. 
 
 DTP's map guided me in modelling a brand new bus network, however my own personal impression of the map was needed to create each route. What I believe makes a good route is maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
