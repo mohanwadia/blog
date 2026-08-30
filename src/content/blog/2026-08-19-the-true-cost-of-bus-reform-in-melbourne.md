@@ -8,6 +8,8 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
+Melbourne has the worst-funded bus network in Australia. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
+
 # Does reducing routes in order to improve frequency improve a network?
 
 ![image.png](/blog/images/image-34.png)
@@ -50,7 +52,7 @@ print(c["pop_allocated"].sum())
 ```
 
 
-|  | Existing Network | New Network |
+|  | Existing Network | Reformed Network |
 | ---------------------------- | ----------------- | ----------------- |
 | Any bus within 400m | 3,024,287 (83.0%) | 2,106,401 (57.8%) |
 | High-quality bus within 400m | 1,527,328 (41.9%) | 2,106,401 (57.8%) |
