@@ -31,8 +31,6 @@ Moreover, a ten minute walk is reasonable for most people, but accessibility req
 
 ![image.png](/blog/images/image-23.png)
 
-
-
 It's impossible to meet the needs of all individual trips when making any substantial changes. Nonetheless, in the same journey time (whilst possibly requiring walking further), bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 # Who can access this new network?
