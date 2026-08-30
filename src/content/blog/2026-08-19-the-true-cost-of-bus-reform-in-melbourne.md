@@ -20,7 +20,7 @@ Melbourne has the worst-funded bus network in Australia. It's infrequent on week
 
 This map above is a high-level spacial plan created by the Department of Transport and Planning (DTP) in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). It includes two frequency tiers where B1 corridors are likely to be used by routes twice as frequent as B2 corridors. 
 
-The map guided me in modelling a brand new bus network, which I also implemented my own values: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+DTP's map guided me in modelling a brand new bus network, which I also implemented my own values: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
@@ -124,7 +124,7 @@ From the table, we can see the discrepancy of the amount of services between the
 
 # Will a new network be frequent enough?
 
-Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see the department of transport's objectives below.
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see DTP's objectives below.
 
 ![image.png](/blog/images/image-29.png)
 
@@ -190,6 +190,6 @@ Let's convert the previous chart to frequency to find the average time between s
 
 Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. 
 
-A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies suggested by the Department of Transport. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
+A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies suggested by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
 
 Ultimately, bus reform is the logical next step for Melbourne's network, yet there needs to be political accountability and greatly increased future funding before we attempt to drastically alter travel habits for a large portion of Melbourne. 
