@@ -13,7 +13,7 @@ tags:
 description: Evaluating the efficiency and effectiveness of simplifying bus
   services in Melbourne
 ---
-Melbourne has the worst bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against by cabinet. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
+Melbourne has the worst funded bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against by cabinet. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
 
 # Redesigning Melbourne's Bus Network
 
