@@ -138,7 +138,7 @@ What happens when we normalize these charts to the new case using current resour
 
 ![image.png](/blog/images/image-1.png)
 
-Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency. The late starts on weekends can deter patronage, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
+Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, and B1 operates at tram-like frequencies. Unfortunately, the late starts on weekends can deter patronage, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
 
