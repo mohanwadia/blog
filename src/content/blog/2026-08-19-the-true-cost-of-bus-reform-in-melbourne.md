@@ -131,8 +131,6 @@ Let's first assume the simplest frequency pattern of constant service between 6a
 
 These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises, where a S1 service (serving B1 corridors) is noted with 5 minute frequencies for most of the day. Therefore, **significantly greater investment is required** in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
 
-![image.png](/blog/images/image-33.png)
-
 Part of the issue is that Victoria historically spends less per capita on running bus services [than any other state](https://www.abc.net.au/news/2025-09-17/victoria-bus-system-public-transport/105780926) at $112 per capita. While our tram network is excellent, a great proportion of the state budget provides tram services ([$606.3M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serving 900,000 people within 800m while bus services ([$1008.2M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serve a [much larger 82% of Melbourne](https://www.infrastructurevictoria.com.au/news-events/international-lessons-to-make-melbourne-buses-fairer-and-easier-to-use#:~:text=Around%2082%25%20of%20Melburnians%20live%20within%20a%205%2Dminute%20walk%20of%20a%20bus%20stop) at a fraction of the per-capita cost. While trams serve their corridors well, buses continue to get neglected as the default public transport medium in most areas of Melbourne.
 
 ![image.png](/blog/images/image-10.png)
@@ -175,7 +173,9 @@ Let's convert the previous chart to frequency to find the average time between s
 
 # The Verdict
 
-Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken.
+Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken. The following survey results records Melbourne with the lowest social acceptance out of the three cities' bus networks.
+
+![image.png](/blog/images/image-33.png)
 
 A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies presented by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
 
