@@ -8,11 +8,13 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
+
+
 # Does reducing routes in order to improve frequency improve a network?
 
 ![image.png](/blog/images/image-34.png)
 
-This was my go at creating a network based on the above high level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a FOI request. These corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, implementing strong termini, and standardizing route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
@@ -28,7 +30,7 @@ It's impossible to meet the needs of all individual trips when making any substa
 
 # How does bus coverage change?
 
-By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, **very few people lose coverage.** Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
+By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** However against the stricter 400m benchmark, 400 000 people will lose access to their local route. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
 
 ![image.png](/blog/images/image-9.png)
 
@@ -58,7 +60,7 @@ print(c["pop_allocated"].sum())
 | High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
 
 
-While there are 25 point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres then those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
+While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
 
 ![image.png](/blog/images/image-19.png)
 
