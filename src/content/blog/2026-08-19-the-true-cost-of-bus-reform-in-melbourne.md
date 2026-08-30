@@ -14,13 +14,11 @@ Melbourne has the worst-funded bus network in Australia. It's infrequent on week
 
 ![image.png](/blog/images/image-34.png)
 
-This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage don't necessarily deserve a route today. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
-
-![image.png](/blog/images/image-23.png)
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, however after a tricky interim period, communities will find themselves more connected. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 ![image.png](/blog/images/image-26.png)
 
@@ -30,7 +28,11 @@ It's impossible to meet the needs of all individual trips when making any substa
 
 # Who can access this new network?
 
-By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** However against the stricter 400m benchmark, 400 000 people will lose access to their local route. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
+By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** Against the stricter 400m benchmark, a lot of people will lose access to their local route, yet most Melburnians are open to walking further if it means they are paradoxically better served. 
+
+![image.png](/blog/images/image-23.png)
+
+Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
 
 ![image.png](/blog/images/image-9.png)
 
@@ -96,7 +98,7 @@ It is worth noting that a successful Bus Plan should be paired with other measur
 
 ![image.png](/blog/images/image-35.png)
 
-For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable.
+For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable. 
 
 ![image.png](/blog/images/image.png)
 
