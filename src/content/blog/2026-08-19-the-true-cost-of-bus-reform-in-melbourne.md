@@ -78,6 +78,52 @@ Viewing the improvements in 800m coverage of high-quality routes, these frequent
 
 ![image.png](/blog/images/image-30.png)
 
+
+# When do people actually travel?
+
+Trip demand needs to meet service supply in order to efficiently allocate resources. So when does trip demand actually taper off, and is it un-met at non-commuting hours? Using `gtfs-kit`, we can find the following GTFS bus network statistics:
+
+```
+import gtfs_kit as gk
+feed = gk.read_feed("Desktop/google_transit.zip", dist_units="m")
+trip_stats = feed.compute_trip_stats()
+dates = ['20260829', '20260830', '20260831']
+gk.miscellany.compute_network_stats(feed, dates, trip_stats)
+```
+
+
+|  | Monday | Saturday | Sunday |
+| --------------------- | ------ | -------- | ------- |
+| Number of Trips | 27398 | 16869 | 12668 |
+| Number of Routes | 658 | 571 | 480 |
+| Peak Time | 5:06pm | 12:30pm | 11:31am |
+| Service Distance (km) | 421457 | 264720 | 202101 |
+| Speed | 23.8 | 25.3 | 25.8 |
+
+
+We see that the **service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%).** In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a **74% patronage decline on buses on weekends**, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
+
+![image.png](/blog/images/image-14.png)
+
+**It's a myth that travel demand reduces on weekends**, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
+
+![image.png](/blog/images/image-17.png)
+
+Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies can create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
+
+
+| Scheduled Bus Trips | Mean | Standard Deviation | CV |
+| ------------------- | ------ | ------------------ | ---- |
+| Weekday (31/8/26) | 915.45 | 461.25 | 0.50 |
+| Saturday (29/8/26) | 530.18 | 279.33 | 0.53 |
+| Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
+
+
+From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
+
+![image.png](/blog/images/image-25.png)
+
+
 # Will a new network be frequent enough?
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see the department of transport's objectives below.
@@ -142,51 +188,6 @@ Let's convert the previous chart to frequency to find the average time between s
 
 ![image.png](/blog/images/image-2.png)
 
-This made me wonder, when does trip demand actually taper off, and is it un-met at non-commuting hours?
-
-# When do people actually travel?
-
-Trip demand needs to meet service supply in order to efficiently allocate resources. Using `gtfs-kit`, we can find the following GTFS bus network statistics:
-
-```
-import gtfs_kit as gk
-feed = gk.read_feed("Desktop/google_transit.zip", dist_units="m")
-trip_stats = feed.compute_trip_stats()
-dates = ['20260829', '20260830', '20260831']
-gk.miscellany.compute_network_stats(feed, dates, trip_stats)
-```
-
-
-|  | Monday | Saturday | Sunday |
-| --------------------- | ------ | -------- | ------- |
-| Number of Trips | 27398 | 16869 | 12668 |
-| Number of Routes | 658 | 571 | 480 |
-| Peak Time | 5:06pm | 12:30pm | 11:31am |
-| Service Distance (km) | 421457 | 264720 | 202101 |
-| Speed | 23.8 | 25.3 | 25.8 |
-
-
-We see that the **service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%).** In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a **74% patronage decline on buses on weekends**, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
-
-![image.png](/blog/images/image-14.png)
-
-**It's a myth that travel demand reduces on weekends**, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
-
-![image.png](/blog/images/image-17.png)
-
-Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies can create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
-
-
-| Scheduled Bus Trips | Mean | Standard Deviation | CV |
-| ------------------- | ------ | ------------------ | ---- |
-| Weekday (31/8/26) | 915.45 | 461.25 | 0.50 |
-| Saturday (29/8/26) | 530.18 | 279.33 | 0.53 |
-| Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
-
-
-From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
-
-![image.png](/blog/images/image-25.png)
 
 # The Verdict
 
