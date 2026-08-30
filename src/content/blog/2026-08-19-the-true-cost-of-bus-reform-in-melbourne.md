@@ -20,7 +20,7 @@ The map guided me in modelling a brand new bus network, which I also implemented
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, nevertheless after a tricky interim period, communities will find themselves more connected than ever because a grid-based network connects destinations more efficiently. 
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a grid-based network fundamentally connects destinations more efficiently and effectively. 
 
 Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
