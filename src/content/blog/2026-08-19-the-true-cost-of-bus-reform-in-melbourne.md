@@ -10,8 +10,6 @@ description: Evaluating the effectiveness of simplifying bus services
 ---
 Melbourne has the worst-funded bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
 
-# The Network is Broken
-
 # Does reducing routes in order to improve frequency improve a network?
 
 ![image.png](/blog/images/image-34.png)
