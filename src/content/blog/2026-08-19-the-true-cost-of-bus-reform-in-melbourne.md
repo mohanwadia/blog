@@ -8,8 +8,6 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
-
-
 # Does reducing routes in order to improve frequency improve a network?
 
 ![image.png](/blog/images/image-34.png)
@@ -38,7 +36,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 ![image.png](/blog/images/image-8.png)
 
-The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies 7 days. 
+The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies (where you don't need to check a timetable) 7 days. 
 
 ```
 routes = gpd.read_file("gis.geojson").to_crs("EPSG:7855")
@@ -110,7 +108,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 # Can a cost-neutral approach be effective?
 
-If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. 
+Now that we've seen what would happen if we distribute resources equally across the week, what If we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? Tthe frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
 ```
 df = gk.trips.locate_trips(feed, date, times)
@@ -159,7 +157,7 @@ We see that the service distance dramatically decreases on Saturdays (-37.2%) an
 
 ![image.png](/blog/images/image-14.png)
 
-This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, It's a myth that travel demand reduces on weekends, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
+This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, **It's a myth that travel demand reduces on weekends**, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
 
 ![image.png](/blog/images/image-17.png)
 
