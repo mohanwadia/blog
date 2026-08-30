@@ -179,3 +179,4 @@ From the table, we can see the discrepancy of the amount of services between the
 
 # The Verdict
 
+Bus Network reform has the potential to substantially increase patronage if done right. However,
