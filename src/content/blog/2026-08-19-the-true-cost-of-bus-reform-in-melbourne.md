@@ -10,7 +10,9 @@ description: Evaluating the effectiveness of simplifying bus services
 ---
 # Does reducing routes in order to improve frequency improve a network?
 
-This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023 which was accessed through a FOI request. DTP provided a map of the corridors which are likely to be used by routes in the future which guided me to construct a completely new network. As I personally created each route, I had certain priorities: maximize coverage, create easy interchanges, include strong termini, and standardize route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+![image.png](/blog/images/image-34.png)
+
+This was my go at creating a network based on the above high level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a FOI request. These corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, implementing strong termini, and standardizing route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
@@ -82,17 +84,23 @@ Let's first assume the simplest frequency pattern of constant service between 6a
 
 These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises. Therefore, significantly greater investment is required in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
 
-
+![image.png](/blog/images/image-33.png)
 
 Part of the issue is that Victoria historically spends less per capita on running bus services [than any other state](https://www.abc.net.au/news/2025-09-17/victoria-bus-system-public-transport/105780926) at $112 per capita. While our tram network is excellent, a great proportion of the state budget provides tram services ([$606.3M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serving 900,000 people within 800m while bus services ([$1008.2M](https://www.vic.gov.au/sites/default/files/2025-12/Department-of-Transport-and-Planning-Annual-Report-2024-2025.pdf)) serve a [much larger 82% of Melbourne.](https://www.infrastructurevictoria.com.au/news-events/international-lessons-to-make-melbourne-buses-fairer-and-easier-to-use#:~:text=Around%2082%25%20of%20Melburnians%20live%20within%20a%205%2Dminute%20walk%20of%20a%20bus%20stop) This isn't to say spending on tram services isn't needed but rather buses are cheaper to provide yet continue to get neglected as the default public transport medium in most areas of Melbourne.
 
 ![image.png](/blog/images/image-10.png)
 
-It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable.
+It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. 
+
+![image.png](/blog/images/image-35.png)
+
+For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable.
 
 ![image.png](/blog/images/image.png)
 
 However, for this to happen in Melbourne, the department and state government need to fund and provide new routes at a much greater pace then the progress currently made since the introduction of the Bus Plan in 2021. As tabled in 2023, there's currently [50 tasks that must be completed](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392) before a route can be implemented. 
+
+![image.png](/blog/images/image-32.png)
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
