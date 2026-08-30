@@ -103,7 +103,7 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-We see that the **service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%).** In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a **74% patronage decline on buses on weekends**, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
+We see that the **service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%).** In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a **74% patronage decline on buses on weekends**, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% decline on that same figure. 
 
 ![image.png](/blog/images/image-14.png)
 
