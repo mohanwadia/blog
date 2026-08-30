@@ -8,7 +8,7 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
-# Creating a new network
+# Does reducing routes in order to improve frequency improve a network?
 
 This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023 which was accessed through a FOI request. DTP provided a map of the corridors which are likely to be used by routes in the future which guided me to construct a completely new network. As I personally created each route, I had certain priorities: maximize coverage, create easy interchanges, include strong termini, and standardize route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
@@ -26,7 +26,7 @@ It's impossible to meet the needs of all individual trips when making any substa
 
 
 
-# Changes in coverage
+# How does bus coverage change?
 
 By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. Assuming the new standard of coverage is 800m, **very few people lose coverage.** Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
 
@@ -86,7 +86,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
-# Cost-neutral bus reform
+# Can a cost-neutral approach be effective?
 
 If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
@@ -111,7 +111,7 @@ Let's convert the previous chart to frequency to find the average time between s
 
 This made me wonder, when does trip demand actually taper of, and is it un-met at non-commuting hours?
 
-# How should services be scheduled?
+# When should services be scheduled?
 
 ```
 import gtfs_kit as gk
