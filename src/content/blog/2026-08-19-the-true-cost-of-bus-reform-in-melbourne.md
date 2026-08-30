@@ -78,6 +78,8 @@ Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victo
 
 Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from Adam Bain's [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, we are able to we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. If all routes run at the same frequency, there would be a consistent 17 minutes between services. 
 
+![image.png](/blog/images/image-31.png)
+
 These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises. Therefore, significantly greater investment is required in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
 
 
