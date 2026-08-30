@@ -60,13 +60,17 @@ While there are 25 point reductions in local coverage to achieve the following, 
 
 ![image.png](/blog/images/image-19.png)
 
-Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence will receive huge improvements too. 
+Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence could receive huge improvements too. However people won't walk further if these new routes don't deliver turn-up-and-go frequencies.
 
-![image.png](/blog/images/image-28.png)
+![image.png](/blog/images/image-30.png)
 
 # What frequencies will these new routes run at?
 
-Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see the department of transport's objectives below.
+
+![image.png](/blog/images/image-29.png)
+
+Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
 
 1. Equal resources across days and hours
 2. Equal resources across hours with reduced weekend frequencies on all routes
