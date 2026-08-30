@@ -16,6 +16,8 @@ This was my go at creating a network based on a suggestion by the Department of 
 
 Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
+![image.png](/blog/images/image-23.png)
+
 It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst may requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 ![image.png](/blog/images/image-21.png)
@@ -148,3 +150,6 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 
 
 From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
+
+![image.png](/blog/images/image-25.png)
+
