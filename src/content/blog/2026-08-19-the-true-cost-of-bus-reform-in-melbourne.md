@@ -20,7 +20,7 @@ The map guided me in modelling a brand new bus network, which I also implemented
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a grid-based network fundamentally connects destinations more efficiently and effectively. 
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
 
 Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
@@ -66,7 +66,7 @@ print(c["pop_allocated"].sum())
 | High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
 
 
-While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. An important caveat is the new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
+While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. An important caveat is the new network of B1 and B2 routes **fails to provide coverage within 800m for just under 400 000 people** in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
 
 ![image.png](/blog/images/image-19.png)
 
@@ -86,7 +86,7 @@ Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victo
 2. Equal resources across hours with reduced weekend frequencies on all routes
 3. Providing peak services on weekdays at the cost of reduced span and/or off-peak frequencies.
 
-Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from Adam Bain's [FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, we are able to we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. If all routes run at the same frequency, there would be a consistent 17 minutes between services. 
+Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from [Adam Bain's FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, we are able to we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. If all routes run at the same frequency, there would be a consistent 17 minutes between services. 
 
 ![image.png](/blog/images/image-31.png)
 
