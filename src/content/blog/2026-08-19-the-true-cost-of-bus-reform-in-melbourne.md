@@ -115,8 +115,6 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 
 So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
-![image.png](/blog/images/image-25.png)
-
 # Will a new network be frequent enough?
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government to reallocate resources. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
