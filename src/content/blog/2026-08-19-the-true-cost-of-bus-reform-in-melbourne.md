@@ -27,15 +27,13 @@ DTP's map guided me in modelling a brand new bus network, however my own persona
 
 Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
 
-![image.png](/blog/images/image-23.png)
-
 Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
-![image.png](/blog/images/image-26.png)
+![image.png](/blog/images/image-23.png)
+
+
 
 It's impossible to meet the needs of all individual trips when making any substantial changes. Nonetheless, in the same journey time (whilst possibly requiring walking further), bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
-
-![image.png](/blog/images/image-21.png)
 
 # Who can access this new network?
 
