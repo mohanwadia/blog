@@ -50,7 +50,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies (where you don't need to check a timetable) 7 days. 
 
-```
+```python file="coverage.py"
 routes = gpd.read_file("gis.geojson").to_crs("EPSG:7855")
 sa1 = gpd.read_file("G01_VIC_GDA2020.gpkg", layer="G01_SA1_2021_VIC").to_crs("EPSG:7855")
 check_scope = pd.read_csv('SA1.csv')
@@ -122,7 +122,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 Now that we've seen what would happen if we distribute resources equally across the week, what If we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
-```
+```python file="services.py"
 import gtfs-kit as gk
 df = gk.trips.locate_trips(feed, date, times)
 counts = df.groupby('time')['trip_id'].nunique().reset_index()
