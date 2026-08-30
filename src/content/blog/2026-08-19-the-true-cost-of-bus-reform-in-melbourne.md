@@ -18,6 +18,8 @@ Shifting the standards from a bus within 400m to 800m of all residents is a huge
 
 ![image.png](/blog/images/image-23.png)
 
+![image.png](/blog/images/image-26.png)
+
 It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst may requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 ![image.png](/blog/images/image-21.png)
