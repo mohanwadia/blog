@@ -54,6 +54,14 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
+        sans: [
+          "IBM Plex Sans",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif",
+        ],
         mono: ["IBM Plex Mono", "monospace"],
       },
 
