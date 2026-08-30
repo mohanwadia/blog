@@ -8,17 +8,21 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
-Melbourne has the worst-funded bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
+Melbourne has the worst-funded bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against by parliament. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
 
 # Does reducing routes in order to improve frequency improve a network?
 
 ![image.png](/blog/images/image-34.png)
 
-This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, yet I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). This map includes two frequency tiers where B1 corridors are likely to be used by routes twice as frequent as B2 corridors. 
+
+This map guided me in constructing a completely new network, yet I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, nevertheless after a tricky interim period, communities will find themselves more connected. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, nevertheless after a tricky interim period, communities will find themselves more connected than ever because a grid-based network connects destinations more efficiently. 
+
+Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 ![image.png](/blog/images/image-26.png)
 
