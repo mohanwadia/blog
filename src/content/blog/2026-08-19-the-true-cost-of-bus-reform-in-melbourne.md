@@ -8,6 +8,8 @@ featured: false
 draft: false
 description: Evaluating the effectiveness of simplifying bus services
 ---
+
+
 # Does reducing routes in order to improve frequency improve a network?
 
 This was my go at creating a network based on a suggestion by the Department of Transport and Planning in 2023 which was accessed through a FOI request. DTP provided a map of the corridors which are likely to be used by routes in the future which guided me to construct a completely new network. As I personally created each route, I had certain priorities: maximize coverage, create easy interchanges, include strong termini, and standardize route length. My new network cuts the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
