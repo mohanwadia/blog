@@ -14,15 +14,15 @@ Melbourne has the worst-funded bus network in Australia. It's infrequent on week
 
 ![image.png](/blog/images/image-34.png)
 
-This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, however I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+This was my attempt to model a reformed network, guided by the above high-level spacial plan by the Department of Transport and Planning in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). These B1 and B2 corridors which are likely to be used by routes guided me in constructing a completely new network, yet I also had certain priorities: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, however after a tricky interim period, communities will find themselves more connected. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today, nevertheless after a tricky interim period, communities will find themselves more connected. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 ![image.png](/blog/images/image-26.png)
 
-It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst possibly requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
+It's impossible to meet the needs of all individual trips when making any substantial changes. Nonetheless, in the same journey time (whilst possibly requiring walking further), bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 ![image.png](/blog/images/image-21.png)
 
@@ -32,7 +32,7 @@ By mapping out the network in ArcGIS Pro, below are the coverage areas which use
 
 ![image.png](/blog/images/image-23.png)
 
-Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
+Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes though implementation for additional costs should be evaluated. 
 
 ![image.png](/blog/images/image-9.png)
 
@@ -62,11 +62,11 @@ print(c["pop_allocated"].sum())
 | High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
 
 
-While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. However, my new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service, which is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network. 
+While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. An important caveat is the new network of B1 and B2 routes fails to provide coverage within 800m for just under 400 000 people in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
 
 ![image.png](/blog/images/image-19.png)
 
-Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence could receive huge improvements too. However people won't walk further if these new routes don't deliver turn-up-and-go frequencies.
+Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence could receive huge improvements too. Crucially, people won't walk further if these new routes don't deliver turn-up-and-go frequencies.
 
 ![image.png](/blog/images/image-30.png)
 
@@ -125,11 +125,11 @@ plt.show()
 
 ![image.png](/blog/images/image-20.png)
 
-However, what happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
+What happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
 
 ![image.png](/blog/images/image-1.png)
 
-Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency. The late starts on weekends can deter patronage however, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
+Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency. The late starts on weekends can deter patronage, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
 
@@ -157,7 +157,7 @@ Using gtfs-kit with the above condensed code snippet, we get the following GTFS 
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-We see that the service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. However, when we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a 74% decline on buses on weekends, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
+We see that the service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a 74% decline on buses on weekends, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
 
 ![image.png](/blog/images/image-14.png)
 
@@ -165,17 +165,17 @@ This could easily lead us to believe that services should in-fact be reduced bec
 
 ![image.png](/blog/images/image-17.png)
 
-Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
+Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies can create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
 
 
-| Scheduled Bus Trips | Mean | Standard Deviation | Coefficient of Variance |
-| ------------------- | ------ | ------------------ | ----------------------- |
+| Scheduled Bus Trips | Mean | Standard Deviation | CV |
+| ------------------- | ------ | ------------------ | ---- |
 | Weekday (31/8/26) | 915.45 | 461.25 | 0.50 |
 | Saturday (29/8/26) | 530.18 | 279.33 | 0.53 |
 | Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
 
 
-From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, meaning to get people onto new routes quickly, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
+From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, meaning to get people onto new routes quickly, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
 
