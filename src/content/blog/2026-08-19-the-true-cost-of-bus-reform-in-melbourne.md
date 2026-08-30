@@ -113,27 +113,13 @@ We see that the **service distance dramatically decreases on Saturdays (-37.2%) 
 
 Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies can create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
 
-
-| Scheduled Bus Trips | Mean | Standard Deviation | CV |
-| ------------------- | ------ | ------------------ | ---- |
-| Weekday (31/8/26) | 915.45 | 461.25 | 0.50 |
-| Saturday (29/8/26) | 530.18 | 279.33 | 0.53 |
-| Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
-
-
-From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. 
-
 So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
 
 # Will a new network be frequent enough?
 
-Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see DTP's objectives below.
-
-![image.png](/blog/images/image-29.png)
-
-Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
+Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government to reallocate resources. Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victoria's Bus Plan, there are a few ways to divide up resources:
 
 1. Equal resources across days and hours
 2. Equal resources across hours with reduced weekend frequencies on all routes
@@ -151,9 +137,7 @@ Part of the issue is that Victoria historically spends less per capita on runnin
 
 ![image.png](/blog/images/image-10.png)
 
-It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. 
-
-![image.png](/blog/images/image-35.png)
+It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. Some measures are more complex to implement such as dedicated busways, while others are easier including stop relocation, bus movements, and performance targets. 
 
 For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable. 
 
@@ -191,9 +175,7 @@ Let's convert the previous chart to frequency to find the average time between s
 
 # The Verdict
 
-Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. 
-
-![image.png](/blog/images/image-32.png)
+Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken.
 
 A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies presented by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
 
