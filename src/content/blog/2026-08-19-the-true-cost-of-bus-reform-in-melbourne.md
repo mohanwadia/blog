@@ -16,13 +16,13 @@ This was my attempt to model a reformed network, guided by the above high-level 
 
 ![image.png](/blog/images/image-22.png)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage doesn't necessarily deserve a route today. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to accept that their historic local routes that play a role in increasing local coverage don't necessarily deserve a route today. Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 ![image.png](/blog/images/image-23.png)
 
 ![image.png](/blog/images/image-26.png)
 
-It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst may requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
+It's impossible to meet the needs of all individual trips when making any substantial changes. However within the same journey time (whilst possibly requiring walking further) bus reform has the potential to connect substantially more people to more opportunities than ever before. You can have a look at how this proposed network will affect you at [mohanwadia.com/srl.](http://mohanwadia.com/srl)
 
 ![image.png](/blog/images/image-21.png)
 
@@ -157,11 +157,11 @@ We see that the service distance dramatically decreases on Saturdays (-37.2%) an
 
 ![image.png](/blog/images/image-14.png)
 
-This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, **It's a myth that travel demand reduces on weekends**, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
+This could easily lead us to believe that services should in-fact be reduced because of lower demand than what is being supplied. However, **it's a myth that travel demand reduces on weekends**, rather it translates from leading in work related trips (20.2%) to significantly recreational (38.3%) with in-fact more trips taken on the average weekend (17 million) than weekday (16 million). Comparing existing public transport supply to total trip demand using a percentage-based graph to view data on a time basis, we get the following: 
 
 ![image.png](/blog/images/image-17.png)
 
-Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide then a consistent timetable, they often are created out of necessity, however uneven frequencies create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
+Trip demand on weekdays during the commuting and school pickup times record extreme peaks that bus services attempt to but do not currently meet. While peak services are more expensive to provide than a consistent timetable, they often are created out of necessity, however uneven frequencies create a paradox where it's not viable to travel on PT at other times. On weekends, trip demand exceeds services during the day while services exceed demand in the late afternoon and early evening. 
 
 
 | Scheduled Bus Trips | Mean | Standard Deviation | Coefficient of Variance |
@@ -171,7 +171,7 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 | Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
 
 
-From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
+From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, meaning to get people onto new routes quickly, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
 
