@@ -149,7 +149,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 # Can a cost-neutral approach be effective?
 
-Now that we've seen what would happen if we distribute resources equally across the week, what If we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
+Now that we've seen what would happen if we distribute resources equally across the week, what if we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
 ```python file="services.py"
 import gtfs-kit as gk
