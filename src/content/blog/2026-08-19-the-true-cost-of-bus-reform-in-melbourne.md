@@ -139,7 +139,7 @@ Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victo
 2. Equal resources across hours with reduced weekend frequencies on all routes
 3. Providing peak services on weekdays at the cost of reduced span and/or off-peak frequencies.
 
-Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from [Adam Bain's FrequencyFinder,](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, a new network will achieve B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. Alternatively, if all routes run at the same frequency, there would be a consistent 17 minutes between services, however many high-priority corridors would lose the frequent service they currently have.
+Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from [Adam Bain's FrequencyFinder,](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, a new network will achieve **B1 routes operating every 10 minutes, and B2 routes operating every 20 minutes.** Alternatively, if all routes run at the same frequency, there would be a consistent 17 minutes between services, however many high-priority corridors would lose the frequent service they currently have.
 
 ![image.png](/blog/images/image-31.png)
 
