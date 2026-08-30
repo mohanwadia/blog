@@ -185,4 +185,8 @@ From the table, we can see the discrepancy of the amount of services between the
 
 # The Verdict
 
-Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies suggested by the Department of Transport. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. Ultimately bus reform is the logical next step for Melbourne's network, yet there needs to be political accountability and greatly increased future funding before we attempt to drastically alter travel habits for a large portion of Melbourne. 
+Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. 
+
+A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies suggested by the Department of Transport. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
+
+Ultimately, bus reform is the logical next step for Melbourne's network, yet there needs to be political accountability and greatly increased future funding before we attempt to drastically alter travel habits for a large portion of Melbourne. 
