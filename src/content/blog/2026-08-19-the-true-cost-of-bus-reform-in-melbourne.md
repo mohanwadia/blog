@@ -14,7 +14,7 @@ description: Evaluating the effectiveness of simplifying bus services
 ---
 Melbourne has the worst-funded bus network in Australia. It's infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against by parliament. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
 
-# Does reducing routes in order to improve frequency improve a network?
+# Redesigning Melbourne's Bus Network
 
 ![image.png](/blog/images/image-34.png)
 
@@ -144,7 +144,9 @@ Let's convert the previous chart to frequency to find the average time between s
 
 This made me wonder, when does trip demand actually taper off, and is it un-met at non-commuting hours?
 
-# When should services be scheduled?
+# When do people actually travel?
+
+Trip demand needs to meet service supply in order to efficiently allocate resources. Using `gtfs-kit`, we can find the following GTFS bus network statistics:
 
 ```
 import gtfs_kit as gk
@@ -153,8 +155,6 @@ trip_stats = feed.compute_trip_stats()
 dates = ['20260829', '20260830', '20260831']
 gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 ```
-
-Using `gtfs-kit` with the above condensed code snippet, we get the following GTFS network statistics:
 
 
 |  | Monday | Saturday | Sunday |
@@ -166,7 +166,7 @@ Using `gtfs-kit` with the above condensed code snippet, we get the following GTF
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
-We see that the service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%). In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a 74% decline on buses on weekends, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
+We see that the **service distance dramatically decreases on Saturdays (-37.2%) and Sundays (-52.0%).** In theory, this means that frequencies are around half, however in practice this greatly varies per route. When we compare this to the number of trips taken by passengers, the [Victorian Integrated Survey of Travel & Activity (VISTA)](https://discover.data.vic.gov.au/dataset/victorian-integrated-survey-of-travel-and-activity-vista) reports a **74% patronage decline on buses on weekends**, while [Patronage Data](https://discover.data.vic.gov.au/dataset/monthly-average-patronage-by-day-type-and-by-mode) records a 56% on buses on weekends. 
 
 ![image.png](/blog/images/image-14.png)
 
