@@ -123,6 +123,7 @@ However, for this to happen in Melbourne, the department and state government ne
 Now that we've seen what would happen if we distribute resources equally across the week, what If we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
 ```
+import gtfs-kit as gk
 df = gk.trips.locate_trips(feed, date, times)
 counts = df.groupby('time')['trip_id'].nunique().reset_index()
 counts['date'] = date
