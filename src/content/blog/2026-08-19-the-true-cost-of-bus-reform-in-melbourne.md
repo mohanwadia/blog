@@ -160,8 +160,6 @@ For example, Auckland was able to achieve substantial improvements in km served 
 
 However, for this to happen in Melbourne, the department and state government need to fund and provide new routes at a much greater pace then the progress currently made since the introduction of the Bus Plan in 2021. As tabled in 2023, there's currently [50 tasks that must be completed](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392) before a route can be implemented. 
 
-![image.png](/blog/images/image-32.png)
-
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
 ![image.png](/blog/images/image-36.png)
@@ -194,6 +192,8 @@ Let's convert the previous chart to frequency to find the average time between s
 
 Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. 
 
-A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies suggested by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
+![image.png](/blog/images/image-32.png)
+
+A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies presented by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
 
 Ultimately, bus reform is the logical next step for Melbourne's network, yet there needs to be political accountability and greatly increased future funding before we attempt to drastically alter travel habits for a large portion of Melbourne. 
