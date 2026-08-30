@@ -104,6 +104,8 @@ However, for this to happen in Melbourne, the department and state government ne
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
+![image.png](/blog/images/image-36.png)
+
 # Can a cost-neutral approach be effective?
 
 If we instead implement the inefficient operations that attempt to respond to peak demand and historical weekend demand, the frequency and span starts to look different. There's a universal sharp decline around 10pm, and drastically decreased service on weekends. 
