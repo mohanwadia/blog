@@ -48,7 +48,7 @@ However, bus reform will never work if we require a large portion of our populat
 
 ![image.png](/blog/images/image-8.png)
 
-The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes will be turn-up-and-go frequencies (where you don't need to check a timetable) 7 days. 
+The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 point improvement in high-quality service coverage within 400m and 800m respectively, noting that all new routes are likely more frequent with close to turn-up-and-go frequencies 7 days so you'll never need to check a timetable.
 
 ```python file="coverage.py"
 routes = gpd.read_file("gis.geojson").to_crs("EPSG:7855")
@@ -77,7 +77,6 @@ While there are 25-percentage-point reductions in local coverage to achieve the 
 Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence could receive huge improvements too. Crucially, people won't walk further if these new routes don't deliver turn-up-and-go frequencies.
 
 ![image.png](/blog/images/image-30.png)
-
 
 # When do people actually travel?
 
@@ -122,7 +121,6 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
-
 
 # Will a new network be frequent enough?
 
@@ -187,7 +185,6 @@ What happens when we normalize these charts to the new case using current resour
 Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, and B1 operates at tram-like frequencies. Unfortunately, the late starts on weekends can deter patronage, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
 
 ![image.png](/blog/images/image-2.png)
-
 
 # The Verdict
 
