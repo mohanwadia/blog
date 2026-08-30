@@ -20,7 +20,7 @@ Melbourne has the worst-funded bus network in Australia. It's infrequent on week
 
 This map above is a high-level spacial plan created by the Department of Transport and Planning (DTP) in 2023 which was accessed through a [FOI request](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392). It includes two frequency tiers where B1 corridors are likely to be used by routes twice as frequent as B2 corridors. 
 
-DTP's map guided me in modelling a brand new bus network, which I also implemented my own values: maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
+DTP's map guided me in modelling a brand new bus network, however my own personal impression of the map was needed to create each route. What I believe makes a good route is maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
 ![image.png](/blog/images/image-22.png)
 
@@ -36,13 +36,13 @@ It's impossible to meet the needs of all individual trips when making any substa
 
 # Who can access this new network?
 
-By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** Against the stricter 400m benchmark, a lot of people will lose access to their local route, yet most Melburnians are open to walking further if it means they are paradoxically better served. 
-
 ![image.png](/blog/images/image-23.png)
 
-Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes though implementation for additional costs should be evaluated. 
+By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** Against the stricter 400m benchmark, a lot of people will lose access to their local route, yet most Melburnians are open to walking further if it means they are paradoxically better served. 
 
 ![image.png](/blog/images/image-9.png)
+
+Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes though implementation for additional costs should be evaluated. 
 
 However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. The map below shows the change in coverage with 400 metre requirements upon implementation of a reformed network. Within the grid, red areas begin to emerge from lost local routes, while the inner north has a reduced east-west network supplemented by high-frequency tram and train north-south routes. Low-patronage connecting routes in the outer east are left in for comprehensiveness, and I believe should be retained as low-frequency routes. 
 
@@ -70,7 +70,9 @@ print(c["pop_allocated"].sum())
 | High-quality bus within 800m | 2,237,266 (61.4%) | 3,083,187 (84.5%) |
 
 
-While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. An important caveat is the new network of B1 and B2 routes **fails to provide coverage within 800m for just under 400 000 people** in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
+While there are 25-percentage-point reductions in local coverage to achieve the following, it should be noted that in this new case more people than ever before will be able to access a high-quality bus route within 800 metres than those that previously could access any bus route within 400 metres. 
+
+An important caveat is the new network of B1 and B2 routes **fails to provide coverage within 800m for just under 400 000 people** in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
 
 ![image.png](/blog/images/image-19.png)
 
@@ -118,7 +120,9 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 | Sunday (30/8/26) | 409.60 | 249.08 | 0.61 |
 
 
-From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
+From the table, we can see the discrepancy of the amount of services between the two graphs. Sunday timetables are the most consistent with a coefficient of variance (CV) of 0.61, which describes the relationship between the mean and standard deviation. 
+
+So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To immediately increase patronage on reformed routes, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
 
@@ -134,11 +138,11 @@ Assuming B1 routes are to be twice as frequent as B2 routes as provided by Victo
 2. Equal resources across hours with reduced weekend frequencies on all routes
 3. Providing peak services on weekdays at the cost of reduced span and/or off-peak frequencies.
 
-Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from [Adam Bain's FrequencyFinder](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, we are able to we get B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. If all routes run at the same frequency, there would be a consistent 17 minutes between services. 
+Let's first assume the simplest frequency pattern of constant service between 6am to 12am on all routes 7 days. Calculating the frequencies using the current distance budget of 2284411.27 km per week from [Adam Bain's FrequencyFinder,](https://ptmapmelb.com/frequencyfinder/) and the total distance of the reformed network routes of 5321km with 941km at twice the frequency, a new network will achieve B1 routes operating every **10 minutes**, and B2 routes operating every **20 minutes**. Alternatively, if all routes run at the same frequency, there would be a consistent 17 minutes between services, however many high-priority corridors would lose the frequent service they currently have.
 
 ![image.png](/blog/images/image-31.png)
 
-These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises. Therefore, significantly greater investment is required in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
+These frequencies still provide turn-up-and-go services on B1 routes and will improve bus services in most areas. Unfortunately, these frequencies record as half of what Victoria's Bus Plan promises, where a S1 service (serving B1 corridors) is noted with 5 minute frequencies for most of the day. Therefore, significantly greater investment is required in order to reduce the time between services to 5 minutes on B1 routes and 10 minutes on B2 routes. This calculation proves our current network both inefficient and underserved. 
 
 ![image.png](/blog/images/image-33.png)
 
