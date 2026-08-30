@@ -26,7 +26,7 @@ It's impossible to meet the needs of all individual trips when making any substa
 
 ![image.png](/blog/images/image-21.png)
 
-# How does bus coverage change?
+# Who can access this new network?
 
 By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** However against the stricter 400m benchmark, 400 000 people will lose access to their local route. Small areas suggest the grid network has caused the closest high-quality bus route to be slightly further away than 800m, while bigger areas are commonly local infrequent routes which could be retained in a new network for an additional cost. Out of scope for this post were B3 and B4 routes however implementation for additional costs should be evaluated. 
 
@@ -66,7 +66,7 @@ Viewing the improvements in 800m coverage of high-quality routes, these frequent
 
 ![image.png](/blog/images/image-30.png)
 
-# What frequencies will these new routes run at?
+# Will a new network be frequent enough?
 
 Which frequency would these routes be able to achieve by utilizing current resources? It's really up to the priorities of the state government. You can see the department of transport's objectives below.
 
@@ -174,4 +174,6 @@ Trip demand on weekdays during the commuting and school pickup times record extr
 From the table, we can see the discrepancy of the amount of services between the two graphs, however Sundays timetables are the most consistent with a CV of 0.61, which describes the relationship between the mean and standard deviation. So how do we create a transport network that supports all types of trips and complements other transportation methods? Run bus services at all times of the week in order to create a network that can be trusted and induce future demand. To increase immediate elasticity of patronage, meaning to get people onto new routes quickly, it's important to communicate service investment as they are often less obvious than infrastructure spending. 
 
 ![image.png](/blog/images/image-25.png)
+
+# The Verdict
 
