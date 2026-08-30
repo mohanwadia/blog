@@ -150,15 +150,15 @@ This made me wonder, when does trip demand actually taper off, and is it un-met 
 import gtfs_kit as gk
 feed = gk.read_feed("Desktop/google_transit.zip", dist_units="m")
 trip_stats = feed.compute_trip_stats()
-dates = ['20260824', '20260825', '20260826', '20260827', '20260828', '20260829', '20260830']
+dates = ['20260829', '20260830', '20260831']
 gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 ```
 
-Using gtfs-kit with the above condensed code snippet, we get the following GTFS network statistics:
+Using `gtfs-kit` with the above condensed code snippet, we get the following GTFS network statistics:
 
 
-| Week starting 24/08/2026 | Monday | Saturday | Sunday |
-| ------------------------ | ------ | -------- | ------- |
+|  | Monday | Saturday | Sunday |
+| --------------------- | ------ | -------- | ------- |
 | Number of Trips | 27398 | 16869 | 12668 |
 | Number of Routes | 658 | 571 | 480 |
 | Peak Time | 5:06pm | 12:30pm | 11:31am |
