@@ -27,6 +27,8 @@ DTP's map guided me in modelling a brand new bus network, however my own persona
 
 Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
 
+![image.png](/blog/images/image-23.png)
+
 Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
 ![image.png](/blog/images/image-26.png)
@@ -36,8 +38,6 @@ It's impossible to meet the needs of all individual trips when making any substa
 ![image.png](/blog/images/image-21.png)
 
 # Who can access this new network?
-
-![image.png](/blog/images/image-23.png)
 
 By mapping out the network in ArcGIS Pro, below are the coverage areas which used to have a bus route within 400m but do not have a bus route within 800m anymore. At the new standard of coverage is 800m, which Victoria's Bus Plan is premised on, **very few people lose coverage.** Against the stricter 400m benchmark, a lot of people will lose access to their local route, yet most Melburnians are open to walking further if it means they are paradoxically better served. 
 
@@ -163,7 +163,7 @@ plt.show()
 
 ![image.png](/blog/images/image-20.png)
 
-What happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
+Even more interestingly, what happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
 
 ![image.png](/blog/images/image-1.png)
 
@@ -173,7 +173,7 @@ Let's convert the previous chart to frequency to find the average time between s
 
 # The Verdict
 
-Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken. The following survey results records Melbourne with the lowest social acceptance out of the three cities' bus networks.
+Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken. The following survey results record Melbourne with the lowest social approval out of the three cities' bus networks.
 
 ![image.png](/blog/images/image-33.png)
 
