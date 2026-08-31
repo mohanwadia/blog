@@ -43,7 +43,7 @@ Small areas suggest the grid network has caused the closest high-quality bus rou
 
 However, bus reform will never work if we require a large portion of our population to be within 400 metres of a bus stop. The map below shows the change in coverage with 400 metre requirements upon implementation of a reformed network. Within the grid, red areas begin to emerge from deprioritized local routes. Low-patronage connecting routes in the outer east do not form part of the prioritized corridors, however I believe should be retained as low-frequency routes. 
 
-![400mcoverage.jpg](/blog/images/400mcoverage.jpg)
+![400m.jpg](/blog/images/400m-1.jpg)
 
 The following parallels Infrastructure Victoria's weak definition of a high-quality bus as one which operates every 20 minutes or better, 6am-8pm, and runs on weekends. Within 800m, the new network records a substantial 16 and 23 percentage-point improvement in high-quality service coverage within 400m and 800m respectively. On top of that, all new routes are likely more frequent, with close to turn-up-and-go frequencies 7 days so you'll never need to check a timetable.
 
@@ -71,7 +71,7 @@ While there are 25-percentage-point reductions in local coverage to achieve the 
 
 An important caveat is the new network of B1 and B2 routes **fails to provide coverage within 800m for just under 400 000 people** in Melbourne that used to have a service. This is partly due to less CBD bus coverage and B3 and B4 routes which fall out of scope of my reformed network, but mostly due to the removal of local routes which increased local coverage at lower frequencies. 
 
-![HQPT800mBuses.jpg](/blog/images/HQPT800mBuses-1.jpg)
+![800mhqpt.jpg](/blog/images/800mhqpt-1.jpg)
 
 Viewing the improvements in 800m coverage of high-quality routes, these frequent routes mean that most areas of Melbourne are provided with many new services. Additionally many of our current frequent routes, including part of SmartBus routes, fall under B1 corridors and hence could receive huge improvements too. Crucially, people won't walk further if these new routes don't deliver turn-up-and-go frequencies.
 
