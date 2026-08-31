@@ -63,7 +63,7 @@
   }
 
   .prose a {
-    @apply break-words hover: !text-skin-accent;
+    @apply break-words hover:!text-skin-accent;
   }
 
   .prose thead th:first-child,
