@@ -55,11 +55,11 @@
   }
 
   .prose {
-    @apply !mb-3 !text-skin-base !font-semibold prose-h3:italic !text-skin-base !leading-relaxed !text-skin-base prose-a: !text-skin-base prose-a:[...]
-    max-width: 42rem;
-    font-size: 1.0625rem;
-    line-height: 1.75;
-    letter-spacing: normal;
+      @apply !mb-3 !text-skin-base !font-semibold prose-h3:italic !leading-relaxed;
+      max-width: 42rem;
+      font-size: 1.0625rem;
+      line-height: 1.75;
+      letter-spacing: normal;
   }
 
   .prose a {
