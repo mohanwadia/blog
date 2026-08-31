@@ -23,7 +23,7 @@ This map above is a high-level spatial plan created by the Department of Transpo
 
 DTP's map guided me in modelling a brand new bus network, however my own personal impression of the map was needed to create each route. What I believe makes a good route is maximizing coverage, creating easy interchanges, ending routes at popular destinations, and standardizing route length. My new network reduces the total route distance served to 5231 km, with 941km of that having higher frequencies noted by red lines. You can check each of the routes out through an [interactive map.](https://mohanwadia.com/srl/network)
 
-![new_network.jpg](/blog/images/new_network.jpg)
+![new_network.jpg](blob:https:/app.pagescms.org/0661f311-66a2-4573-817a-02ffae52ccde)
 
 Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
 
