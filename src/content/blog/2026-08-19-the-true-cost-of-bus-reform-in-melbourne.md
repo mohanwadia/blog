@@ -10,8 +10,7 @@ tags:
   - bus
   - gis
   - frequency
-description: Evaluating the efficiency and effectiveness of simplifying bus
-  services in Melbourne
+description: Evaluating simplifying bus services in Melbourne
 ---
 Melbourne spends less per person on its urban bus network than any other major Australian city. This leaves the network infrequent on weekends when people travel most, and routes which do provide high frequencies are restrictive in coverage. In 2023, a quiet yet ambitious plan to revolutionize the bus network was created and promptly voted against by cabinet. As I revisit this proposal, I set out to see if it was feasible and how effective it would have been.
 
@@ -131,11 +130,11 @@ Part of the issue is that Victoria historically spends less per capita on runnin
 
 It is worth noting that a successful Bus Plan should be paired with other measures such as bus priority, and also will receive improvements in network efficiency when removing peak periods and local routes. Some measures are more complex to implement such as dedicated busways, while others are easier including stop relocation, bus movements, and performance targets. 
 
-For example, Auckland was able to achieve substantial improvements in km served when implementing their hugely successful recent bus network improvements. They also chose to invest substantially to deliver a highly successful outcome within a political environment with sustained advocacy. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable. 
+For example, Auckland was able to achieve substantial efficiency gains in km served when implementing it's hugely successful recent bus network improvements. They also chose to invest substantially to deliver a highly successful outcome within a political environment with sustained advocacy. Direct and frequent routes are easier to run for bus companies and way easier to predict and hence use for passengers without the need for a journey planner or timetable. 
 
 ![image.png](/blog/images/image.png)
 
-However, for this to happen in Melbourne, the department and state government need to fund and provide new routes at a much greater pace then the progress currently made since the introduction of the Bus Plan in 2021. As tabled in 2023, there's currently [50 tasks that must be completed](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392) before a route can be implemented, and the progress of the program is rapidly falling behind schedule.
+However, for this to happen in Melbourne, the department and state government need to fund and provide new routes at a much greater pace than the progress currently made since the introduction of the Bus Plan in 2021. According to documents tabled in 2023, there are currently [50 tasks that must be completed](https://www.parliament.vic.gov.au/parliamentary-activity/tabled-documents-database/tabled-document-details/9392) before a route can be implemented, and the progress of the program is rapidly falling behind schedule.
 
 > The Bus Plan sets an ambitious goal for Melbourne’s bus network to become a mass transit option from 2031. It aims to meet user needs by reforming the network so that it is simpler, faster and more reliable. Given the current network, and progress implementing the Bus Plan, on present indications **the department will not achieve the Bus Plan’s mass transit ambition**. [(Improving Bus Services - VAGO)](https://www.audit.vic.gov.au/sites/default/files/2026-06/20260617_Improving-Bus-Services.pdf?)
 
@@ -143,7 +142,7 @@ However, for this to happen in Melbourne, the department and state government ne
 
 # Can a cost-neutral approach be effective?
 
-Now that we've seen what would happen if we distribute resources equally across the week, what if we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span starts to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
+Now that we've seen what would happen if we distribute resources equally across the week, what if we instead retain the inefficient operations that attempt to respond to peak demand and historical weekend demand? The frequency and span start to look different, with a universal sharp decline around 10pm, and drastically decreased service on weekends. 
 
 ```python file="services.py"
 import gtfs-kit as gk
@@ -157,11 +156,11 @@ plt.show()
 
 ![image.png](/blog/images/image-20.png)
 
-Even more interestingly, what happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour, however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
+Even more interestingly, what happens when we normalize these charts to the new case using current resources? The B1 routes peak at 9 buses per hour however as peak services are generally more expensive to operate, this comes at the cost of a reduced frequency during the interpeak and crucially doesn't allow for sustained service in the late evening. 
 
 ![image.png](/blog/images/image-1.png)
 
-Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, and B1 operates at tram-like frequencies. Unfortunately, the late starts on weekends can deter patronage, and similarly service stops between 10pm and 11pm as frequencies gradually reduce substantially.
+Let's convert the previous chart to frequency to find the average time between services of reformed B1 and B2 routes per time and day of the week. During 9am-5pm 7 days a week, no route falls below a 30 minute frequency, and B1 operates at tram-like frequencies. Unfortunately, the late starts on weekends can deter patronage, and similarly service ceases between 10pm and 11pm as frequencies gradually taper off.
 
 ![image.png](/blog/images/image-2.png)
 
