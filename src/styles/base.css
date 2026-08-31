@@ -55,16 +55,15 @@
   }
 
   .prose {
-    @apply prose-headings:!mb-3 prose-headings:!text-skin-base prose-headings:!font-semibold prose-h3:italic prose-p:!text-skin-base prose-p:!leading-relaxed prose-a:!text-skin-base;
-    max-width: 42rem;
+    @apply prose-headings: !mb-3 prose-headings: !text-skin-base prose-headings: !font-semibold prose-h3:italic prose-p: !text-skin-base prose-p: !leading-relaxed prose-a: !text-skin-base;
+    max-width: 38rem;
     font-size: 1.0625rem;
     line-height: 1.76;
     letter-spacing: normal;
   }
 
   .prose a {
-    @apply break-words;
-    @apply hover:!text-skin-accent;
+    @apply break-words hover: !text-skin-accent;
   }
 
   .prose thead th:first-child,
