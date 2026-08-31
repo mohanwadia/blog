@@ -81,7 +81,7 @@ Viewing the improvements in 800m coverage of high-quality routes, these frequent
 
 Trip demand needs to meet service supply in order to efficiently allocate resources. So when does trip demand actually taper off, and is it un-met at non-commuting hours? Using `gtfs-kit`, we can find the following GTFS bus network statistics:
 
-```
+```python file="network.py"
 import gtfs_kit as gk
 feed = gk.read_feed("Desktop/google_transit.zip", dist_units="m")
 trip_stats = feed.compute_trip_stats()
