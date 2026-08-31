@@ -25,7 +25,7 @@ DTP's map guided me in modelling a brand new bus network, however my own persona
 
 ![new_network.jpg](/blog/images/new_network-1.jpg)
 
-Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their historic local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
+Shifting the standards from a bus within 400m to 800m of all residents is a huge change that will leave many temporarily fearing isolation. It will naturally be difficult for many communities to adapt to a radically changed network where their established local route doesn't necessarily deserve a route today. Nevertheless, whilst there may be a tricky interim period, communities will find themselves more connected than ever because a [grid-based network fundamentally connects destinations](https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/sep/grid-bus-network-for-shorter-commute) more efficiently and effectively. 
 
 Moreover, a ten minute walk is reasonable for most people, but accessibility requirements should remain paramount. People do plan their lives around the available transport options, and it's important to understand their needs before any state department can begin to decide what is best.
 
@@ -167,10 +167,10 @@ Let's convert the previous chart to frequency to find the average time between s
 
 # The Verdict
 
-Bus Network reform has the potential to substantially increase patronage if done right. However, current investment, which translate to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limits the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to snowball negatively unless action is taken. The following survey results record Melbourne with the lowest social approval out of the three cities' bus networks.
+Bus network reform has the potential to substantially increase patronage if done right. However, current investment, which translates to poor frequency and span, won't allow a cost-neutral bus reform to fix all of the issues that currently limit the network's effectiveness. As Melbourne's population continues to grow, poor service levels will cause social approval and ridership to deteriorate compoundingly unless action is taken. The following survey results record Melbourne with the lowest social approval out of the three cities' bus networks.
 
 ![image.png](/blog/images/image-33.png)
 
-A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies presented by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant amount of people will lose access to historic services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher quality bus routes. 
+A full reallocation of resources can create frequent corridors but won't deliver the 5- and 10-minute frequencies presented by the Department of Transport and Planning. Moreover, coverage changes will mean that a significant number of people will lose access to established services, and hence efforts need to be made in order to ensure convenience when walking, waiting, and transferring onto higher-quality bus routes. 
 
 Ultimately, bus reform is the logical next step for Melbourne's network, yet there needs to be political accountability and greatly increased future funding before we attempt to drastically alter travel habits for a large portion of Melbourne. 
