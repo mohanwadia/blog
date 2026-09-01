@@ -90,11 +90,11 @@ gk.miscellany.compute_network_stats(feed, dates, trip_stats)
 
 
 |  | Monday | Saturday | Sunday |
-| --------------------- | ------ | -------- | ------- |
+| ---------------- | ------ | -------- | ------- |
 | Number of Trips | 27398 | 16869 | 12668 |
 | Number of Routes | 658 | 571 | 480 |
 | Peak Time | 5:06pm | 12:30pm | 11:31am |
-| Service Distance (km) | 421457 | 264720 | 202101 |
+| Vehicle Kms | 421457 | 264720 | 202101 |
 | Speed | 23.8 | 25.3 | 25.8 |
 
 
