@@ -24,3 +24,7 @@ tags:
   - cost of accidents per 10 million vehicles
 
 However, cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
+
+The Australian Black Spot Program requires that project proposals demonstrate a benefit to cost ratio of at least 2 to 1
+
+[When BCR hurdles are used, a ratio of 1.0 implies that uneconomic initiatives (i.e. initiatives with negative net present value) should be rejected. When funds are scarce relative to the supply of initiatives with BCRs above 1.0, the hurdle ratio should be set well above 1.0 if it is to be an economically efficient rationing mechanism.](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio)
