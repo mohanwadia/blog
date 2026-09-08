@@ -25,6 +25,18 @@ tags:
 
 However, cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
 
-The Australian Black Spot Program requires that project proposals demonstrate a benefit to cost ratio of at least 2 to 1
+[The Australian Black Spot Program requires that project proposals demonstrate a benefit to cost ratio of at least 2 to 1. In Urban areas, there must be 3 casualty crushes and an average of 0.2 casualty crashes per km per annum over the length in question (5yr period for both). In regional/rural areas, there must be 2 casualty crushes and average of 0.13 casualty crushes per km per annum over the length (5yr period for both).](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A)
 
 [When BCR hurdles are used, a ratio of 1.0 implies that uneconomic initiatives (i.e. initiatives with negative net present value) should be rejected. When funds are scarce relative to the supply of initiatives with BCRs above 1.0, the hurdle ratio should be set well above 1.0 if it is to be an economically efficient rationing mechanism.](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio)
+
+## Social Cost of Road Crashes
+
+[https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf](https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf)
+
+
+| Component | Per Hospitalized |  | Total Cost |
+| --------- | ---------------- | --- | ---------- |
+|  |  |  |  |
+|  |  |  |  |
+
+
