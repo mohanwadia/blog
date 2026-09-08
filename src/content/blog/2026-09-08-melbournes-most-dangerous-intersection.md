@@ -33,10 +33,16 @@ However, cost of accidents doesn't have standards for evaluating the value of a 
 
 [https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf](https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf)
 
+Table 7.79
 
-| Component | Per Hospitalized |  | Total Cost |
-| --------- | ---------------- | --- | ---------- |
-|  |  |  |  |
-|  |  |  |  |
 
+| Cost Component | Cost over Crash ($) | Total Cost ($ million) |
+| -------------- | ------------------- | ---------------------- |
+|  |  |  |
+|  |  |  |
+
+
+## Pedestrian-Cyclist- Driver Equilibrium
+
+**Check AI numbers**: Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
 
