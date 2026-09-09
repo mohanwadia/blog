@@ -19,26 +19,27 @@ tags:
 
 ## Methodology
 
-In order to normalize results to understand the amount of traffic inflow, the amount of cars passing thro
-
 To calculate the true impact of each intersection over the past ten years, multiple approaches may be taken:
 
-- Treatment 1: Number of accidents.
+Treatment 1: Number of accidents.
+
 - Treatment 2: Number of accidents with casualties.
 - Treatment 3: Crash index using the [Bureau of Transport and Communications Economics (BTCE)](https://www.bitre.gov.au/resource/road-safety/road-crash-costs-australia) report titled 'Road Crash Costs in Australia', which weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. 
 - Treatment 4: Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $4.7 million, hospitalized injury at $258k, and non-hospitalized injury at $13k. 
+
+However, cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
+
 - Treatment 5: 
 
 In short, we can't. There are ways to 
 
-- To create intersection rankings:
-  - number of accidents
-  - number of accidents with casualties
-  - crash index: fatalities 9.5, serious injuries 9.5, minor injuries 3.5, property damage only 1 from BTCE report.
-  - cost of accidents: Consumer Price Index rate on ATO website. Cost of property-damage only taken from ATAP guidelines. death=4.7mil, hospitalized=258k, non-hospitalized=13k
-  - cost of accidents per 10 million vehicles
+**Normalizing Results**
 
-However, cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
+An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains recorded traffic light signal volumes. 
+
+However, previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+
+**Why a cost-based approach is effective**
 
 [The Australian Black Spot Program requires that project proposals demonstrate a benefit to cost ratio of at least 2 to 1. In Urban areas, there must be 3 casualty crushes and an average of 0.2 casualty crashes per km per annum over the length in question (5yr period for both). In regional/rural areas, there must be 2 casualty crushes and average of 0.13 casualty crushes per km per annum over the length (5yr period for both).](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A)
 
