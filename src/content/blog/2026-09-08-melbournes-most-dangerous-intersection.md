@@ -16,6 +16,21 @@ tags:
 - AAA estimated the cost of a fataility at $4.39 million in 2015 values.
 - Calculating crash risk using a categorical metric approach uses subjective values and weighting, while a cost-based approach is objective.
 - Exposure could be calculated using ogden (1994) formula of 2*sqrt((1/2)*(V1+V3)*(V2+V4))
+
+## Methodology
+
+In order to normalize results to understand the amount of traffic inflow, the amount of cars passing thro
+
+To calculate the true impact of each intersection over the past ten years, multiple approaches may be taken:
+
+- Treatment 1: Number of accidents.
+- Treatment 2: Number of accidents with casualties.
+- Treatment 3: Crash index using the [Bureau of Transport and Communications Economics (BTCE)](https://www.bitre.gov.au/resource/road-safety/road-crash-costs-australia) report titled 'Road Crash Costs in Australia', which weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. 
+- Treatment 4: Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $4.7 million, hospitalized injury at $258k, and non-hospitalized injury at $13k. 
+- Treatment 5: 
+
+In short, we can't. There are ways to 
+
 - To create intersection rankings:
   - number of accidents
   - number of accidents with casualties
