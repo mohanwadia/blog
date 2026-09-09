@@ -5,11 +5,12 @@ modDatetime: 2026-09-08
 title: We've been ranking dangerous intersections wrong
 slug: dangerous-intersections
 featured: false
-draft: true
+draft: false
 tags:
   - scats
   - crash
 ---
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=monash uni&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
 - Australia's network has been built for maximim capacity and mobility, however since Aus has adopted the Safe System approach, there has been a need to improve intersections and hence road safety. 
 - The annual economic cost of crashes in Victoria is ___
 - Currently Transport Victoria does not publish any intersection rankings. RACV publish survey results, and AAMI recently published a list of the top 10. 
