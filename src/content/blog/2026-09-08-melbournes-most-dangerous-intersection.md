@@ -2,7 +2,7 @@
 author: Mohan Wadia
 pubDatetime: 2026-09-08
 modDatetime: 2026-09-08
-title: Melbourne's Most Dangerous Intersection
+title: We've been ranking dangerous intersections wrong
 slug: dangerous-intersections
 featured: false
 draft: true
@@ -36,10 +36,16 @@ However, cost of accidents doesn't have standards for evaluating the value of a 
 Table 7.79
 
 
-| Cost Component | Cost over Crash ($) | Total Cost ($ million) |
-| -------------- | ------------------- | ---------------------- |
+| Cost Component | Cost per Crash ($) | Total Cost ($ million) |
+| -------------- | ------------------ | ---------------------- |
 |  |  |  |
 |  |  |  |
+
+
+Comparing the two approaches, we get a correlation of 0.37 and the following scatter plot normalized per million-entering vehicles. Both metrics are comparable at a GDP standpoint with a 1% variance in total cost, however the way they distribute costs is very different. 
+
+[Table 8.83]
+
 
 
 ## Per Road User
