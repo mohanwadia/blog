@@ -16,7 +16,7 @@ Since adopting the Safe System approach, attention has been placed on improving 
 
 # Methodology
 
-The methodology follows the approach from Ng (2022), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, I have chosen to use a 10-year time span to increase the amount of crash data, as well as included every signalized intersection with sufficient data in the state to be ranked. 
+The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in the state. Additionally, 
 
 To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted:
 
@@ -59,3 +59,10 @@ An intersection with more vehicle volume will generally lead to a higher number 
 |  |  |  |  |  |
 
 
+# Applying RTM Correction / Empirical Bayes Method
+
+When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance which indicates the estimate is too imprecise. Additionally, the existence of 'regression-to-mean' bias is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+
+Applying an Empirical Bayes method increases precision and corrects for the regression-to-mean bias. By taking the accident record of an intersection alongside weighting the accident frequency at similar intersections, the Empirical Bayes method is able to increase accuracy. It also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
+
+Fitting a negative binomial regression to the data (which is preferred over a Poisson distribution) produces a SPF equation of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`. The mode returned a highly significant alpha of `α=0.5938` which suggests the model is appropriate, and moderate EB correction with `k=1.6841` which means that busy intersections will be trusted on their own records. 
