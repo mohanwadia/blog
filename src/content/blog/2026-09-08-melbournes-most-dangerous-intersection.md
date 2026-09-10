@@ -16,13 +16,15 @@ Since adopting the Safe System approach, attention has been placed on improving 
 
 # Methodology
 
+The methodology follows the approach from Ng (2022), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, I have chosen to use a 10-year time span to increase the amount of crash data, as well as included every signalized intersection with sufficient data in the state to be ranked. 
+
 To calculate the true impact of each intersection over the past ten years, multiple approaches may be taken:
 
 - Treatment 1: Number of accidents.
 - Treatment 2: Number of accidents with casualties.
 - Treatment 3: Crash index using the [Bureau of Transport and Communications Economics (BTCE)](https://www.bitre.gov.au/resource/road-safety/road-crash-costs-australia) report titled 'Road Crash Costs in Australia', which weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. 
 - Treatment 4: Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $4.7 million, hospitalized injury at $258k, and non-hospitalized injury at $13k. 
-- Treatment 5: Cost of Accidents using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. 
+- Treatment 5: Cost of Accidents using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k.
 
 Treatment 1 and 2 are the simplest metrics, however each one ignores crash severity. While Treatment 3 does emphasize crash severity, it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. 
 
