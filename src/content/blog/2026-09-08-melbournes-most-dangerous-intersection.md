@@ -65,4 +65,15 @@ When estimating the mean and standard deviation of an average yearly accident fr
 
 Applying an Empirical Bayes method increases precision and corrects for the regression-to-mean bias. By taking the accident record of an intersection alongside weighting the accident frequency at similar intersections, the Empirical Bayes method is able to increase accuracy. It also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
-Fitting a negative binomial regression to the data (which is preferred over a Poisson distribution) produces a SPF equation of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`. The mode returned a highly significant alpha of `α=0.5938` which suggests the model is appropriate, and moderate EB correction with `k=1.6841` which means that busy intersections will be trusted on their own records. 
+Fitting a negative binomial regression to the data (which is preferred over a Poisson distribution) produces a SPF equation of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`. The mode returned a highly significant alpha of `α=0.5938` which suggests the model is appropriate, and moderate EB correction with `k=1/α=1.6841` which means that busy intersections will be trusted on their own records. 
+
+```
+import statsmodels.api as sm
+fit_df = scats_crash_summary[scats_crash_summary['MEV'] > 0].copy()
+X_fit = sm.add_constant(np.log(fit_df['MEV']))
+y_fit = fit_df['total_crashes'].astype(int)
+spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False)
+print(spf.summary())
+print(spf.params['alpha'])
+```
+
