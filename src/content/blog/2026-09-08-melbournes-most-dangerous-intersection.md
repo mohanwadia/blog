@@ -28,6 +28,10 @@ Treatment 1 and 2 are the simplest metrics, however each one ignores crash sever
 
 Treatments 4 and 5 are both cost-based approaches that vary in their approach to calculating costs. Treatment 4 uses a Hybrid-Human Capital (HHC) approach which 
 
+Comparing the two approaches, we get a correlation of 0.37 and the following scatter plot normalized per million-entering vehicles. Both metrics are comparable at a GDP standpoint with a 1% variance in total cost, however the way they distribute costs is very different. 
+
+[Table 7.79 BITRE or ATAP 2024 WTP costs]
+
 A cost-based approach was chosen as expressing crash severity in a monetary value is objective. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crushes and an average of 0.13-0.2 casualty crushes per km over a 5-year span. 
 
 While this does emphasize crash severity 
@@ -38,28 +42,9 @@ In short, we can't. There are ways to
 
 **Normalizing Results**
 
+Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains recorded traffic light signal volumes. The crashes labelled as intersections within 50m of a SCATS site were aggregated, with the number of people affected per result totalled. 
-
-However, previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
-
-## Social Cost of Road Crashes
-
-[https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf](https://www.bitre.gov.au/sites/default/files/documents/social-cost-of-road-crashes.pdf)
-
-Table 7.79
-
-
-| Cost Component | Cost per Crash ($) | Total Cost ($ million) |
-| -------------- | ------------------ | ---------------------- |
-|  |  |  |
-|  |  |  |
-
-
-Comparing the two approaches, we get a correlation of 0.37 and the following scatter plot normalized per million-entering vehicles. Both metrics are comparable at a GDP standpoint with a 1% variance in total cost, however the way they distribute costs is very different. 
-
-[Table 8.83]
-
-
 
 ## Per Road User
 
