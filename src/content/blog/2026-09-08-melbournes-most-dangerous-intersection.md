@@ -18,17 +18,17 @@ Since adopting the Safe System approach, attention has been placed on improving 
 
 The methodology follows the approach from Ng (2022), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, I have chosen to use a 10-year time span to increase the amount of crash data, as well as included every signalized intersection with sufficient data in the state to be ranked. 
 
-To calculate the true impact of each intersection over the past ten years, multiple approaches may be taken:
+To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted:
 
 - Treatment 1: Number of accidents.
 - Treatment 2: Number of accidents with casualties.
-- Treatment 3: Crash index using the [Bureau of Transport and Communications Economics (BTCE)](https://www.bitre.gov.au/resource/road-safety/road-crash-costs-australia) report titled 'Road Crash Costs in Australia', which weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. 
-- Treatment 4: Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $4.7 million, hospitalized injury at $258k, and non-hospitalized injury at $13k. 
-- Treatment 5: Cost of Accidents using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k.
+- Treatment 3: Crash index using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program', which weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59)
+- Treatment 4: Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalized injury at $241k, and non-hospitalized injury at $26k. (Page 4, $2022)
+- Treatment 5: Cost of Accidents using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. (Table 6.13, $2024)
 
 Treatment 1 and 2 are the simplest metrics, however each one ignores crash severity. While Treatment 3 does emphasize crash severity, it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. 
 
-Treatments 4 and 5 are both cost-based approaches that vary in their approach to calculating costs. Treatment 4 uses a Hybrid-Human Capital (HHC) approach which 
+Treatments 4 and 5 are both cost-based approaches that vary in their approach to calculating costs. Treatment 4 uses a Hybrid-Human Capital (HHC) approach which , while Treatment 5 uses a Willingness-to-pay (WTP) approach which. 
 
 Comparing the two approaches, we get a correlation of 0.37 and the following scatter plot normalized per million-entering vehicles. Both metrics are comparable at a GDP standpoint with a 1% variance in total cost, however the way they distribute costs is very different. 
 
@@ -36,11 +36,7 @@ Comparing the two approaches, we get a correlation of 0.37 and the following sca
 
 A cost-based approach was chosen as expressing crash severity in a monetary value is objective. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crushes and an average of 0.13-0.2 casualty crushes per km over a 5-year span. 
 
-While this does emphasize crash severity 
-
 However, cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
-
-In short, we can't. There are ways to 
 
 **Normalizing Results**
 
