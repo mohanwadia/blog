@@ -77,3 +77,23 @@ print(spf.summary())
 print(spf.params['alpha'])
 ```
 
+This model can then be applied to each of the intersections
+
+```
+X_all = sm.add_constant(np.log(eb_df['MEV'].clip(lower=1e-9)))
+eb_df['mu_hat'] = spf.predict(X_all)
+
+eb_df['weight'] = 1 / (1 + k * eb_df['mu_hat'])
+eb_df['eb_estimate'] = eb_df['weight'] * eb_df['mu_hat'] + (1 - eb_df['weight']) * eb_df['total_crashes']
+eb_df['psi'] = eb_df['eb_estimate'] - eb_df['mu_hat']
+```
+
+with the top five intersections ranked by PSI and PSI WTP Cost.
+
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
+
