@@ -61,11 +61,11 @@ An intersection with more vehicle volume will generally lead to a higher number 
 
 # Empirical Bayes Method
 
-When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance which indicates the estimate is too imprecise. Additionally, the existence of 'regression-to-mean' bias is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
-Applying an Empirical Bayes method increases precision and corrects for the regression-to-mean bias. By taking the accident record of an intersection alongside weighting the accident frequency at similar intersections, the Empirical Bayes method is able to increase accuracy. It also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
+ By taking a weighted average of both the accident record of an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy by removing 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
 
-Fitting a negative binomial regression to the data produces a SPF equation of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`. The mode returned a highly significant alpha of `α=0.5938` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note, a coefficient of 0.7277 means that crash risk grows slower than vehicle volume.
+When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
 ```
 import statsmodels.api as sm
@@ -73,45 +73,12 @@ fit_df = scats_crash_summary[scats_crash_summary['MEV'] > 0].copy()
 X_fit = sm.add_constant(np.log(fit_df['MEV']))
 y_fit = fit_df['total_crashes'].astype(int)
 spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False)
-print(spf.summary())
-print(spf.params['alpha'])
+spf.summary()
 ```
 
-This model can then be applied to each of the intersections
+Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`, which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.5938` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.7277` means that crash risk grows slower than vehicle volume.
 
-```
-X_all = sm.add_constant(np.log(eb_df['MEV'].clip(lower=1e-9))) #Exclude MEV=0
-eb_df['mu_hat'] = spf.predict(X_all) # EB estimate
-eb_df['weight'] = 1 / (1 + eb_df['mu_hat'] / k)
-eb_df['eb_estimate'] = eb_df['weight'] * eb_df['mu_hat'] + (1 - eb_df['weight']) * eb_df['total_crashes'] # weighted estimate
-eb_df['psi'] = eb_df['eb_estimate'] - eb_df['mu_hat'] #PSI (Potential for Safety Improvement)
-```
-
-With each of the stats per severity calculated such that each EB estimate can be corrected to calculate a more accurate value.
-
-```
-total_num_accidents = eb_df['total_crashes'].sum()
-for severity, data in {'fatal':eb_df['total_fatal_crashes'], 'serious':eb_df['total_serious_inj_crashes'], 'other':eb_df['total_other_inj_crashes']}.items():
-    mu = eb_df['mu_hat'] * (data.sum() / total_num_accidents)
-    w = 1 / (1 + mu / k)
-    eb = w * mu + (1 - w) * data
-    eb_df['mu_'+severity] = mu
-    eb_df['eb_'+severity] = eb
-    eb_df['psi_'+severity] = eb-mu
-```
-
-WIth the cost of each intersection's PSI value calculated.
-
-```
-eb_df['eb_sev_sum']         = eb_df['eb_fatal'] + eb_df['eb_serious'] + eb_df['eb_other'] # total EB estimated cost
-eb_df['correction_ratio']   = eb_df['eb_estimate'] / eb_df['eb_sev_sum'].replace(0, np.nan) # how much each value needs to be corrected by
-for sev in ['fatal', 'serious', 'other']:
-    eb_df[f'eb_{sev}']  *= eb_df['correction_ratio'] # correct the original EB estimate
-    eb_df[f'psi_{sev}'] = eb_df[f'eb_{sev}']  - eb_df[f'mu_{sev}']  # recompute PSI
-
-# Cost Per Crash taken from pg9 of https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf
-eb_df['psi_wtp_cost'] = ((eb_df['psi_fatal'] * 7_321_113) + (eb_df['psi_serious'] * 765_091) + (eb_df['psi_other'] * 64_119)) * 1.061 #1.061=CPI MULTIPLIER
-```
+This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate, which describes the 
 
 with the top five intersections ranked by PSI and PSI WTP Cost.
 
