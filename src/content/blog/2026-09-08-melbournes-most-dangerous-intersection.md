@@ -69,9 +69,8 @@ When estimating the mean and standard deviation of an average yearly accident fr
 
 ```
 import statsmodels.api as sm
-fit_df = scats_crash_summary[scats_crash_summary['MEV'] > 0].copy()
-X_fit = sm.add_constant(np.log(fit_df['MEV']))
-y_fit = fit_df['total_crashes'].astype(int)
+X_fit = sm.add_constant(np.log(df['MEV']))
+y_fit = df['total_crashes'].astype(int)
 spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False)
 spf.summary()
 ```
