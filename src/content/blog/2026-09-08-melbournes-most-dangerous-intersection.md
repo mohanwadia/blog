@@ -63,7 +63,7 @@ An intersection with more vehicle volume will generally lead to a higher number 
 
 Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
- By taking a weighted average of both the accident record of an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy by removing 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+ By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
 
 When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
@@ -80,7 +80,9 @@ Fitting a negative binomial regression to the data produces a SPF of `log(E[cras
 
 This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate, which describes the 
 
-with the top five intersections ranked by PSI and PSI WTP Cost.
+Full code is provided.
+
+Ranking the top 10 intersections by PSI WTP cost:
 
 
 |  |  |  |
