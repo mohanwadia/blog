@@ -18,11 +18,11 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 # Methodology
 
-I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) use to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
+
 
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. A simpler approach ranking intersections by the number of accidents or number of accidents with casualties both ignore crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. 
+To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. I started with a simpler approach ranking intersections by the number of accidents, however this ranking ignored crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. Similarly, ranking by number of serious accidents retains this bias. 
 
 
 | Intersection | Number of Crashes | Total Persons |
@@ -46,9 +46,15 @@ A cost-based approach was chosen as expressing crash severity in a monetary valu
 
 ## Putting a price on a crash
 
-It's uncomfortable to ask what the cost of accidents truly is. There aren't standards for evaluating the value of a statistical life, or even the social cost of accidents. Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal costs to medical related costs. 
+It's uncomfortable to ask what the cost of accidents truly is. There will never be standards for evaluating the value of a human life. 
 
-Two cost-based approaches were shortlisted which vary in their approach to calculating the cost of an accident:
+It's unfeasable to spend an infinite amount of money on one life. 
+
+Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal costs to medical related costs. 
+
+[Breakdown Table for WTP]
+
+I looked at two cost-based approaches which vary in their approach to calculating the cost of an accident:
 
 1. Hybrid Human Capital (HHC) using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalized injury at $241k, and non-hospitalized injury at $26k. (Page 4, $2022)
 2. Willingness To Pay (WTP) using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. (Table 6.13, $2024)
@@ -58,6 +64,8 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 
 
 ## So which intersection has cost us the most?
+
+I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) use to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
 A WTP estimate was chosen as the favoured method. 
 
