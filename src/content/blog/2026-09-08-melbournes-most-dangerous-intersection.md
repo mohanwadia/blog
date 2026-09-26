@@ -71,33 +71,31 @@ A WTP estimate was chosen as the favoured method as __________
 
 I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) use to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
-The following intersections have recorded the highest total social cost using the WTP estimate: 
+
+| Intersection | Volume (Percentile) | Total Fatalities | Total Social Cost ($) |
+| ------------------------------ | ------------------- | ---------------- | --------------------- |
+| #1 FLEMINGTON/GATEHOUSE/HARKER | 76th | 3 | 34 229 996 |
+| #2 PHE/SPRINGVALE | 97th | 1 | 27 975 854 |
+| #3 STH GIPPSLAND HWY/CAMMS RD | 98th | 2 | 27 532 105 |
 
 
-| Intersection | Total Crashes | Total Fatalities | Total Social Cost ($) |
-| ------------------------------ | ------------- | ---------------- | --------------------- |
-| #1 FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 | 34 229 996 |
-| #2 PHE/SPRINGVALE | 42 | 1 | 27 975 854 |
-| #3 STH GIPPSLAND HWY/CAMMS RD | 20 | 2 | 27 532 105 |
-| #4 HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
-| #5 SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
-
-
-The majority of the intersections have multiple fatalities.
-
-## Normalizing Results
+The above intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 and #3 have extremely high traffic volume.
 
 [Correlation between Volume and Number of Crashes]
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
+As expected, these intersections have extremely low volume. 
 
-| Intersection | Volume | Total Social Cost ($) | Cost per MEV ($) |
-| ----------------------------- | ------ | --------------------- | ---------------- |
+
+| Intersection | Volume (Percentile) | Total Social Cost ($) | Cost per MEV ($) |
+| ----------------------------- | ------------------- | --------------------- | ---------------- |
 | EXHIBITION/LITTLE LONSDALE | 1079 | 5 060 302 | 1 285 245 |
 | ARDEN/LAURENS | 689 | 2 185 219 | 869 422 |
 | Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
 
+
+The above intersections have extremely low volume
 
 ## What if an intersection just had a bad run of luck?
 
