@@ -3,7 +3,7 @@ author: Mohan Wadia
 pubDatetime: 2026-09-26
 modDatetime: 2026-09-26
 title: We've been ranking dangerous intersections wrong
-slug: dangerous-intersections
+slug: intersections
 featured: false
 draft: true
 tags:
