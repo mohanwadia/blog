@@ -12,9 +12,9 @@ tags:
 ---
 Victoria's road network has historically been built for maximizing capacity. The state features wide urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional suburbs. All of this comes at a cost of about $___ per resident. 
 
-Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Net Zero by 2050. There were ___ fatalities on our roads in 2025, and the annual economic cost of crashes in Victoria is ____. 
-
 Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+
+There is a need to find and update dangerous intersections. Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Net Zero by 2050. There were ___ fatalities on our roads in 2025, and the annual economic cost of crashes in Victoria is ____. 
 
 # Methodology
 
@@ -62,9 +62,9 @@ An intersection with more vehicle volume will generally lead to a higher number 
 
 # Modelling
 
-## Which variables correlate to number of crashes?
+## Can we predict crash frequency?
 
-An initial model was completed with dependent variables log_MEV, speed_zone, and categorically road_geometry. log_MEV was the most statistically significant, followed by geometry 2.0, while speed_zone and geometry 4.0 were insignificant. The model was re-created with just log_MEV and geometry 2.0. 
+An initial model was completed with dependent variables log_MEV, speed_zone, and categorically road_geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0, while speed_zone and geometry 4.0 were insignificant. The model was re-created with just log_MEV and geometry 2.0. 
 
 ```
 import statsmodels.api as sm
@@ -79,15 +79,15 @@ spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=Fal
 spf.summary()
 ```
 
-Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
+Fitting a negative binomial regression to the data produces a Safety Performance Function (SPF) of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
 
 ## Empirical Bayes Method
 
 Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
-By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. 
 
-When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
+> This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
 This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate. 
 
