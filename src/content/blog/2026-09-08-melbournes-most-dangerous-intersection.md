@@ -47,22 +47,18 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains recorded traffic light signal volumes. The crashes labelled as intersections within 50m of a SCATS site were aggregated, with the number of people affected per result totalled. 
 
-# Results
+# Which intersection has cost us the most?
 
-## Per Road User
+
+| Intersection | Persons Killed | Persons Hospitalized | Total Persons Injured | Social Cost |
+| ------------ | -------------- | -------------------- | --------------------- | ----------- |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
 
 **Check AI numbers**: Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
-
-## Highest Social Cost
-
-
-| Intersection | Persons Killed | Persons Hospitalized | Persons Other Injuries | Social Cost |
-| ------------ | -------------- | -------------------- | ---------------------- | ----------- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
 
 # Modelling
 
@@ -72,11 +68,10 @@ An initial model was completed with dependent variables log_MEV, speed_zone, and
 
 ```
 import statsmodels.api as sm
-
 X_fit = sm.add_constant(
     pd.concat([
         np.log(fit_df['MEV']).rename('log_MEV'),
-        pd.get_dummies(fit_df['road_geometry'], prefix='geom').drop(columns=['geom_1.0', 'geom_4.0']),
+        pd.get_dummies(fit_df['road_geometry'], prefix='geom')['geom_2.0']
     ], axis=1).astype(float)
 )
 y_fit = fit_df['total_crashes'].astype(int)
@@ -84,17 +79,18 @@ spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=Fal
 spf.summary()
 ```
 
-Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`, which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.5938` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.7277` means that crash risk grows slower than vehicle volume.
+Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
 
 **Empirical Bayes Method**
 
 Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
- By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using a Safety Performance Function (SPF), the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
 
 When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
-This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate, which describes the 
+This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate. 
 
-# Linear Regression
+# Which intersections do we need to fix?
 
+[Table]
