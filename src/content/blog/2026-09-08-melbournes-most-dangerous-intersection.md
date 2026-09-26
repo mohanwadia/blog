@@ -47,6 +47,8 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains recorded traffic light signal volumes. The crashes labelled as intersections within 50m of a SCATS site were aggregated, with the number of people affected per result totalled. 
 
+# Results
+
 ## Per Road User
 
 **Check AI numbers**: Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
@@ -62,7 +64,29 @@ An intersection with more vehicle volume will generally lead to a higher number 
 |  |  |  |  |  |
 
 
-# Empirical Bayes Method
+# Modelling
+
+**Which variables correlate to number of crashes?**
+
+An initial model was completed with dependent variables log_MEV, speed_zone, and categorically road_geometry. log_MEV was the most statistically significant, followed by geometry 2.0, while speed_zone and geometry 4.0 were insignificant. The model was re-created with just log_MEV and geometry 2.0. 
+
+```
+import statsmodels.api as sm
+
+X_fit = sm.add_constant(
+    pd.concat([
+        np.log(fit_df['MEV']).rename('log_MEV'),
+        pd.get_dummies(fit_df['road_geometry'], prefix='geom').drop(columns=['geom_1.0', 'geom_4.0']),
+    ], axis=1).astype(float)
+)
+y_fit = fit_df['total_crashes'].astype(int)
+spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False) 
+spf.summary()
+```
+
+Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`, which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.5938` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.7277` means that crash risk grows slower than vehicle volume.
+
+**Empirical Bayes Method**
 
 Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
@@ -70,17 +94,15 @@ Applying an Empirical Bayes (EB) method increases precision and corrects for the
 
 When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
-```
-import statsmodels.api as sm
-X_fit = sm.add_constant(np.log(df['MEV']))
-y_fit = df['total_crashes'].astype(int)
-spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False)
-spf.summary()
-```
-
-Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −1.4702 + 0.7277 × log(MEV)`, which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.5938` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.7277` means that crash risk grows slower than vehicle volume.
-
 This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate, which describes the 
+
+# Linear Regression
+
+
+
+```
+
+```
 
 Full code is provided.
 
