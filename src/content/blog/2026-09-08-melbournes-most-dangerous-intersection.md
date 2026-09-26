@@ -99,20 +99,9 @@ An intersection with more vehicle volume will generally lead to a higher number 
 
 ## Can we predict crash frequency?
 
-An initial model was completed with dependent variables log_MEV, speed_zone, and categorically road_geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0, while speed_zone and geometry 4.0 were insignificant. The model was re-created with just log_MEV and geometry 2.0. 
 
-```
-import statsmodels.api as sm
-X_fit = sm.add_constant(
-    pd.concat([
-        np.log(fit_df['MEV']).rename('log_MEV'),
-        pd.get_dummies(fit_df['road_geometry'], prefix='geom')['geom_2.0']
-    ], axis=1).astype(float)
-)
-y_fit = fit_df['total_crashes'].astype(int)
-spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=False) 
-spf.summary()
-```
+
+An initial model was completed with independent variable number of crashes and dependent variables log MEV, speed limit, and categorically intersection geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0. Speed limit was insignificant, however when changing the independent variable to serious injuries it became significant. The model was re-created with just log_MEV and geometry.
 
 Fitting a negative binomial regression to the data produces a Safety Performance Function (SPF) of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
 
