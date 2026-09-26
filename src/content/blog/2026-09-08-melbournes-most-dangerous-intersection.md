@@ -24,6 +24,13 @@ The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.
 
 To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. A simpler approach ranking intersections by the number of accidents or number of accidents with casualties both ignore crash severity. 
 
+
+| Intersection | Number of Accidents |  |
+| ------------ | ------------------- | --- |
+|  |  |  |
+|  |  |  |
+
+
 Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. 
 
 A cost-based approach was chosen as expressing crash severity in a monetary value is objective. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crushes and an average of 0.13-0.2 casualty crushes per km over a 5-year span. 
@@ -54,6 +61,8 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 
 
 ## Normalizing Results
+
+[Correlation between Volume and Number of Crashes]
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
@@ -88,26 +97,27 @@ Fitting a negative binomial regression to the data produces a Safety Performance
 
 ## Empirical Bayes Method
 
-Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
-
-The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
+The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. 
 
 This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. 
 
+## Where can we prevent the most crashes?
 
+By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
+
+The Potential for Safety Improvement (PSI) was hence found by calculating the difference between the EB estimate and the weighted estimate. These are the intersections with the highest PSI:
 
 
 | Intersection |  |  |
-| ------------ | --- | --- |
-|  |  |  |
-|  |  |  |
+| ---------------------- | --- | --- |
+| CLYDE/GREAVES/O'SHEA |  |  |
+| CEMETERY/LYGON/PRINCES |  |  |
+| SYDNEY/MAHONEYS/CAMP |  |  |
 
 
 ## Which intersections do we need to fix?
 
-By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. 
-
-The Potential for Safety Improvement (PSI) was hence found by calculating the difference between the EB estimate and the weighted estimate. The following have the highest PSI values - that is - these sites are experiencing more crashes than expected, flagging it for potential investment. 
+ The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
 
 
 | Intersection | PSI | PSI WTP Cost |
