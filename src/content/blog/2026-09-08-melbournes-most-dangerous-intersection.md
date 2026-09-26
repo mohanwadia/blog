@@ -10,7 +10,7 @@ tags:
   - scats
   - crash
 ---
-Victoria's road network has historically and continues to be built for maximizing capacity. The state features wide urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional suburbs. All of this comes at a cost of about $___ per resident. 
+Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. The cost to just maintain our network is _______ per resident per year. 
 
 Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
 
