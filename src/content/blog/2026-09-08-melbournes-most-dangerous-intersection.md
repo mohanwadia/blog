@@ -85,17 +85,15 @@ The above intersections have recorded the highest total social cost using the WT
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
-As expected, these intersections have extremely low volume. 
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV:
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | Cost per MEV ($) |
 | ----------------------------- | ------------------- | --------------------- | ---------------- |
-| EXHIBITION/LITTLE LONSDALE | 1079 | 5 060 302 | 1 285 245 |
-| ARDEN/LAURENS | 689 | 2 185 219 | 869 422 |
-| Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
+| EXHIBITION/LITTLE LONSDALE | 13th | 12 270 696 | 231 677 |
+| ARDEN/LAURENS | 76th | 34 229 996 | 207 189 |
+| Ballarto Road/Potts Road Skye | 63rd | 24 317 965 | 183 024 |
 
-
-The above intersections have extremely low volume
 
 ## What if an intersection just had a bad run of luck?
 
