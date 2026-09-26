@@ -52,7 +52,9 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 | HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
 | SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
 
+## Normalizing Results
 
+An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
 | Intersection | Volume | Total Social Cost ($) | Cost per MEV ($) |
 | ----------------------------- | ------ | --------------------- | ---------------- |
@@ -61,11 +63,6 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 | Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
 
 
-## Normalizing Results
-
-An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
-
-[Table]
 
 # Modelling
 
