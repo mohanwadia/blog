@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-09-26
-modDatetime: 2026-09-26
+pubDatetime: 2026-09-27
+modDatetime: 2026-09-27
 title: We've been ranking dangerous intersections wrong
 slug: intersections
 featured: false
@@ -103,8 +103,6 @@ An initial model was completed with independent variable number of crashes and d
 
 Fitting a negative binomial regression to the data produces a Safety Performance Function (SPF) of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
 
-## Empirical Bayes Method
-
 The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. 
 
 This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. 
@@ -154,6 +152,8 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #2 ARDEN/LAURENS |  |  |  |
 | #3 BRIDPORT/LIGHT RAIL CROSSING |  |  |  |
 
+
+## But is it cost-effective?
 
 ## Conclusion
 
