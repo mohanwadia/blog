@@ -14,7 +14,7 @@ Victoria's road network has historically been built for maximizing capacity. The
 
 Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
 
-There is a need to find and update dangerous intersections. Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Net Zero by 2050. There were ___ fatalities on our roads in 2025, and the annual economic cost of crashes in Victoria is ____. 
+There is a need to find and update dangerous intersections. Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were ___ fatalities on our roads in 2025, and the annual economic cost of crashes in Victoria is ____. 
 
 # Methodology
 
