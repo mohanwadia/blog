@@ -30,7 +30,7 @@ A cost-based approach was chosen as expressing crash severity in a monetary valu
 
 ## Putting a price on a crash
 
-Cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
+It's uncomfortable to ask what the cost of accidents truly is. There aren't standards for evaluating the value of a statistical life, or even the social cost of accidents. Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal costs to medical related costs. 
 
 Two cost-based approaches were shortlisted which vary in their approach to calculating the cost of an accident:
 
@@ -39,7 +39,7 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 
 ![image.png](/blog/images/image-37.png)
 
-WTP was chosen because ________________________________
+
 
 # Which intersection has cost us the most?
 
@@ -56,13 +56,9 @@ WTP was chosen because ________________________________
 
 ## Normalizing Results
 
-An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains recorded traffic light signal volumes. The crashes labelled as intersections within 50m of a SCATS site were aggregated, with the number of people affected per result totalled. 
+An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at most signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
 [Table]
-
-## Per Road User
-
-Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
 
 # Modelling
 
@@ -98,3 +94,7 @@ This model can then be applied to each of the intersections, with each of the st
 # Which intersections do we need to fix?
 
 [Table]
+
+## Per Road User
+
+Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
