@@ -16,7 +16,7 @@ Since adopting the Safe System approach, attention has been placed on improving 
 
 # Methodology
 
-The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in the state. Additionally, 
+The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in the state.
 
 **How to rank intersections?**
 
@@ -30,10 +30,10 @@ A cost-based approach was chosen as expressing crash severity in a monetary valu
 
 Cost of accidents doesn't have standards for evaluating the value of a statistical life, or even the social cost of accidents. 
 
-Two cost-based approaches were shortlisted which vary in their approach to calculating cost:
+Two cost-based approaches were shortlisted which vary in their approach to calculating the cost of an accident:
 
-1. Cost of Accidents using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalized injury at $241k, and non-hospitalized injury at $26k. (Page 4, $2022)
-2. Cost of Accidents using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. (Table 6.13, $2024)
+1. HHC (Hybrid Human Capital) using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalized injury at $241k, and non-hospitalized injury at $26k. (Page 4, $2022)
+2. WTP (Willingness To Pay) using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. (Table 6.13, $2024)
 
 Comparing the two approaches, we get a correlation of 0.37 and the following scatter plot normalized per million-entering vehicles. Both metrics are comparable at a GDP standpoint with a 1% variance in total cost, however the way they distribute costs is very different. 
 
@@ -79,7 +79,7 @@ spf = sm.NegativeBinomial(y_fit, X_fit).fit(method='bfgs', maxiter=500, disp=Fal
 spf.summary()
 ```
 
-Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
+Fitting a negative binomial regression to the data produces a SPF of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
 
 **Empirical Bayes Method**
 
