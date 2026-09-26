@@ -98,20 +98,3 @@ This model can then be applied to each of the intersections, with each of the st
 
 # Linear Regression
 
-
-
-```
-
-```
-
-Full code is provided.
-
-Ranking the top 10 intersections by PSI WTP cost:
-
-
-|  |  |  |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-
-
