@@ -118,14 +118,24 @@ This model can then be applied to each of the intersections, with each of the st
 
 By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. 
 
-The Potential for Safety Improvement (PSI) was hence found by calculating the difference between the EB estimate and the weighted estimate. These are the intersections with the highest PSI:
+The Potential for Safety Improvement (PSI) is a value that describes how many accidents above expected were recorded, calculated as the difference between the model's estimate and the EB estimate. These are the intersections with the highest PSI:
 
 
-| Intersection |  |  |
-| ---------------------- | --- | --- |
-| CLYDE/GREAVES/O'SHEA |  |  |
-| CEMETERY/LYGON/PRINCES |  |  |
-| SYDNEY/MAHONEYS/CAMP |  |  |
+| Intersection | PSI |  |
+| ------------------------- | ----- | --- |
+| #1 CLYDE/GREAVES/O'SHEA | 33.48 |  |
+| #2 CEMETERY/LYGON/PRINCES | 33.47 |  |
+| #3 SYDNEY/MAHONEYS/CAMP | 33.39 |  |
+
+
+On the other end, these sites recorded less accidents than expected
+
+
+| Intersection | Crashes | PSI |  |
+| --------------------------------------------- | ------- | ------ | --- |
+| KOROROIT/FERGUSON | 0 | -10.55 |  |
+| WARRIGAL/LINKS ESTATE ACCESS | 0 | -10.42 |  |
+| Mornington Peninsula Freeway / Dingley Bypass | 0 | -9.37 |  |
 
 
 ## Which intersections do we need to fix?
