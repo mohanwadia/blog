@@ -10,15 +10,15 @@ tags:
   - scats
   - crash
 ---
-Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. The cost to just maintain our network is _______ per resident per year. 
-
-Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections fail to mention the relationship between traffic and crash data. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. The cost to just maintain our network is _______ per resident per year.
 
 There is a need to find and update dangerous intersections. Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were ___ fatalities on our roads in 2025, and the annual economic cost of crashes in Victoria is ____. 
 
+Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections look at data to find dangerous intersections, however I wanted to look at the relationship between crash volume and traffic volume. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+
 # Methodology
 
-The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in the state.
+I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) use to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
 ## What makes an intersection dangerous?
 
