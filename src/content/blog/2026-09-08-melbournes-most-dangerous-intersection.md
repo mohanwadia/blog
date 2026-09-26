@@ -52,16 +52,17 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 | HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
 | SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
 
+
 ## Normalizing Results
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
+
 
 | Intersection | Volume | Total Social Cost ($) | Cost per MEV ($) |
 | ----------------------------- | ------ | --------------------- | ---------------- |
 | EXHIBITION/LITTLE LONSDALE | 1079 | 5 060 302 | 1 285 245 |
 | ARDEN/LAURENS | 689 | 2 185 219 | 869 422 |
 | Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
-
 
 
 # Modelling
@@ -89,15 +90,32 @@ Fitting a negative binomial regression to the data produces a Safety Performance
 
 Applying an Empirical Bayes (EB) method increases precision and corrects for the regression-to-mean bias.
 
-By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. 
+The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
 
-> This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. 
+This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. 
 
-This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. The Potential for Safety Improvement (PSI) was also calculated as the difference between the EB estimate and the weighted estimate. 
 
-# Which intersections do we need to fix?
 
-[Table]
+
+| Intersection |  |  |
+| ------------ | --- | --- |
+|  |  |  |
+|  |  |  |
+
+
+## Which intersections do we need to fix?
+
+By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents and hence high counts. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. 
+
+The Potential for Safety Improvement (PSI) was hence found by calculating the difference between the EB estimate and the weighted estimate. The following have the highest PSI values - that is - these sites are experiencing more crashes than expected, flagging it for potential investment. 
+
+
+| Intersection | PSI | PSI WTP Cost |
+| ------------------------- | ----- | ------------ |
+| PHE/WARRIGAL | 32.65 | 1 086 659 |
+| CLYDE/GREAVES/O'SHEA | 33.48 | 1 082 416 |
+| SYDNEY RD/SOMERTON/COOPER | 29.74 | 1 061 189 |
+
 
 ## Per Road User
 
