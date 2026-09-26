@@ -18,11 +18,9 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 # Methodology
 
-
-
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. I started with a simpler approach ranking intersections by the number of accidents, however this ranking ignored crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. Similarly, ranking by number of serious accidents retains this bias. 
+To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. I started with a simpler approach ranking intersections by the number of accidents, however this ranking ignored crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. 
 
 
 | Intersection | Number of Crashes | Total Persons |
@@ -30,6 +28,16 @@ To calculate the true impact of each intersection over the past ten years, multi
 | #1 CEMETERY/LYGON/PRINCES | 56 | 147 |
 | #2 SYDNEY/MAHONEYS/CAMP | 56 | 153 |
 | #3 CLYDE/GREAVES/O'SHEA | 56 | 167 |
+
+
+Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. #2 and #3 have a relatively low number of crashes. 
+
+
+| Intersection | Number of Crashes | Fatalities |
+| ------------------------------- | ----------------- | ---------- |
+| #1 FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 |
+| #2 WELLINGTON/SILKWOOD/BRAEBURN | 5 | 2 |
+| #3 WESTALL/ROSEBANK | 5 | 2 |
 
 
 Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
