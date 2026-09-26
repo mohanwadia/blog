@@ -44,12 +44,21 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 # Which intersection has cost us the most?
 
 
-| Intersection | Persons Killed | Persons Hospitalized | Total Persons Injured | Social Cost |
-| ------------ | -------------- | -------------------- | --------------------- | ----------- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Intersection | Total Crashes | Total Persons Killed | Total Social Cost ($) |
+| --------------------------- | ------------- | -------------------- | --------------------- |
+| FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 | 34 229 996 |
+| PHE/SPRINGVALE | 42 | 1 | 27 975 854 |
+| STH GIPPSLAND HWY/CAMMS RD | 20 | 2 | 27 532 105 |
+| HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
+| SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
+
+
+
+| Intersection | Volume | Total Social Cost ($) | Cost per MEV ($) |
+| ----------------------------- | ------ | --------------------- | ---------------- |
+| EXHIBITION/LITTLE LONSDALE | 1079 | 5 060 302 | 1 285 245 |
+| ARDEN/LAURENS | 689 | 2 185 219 | 869 422 |
+| Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
 
 
 ## Normalizing Results
