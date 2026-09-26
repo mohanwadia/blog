@@ -20,18 +20,27 @@ There is a need to find and update dangerous intersections. Since adopting the S
 
 The methodology follows the approach from [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf), adapted for Victoria. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in the state.
 
-## How to rank intersections?
+## What makes an intersection dangerous?
 
-To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. A simpler approach ranking intersections by the number of accidents or number of accidents with casualties both ignore crash severity. 
-
-
-| Intersection | Number of Accidents |  |
-| ------------ | ------------------- | --- |
-|  |  |  |
-|  |  |  |
+To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. A simpler approach ranking intersections by the number of accidents or number of accidents with casualties both ignore crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. 
 
 
-Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. 
+| Intersection | Number of Crashes | Total Persons |
+| ------------------------- | ----------------- | ------------- |
+| #1 CEMETERY/LYGON/PRINCES | 56 | 147 |
+| #2 SYDNEY/MAHONEYS/CAMP | 56 | 153 |
+| #3 CLYDE/GREAVES/O'SHEA | 56 | 167 |
+
+
+Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
+
+
+| Intersection | Weighted Score | Total Persons |
+| ---------------------------- | -------------- | ------------- |
+| #1 CLYDE/GREAVES/O'SHEA | 111.0 | 167 |
+| #2 PHE/WARRIGAL | 110.0 | 145 |
+| #3 SYDNEY RD/SOMERTON/COOPER | 106.0 | 148 |
+
 
 A cost-based approach was chosen as expressing crash severity in a monetary value is objective. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crushes and an average of 0.13-0.2 casualty crushes per km over a 5-year span. 
 
@@ -48,17 +57,21 @@ Two cost-based approaches were shortlisted which vary in their approach to calcu
 
 
 
-# Which intersection has cost us the most?
+## So which intersection has cost us the most?
+
+A WTP estimate was chosen as the favoured method. 
 
 
-| Intersection | Total Crashes | Total Persons Killed | Total Social Cost ($) |
-| --------------------------- | ------------- | -------------------- | --------------------- |
+| Intersection | Total Crashes | Total Fatalities | Total Social Cost ($) |
+| --------------------------- | ------------- | ---------------- | --------------------- |
 | FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 | 34 229 996 |
 | PHE/SPRINGVALE | 42 | 1 | 27 975 854 |
 | STH GIPPSLAND HWY/CAMMS RD | 20 | 2 | 27 532 105 |
 | HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
 | SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
 
+
+The majority of the intersections have multiple fatalities.
 
 ## Normalizing Results
 
