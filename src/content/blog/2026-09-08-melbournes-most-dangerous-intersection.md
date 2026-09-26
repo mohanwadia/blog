@@ -67,16 +67,18 @@ I looked at two cost-based approaches which vary in their approach to calculatin
 
 I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) use to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
-A WTP estimate was chosen as the favoured method. 
+A WTP estimate was chosen as the favoured method as __________
+
+The following intersections have recorded the highest total social cost using the WTP estimate: 
 
 
 | Intersection | Total Crashes | Total Fatalities | Total Social Cost ($) |
-| --------------------------- | ------------- | ---------------- | --------------------- |
-| FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 | 34 229 996 |
-| PHE/SPRINGVALE | 42 | 1 | 27 975 854 |
-| STH GIPPSLAND HWY/CAMMS RD | 20 | 2 | 27 532 105 |
-| HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
-| SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
+| ------------------------------ | ------------- | ---------------- | --------------------- |
+| #1 FLEMINGTON/GATEHOUSE/HARKER | 35 | 3 | 34 229 996 |
+| #2 PHE/SPRINGVALE | 42 | 1 | 27 975 854 |
+| #3 STH GIPPSLAND HWY/CAMMS RD | 20 | 2 | 27 532 105 |
+| #4 HODDLE/JOHNSTON | 22 | 2 | 26 325 823 |
+| #5 SYDNEY RD/SOMERTON/COOPER | 51 | 0 | 24 565 583 |
 
 
 The majority of the intersections have multiple fatalities.
