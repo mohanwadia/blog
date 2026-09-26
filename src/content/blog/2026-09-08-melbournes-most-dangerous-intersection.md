@@ -16,18 +16,16 @@ There is a need to find and update dangerous intersections. Since adopting the S
 
 Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections look at data to find dangerous intersections, however I wanted to look at the relationship between crash volume and traffic volume. Additionally, RACV fails to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
 
-# Methodology
-
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. I started with a simpler approach ranking intersections by the number of accidents, however this ranking ignored crash severity. For example, these intersections all have the most recorded crashes at 56 each with no casualties. 
+To calculate the true impact of each intersection over the past ten years, multiple approaches were shortlisted. I started with a simpler approach ranking intersections by the number of accidents, however this ranking ignored crash severity and traffic volume. For example, these intersections all have the most recorded crashes at 56 each with no casualties and #2 and #3 experience extremely high traffic.
 
 
-| Intersection | Number of Crashes | Total Persons |
-| ------------------------- | ----------------- | ------------- |
-| #1 CEMETERY/LYGON/PRINCES | 56 | 147 |
-| #2 SYDNEY/MAHONEYS/CAMP | 56 | 153 |
-| #3 CLYDE/GREAVES/O'SHEA | 56 | 167 |
+| Intersection | Volume (Percentile) | Number of Crashes |
+| ------------------------- | ------------------- | ----------------- |
+| #1 CEMETERY/LYGON/PRINCES | 75th | 56 |
+| #2 SYDNEY/MAHONEYS/CAMP | 97th | 56 |
+| #3 CLYDE/GREAVES/O'SHEA | 98th | 56 |
 
 
 Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. #2 and #3 have a relatively low number of crashes. 
@@ -43,20 +41,18 @@ Similarly, ranking by number of serious accidents retains this bias. We can find
 Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
 
 
-| Intersection | Weighted Score | Total Persons |
-| ---------------------------- | -------------- | ------------- |
-| #1 CLYDE/GREAVES/O'SHEA | 111.0 | 167 |
-| #2 PHE/WARRIGAL | 110.0 | 145 |
-| #3 SYDNEY RD/SOMERTON/COOPER | 106.0 | 148 |
+| Intersection | Volume (Percentile) | Weighted Score |
+| ---------------------------- | ------------------- | -------------- |
+| #1 CLYDE/GREAVES/O'SHEA | 96th | 111.0 |
+| #2 PHE/WARRIGAL | 98th | 110.0 |
+| #3 SYDNEY RD/SOMERTON/COOPER | 96th | 106.0 |
 
 
 A cost-based approach was chosen as expressing crash severity in a monetary value is objective. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crushes and an average of 0.13-0.2 casualty crushes per km over a 5-year span. 
 
 ## Putting a price on a crash
 
-It's uncomfortable to ask what the cost of accidents truly is. There will never be standards for evaluating the value of a human life. 
-
-It's unfeasable to spend an infinite amount of money on one life. 
+It's uncomfortable to ask what the cost of accidents truly is. There will never be standards for evaluating the value of a human life. However it's also unfeasible to spend an infinite amount of money on one life. 
 
 Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal costs to medical related costs. 
 
@@ -103,9 +99,7 @@ An intersection with more vehicle volume will generally lead to a higher number 
 | Ballarto Road/Potts Road Skye | 1746 | 3 164 157 | 496 449 |
 
 
-# Modelling
-
-## Can we predict crash frequency?
+## What if an intersection just had a bad run of luck?
 
 An initial model was completed with independent variable number of crashes and dependent variables log MEV, speed limit, and categorically intersection geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0. Speed limit was insignificant, however when changing the independent variable to serious injuries it became significant. The model was re-created with just log_MEV and geometry.
 
@@ -146,16 +140,22 @@ On the other end, these sites recorded less accidents than expected
  The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
 
 
-| Intersection | PSI | PSI WTP Cost |
-| ------------------------- | ----- | ------------ |
+| Intersection | PSI | PSI WTP ($) |
+| ------------------------- | ----- | ----------- |
 | PHE/WARRIGAL | 32.65 | 1 086 659 |
 | CLYDE/GREAVES/O'SHEA | 33.48 | 1 082 416 |
 | SYDNEY RD/SOMERTON/COOPER | 29.74 | 1 061 189 |
 
 
-Again, to see if these intersections are a symptom of high traffic volume, this can be normalized per million entering vehicles:
+Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles:
 
-[Table of top 3 PSI WTP MEV]
+
+| Intersection | Volume | PSI WTP ($) | PSI WTP MEV ($) |
+| ------------------------------- | --------- | ----------- | --------------- |
+| #1 EXHIBITION/LITTLE LONSDALE | 3 937 227 |  |  |
+| #2 ARDEN/LAURENS |  |  |  |
+| #3 BRIDPORT/LIGHT RAIL CROSSING |  |  |  |
+
 
 ## Conclusion
 
