@@ -131,11 +131,11 @@ On the other end, these sites recorded less accidents than expected. These inter
 | Mornington Peninsula Freeway / Dingley Bypass |  | 0 | -9.37 |
 
 
-However PSI values are quantified as a number of accidents, which we previously found fail to account for crash severity. So let's convert them to WTP cost. 
+However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. So let's convert them to WTP cost. 
 
 ## Which intersections do we need to fix?
 
- The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
+The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
 
 
 | Intersection | PSI | PSI WTP ($) |
