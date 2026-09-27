@@ -114,11 +114,11 @@ By taking a weighted average of both the recorded number of accidents at an inte
 The Potential for Safety Improvement (PSI) is a value that describes how many accidents above expected were recorded, calculated as the difference between the model's estimate and the EB estimate. These are the intersections with the highest PSI:
 
 
-| Intersection | PSI |  |
-| ------------------------- | ----- | --- |
-| #1 CLYDE/GREAVES/O'SHEA | 33.48 |  |
-| #2 CEMETERY/LYGON/PRINCES | 33.47 |  |
-| #3 SYDNEY/MAHONEYS/CAMP | 33.39 |  |
+| Intersection | Volume (Percentile) | Crashes | PSI |
+| ------------------------- | ------------------- | ------- | ----- |
+| #1 CLYDE/GREAVES/O'SHEA | 96th | 56 | 33.48 |
+| #2 CEMETERY/LYGON/PRINCES | 94th | 56 | 33.47 |
+| #3 SYDNEY/MAHONEYS/CAMP | 99th | 56 | 33.39 |
 
 
 On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
@@ -126,12 +126,12 @@ On the other end, these sites recorded less accidents than expected. These inter
 
 | Intersection | Volume (Percentile) | Crashes | PSI |
 | --------------------------------------------- | ------------------- | ------- | ------ |
-| KOROROIT/FERGUSON |  | 0 | -10.55 |
-| WARRIGAL/LINKS ESTATE ACCESS |  | 0 | -10.42 |
-| Mornington Peninsula Freeway / Dingley Bypass |  | 0 | -9.37 |
+| KOROROIT/FERGUSON | 99th | 0 | -10.55 |
+| WARRIGAL/LINKS ESTATE ACCESS | 99th | 0 | -10.42 |
+| Mornington Peninsula Freeway / Dingley Bypass | 98th | 0 | -9.37 |
 
 
-However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. So let's convert them to WTP cost. 
+However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies . So let's convert them to WTP cost and normalize for traffic volume. 
 
 ## Which intersections do we need to fix?
 
@@ -156,6 +156,8 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 
 
 ## But is it cost-effective?
+
+Taking the ____ intersection in SIDRA guided by the SCATS diagram, we can model changes to the intersection. 
 
 ## Conclusion
 
