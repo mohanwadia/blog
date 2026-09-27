@@ -100,19 +100,15 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 
 ## What if an intersection just had a bad run of luck?
 
-An initial model was completed with independent variable number of crashes and dependent variables log MEV, speed limit, and categorically intersection geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0. Speed limit was insignificant, however when changing the independent variable to serious injuries it became significant. The model was re-created with just log_MEV and geometry.
+I fitted a negative binomial regression to the data to produce a Safety Performance Function (SPF) which attempts to estimate the accident frequency at similar intersections. The dependent variables chosen were logarithmic MEV and geometry as they were both statistically significant, while speed limit was excluded. 
 
-Fitting a negative binomial regression to the data produces a Safety Performance Function (SPF) of `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geom_2.0` , which determines the expected accident frequency at similar intersections. The model returned a highly significant alpha of `α=0.3284` which suggests the model is more appropriate than a Poisson distribution because busy intersections will be trusted on their own records while smaller intersections are adjusted. Also of note: a coefficient of `0.4240` means that crash risk grows slower than vehicle volume.
+`SPF Equation: log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geometry`
 
-The empirical Bayes method also removes a lot of the reason for not using older data, hence more accident counts can be used to increase precision. When estimating the mean and standard deviation of an average yearly accident frequency at an intersection, a low amount of accidents has a high coefficient of variance (CV) which indicates the estimate is too imprecise. 
+This allowed me to use the Empirical Bayes (EB) method to weight the recorded data and the expected accident frequency using the SPF equation. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. 
 
-This model can then be applied to each of the intersections, with each of the stats per severity calculated individually such that each Empirical Bayes (EB) estimate can be corrected to calculate a more accurate value. 
+This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
 
-## Where can we prevent the most crashes?
-
-By taking a weighted average of both the recorded number of accidents at an intersection and the accident frequency at similar intersections using the SPF, the Empirical Bayes method is able to increase accuracy. This is because it removes 'regression-from-the-mean' bias, which is evident from practical reasons where society is often too interested in the safety of select intersections because they seem to have too many accidents.
-
-The Potential for Safety Improvement (PSI) is a value that describes how many accidents above expected were recorded, calculated as the difference between the SPF and EB estimates. These are the intersections with the highest PSI:
+I was then able to calculate the difference between the SPF and EB estimates to find a value called Potential for Safety Improvement (PSI) which describes how many accidents above expected were recorded. These intersections have the highest PSI value: 
 
 
 | Intersection | Volume (Percentile) | Crashes (#) | PSI |
