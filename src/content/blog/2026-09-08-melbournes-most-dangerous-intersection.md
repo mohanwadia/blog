@@ -155,7 +155,7 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #3 BRIDPORT/LIGHT RAIL CROSSING |  |  |  |
 
 
-## But is it cost-effective?
+## But will changes be cost-effective?
 
 Taking the ____ intersection in SIDRA guided by the SCATS diagram, we can model changes to the intersection. 
 
