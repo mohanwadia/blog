@@ -110,10 +110,10 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 
 
 | Intersection | Volume (Percentile) | Crashes (#) | PSI |
-| ------------------------- | ------------------- | ----------- | ----- |
-| #1 CLYDE/GREAVES/O'SHEA | 96th | 56 | 33.48 |
-| #2 CEMETERY/LYGON/PRINCES | 94th | 56 | 33.47 |
-| #3 SYDNEY/MAHONEYS/CAMP | 99th | 56 | 33.39 |
+| ----------------------------- | ------------------- | ----------- | ----- |
+| #1 CLYDE / GREAVES / O'SHEA | 96th | 56 | 33.48 |
+| #2 CEMETERY / LYGON / PRINCES | 94th | 56 | 33.47 |
+| #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 33.39 |
 
 
 On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
@@ -121,8 +121,8 @@ On the other end, these sites recorded less accidents than expected. These inter
 
 | Intersection | Volume (Percentile) | Crashes (#) | PSI |
 | --------------------------------------------- | ------------------- | ----------- | ------ |
-| KOROROIT/FERGUSON | 99th | 0 | -10.55 |
-| WARRIGAL/LINKS ESTATE ACCESS | 99th | 0 | -10.42 |
+| KOROROIT / FERGUSON | 99th | 0 | -10.55 |
+| WARRIGAL / LINKS ESTATE ACCESS | 99th | 0 | -10.42 |
 | Mornington Peninsula Freeway / Dingley Bypass | 98th | 0 | -9.37 |
 
 
@@ -134,20 +134,20 @@ The following have the highest PSI WTP costs - that is - these sites have experi
 
 
 | Intersection | Volume (Percentile) | PSI | PSI WTP ($) |
-| ------------------------- | ------------------- | ----- | ----------- |
-| PHE/WARRIGAL | 98th | 32.65 | 1 086 659 |
-| CLYDE/GREAVES/O'SHEA | 96th | 33.48 | 1 082 416 |
-| SYDNEY RD/SOMERTON/COOPER | 96th | 29.74 | 1 061 189 |
+| ----------------------------- | ------------------- | ----- | ----------- |
+| PHE / WARRIGAL | 98th | 32.65 | 1 086 659 |
+| CLYDE / GREAVES / O'SHEA | 96th | 33.48 | 1 082 416 |
+| SYDNEY RD / SOMERTON / COOPER | 96th | 29.74 | 1 061 189 |
 
 
 Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
 
 
 | Intersection | Volume (Percentile) | PSI WTP ($) | PSI WTP MEV ($) |
-| ---------------------- | ------------------- | ----------- | --------------- |
-| #1 FRANK-DANDY/KIRKHAM | 12th | 3 023 120 | 59 798 |
-| #2 ST KILDA/HIGH/LORNE | 42nd | 5 111 011 | 52 709 |
-| #3 PHE/GLADSTONE/JONES | 65th | 7 293 143 | 52 617 |
+| -------------------------- | ------------------- | ----------- | --------------- |
+| #1 FRANK-DANDY / KIRKHAM | 12th | 3 023 120 | 59 798 |
+| #2 ST KILDA / HIGH / LORNE | 42nd | 5 111 011 | 52 709 |
+| #3 PHE / GLADSTONE / JONES | 65th | 7 293 143 | 52 617 |
 
 
 ## But will changes be cost-effective?
