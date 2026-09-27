@@ -95,6 +95,8 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 | Ballarto Road/Potts Road Skye | 63rd | 24 317 965 | 183 024 |
 
 
+#2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, the total cost of twelve million dollars where the majority is derived from one fatality poses the question if this intersection is truly dangerous or if it was unlucky. 
+
 ## What if an intersection just had a bad run of luck?
 
 An initial model was completed with independent variable number of crashes and dependent variables log MEV, speed limit, and categorically intersection geometry as these were available in the crash dataset. log_MEV was the most statistically significant, followed by geometry 2.0. Speed limit was insignificant, however when changing the independent variable to serious injuries it became significant. The model was re-created with just log_MEV and geometry.
