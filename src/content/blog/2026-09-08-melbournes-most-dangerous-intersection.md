@@ -22,8 +22,8 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 To calculate the true impact of each Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by the number of accidents. However this ranking ignored crash severity and traffic volume, visible as these intersections all have the most recorded crashes at 56 each with no casualties and #2 and #3 experience extremely high traffic.
 
 
-| Intersection | Volume (Percentile) | Crashes (#) |
-| ----------------------------- | ------------------- | ----------- |
+| Intersection | Volume (Percentile) | ++Crashes (#)++ |
+| ----------------------------- | ------------------- | --------------- |
 | #1 CEMETERY / LYGON / PRINCES | 75th | 56 |
 | #2 SYDNEY / MAHONEYS / CAMP | 97th | 56 |
 | #3 CLYDE / GREAVES / O'SHEA | 98th | 56 |
@@ -32,8 +32,8 @@ To calculate the true impact of each Melbourne intersection over the past ten ye
 Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. #2 and #3 have a relatively low number of crashes. 
 
 
-| Intersection | Crashes (#) | Fatalities (#) |
-| ----------------------------------- | ----------- | -------------- |
+| Intersection | Crashes (#) | ++Fatalities (#)++ |
+| ----------------------------------- | ----------- | ------------------ |
 | #1 FLEMINGTON / GATEHOUSE / HARKER | 35 | 3 |
 | #2 WELLINGTON / SILKWOOD / BRAEBURN | 5 | 2 |
 | #3 WESTALL / ROSEBANK | 5 | 2 |
@@ -42,8 +42,8 @@ Similarly, ranking by number of serious accidents retains this bias. We can find
 Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
 
 
-| Intersection | Volume (Percentile) | Weighted Score |
-| -------------------------------- | ------------------- | -------------- |
+| Intersection | Volume (Percentile) | ++Weighted Score++ |
+| -------------------------------- | ------------------- | ------------------ |
 | #1 CLYDE / GREAVES / O'SHEA | 96th | 111.0 |
 | #2 PHE / WARRIGAL | 98th | 110.0 |
 | #3 SYDNEY RD / SOMERTON / COOPER | 96th | 106.0 |
@@ -73,8 +73,8 @@ A WTP estimate was chosen as the favoured method as __________
 I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
 
-| Intersection | Volume (Percentile) | Fatalities (#) | Total Social Cost ($) |
-| ---------------------------------- | ------------------- | -------------- | --------------------- |
+| Intersection | Volume (Percentile) | Fatalities (#) | ++Total Social Cost ($)++ |
+| ---------------------------------- | ------------------- | -------------- | ------------------------- |
 | #1 FLEMINGTON / GATEHOUSE / HARKER | 76th | 3 | 34 229 996 |
 | #2 PHE / SPRINGVALE | 97th | 1 | 27 975 854 |
 | #3 STH GIPPSLAND HWY / CAMMS RD | 98th | 2 | 27 532 105 |
@@ -89,8 +89,8 @@ An intersection with more vehicle volume will generally lead to a higher number 
 Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV:
 
 
-| Intersection | Volume (Percentile) | Total Social Cost ($) | Cost per MEV ($) |
-| ------------------------------- | ------------------- | --------------------- | ---------------- |
+| Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
+| ------------------------------- | ------------------- | --------------------- | -------------------- |
 | EXHIBITION / LITTLE LONSDALE | 13th | 12 270 696 | 231 677 |
 | ARDEN / LAURENS | 76th | 34 229 996 | 207 189 |
 | Ballarto Road / Potts Road Skye | 63rd | 24 317 965 | 183 024 |
@@ -109,8 +109,8 @@ I then wanted to weight the recorded data and the expected accident frequency us
 I was then able to calculate the difference between the SPF and EB estimates to find a value called Potential for Safety Improvement (PSI) which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
 
 
-| Intersection | Volume (Percentile) | Crashes (#) | PSI |
-| ----------------------------- | ------------------- | ----------- | ----- |
+| Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
+| ----------------------------- | ------------------- | ----------- | ------- |
 | #1 CLYDE / GREAVES / O'SHEA | 96th | 56 | 33.48 |
 | #2 CEMETERY / LYGON / PRINCES | 94th | 56 | 33.47 |
 | #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 33.39 |
@@ -119,8 +119,8 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
 
 
-| Intersection | Volume (Percentile) | Crashes (#) | PSI |
-| --------------------------------------------- | ------------------- | ----------- | ------ |
+| Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
+| --------------------------------------------- | ------------------- | ----------- | ------- |
 | KOROROIT / FERGUSON | 99th | 0 | -10.55 |
 | WARRIGAL / LINKS ESTATE ACCESS | 99th | 0 | -10.42 |
 | Mornington Peninsula Freeway / Dingley Bypass | 98th | 0 | -9.37 |
@@ -133,8 +133,8 @@ However PSI values are quantified as a number of accidents, which we previously 
 The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
 
 
-| Intersection | Volume (Percentile) | PSI | PSI WTP ($) |
-| ----------------------------- | ------------------- | ----- | ----------- |
+| Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
+| ----------------------------- | ------------------- | ----- | --------------- |
 | PHE / WARRIGAL | 98th | 32.65 | 1 086 659 |
 | CLYDE / GREAVES / O'SHEA | 96th | 33.48 | 1 082 416 |
 | SYDNEY RD / SOMERTON / COOPER | 96th | 29.74 | 1 061 189 |
@@ -143,8 +143,8 @@ The following have the highest PSI WTP costs - that is - these sites have experi
 Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
 
 
-| Intersection | Volume (Percentile) | PSI WTP ($) | PSI WTP MEV ($) |
-| -------------------------- | ------------------- | ----------- | --------------- |
+| Intersection | Volume (Percentile) | PSI WTP ($) | ++PSI WTP MEV ($)++ |
+| -------------------------- | ------------------- | ----------- | ------------------- |
 | #1 FRANK-DANDY / KIRKHAM | 12th | 3 023 120 | 59 798 |
 | #2 ST KILDA / HIGH / LORNE | 42nd | 5 111 011 | 52 709 |
 | #3 PHE / GLADSTONE / JONES | 65th | 7 293 143 | 52 617 |
