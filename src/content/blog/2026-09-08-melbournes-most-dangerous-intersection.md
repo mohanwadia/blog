@@ -70,6 +70,8 @@ A WTP estimate was chosen as the favoured method as it is internationally recogn
 
 I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
 
+The below intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 and #3 have extremely high traffic volume.
+
 
 | Intersection | Volume (Percentile) | Fatalities (#) | ++Total Social Cost ($)++ |
 | ---------------------------------- | ------------------- | -------------- | ------------------------- |
@@ -78,11 +80,9 @@ I will use methodology developed from the approach [Wang Yin Ng (2022)](https://
 | #3 STH GIPPSLAND HWY / CAMMS RD | 98th | 2 | 27 532 105 |
 
 
-The above intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 and #3 have extremely high traffic volume.
+Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.23). Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
-[Correlation between Volume and Number of Crashes]
-
-An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV:
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
@@ -92,9 +92,7 @@ An intersection with more vehicle volume will generally lead to a higher number 
 | Ballarto Road / Potts Road Skye | 63rd | 24 317 965 | 183 024 |
 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV above. #2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. 
-
-This poses the question: are intersection like this truly dangerous or rather just unlucky?
+ #2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
 
 ## What if an intersection just had a bad run of luck?
 
