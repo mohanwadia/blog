@@ -108,7 +108,7 @@ This allowed me to use the Empirical Bayes (EB) method to weight the recorded da
 
 This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
 
-I was then able to calculate the difference between the SPF and EB estimates to find a value called Potential for Safety Improvement (PSI) which describes how many accidents above expected were recorded. These intersections have the highest PSI value: 
+I was then able to calculate the difference between the SPF and EB estimates to find a value called Potential for Safety Improvement (PSI) which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
 
 
 | Intersection | Volume (Percentile) | Crashes (#) | PSI |
