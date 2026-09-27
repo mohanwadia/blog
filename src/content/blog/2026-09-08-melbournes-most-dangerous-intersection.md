@@ -11,7 +11,7 @@ tags:
   - crash
 description: Evaluating the cost-effectiveness of creating safer intersections in Melbourne
 ---
-Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. The cost to just maintain our road network is [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
+Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. All of this comes with a price tag just to maintain our road network at [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
 There is a need to find and update dangerous intersections. Since adopting the Safe System approach, attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on our roads in 2025, and the annual economic cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
 
@@ -150,7 +150,7 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #3 PHE / GLADSTONE / JONES | 65th | 7 293 143 | 52 617 |
 
 
-As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections. However, it is inappropriate to determine the safety of any one intersection.
+As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections.
 
 [Map]
 
