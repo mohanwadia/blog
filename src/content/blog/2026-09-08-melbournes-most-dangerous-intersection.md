@@ -5,10 +5,11 @@ modDatetime: 2026-09-27
 title: We've been ranking dangerous intersections wrong
 slug: intersections
 featured: false
-draft: true
+draft: false
 tags:
   - scats
   - crash
+description: Evaluating the cost-effectiveness of creating safer intersections in Melbourne
 ---
 Victoria's road network has historically and continues to be built for maximizing capacity. Widen urban arterials divide neighbourhoods. An expansive network of roads stretch into regional suburbs. The cost to just maintain our road network is [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
