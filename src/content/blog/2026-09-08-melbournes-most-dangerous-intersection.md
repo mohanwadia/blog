@@ -19,7 +19,7 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by the number of accidents. However this ranking ignored crash severity and traffic volume, visible as these intersections all have the most recorded crashes at 56 each with no casualties and #2 and #3 experience extremely high traffic.
+To calculate the true impact of each signalized Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by the number of accidents. However this ranking ignored crash severity and traffic volume, visible as these intersections all have the most recorded crashes at 56 each with no casualties and #2 and #3 experience extremely high traffic.
 
 
 | Intersection | Volume (Percentile) | ++Crashes (#)++ |
@@ -86,8 +86,6 @@ The above intersections have recorded the highest total social cost using the WT
 
 An intersection with more vehicle volume will generally lead to a higher number of crashes. Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV:
-
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
 | ------------------------------- | ------------------- | --------------------- | -------------------- |
@@ -96,7 +94,9 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 | Ballarto Road / Potts Road Skye | 63rd | 24 317 965 | 183 024 |
 
 
-#2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV above. #2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. 
+
+This poses the question: are intersection like this truly dangerous or rather just unlucky?
 
 ## What if an intersection just had a bad run of luck?
 
