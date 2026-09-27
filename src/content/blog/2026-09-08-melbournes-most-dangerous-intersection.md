@@ -150,6 +150,10 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #3 PHE / GLADSTONE / JONES | 65th | 7 293 143 | 52 617 |
 
 
+As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections. However, it is inappropriate to determine the safety of any one intersection.
+
+[Map]
+
 ## But will changes be cost-effective?
 
 Taking the ____ intersection in SIDRA guided by the SCATS diagram, we can model changes to the intersection. 
