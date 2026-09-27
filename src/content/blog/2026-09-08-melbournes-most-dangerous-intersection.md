@@ -104,9 +104,7 @@ I fitted a negative binomial regression to the data to produce a Safety Performa
 
 `SPF Equation: log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geometry`
 
-This allowed me to use the Empirical Bayes (EB) method to weight the recorded data and the expected accident frequency using the SPF equation. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. 
-
-This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
+This allowed me to use the Empirical Bayes (EB) method to weight the recorded data and the expected accident frequency using the SPF equation. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
 
 I was then able to calculate the difference between the SPF and EB estimates to find a value called Potential for Safety Improvement (PSI) which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
 
