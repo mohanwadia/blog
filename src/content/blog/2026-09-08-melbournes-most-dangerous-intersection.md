@@ -133,21 +133,21 @@ However PSI values are quantified as a number of accidents, which we previously 
 The following have the highest PSI WTP costs - that is - these sites have experienced a higher social cost than expected, flagging it for potential investment. 
 
 
-| Intersection | PSI | PSI WTP ($) |
-| ------------------------- | ----- | ----------- |
-| PHE/WARRIGAL | 32.65 | 1 086 659 |
-| CLYDE/GREAVES/O'SHEA | 33.48 | 1 082 416 |
-| SYDNEY RD/SOMERTON/COOPER | 29.74 | 1 061 189 |
+| Intersection | Volume (Percentile) | PSI | PSI WTP ($) |
+| ------------------------- | ------------------- | ----- | ----------- |
+| PHE/WARRIGAL | 98th | 32.65 | 1 086 659 |
+| CLYDE/GREAVES/O'SHEA | 96th | 33.48 | 1 082 416 |
+| SYDNEY RD/SOMERTON/COOPER | 96th | 29.74 | 1 061 189 |
 
 
-Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles:
+Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
 
 
 | Intersection | Volume (Percentile) | PSI WTP ($) | PSI WTP MEV ($) |
-| ------------------------------- | ------------------- | ----------- | --------------- |
-| #1 EXHIBITION/LITTLE LONSDALE |  |  |  |
-| #2 ARDEN/LAURENS |  |  |  |
-| #3 BRIDPORT/LIGHT RAIL CROSSING |  |  |  |
+| ---------------------- | ------------------- | ----------- | --------------- |
+| #1 FRANK-DANDY/KIRKHAM | 12th | 3 023 120 | 59 798 |
+| #2 ST KILDA/HIGH/LORNE | 42nd | 5 111 011 | 52 709 |
+| #3 PHE/GLADSTONE/JONES | 65th | 7 293 143 | 52 617 |
 
 
 ## But will changes be cost-effective?
