@@ -121,15 +121,17 @@ The Potential for Safety Improvement (PSI) is a value that describes how many ac
 | #3 SYDNEY/MAHONEYS/CAMP | 33.39 |  |
 
 
-On the other end, these sites recorded less accidents than expected
+On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
 
 
-| Intersection | Crashes | PSI |  |
-| --------------------------------------------- | ------- | ------ | --- |
-| KOROROIT/FERGUSON | 0 | -10.55 |  |
-| WARRIGAL/LINKS ESTATE ACCESS | 0 | -10.42 |  |
-| Mornington Peninsula Freeway / Dingley Bypass | 0 | -9.37 |  |
+| Intersection | Volume (Percentile) | Crashes | PSI |
+| --------------------------------------------- | ------------------- | ------- | ------ |
+| KOROROIT/FERGUSON |  | 0 | -10.55 |
+| WARRIGAL/LINKS ESTATE ACCESS |  | 0 | -10.42 |
+| Mornington Peninsula Freeway / Dingley Bypass |  | 0 | -9.37 |
 
+
+However PSI values are quantified as a number of accidents, which we previously found fail to account for crash severity. So let's convert them to WTP cost. 
 
 ## Which intersections do we need to fix?
 
