@@ -148,9 +148,9 @@ The following have the highest PSI WTP costs - that is - these sites have experi
 Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles:
 
 
-| Intersection | Volume | PSI WTP ($) | PSI WTP MEV ($) |
-| ------------------------------- | --------- | ----------- | --------------- |
-| #1 EXHIBITION/LITTLE LONSDALE | 3 937 227 |  |  |
+| Intersection | Volume (Percentile) | PSI WTP ($) | PSI WTP MEV ($) |
+| ------------------------------- | ------------------- | ----------- | --------------- |
+| #1 EXHIBITION/LITTLE LONSDALE |  |  |  |
 | #2 ARDEN/LAURENS |  |  |  |
 | #3 BRIDPORT/LIGHT RAIL CROSSING |  |  |  |
 
