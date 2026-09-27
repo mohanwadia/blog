@@ -156,4 +156,4 @@ Taking the ____ intersection in SIDRA guided by the SCATS diagram, we can model 
 
 ## Conclusion
 
-Australia averages approximately 39 cyclist fatalities annually. At $2.9 million per fatality, this is $113million. Around 8100-8200 cyclists are admitted to hospital. At $241k per hostpotalized injury, hospital-level injuries contribute $2bil annually. Adding in non-hospitalized injuries, we get $2.1-2.2billion a year as the social cost. Australia spends $714 per person each year on roads, and 90cents per person on walking & cycling infrastructure.
+Cyclists and pedestrians will always be over-represented in crash statistics as they are the most vulnerable road users. However they continue to be under-represented in funding. Australia records 39 fatalities and over $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person are spent on walking and cycling infrastructure.
