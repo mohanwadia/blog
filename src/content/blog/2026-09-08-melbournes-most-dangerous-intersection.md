@@ -131,7 +131,7 @@ On the other end, these sites recorded less accidents than expected. These inter
 | Mornington Peninsula Freeway / Dingley Bypass | 98th | 0 | -9.37 |
 
 
-However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies . So let's convert them to WTP cost and normalize for traffic volume. 
+However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies PSI values. So let's convert them to WTP cost and normalize for traffic volume. 
 
 ## Which intersections do we need to fix?
 
