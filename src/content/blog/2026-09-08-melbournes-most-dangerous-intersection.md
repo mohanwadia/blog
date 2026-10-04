@@ -25,18 +25,18 @@ To calculate the true impact of each signalized Melbourne intersection over the 
 | Intersection | Volume (Percentile) | ++Crashes (#)++ |
 | ----------------------------- | ------------------- | --------------- |
 | #1 CEMETERY / LYGON / PRINCES | 75th | 56 |
-| #2 SYDNEY / MAHONEYS / CAMP | 97th | 56 |
-| #3 CLYDE / GREAVES / O'SHEA | 98th | 56 |
+| #1 SYDNEY / MAHONEYS / CAMP | 97th | 56 |
+| #1 CLYDE / GREAVES / O'SHEA | 98th | 56 |
 
 
-Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. #2 and #3 have a relatively low number of crashes. 
+Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. Fourteen sites have two fatalities however 
 
 
 | Intersection | Crashes (#) | ++Fatalities (#)++ |
-| ----------------------------------- | ----------- | ------------------ |
+| ---------------------------------- | ----------- | ------------------ |
 | #1 FLEMINGTON / GATEHOUSE / HARKER | 35 | 3 |
-| #2 WELLINGTON / SILKWOOD / BRAEBURN | 5 | 2 |
-| #3 WESTALL / ROSEBANK | 5 | 2 |
+| #2 KING / LATROBE | 38 | 2 |
+| #2 SYDNEY RD / BAKERS | 26 | 2 |
 
 
 Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) However it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
