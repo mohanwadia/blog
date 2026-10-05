@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-09-27
-modDatetime: 2026-09-27
+pubDatetime: 2026-10-05
+modDatetime: 2026-10-05
 title: We've been ranking dangerous intersections wrong
 slug: intersections
 featured: false
