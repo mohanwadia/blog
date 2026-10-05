@@ -82,7 +82,7 @@ The intersections below have recorded the highest total social cost using the WT
 
 | Intersection | Volume (Percentile) | Fatalities (#) | ++Total Social Cost ($)++ |
 | ---------------------------------- | ------------------- | -------------- | ------------------------- |
-| #1 FLEMINGTON / GATEHOUSE / HARKER | 76th | 3 | 34 229 996 |
+| #1 FLEMINGTON / GATEHOUSE / HARKER | 82nd | 3 | 34 229 996 |
 | #2 PRINCES HWY/ SPRINGVALE | 97th | 1 | 27 975 854 |
 | #3 STH GIPPSLAND HWY / CAMMS RD | 98th | 2 | 27 532 105 |
 
@@ -103,9 +103,9 @@ Without filtering out the quietest intersections, the top three only contains in
 
 ## What if an intersection just had a bad run of luck?
 
-There's value in estimating the crash frequency expected at similar intersections and comparing it to how many crashes were actually recorded. I adapted [Ezra Hauer's 2002 tutorial](https://journals.sagepub.com/doi/10.3141/1784-16) for Melbourne, but as a warning my methodology does get technical fast!
+There's value in estimating the crash frequency expected at similar intersections and comparing it to how many crashes were actually recorded. I adapted [Ezra Hauer's 2002 tutorial](https://journals.sagepub.com/doi/10.3141/1784-16) for Melbourne, but be warned: the methodology gets technical fast!
 
-To do this, I fitted a negative binomial regression to the data to model a **Safety Performance Function (SPF)**. The dependent variables chosen were logarithmic MEV and geometry as they were both statistically significant. 
+To do this, I fitted a negative binomial regression to the data to model a **Safety Performance Function (SPF)**. The independent variables chosen were logarithmic MEV and geometry because they were both statistically significant. 
 
 SPF Equation: `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geometry`
 
@@ -120,7 +120,7 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 | ----------------------------- | ------------------- | -------------- | ------- |
 | #1 CEMETERY / LYGON / PRINCES | 75th | 17.41 | 32.47 |
 | #2 CLYDE / GREAVES / O'SHEA | 93rd | 20.60 | 30.53 |
-| #3 SYDNEY / MAHONEYS / CAMP | 99th | 25.03 | 27.38 |
+| #3 SYDNEY / MAHONEYS / CAMP | 97th | 25.03 | 27.38 |
 
 
 On the other end, these sites recorded less crashes than expected. These intersections should be studied too to verify the success of any installed safety features. 
@@ -143,7 +143,7 @@ We can now find the intersections with a higher social cost than expected. The f
 | Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
 | ------------------------------------ | ------------------- | ----- | --------------- |
 | #1 CLYDE / GREAVES / O'SHEA | 93rd | 30.53 | 10 783 150 |
-| #2 PRINCES HWY / WARRIGAL | 99th | 26.62 | 9 975 144 |
+| #2 PRINCES HWY / WARRIGAL | 98th | 26.62 | 9 975 144 |
 | #3 WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
 
 
@@ -163,16 +163,16 @@ As each signalised intersection in Melbourne was included in the analysis, it is
 
 ## But will changes be cost-effective?
 
-Taking the highest PSI WTP per MEV intersection in SIDRA software guided by the SCATS diagram, it is possible to model changes to the intersections and complete a cost-benefit analysis. I've left this outside of this post's scope due to time constraints, however this is the next step to take the flagged intersections and model their changes to provide actionable items to the Transport Accident Commission (TAC). 
+Using SIDRA software and the SCATS diagram, I could model changes at the intersection with the highest PSI WTP per MEV and complete a full benefit-cost analysis. I've left this outside this post's scope due to time constraints, however this is the next step to take the flagged intersections and model their changes to advocate for recommendations to the Transport Accident Commission (TAC). 
 
 ![image.png](/blog/images/image-39.png)
 
-A limitation of this study is that SCATS only includes vehicle volumes. For example, the CBD intersection above has huge pedestrian volumes too which can be partially attributed to the high amount of crashes. 
+A limitation of this study is that SCATS only includes vehicle volumes. For example, the CBD intersection pictured above has huge pedestrian volumes too which can be partially attributed to the high number of crashes. 
 
-Improving cycling and pedestrian infrastructure should fundamentally be a priority as they are the most vulnerable road users and hence will continue to be over-represented in crash statistics. However, they continue to be under-represented in funding. Australia records 39 fatalities and over $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person are spent on walking and cycling infrastructure.
+Improving cycling and pedestrian infrastructure should be a priority because cyclists and pedestrians are the most vulnerable road users and will remain over-represented in crash statistics. However, they remain under-funded. Australia records [38 fatalities](https://www.aihw.gov.au/reports/injury/pedal-cyclist-injury-deaths-hospitalisations/summary) and more than $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person is spent on walking and cycling infrastructure.
 
 ## Conclusion
 
-Ranking intersections is harder than counting crashes. Raw crashes reward busy intersections, fatality counts reward bad luck, and subjective weightings can't be actioned. By using WTP, EB, and MEV approaches, we get a ranking that separates the truly underperforming intersections. However, the 'most dangerous intersection' label cannot be applied without understanding the priorities we have as a city. 
+Ranking intersections is harder than counting crashes. Raw crashes flag busy intersections, fatality counts flag unlucky ones, and subjective weightings can't be actioned easily. By using willingness-to-pay, empirical bayes, and per-vehicle normalisation approaches, we get a ranking that identifies the truly underperforming intersections. However, the 'most dangerous intersection' label cannot be applied without first understanding what we value as a city.
 
-Interested in working with this data in a similar way? You can easily reach out to me on LinkedIn or by email :)
+Interested in working with data like this? Reach out on [LinkedIn](https://linkedin.com/in/mohanwadia) or [by email.](mailto:mail@mohanwadia.com) 
