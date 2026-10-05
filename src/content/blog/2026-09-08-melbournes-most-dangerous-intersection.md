@@ -109,11 +109,11 @@ To do this, I fitted a negative binomial regression to the data to model a **Saf
 
 SPF Equation: `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geometry`
 
-I then wanted to weight the recorded data and the expected crash frequency using the SPF equation, which the **Empirical Bayes (EB)** method allows me to do. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. 
+I then wanted to weight the recorded data and the expected crash frequency using the SPF equation, which the **Empirical Bayes (EB)** method allows me to do. I estimated each severity separately so that each site's EB estimate reflects its own severity mix.
 
-This method reduces 'regression to the mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many crashes. The EB method also increases precision as it removes a lot of the reason for not using older data. 
+This method reduces 'regression to the mean' bias, which arises where society is often being too interested in the safety of select intersections because they recently had unusually many crashes. The EB method also increases precision as it allows older data to be used with less risk of bias.
 
-I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**; which describes how many crashes above expected were recorded. These intersections have the highest PSI value, with each recording significantly more crashes as expected from similar intersections. 
+I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**, which is the number of crashes above expected were recorded. These intersections have the highest PSI value, with each recording significantly more crashes than expected from similar intersections. 
 
 
 | Intersection | Volume (Percentile) | Expected (SPF) | ++PSI++ |
@@ -123,7 +123,7 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 | #3 SYDNEY / MAHONEYS / CAMP | 97th | 25.03 | 27.38 |
 
 
-On the other end, these sites recorded less crashes than expected. These intersections should be studied too to verify the success of any installed safety features. 
+On the other end, these sites recorded less crashes than expected. These intersections should also be studied to check if any installed safety features are working. 
 
 
 | Intersection | Volume (Percentile) | Expected (SPF) | ++PSI++ |
@@ -133,11 +133,11 @@ On the other end, these sites recorded less crashes than expected. These interse
 | #3 MORNINGTON PENINSULA FWY / DINGLEY BYPASS | 99th | 27.44 | -19.15 |
 
 
-However, PSI values are quantified as a number of crashes, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies PSI values. So let's convert them to WTP cost and normalise for traffic volume. 
+However, PSI is a count of crashes, and as we saw earlier, ignores crash severity. Additionally, both rankings are dominated by high-volume intersections because high traffic amplifies PSI values. So let's convert them to WTP dollar values and normalise for traffic volume. 
 
 ## Which intersections do we need to fix?
 
-We can now find the intersections with a higher social cost than expected. The following have the highest PSI WTP costs and should be flagged for potential investment in safety: 
+We can now find the intersections with a higher social cost than expected. The following have the highest excess social cost (PSI WTP) and should be flagged for potential investment in safety: 
 
 
 | Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
@@ -147,7 +147,7 @@ We can now find the intersections with a higher social cost than expected. The f
 | #3 WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
 
 
-Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalised per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 20% of intersections were filtered out to achieve more meaningful results. This approach isn't a neutral adjustment but rather a measure of where the largest absolute losses sit rather than the measure of risk to each vehicle passing through. 
+Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalised per million entering vehicles (PSI WTP MEV). As the ranking is once again dominated by sites in the first percentile of volume, the quietest 20% of intersections were filtered out to achieve more meaningful results.
 
 
 | Intersection | Volume (Percentile) | PSI WTP ($) | ++PSI WTP MEV ($)++ |
@@ -157,7 +157,7 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #3 PRINCES HWY / GLADSTONE / JONES | 74th | 7 329 623 | 44 676 |
 
 
-As each signalised intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections. I've included a close-up map of inner Melbourne colour-coding by PSI WTP and sized by volume. 
+Because every signalised intersection in Melbourne was included in the analysis, I could map all 2000+ intersections. I've included a close-up map of inner Melbourne colour-coded by PSI WTP and sized by volume. 
 
 ![intersections.jpg](/blog/images/intersections.jpg)
 
