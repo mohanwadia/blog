@@ -98,15 +98,15 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 
 ## What if an intersection just had a bad run of luck?
 
-There's value in estimating the accident frequency expected at similar intersections and comparing it to how many crashes were actually recorded. I adapted [Ezra Hauer's 2002 tutorial](https://journals.sagepub.com/doi/10.3141/1784-16) for Melbourne. 
+There's value in estimating the accident frequency expected at similar intersections and comparing it to how many crashes were actually recorded. I adapted [Ezra Hauer's 2002 tutorial](https://journals.sagepub.com/doi/10.3141/1784-16) for Melbourne, but as a warning my methodology does get technical fast!
 
 To do this, I fitted a negative binomial regression to the data to model a **Safety Performance Function (SPF)**. The dependent variables chosen were logarithmic MEV and geometry as they were both statistically significant. 
 
 SPF Equation: `log(E[crashes]) = −0.2040 + 0.4240 × log(MEV) + 0.2849 × geometry`
 
-I then wanted to weight the recorded data and the expected accident frequency using the SPF equation, which the **Empirical Bayes (EB)** method allows me to do. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
+I then wanted to weight the recorded data and the expected accident frequency using the SPF equation, which the **Empirical Bayes (EB)** method allows me to do. Each severity was calculated individually too such that each site's EB estimate can be corrected to calculate a more accurate value. 
 
-weight=1/(1+mu*Y/phi)
+This method reduces 'regression-from-the-mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
 
 I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**; which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
 
