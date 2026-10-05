@@ -13,7 +13,7 @@ description: Evaluating the cost-effectiveness of creating safer intersections i
 ---
 Victoria's road network has historically and continues to be built for maximizing capacity. We have widen urban arterials divide neighbourhoods and an expansive network of roads stretching into regional suburbs; all at a cost of [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
-There is a need to find and update dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on our roads in 2025, and the annual economic cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
+There is a need to find and update dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on Australian roads in 2025, and the annual economic cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
 
 ![image.png](/blog/images/image-40.png)
 
@@ -21,14 +21,14 @@ Previous reports such as RACV's annual survey and AAMI's recently published top 
 
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each signalized Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by the number of accidents. However this ranking ignored crash severity and traffic volume, visible as these intersections all have the most recorded crashes at 56 each with no casualties and #2 and #3 experience extremely high traffic.
+To calculate the true impact of each signalized Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by the number of accidents. However this ranking ignored crash severity and traffic volume: These top 3 intersections each have the most recorded crashes however they all record zero casualties and #2 and #3 experience extremely high traffic.
 
 
 | Intersection | Volume (Percentile) | ++Crashes (#)++ |
 | ----------------------------- | ------------------- | --------------- |
 | #1 CEMETERY / LYGON / PRINCES | 75th | 56 |
 | #1 SYDNEY / MAHONEYS / CAMP | 97th | 56 |
-| #1 CLYDE / GREAVES / O'SHEA | 98th | 56 |
+| #1 CLYDE / GREAVES / O'SHEA | 93rd | 56 |
 
 
 Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. Fourteen sites have two fatalities however the number of crashes range from just 5 to 38 at these sites. 
@@ -46,7 +46,7 @@ Using a crash index metric does emphasize severity, for example the [Bureau of I
 
 | Intersection | Volume (Percentile) | ++Weighted Score++ |
 | -------------------------------- | ------------------- | ------------------ |
-| #1 CLYDE / GREAVES / O'SHEA | 96th | 111.0 |
+| #1 CLYDE / GREAVES / O'SHEA | 93rd | 111.0 |
 | #2 PHE / WARRIGAL | 98th | 110.0 |
 | #3 SYDNEY RD / SOMERTON / COOPER | 96th | 106.0 |
 
@@ -66,11 +66,11 @@ I looked at two cost-based approaches which vary in their approach to calculatin
 1. Hybrid Human Capital (HHC) using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalized injury at $241k, and non-hospitalized injury at $26k. (Page 4, $2022)
 2. Willingness To Pay (WTP) using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalized injury at $650k, and non-hospitalized injury at $54k. (Table 6.13, $2024)
 
-A WTP estimate was chosen as the favoured method as it is internationally recognized to provides a stronger and more accurate economic estimate by including the massive intangible cost of pain and suffering. 
+A WTP estimate was chosen as the favoured method as it is internationally recognized to provides a stronger estimate by including the massive intangible cost of pain and suffering. 
 
 ## So which intersection has cost us the most?
 
-I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection with sufficient data in a larger study area.
+I will use methodology developed from the approach [Wang Yin Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data, as has ranked every signalized intersection in a larger study area.
 
 The below intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 and #3 have extremely high traffic volume.
 
@@ -111,9 +111,9 @@ This method reduces 'regression-from-the-mean' bias which is derived from societ
 I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**; which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
 
 
-| Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
-| ----------------------------- | ------------------- | ----------- | ------- |
-| #1 CEMETERY / LYGON / PRINCES | 97th | 56 | 32.47 |
+| Intersection | Volume (Percentile) | SPF | ++PSI++ |
+| ----------------------------- | ------------------- | --- | ------- |
+| #1 CEMETERY / LYGON / PRINCES | 75th | 56 | 32.47 |
 | #2 CLYDE / GREAVES / O'SHEA | 93rd | 56 | 30.53 |
 | #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 27.38 |
 
@@ -161,6 +161,8 @@ As each signalized intersection in Melbourne was included in the analysis, it is
 Taking the highest PSI WTP per MEV intersection in SIDRA guided by the SCATS diagram, it is possible to model changes to the intersections and complete a cost-benefit analysis. I've left this outside of this post's scope due to time constraints, however this is the next step to take the flagged intersections and model their changes to provide actionable items to the Transport Accident Commission (TAC). 
 
 ![image.png](/blog/images/image-39.png)
+
+A limitation of this study is that SCATS only includes vehicle volumes, while the intersection above has huge pedestrian volumes too which 
 
 Improving cycling and pedestrian infrastructure should fundamentally be a priority as they are the most vulnerable road users and hence will continue to be over-represented in crash statistics. However they continue to be under-represented in funding. Australia records 39 fatalities and over $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person are spent on walking and cycling infrastructure.
 
