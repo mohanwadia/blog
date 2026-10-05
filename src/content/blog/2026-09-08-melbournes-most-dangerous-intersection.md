@@ -12,21 +12,21 @@ tags:
 description: Evaluating the cost-effectiveness of creating safer intersections in Melbourne
 ---
 > ***Executive Summary***  
-> I analysed ten years of crash and volume data of signalised intersections in Melbourne, pricing crashes using willingness-to-pay values and used an Empirical Bayes model to flag dangerous intersections. 
+> I analysed ten years of crash and volume data of signalised intersections in Melbourne, priced crashes using willingness-to-pay values and used an Empirical Bayes model to flag dangerous intersections. 
 
 ---
 
-Victoria's road network has historically and continues to be built for maximising capacity. We have widened urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional suburbs; all at a cost of [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
+Victoria's road network has historically been, and continues to be, built for maximising capacity. We have widened urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional areas; all at a cost of [$714 per Australian resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
-There is a need to find and update dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on Australian roads in 2025, and the annual economic cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
+There is a need to find and upgrade dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been turned to improving the safety of our existing roads. However, we still have a long way to go to reach Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on Australian roads in 2025, and the total social cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
 
 ![image.png](/blog/images/image-40.png)
 
-Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections look at data to find dangerous intersections, however I wanted to look at the relationship between crash volume and traffic volume. Additionally, RACV chooses not to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreproducible analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
+Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections look at data to find dangerous intersections, but I wanted to look at the relationship between crash volume and traffic volume. Additionally, RACV chooses not to use crash data to influence its ranking, while AAMI uses its own motor insurance claims database which makes the analysis irreproducible. Meanwhile, Transport Victoria does not publish any intersection rankings. 
 
 ## What makes an intersection dangerous?
 
-To calculate the true impact of each signalised Melbourne intersection over the past ten years, I started with a simpler approach ranking intersections by crash frequency. However, this ranking ignored crash severity and traffic volume. For example, these top 3 intersections may have the most recorded crashes but they also all recorded zero casualties and #2 and #3 experience extremely high traffic.
+To calculate the true impact of each signalised Melbourne intersection over the past ten years, I started with a simpler approach: ranking intersections by crash frequency. However, this ranking ignored crash severity and traffic volume. For example, these top 3 intersections may have the most (tied) recorded crashes but they also all recorded zero casualties and #2 and #3 experience extremely high traffic.
 
 
 | Intersection | Volume (Percentile) | ++Crashes (#)++ |
@@ -46,7 +46,7 @@ Similarly, ranking by number of serious injury crashes retains this bias. We can
 | #2 SYDNEY RD / BAKERS | 26 | 2 |
 
 
-Using a crash index metric does emphasize severity, for example the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) A key limitation is it only counts the most severe casualty in the crash, and provides subjective weightings which are dimensionless. Each of these intersections below have 50+ crashes with no fatalities: 
+Using a crash index metric does emphasize severity. For example, the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/sites/default/files/report_090.pdf) report titled 'Evaluation of the Black Spot Program' weights fatalities and serious injuries at 9.5, minor injuries at 3.5, and property damage only at 1. (Page 59) A key limitation is that it only counts the most severe casualty in the crash, and uses subjective dimensionless weightings. Each of the intersections below have 50+ crashes with no fatalities: 
 
 
 | Intersection | Volume (Percentile) | ++Weighted Score++ |
@@ -56,22 +56,22 @@ Using a crash index metric does emphasize severity, for example the [Bureau of I
 | #3 SYDNEY RD / SOMERTON / COOPER | 96th | 106.0 |
 
 
-A cost-based approach was chosen as expressing crash severity in a monetary value is consistent and comparable. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which are important tools in advocating for, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of 2+ as well as 2-3 casualty crashes and an average of 0.13-0.2 casualty crashes per km over a 5-year span. 
+I chose a cost-based approach, because expressing crash severity in a monetary value is consistent and comparable. Additionally, it allows for benefit-cost ratios (BCR) to be calculated, which is an important tools in advocacy, as BCR hurdles [often implement a baseline filter of 1.0](https://www.atap.gov.au/framework/prioritisation-program-development/appendix-a-ranking-by-benefit-cost-ratio) to not be rejected, and greater than 1.0 when funds are relatively scarce. For example, the [Australian Black Spot Program](https://investment.infrastructure.gov.au/resources-funding-recipients/nominating-black-spot/black-spot-site-eligibility#:~:text=Funding%20is%20available%20for%20the%20treatment%20of%20Black%20Spot%20sites%2C%20or%20road%20lengths%2C%20with%20a%20proven%20history%20of%20crashes.%20Project%20proposals%20should%20demonstrate%20a%20benefit%20to%20cost%20ratio%20of%20at%20least%202%20to%201%2C%20and%20meet%20the%20following%20crash%20criteria%3A) requires a BCR of at least 2 as well as 2-3 casualty crashes and an average of 0.13-0.2 casualty crashes per km over a 5-year span. 
 
 ## Putting a price on a crash
 
-It's uncomfortable to ask what the cost of a road crash truly is. There will never be standards for evaluating the value of a human life. However, it's also unfeasible to spend an infinite amount of money on one life. 
+It's uncomfortable to ask what a crash truly costs. There will never be standards for evaluating the value of a human life. However, it's also infeasible to spend an infinite amount of money on one life. 
 
-Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal costs to medical related costs. 
+Through surveys and economic research, we can estimate how much Australians collectively value avoiding a crash, which gives us a broad measure taking into account all of the individual costs from legal to medical related costs. 
 
 ![image.png](/blog/images/image-37.png)
 
-I looked at two cost-based approaches which vary in their approach to calculating the cost of a crash:
+I looked at two cost-based approaches that differ in how they estimate the cost of a crash:
 
-1. Hybrid Human Capital (HHC) using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which calculates the social cost of a fatality at $2.9 million, hospitalised injury at $241k, and non-hospitalised injury at $26k. (Page 4, $2022)
-2. Willingness To Pay (WTP) using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which calculates the cost of a fatality at $6.7 million, hospitalised injury at $650k, and non-hospitalised injury at $54k. (Table 6.13, $2024)
+1. Hybrid Human Capital (HHC) using the [Bureau of Infrastructure and Transport Research Economics (BITRE)](https://www.bitre.gov.au/resource/road-safety/social-cost-road-crashes-0) 2022 report titled 'Social Cost of Road Crashes', which estimates the social cost of a fatality at $2.9 million, hospitalised injury at $241k, and non-hospitalised injury at $26k. (p. 4, 2022 dollars)
+2. Willingness to Pay (WTP) using the [Australian Transport Assessment and Planning (ATAP)](https://www.atap.gov.au/sites/default/files/documents/atap-wtp-research-report-v1.7.pdf) 2024 report titled 'Willingness-to-pay...Research report', which estimates the cost of a fatality at $6.7 million, hospitalised injury at $650k, and non-hospitalised injury at $54k. (Table 6.13, 2024 dollars)
 
-A WTP estimate was chosen as the favoured method as it provides a stronger estimate by including the massive intangible cost of pain and suffering. 
+I favoured using WTP estimates because it captures the massive intangible cost of pain and suffering. 
 
 ## So which intersection has cost us the most?
 
