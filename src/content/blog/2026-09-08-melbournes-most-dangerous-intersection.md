@@ -162,6 +162,7 @@ Taking the highest PSI WTP per MEV intersection in SIDRA guided by the SCATS dia
 
 ![image.png](/blog/images/image-39.png)
 
+Improving cycling and pedestrian infrastructure should fundamentally be a priority as they are the most vulnerable road users and hence will continue to be over-represented in crash statistics. However they continue to be under-represented in funding. Australia records 39 fatalities and over $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person are spent on walking and cycling infrastructure.
+
 ## Conclusion
 
-Cyclists and pedestrians will always be over-represented in crash statistics as they are the most vulnerable road users. However they continue to be under-represented in funding. Australia records 39 fatalities and over $2 billion in social costs for cyclists alone each year. Yet just 90 cents per person are spent on walking and cycling infrastructure.
