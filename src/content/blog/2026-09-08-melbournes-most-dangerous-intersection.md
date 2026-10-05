@@ -11,7 +11,7 @@ tags:
   - crash
 description: Evaluating the cost-effectiveness of creating safer intersections in Melbourne
 ---
-> ++Executive Summary:++   
+> ***Executive Summary***  
 > I analysed ten years of crash and volume data of signalized intersections in Melbourne, pricing crashes using willingness-to-pay values and used an Empirical Bayes model to flag dangerous intersections. 
 
 ---
