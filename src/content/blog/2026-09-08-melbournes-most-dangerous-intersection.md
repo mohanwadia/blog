@@ -111,26 +111,26 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 
 | Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
 | ----------------------------- | ------------------- | ----------- | ------- |
-| #1 CLYDE / GREAVES / O'SHEA | 96th | 56 | 32.47 |
-| #2 CEMETERY / LYGON / PRINCES | 94th | 56 | 30.53 |
-| #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 33.39 |
+| #1 CEMETERY / LYGON / PRINCES | 97th | 56 | 32.47 |
+| #2 CLYDE / GREAVES / O'SHEA | 93rd | 56 | 30.53 |
+| #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 27.38 |
 
 
 On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
 
 
 | Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
-| --------------------------------------------- | ------------------- | ----------- | ------- |
-| KOROROIT / FERGUSON | 99th | 0 | -10.55 |
-| WARRIGAL / LINKS ESTATE ACCESS | 99th | 0 | -10.42 |
-| Mornington Peninsula Freeway / Dingley Bypass | 98th | 0 | -9.37 |
+| ------------------------------------------------ | ------------------- | ----------- | ------- |
+| #1 EASTERN FWY OFF RAMP / HODDLE | 99th | 9 | -28.88 |
+| #2 WARRIGAL / LINKS ESTATE ACCESS | 96th | 5 | -20.49 |
+| #3 Mornington Peninsula Freeway / Dingley Bypass | 99th | 6 | -19.15 |
 
 
 However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies PSI values. So let's convert them to WTP cost and normalize for traffic volume. 
 
 ## Which intersections do we need to fix?
 
-We can now find the intersections with a higher social cost than expected. The following have teh highest PSI WTP costs and should be flagged for potential investment in safety: 
+We can now find the intersections with a higher social cost than expected. The following have the highest PSI WTP costs and should be flagged for potential investment in safety: 
 
 
 | Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
