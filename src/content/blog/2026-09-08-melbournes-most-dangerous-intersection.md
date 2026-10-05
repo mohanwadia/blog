@@ -15,7 +15,7 @@ Victoria's road network has historically and continues to be built for maximizin
 
 There is a need to find and update dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been placed on improving the safety of our existing roads. However, we still have a long way to go to Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on our roads in 2025, and the annual economic cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
 
-![IMG_20260930_182458811_HDR.jpg](/blog/images/IMG_20260930_182458811_HDR.jpg)
+![image.png](/blog/images/image-40.png)
 
 Previous reports such as RACV's annual survey and AAMI's recently published top 10 intersections look at data to find dangerous intersections, however I wanted to look at the relationship between crash volume and traffic volume. Additionally, RACV chooses not to use crash data to influence their ranking, while AAMI uses their own motor insurance claims database creating irreplicable analysis. Meanwhile, Transport Victoria does not publish any intersection rankings. 
 
