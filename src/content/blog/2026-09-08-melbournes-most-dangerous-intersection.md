@@ -11,7 +11,10 @@ tags:
   - crash
 description: Evaluating the cost-effectiveness of creating safer intersections in Melbourne
 ---
-Executive Summary: 
+> ++Executive Summary:++   
+> I analysed ten years of crash and volume data of signalized intersections in Melbourne, pricing crashes using willingness-to-pay values and used an Empirical Bayes model to flag dangerous intersections. 
+
+---
 
 Victoria's road network has historically and continues to be built for maximizing capacity. We have widened urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional suburbs; all at a cost of [$714 per resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
