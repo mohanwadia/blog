@@ -90,10 +90,10 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
-| ------------------------------- | ------------------- | --------------------- | -------------------- |
-| WHITEHALL / SOMERVILLE | 27th | 12 270 696 | 175 034 |
-| FLEMINGTON / GATEHOUSE / HARKER | 82nd | 34 229 996 | 174 749 |
-| PALMERS / THE STRAND | 39th | 15 226 280 | 169 687 |
+| ---------------------------------- | ------------------- | --------------------- | -------------------- |
+| #1 WHITEHALL / SOMERVILLE | 27th | 12 270 696 | 175 034 |
+| #2 FLEMINGTON / GATEHOUSE / HARKER | 82nd | 34 229 996 | 174 749 |
+| #3 PALMERS / THE STRAND | 39th | 15 226 280 | 169 687 |
 
 
 #2 has experienced both high volumes and a high social cost from lots of crashes recorded. In comparison, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
@@ -138,10 +138,10 @@ We can now find the intersections with a higher social cost than expected. The f
 
 
 | Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
-| --------------------------------- | ------------------- | ----- | --------------- |
-| CLYDE / GREAVES / O'SHEA | 93rd | 30.53 | 10 783 150 |
-| PHE / WARRIGAL | 99th | 26.62 | 9 975 144 |
-| WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
+| ------------------------------------ | ------------------- | ----- | --------------- |
+| #1 CLYDE / GREAVES / O'SHEA | 93rd | 30.53 | 10 783 150 |
+| #2 PHE / WARRIGAL | 99th | 26.62 | 9 975 144 |
+| #3 WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
 
 
 Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
