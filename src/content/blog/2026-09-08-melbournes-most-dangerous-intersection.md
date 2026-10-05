@@ -73,11 +73,11 @@ I looked at two cost-based approaches that differ in how they estimate the cost 
 
 I favoured using WTP estimates because it captures the massive intangible cost of pain and suffering. 
 
-## So which intersection has cost us the most?
+## Which intersections have cost us the most?
 
-I used methodology developed from the approach [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post used a 10-year timespan to increase the amount of crash data and vehicle volume data, and has ranked every signalised intersection in a larger study area.
+I adapted the methodology from the approach [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used for Adelaide. While Ng uses a 3-year period and a selected amount of intersections, this post used a 10-year period to increase the volume of crash data and vehicle volume data, and ranks every signalised intersection in a larger study area.
 
-The below intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 (Springvale Junction) and #3 have extremely high traffic volume.
+The intersections below have recorded the highest total social cost using the WTP estimate. Note that each one has at least one fatality, and #2 (Springvale Junction) and #3 have extremely high traffic volume.
 
 
 | Intersection | Volume (Percentile) | Fatalities (#) | ++Total Social Cost ($)++ |
@@ -87,9 +87,9 @@ The below intersections have recorded the highest total social cost using the WT
 | #3 STH GIPPSLAND HWY / CAMMS RD | 98th | 2 | 27 532 105 |
 
 
-Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.32). Therefore, the approach was taken to normalise each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalised intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalised per million entering vehicles. 
+Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.32), so I normalised each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) data which contains traffic volumes at all signalised intersections. I aggregated crashes labelled as intersection crashes within 50m of a SCATS site, which lets me normalise any metric per million entering vehicles (MEV). 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by cost per million entering vehicles (MEV):
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV:
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
