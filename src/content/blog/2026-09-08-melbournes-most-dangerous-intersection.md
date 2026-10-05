@@ -75,7 +75,7 @@ A WTP estimate was chosen as the favoured method as it provides a stronger estim
 
 ## So which intersection has cost us the most?
 
-I will use methodology developed from the approach [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post uses a 10-year timespan to increase the amount of crash data and vehicle volume data, and has ranked every signalised intersection in a larger study area.
+I used methodology developed from the approach [Ng (2022)](https://flex.flinders.edu.au/file/b3e4c40f-f755-40c7-ad70-fdd6d84be852/1/Ng2022_LibraryCopy.pdf) used to look at Adelaide. While Ng uses a 3-year time span and a selected amount of intersections, this post used a 10-year timespan to increase the amount of crash data and vehicle volume data, and has ranked every signalised intersection in a larger study area.
 
 The below intersections have recorded the highest total social cost using the WTP estimate. Of note, each one has at least one fatality, and #2 (Springvale Junction) and #3 have extremely high traffic volume.
 
@@ -127,10 +127,10 @@ On the other end, these sites recorded less crashes than expected. These interse
 
 
 | Intersection | Volume (Percentile) | Expected (SPF) | ++PSI++ |
-| ------------------------------------------------ | ------------------- | -------------- | ------- |
+| -------------------------------------------- | ------------------- | -------------- | ------- |
 | #1 EASTERN FWY OFF RAMP / HODDLE | 99th | 40.24 | -28.88 |
 | #2 WARRIGAL / LINKS ESTATE ACCESS | 96th | 27.91 | -20.49 |
-| #3 Mornington Peninsula Freeway / Dingley Bypass | 99th | 27.44 | -19.15 |
+| #3 MORNINGTON PENINSULA FWY / DINGLEY BYPASS | 99th | 27.44 | -19.15 |
 
 
 However, PSI values are quantified as a number of crashes, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies PSI values. So let's convert them to WTP cost and normalise for traffic volume. 
