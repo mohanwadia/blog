@@ -110,24 +110,24 @@ I then wanted to weight the recorded data and the expected accident frequency us
 
 This method reduces 'regression to the mean' bias which is derived from society often being too interested in the safety of select intersections because they seem to have too many accidents. The EB method also increases precision as it removes a lot of the reason for not using older data. 
 
-I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**; which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording more than two times as many crashes as expected from similar intersections. 
+I was then able to calculate the difference between the SPF and EB estimates to find a value called **Potential for Safety Improvement (PSI)**; which describes how many accidents above expected were recorded. These intersections have the highest PSI value, with each recording significantly more crashes as expected from similar intersections. 
 
 
-| Intersection | Volume (Percentile) | SPF | ++PSI++ |
-| ----------------------------- | ------------------- | --- | ------- |
-| #1 CEMETERY / LYGON / PRINCES | 75th | 56 | 32.47 |
-| #2 CLYDE / GREAVES / O'SHEA | 93rd | 56 | 30.53 |
-| #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 27.38 |
+| Intersection | Volume (Percentile) | Expected (SPF) | ++PSI++ |
+| ----------------------------- | ------------------- | -------------- | ------- |
+| #1 CEMETERY / LYGON / PRINCES | 75th | 17.41 | 32.47 |
+| #2 CLYDE / GREAVES / O'SHEA | 93rd | 20.60 | 30.53 |
+| #3 SYDNEY / MAHONEYS / CAMP | 99th | 25.03 | 27.38 |
 
 
 On the other end, these sites recorded less accidents than expected. These intersections should be studied too to verify the success of any installed safety features. 
 
 
-| Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
-| ------------------------------------------------ | ------------------- | ----------- | ------- |
-| #1 EASTERN FWY OFF RAMP / HODDLE | 99th | 9 | -28.88 |
-| #2 WARRIGAL / LINKS ESTATE ACCESS | 96th | 5 | -20.49 |
-| #3 Mornington Peninsula Freeway / Dingley Bypass | 99th | 6 | -19.15 |
+| Intersection | Volume (Percentile) | Expected (SPF) | ++PSI++ |
+| ------------------------------------------------ | ------------------- | -------------- | ------- |
+| #1 EASTERN FWY OFF RAMP / HODDLE | 99th | 40.24 | -28.88 |
+| #2 WARRIGAL / LINKS ESTATE ACCESS | 96th | 27.91 | -20.49 |
+| #3 Mornington Peninsula Freeway / Dingley Bypass | 99th | 27.44 | -19.15 |
 
 
 However PSI values are quantified as a number of accidents, which we previously found don't account for crash severity. Additionally, both rankings are dominated by high volume intersections because high traffic amplifies PSI values. So let's convert them to WTP cost and normalize for traffic volume. 
