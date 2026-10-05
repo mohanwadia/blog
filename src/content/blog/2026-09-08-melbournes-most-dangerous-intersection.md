@@ -31,7 +31,7 @@ To calculate the true impact of each signalized Melbourne intersection over the 
 | #1 CLYDE / GREAVES / O'SHEA | 98th | 56 |
 
 
-Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. Fourteen sites have two fatalities however 
+Similarly, ranking by number of serious accidents retains this bias. We can find the most deadly intersections, but these aren't necessarily the most dangerous. Fourteen sites have two fatalities however the number of crashes range from just 5 to 38 at these sites. 
 
 
 | Intersection | Crashes (#) | ++Fatalities (#)++ |
@@ -158,7 +158,7 @@ As each signalized intersection in Melbourne was included in the analysis, it is
 
 ## But will changes be cost-effective?
 
-Taking the highest PSI WTP per MEV intersection in SIDRA guided by the SCATS diagram, it is possible to model changes to the intersectios and complete a cost-benefit analysis. I've left this outside of this post due to time constraints. 
+Taking the highest PSI WTP per MEV intersection in SIDRA guided by the SCATS diagram, it is possible to model changes to the intersections and complete a cost-benefit analysis. I've left this outside of this post's scope due to time constraints, however this is the next step to take the flagged intersections and model their changes to provide actionable items to the Transport Accident Commission (TAC). 
 
 ![image.png](/blog/images/image-39.png)
 
