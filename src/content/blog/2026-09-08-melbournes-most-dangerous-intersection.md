@@ -87,9 +87,9 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
 | ------------------------------- | ------------------- | --------------------- | -------------------- |
-| EXHIBITION / LITTLE LONSDALE | 13th | 12 270 696 | 231 677 |
-| ARDEN / LAURENS | 76th | 34 229 996 | 207 189 |
-| Ballarto Road / Potts Road Skye | 63rd | 24 317 965 | 183 024 |
+| EXHIBITION / LITTLE LONSDALE | 27 | 12 270 696 | 6.388734e+08 |
+| ARDEN / LAURENS | 82 | 34 229 996 | 207 189 |
+| Ballarto Road / Potts Road Skye | 39 | 24 317 965 | 183 024 |
 
 
  #2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
