@@ -134,10 +134,10 @@ We can now find the intersections with a higher social cost than expected. The f
 
 
 | Intersection | Volume (Percentile) | PSI | ++PSI WTP ($)++ |
-| ----------------------------- | ------------------- | ----- | --------------- |
-| PHE / WARRIGAL | 98th | 32.65 | 1 086 659 |
-| CLYDE / GREAVES / O'SHEA | 96th | 33.48 | 1 082 416 |
-| SYDNEY RD / SOMERTON / COOPER | 96th | 29.74 | 1 061 189 |
+| --------------------------------- | ------------------- | ----- | --------------- |
+| CLYDE / GREAVES / O'SHEA | 93rd | 30.53 | 10 783 150 |
+| PHE / WARRIGAL | 99th | 26.62 | 9 975 144 |
+| WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
 
 
 Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
@@ -145,9 +145,9 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 
 | Intersection | Volume (Percentile) | PSI WTP ($) | ++PSI WTP MEV ($)++ |
 | -------------------------- | ------------------- | ----------- | ------------------- |
-| #1 FRANK-DANDY / KIRKHAM | 12th | 3 023 120 | 59 798 |
-| #2 ST KILDA / HIGH / LORNE | 42nd | 5 111 011 | 52 709 |
-| #3 PHE / GLADSTONE / JONES | 65th | 7 293 143 | 52 617 |
+| #1 ELIZABETH / LONSDALE | 29th | 3 475 447 | 47 296 |
+| #2 ST KILDA / HIGH / LORNE | 55th | 5 416 589 | 46 438 |
+| #3 PHE / GLADSTONE / JONES | 74th | 7 329 623 | 44 676 |
 
 
 As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections.
