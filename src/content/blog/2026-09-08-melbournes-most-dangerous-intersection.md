@@ -84,7 +84,7 @@ The below intersections have recorded the highest total social cost using the WT
 | #3 STH GIPPSLAND HWY / CAMMS RD | 98th | 2 | 27 532 105 |
 
 
-Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.23). Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
+Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.32). Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
 Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV:
 
