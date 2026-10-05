@@ -89,7 +89,7 @@ The intersections below have recorded the highest total social cost using the WT
 
 Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.32), so I normalised each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) data which contains traffic volumes at all signalised intersections. I aggregated crashes labelled as intersection crashes within 50m of a SCATS site, which lets me normalise any metric per million entering vehicles (MEV). 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV:
+Without filtering out the quietest intersections, the top three only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked the remainder by Cost per MEV:
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
@@ -99,7 +99,7 @@ Without filtering out the quietest intersections, the top 3 only contains inters
 | #3 PALMERS / THE STRAND | 39th | 15 226 280 | 169 687 |
 
 
-#2 has experienced both high volumes and a high social cost from lots of crashes recorded. In comparison, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
+#2 has high volumes and a high social cost from a large number of recorded crashes. In comparison, #1 is relatively quiet in terms of volume, while the total cost exceeds $12 million dollars, most of which is derived from a single fatality. This raises the question: are intersection like this truly dangerous or rather just unlucky?
 
 ## What if an intersection just had a bad run of luck?
 
