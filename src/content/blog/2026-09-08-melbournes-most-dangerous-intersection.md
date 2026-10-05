@@ -82,17 +82,17 @@ The below intersections have recorded the highest total social cost using the WT
 
 Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.23). Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 10% of intersections and ranked them by Cost per MEV:
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV:
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
 | ------------------------------- | ------------------- | --------------------- | -------------------- |
-| EXHIBITION / LITTLE LONSDALE | 27 | 12 270 696 | 6.388734e+08 |
-| ARDEN / LAURENS | 82 | 34 229 996 | 207 189 |
-| Ballarto Road / Potts Road Skye | 39 | 24 317 965 | 183 024 |
+| WHITEHALL / SOMERVILLE | 27th | 12 270 696 | 175 034 |
+| FLEMINGTON / GATEHOUSE / HARKER | 82nd | 34 229 996 | 174 749 |
+| PALMERS / THE STRAND | 39th | 15 226 280 | 169 687 |
 
 
- #2 and #3 have experienced both high volumes and a high social cost from lots of crashes recorded. However, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
+#2 has experienced both high volumes and a high social cost from lots of crashes recorded. In comparison, #1 is relatively quiet in terms of volume, while the total cost exceeds twelve million dollars where the majority is derived from one fatality. This poses the question: are intersection like this truly dangerous or rather just unlucky?
 
 ## What if an intersection just had a bad run of luck?
 
@@ -111,8 +111,8 @@ I was then able to calculate the difference between the SPF and EB estimates to 
 
 | Intersection | Volume (Percentile) | Crashes (#) | ++PSI++ |
 | ----------------------------- | ------------------- | ----------- | ------- |
-| #1 CLYDE / GREAVES / O'SHEA | 96th | 56 | 33.48 |
-| #2 CEMETERY / LYGON / PRINCES | 94th | 56 | 33.47 |
+| #1 CLYDE / GREAVES / O'SHEA | 96th | 56 | 32.47 |
+| #2 CEMETERY / LYGON / PRINCES | 94th | 56 | 30.53 |
 | #3 SYDNEY / MAHONEYS / CAMP | 99th | 56 | 33.39 |
 
 
