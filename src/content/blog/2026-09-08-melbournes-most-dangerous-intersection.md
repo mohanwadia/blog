@@ -154,7 +154,7 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 | #3 PHE / GLADSTONE / JONES | 74th | 7 329 623 | 44 676 |
 
 
-As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections.
+As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections. I've included a close-up map of inner Melbourne colour-coding by PSI WTP and sized by volume. 
 
 ![intersections.jpg](/blog/images/intersections.jpg)
 
