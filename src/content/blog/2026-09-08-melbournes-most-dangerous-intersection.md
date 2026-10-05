@@ -86,7 +86,7 @@ The below intersections have recorded the highest total social cost using the WT
 
 Intersections with higher traffic volume are generally associated with an increased frequency of crashes (R²=0.32). Therefore, the approach was taken to normalize each intersection's metric by the number of entering vehicles using the Victorian [SCATS](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) dataset which contains traffic volumes at all signalized intersections. The crashes labelled as intersections within 50m of a SCATS site were aggregated which allows for any metric to be normalized per million entering vehicles. 
 
-Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV:
+Without filtering out the quietest intersections, the top 3 only contains intersections in the first percentile of volume. Therefore, I removed the quietest 20% of intersections and ranked them by Cost per MEV.
 
 
 | Intersection | Volume (Percentile) | Total Social Cost ($) | ++Cost per MEV ($)++ |
@@ -144,7 +144,7 @@ We can now find the intersections with a higher social cost than expected. The f
 | #3 WESTERN HWY / MCINTYRE / ANDERSON | 98th | 26.53 | 8 924 872 |
 
 
-Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 10% of intersections were filtered out. 
+Again, to see if these intersections are a symptom of high traffic volume, the ranking can be normalized per million entering vehicles. As the ranking is once again dominated by sites in the first percentile of volume, the quietest 20% of intersections were filtered out to achieve more meaningful results. This approach isn't a neutral adjustment but rather a measure of where the largest absolute losses sit rather than the measure of risk to each vehicle passing through. 
 
 
 | Intersection | Volume (Percentile) | PSI WTP ($) | ++PSI WTP MEV ($)++ |
