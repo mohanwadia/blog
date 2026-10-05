@@ -152,11 +152,13 @@ Again, to see if these intersections are a symptom of high traffic volume, the r
 
 As each signalized intersection in Melbourne was included in the analysis, it is possible to map all 2000+ intersections.
 
-[Map]
+![intersections.jpg](/blog/images/intersections.jpg)
 
 ## But will changes be cost-effective?
 
-Taking the ____ intersection in SIDRA guided by the SCATS diagram, we can model changes to the intersection. 
+Taking the highest PSI WTP per MEV intersection in SIDRA guided by the SCATS diagram, it is possible to model changes to the intersectios and complete a cost-benefit analysis. I've left this outside of this post due to time constraints. 
+
+![image.png](/blog/images/image-39.png)
 
 ## Conclusion
 
