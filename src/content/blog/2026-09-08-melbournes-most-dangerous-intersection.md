@@ -14,8 +14,6 @@ description: Evaluating the cost-effectiveness of creating safer intersections i
 > ***Executive Summary***  
 > I analysed ten years of crash and volume data of signalised intersections in Melbourne, priced crashes using willingness-to-pay values and used an Empirical Bayes model to flag dangerous intersections. 
 
----
-
 Victoria's road network has historically been, and continues to be, built for maximising capacity. We have widened urban arterials that divide neighbourhoods and an expansive network of roads stretching into regional areas; all at a cost of [$714 per Australian resident per year.](https://www.unsw.edu.au/newsroom/news/2025/02/australia-spends-714-per-person-on-roads-every-year-but-just-90-cents-goes-to-walking-wheeling-and-cycling)
 
 There is a need to find and upgrade dangerous intersections. Since adopting the Safe System approach (pictured below), attention has been turned to improving the safety of our existing roads. However, we still have a long way to go to reach Vision Zero by 2050. There were [1314 fatalities](https://www.aaa.asn.au/library/benchmarking-the-performance-of-the-national-road-safety-strategy-q4-2025/#:~:text=In%20the%2012%20months%20to%2031%20December%202025%2C%201%2C314%20people%20died%20on%20Australian%20roads.) on Australian roads in 2025, and the total social cost of crashes in Australia is [$27.6 billion per year.](https://datahub.roadsafety.gov.au/reporting/social-cost-road-crashes#:~:text=The%20total%20social%20cost%20of%20road%20crashes%20increases%20by%20%24600%20million%20or%202%25%20to%20%2427.6%20billion%20if%20the%20Willingness%20to%20Pay%20approach%20is%20used%20instead%20of%20the%20Hybrid%20Human%20Capital%20approach.) 
