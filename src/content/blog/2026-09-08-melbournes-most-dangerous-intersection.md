@@ -170,10 +170,6 @@ Improving cycling and pedestrian infrastructure should fundamentally be a priori
 
 ## Conclusion
 
-Ranking intersections is harder than counting crashes. 
-
-Raw crashes reward busy intersections, fatality counts reward bad luck, and subjective weightings can't be actioned. By using WTP, EB, and MEV approaches, we get a ranking that separates the truly underperforming intersections. 
-
-The 'most dangerous intersection' label cannot be applied without the nuance of understanding the priorities we have as a city. 
+Ranking intersections is harder than counting crashes. Raw crashes reward busy intersections, fatality counts reward bad luck, and subjective weightings can't be actioned. By using WTP, EB, and MEV approaches, we get a ranking that separates the truly underperforming intersections. The 'most dangerous intersection' label cannot be applied without the nuance of understanding the priorities we have as a city. 
 
 Interested in working with this data in a similar way? I'm happy to provide my code and analysed data on request. I'm easily reachable on LinkedIn or by email :)
