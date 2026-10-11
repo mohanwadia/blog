@@ -10,7 +10,7 @@ tags:
   - gis
   - gtfs
 ---
-Transport Agencies often set coverage targets for their bus network. Melbourne sets any bus route within 400m as it's benchmark, disregarding service frequency at the expense of shorter walk times. 
+Transport Agencies often set coverage targets for their bus network. Melbourne sets any bus route within 400m as it's benchmark, prioritizing walk times while neglecting the quality of a service. Better coverage metrics have been completed by VAGO with just __% of people having access to high-quality public transport within 800m. 
 
 ![87 per cent of households in Melbourne are within 400 metres of a bus stop. Melbourne has 366 bus routes covering over 6,000 kilometres. In 2024–25 Victorians took 114.9 million bus trips, which was 24.5 per cent of all public transport trips.](https://www.audit.vic.gov.au/sites/default/files/2025-26/Improving%20Bus%20Services/34961_Bus-services_Key-background-info_FA.svg)
 
