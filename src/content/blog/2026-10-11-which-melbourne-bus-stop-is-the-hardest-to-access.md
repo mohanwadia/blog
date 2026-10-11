@@ -20,4 +20,4 @@ I set out to see which bus stops
 
 Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
 
-Data was provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
+Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
