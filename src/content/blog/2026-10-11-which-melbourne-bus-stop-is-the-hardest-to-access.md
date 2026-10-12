@@ -28,11 +28,15 @@ Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mal
 
 Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk. 
 
+Pleasant walks 
+
 Melbourne bus passengers expect to walk short distances; the most commonly walked distance is between 200 and 300 metres (VISTA). This would suggest that a 400m-radius is adequate for bus stop catchment planning, however other factors such as frequency interplay. - LOOK AT ARUNDEL ET AL 2017
 
-People also walk longer 
+People also walk longer distances to avoid changing modes - PARKER 2006
 
 
+
+&nbsp;
 
 Bus passengers 
 
