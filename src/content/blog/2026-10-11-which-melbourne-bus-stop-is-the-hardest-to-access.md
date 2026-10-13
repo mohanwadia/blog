@@ -78,11 +78,11 @@ Public bus users are more likely to be female, aged 10-29, be studying or in cas
 
 Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessable, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessable. 
 
-People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. 
+People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
 In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more succeptable to injury in the event of a crash. There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
 
-**Arterials**
+# **Arterials**
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
@@ -96,10 +96,8 @@ Arterial roads are dangerous places to walk. Higher speeds result in more seriou
 
 Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
-Most street lighting is designed for drivers, while people walking have to make do with whatever liught reached them from distant fixtures through the tree canopy. There is limited bus stop lighting. 
-
 # Conclusion
 
 Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
 
-Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining wether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
+Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
