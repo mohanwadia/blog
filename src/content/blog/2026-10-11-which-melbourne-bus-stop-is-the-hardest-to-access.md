@@ -10,7 +10,7 @@ tags:
   - gis
   - gtfs
 ---
-Transport Agencies often set coverage targets for their bus network. Melbourne sets any bus route within 400m as it's benchmark, prioritizing walk times while neglecting the quality of a service. Better coverage metrics have been completed by VAGO with just __% of people having access to high-quality public transport within 800m. 
+Transport Agencies often set coverage targets for their bus network. Melbourne sets any bus route within 400m as it's benchmark, prioritizing walk times while ignoring the quality of a service. Better coverage metrics have been completed by VAGO with just __% of people having access to high-quality public transport within 800m. 
 
 ![87 per cent of households in Melbourne are within 400 metres of a bus stop. Melbourne has 366 bus routes covering over 6,000 kilometres. In 2024–25 Victorians took 114.9 million bus trips, which was 24.5 per cent of all public transport trips.](https://www.audit.vic.gov.au/sites/default/files/2025-26/Improving%20Bus%20Services/34961_Bus-services_Key-background-info_FA.svg)
 
@@ -18,11 +18,7 @@ While shorter walk times are prioritized, there are still examples around our ne
 
 Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
 
-I set out to find which bus stops are most in need for crossings to be installed. 
 
-Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
-
-Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
 
 # How do people feel about walking?
 
@@ -30,7 +26,29 @@ Almost all trips taken bus bus require walking, and those who walked made up 95%
 
 Melbourne bus passengers expect to walk short distances; the most commonly walked distance is between 200 and 300 metres (VISTA). This would suggest that a 400m-radius is adequate for bus stop catchment planning, however other factors such as frequency interplay. - LOOK AT ARUNDEL ET AL 2017
 
-Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop.
+Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 55% of 391 responses claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
+
+# **Arterials**
+
+An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
+
+Busy roads create a barrier to walking that is both physical and psychological. They are associated with less walking, reduced health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous and create an unpleasant walking environment. 
+
+Noisy environments are not pleasant for walking, and traffic noise has key factors speed and volume of traffic. There are also health concerns, as 'those living next to noisy roads are at higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma. Noise levels at busy intersections are 10x higher than background levels measured at nearby official monitoring stations. Children are most at risk of traffic pollution because their bodies are more sensitive to air polltion.
+
+"Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
+
+Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross.
+
+Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
+
+# The Inaccessable Stops
+
+I set out to find which bus stops are most in need for crossings to be installed. 
+
+Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
+
+Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
 
 # Installing Signals Effectively
 
@@ -48,9 +66,7 @@ Signals need to be placed effectively, as inconvenient located street crossings 
 
 **Medians**
 
-Most roads do not ahve medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
-
-55% of 391 responsants claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
+Most roads do not have medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
 
 Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
 
@@ -71,20 +87,6 @@ Walkable areas and quality of public transport service are not equally distribut
 People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
 In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more succeptable to injury in the event of a crash. There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
-
-# **Arterials**
-
-An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
-
-Busy roads create a barrier to walking that is both physical and psychological. They are associated with less walking, reduced health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous and create an unpleasant walking environment. 
-
-Noisy environments are not pleasant for walking, and traffic noise has key factors speed and volume of traffic. There are also health concerns, as 'those living next to noisy roads are at higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma. Noise levels at busy intersections are 10x higher than background levels measured at nearby official monitoring stations. Children are most at risk of traffic pollution because their bodies are more sensitive to air polltion.
-
-"Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
-
-Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross.
-
-Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
 # Conclusion
 
