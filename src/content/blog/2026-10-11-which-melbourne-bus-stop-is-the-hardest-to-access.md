@@ -14,8 +14,6 @@ tags:
 
 &nbsp;
 
-&nbsp;
-
 Melbourne bus passengers expect to walk short distances. 
 
 The most commonly walked distance is between 200 and 300 metres (VISTA). 
@@ -80,7 +78,7 @@ Navigating side roads is complicated too as people need to navigate the main roa
 
 Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
 
-# Equality
+# The Equality Angle
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
 
