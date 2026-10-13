@@ -49,6 +49,16 @@ Data was provided from Philip Mallis for patronage, SCATS for signalized interse
 
 Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections and roundabouts within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection or roundabout.
 
+
+| Bus Stop | Number of Lanes | Patronage | Weekly Services | Distance from Crossing |
+| -------------------------------------------------------- | --------------- | --------- | --------------- | ---------------------- |
+| Valias St/Research-Warrandyte Rd (North Warrandyte) |  | 1.2 |  | 1789m |
+| Newmans Rd/Newmans Rd (Templestowe) |  | 34.1 |  | 1493m |
+| Warrandyte Rd/Newmans Rd (Templestowe) |  | 7.2 |  | 1453m |
+| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) |  | 4.4 |  | 1444m |
+| Sutherland Rd/Yan Yean Rd (Plenty) |  | 2.5 |  | 1384m |
+
+
 # Installing Signals Effectively
 
 Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
