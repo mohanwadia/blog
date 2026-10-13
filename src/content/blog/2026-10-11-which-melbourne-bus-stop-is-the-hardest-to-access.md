@@ -42,7 +42,7 @@ Arterial roads are dangerous places to walk. Higher speeds result in more seriou
 
 Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
-# The Inaccessable Stops
+# The Inaccessible Stops
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
