@@ -37,7 +37,7 @@ An arterial database of roads managed by DTP was chosen as "people will accept 7
 
 There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous, including navigating side roads too. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
 
-They also are associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher backhround levels), which brings up health concerns stemming from traffic pollution too (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma)
+They also are associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher backhround levels), which brings up health concerns stemming from traffic pollution too (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in wtih increased rates of asthma)
 
 # The Inaccessible Stops
 
