@@ -112,7 +112,7 @@ Teenagers may struggle with making good judgements around risk, while adults ove
 
 **Other factors**
 
-Lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining wether a trip is made by bus, however this article is concerned with lack of crossing as I believe this factor is the greatest deterrent. 
+Infrastructure decisions such as Lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining wether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. However this article is concerned with lack of crossing as I believe this factor is the greatest deterrent. 
 
 **Funding**
 
@@ -122,3 +122,12 @@ Due to a lack of federal funding, there's a current funding level of $3 million 
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
+Busy roads create a barrier to walking that is both physical and psycological. They are associated with less walking,r educed health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arteirla roads can lead to longer walking distances because of limited places to cross the road, make crossing hte road difficult or dangerous and create an unpleasant walking environment. 
+
+"Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
+
+Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross.
+
+Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
+
+Most street lighting is designed for drivers, while people walking have to make do with whatever liught reached them from distant fixtures through the tree canopy. There is limited bus stop lighting. 
