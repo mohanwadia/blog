@@ -70,10 +70,10 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 | Eltham College/Eltham-Yarra Glen Rd (Research) |  | 10.8 | 578, 579, 582 | 1327m |
 | Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) |  | 11.2 | 693, 753 | 1172m |
 | Ingles St/Lorimer St (Port Melbourne) |  | 36.7 | 237 | 1043m |
-| 1103 High Street Rd (Wantirna South) |  | 24.2 |  | 954m |
+| 1103 High Street Rd (Wantirna South) |  | 24.2 | 736, 737 | 954m |
 
 
-
+Elmstead Dr/Ferntree Gully Rd has high patronage, however opposite is Marykirk Dr which has low patronage (
 
 # Installing Signals Effectively
 
