@@ -33,19 +33,21 @@ If there's no safe crossing to make the return journey with PT, often neither jo
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
-There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous, including navigating side roads too. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
 
-They also are associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), which brings up health concerns stemming from traffic pollution too (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
+Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
 
 # The Inaccessible Stops
 
-Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross. Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
+Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, and more lanes mean it's less safe to cross. __% of bus stops in Melbourne are located on arterial roads. Nearly half (41%) of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
 Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
 
-Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
+Data was provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
+
+Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections and roundabouts within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection or roundabout.
 
 # Installing Signals Effectively
 
