@@ -72,9 +72,7 @@ Signals need to be placed effectively, as inconvenient located street crossings 
 
 **Kerbs**
 
-36% of stops did not have any ramp access (either kerb ramps or driveways) within 50m. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
 
 # The Equality Angle
 
@@ -92,8 +90,6 @@ Due to a lack of federal funding, there's a current funding level of $3 million 
 
 Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
 
-Interim measures can provide immediate benefits. Median refuge island 
+Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-Most roads do not have medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
-
-Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
+There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
