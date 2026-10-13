@@ -16,6 +16,8 @@ Transport Agencies often set coverage targets for their bus network. Melbourne s
 
 While shorter walk times are prioritized, there are still examples around our network where there has been a disregard for pedestrian safety. A limitation of calculating coverage like this is that it fails to consider that people want to travel in both directions from a bus stop. If there's no safe crossing to make the return journey with PT, neither journey will be made. 
 
+
+
 I set out to see which bus stops 
 
 Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
@@ -80,14 +82,6 @@ People should feel safe crossing at all times of day. Women are more likely to f
 
 In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more succeptable to injury in the event of a crash. There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
 
-**Other factors**
-
-Infrastructure decisions such as Lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining wether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. However this article is concerned with lack of crossing as I believe this factor is the greatest deterrent. 
-
-**Funding**
-
-Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
-
 **Arterials**
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
@@ -103,3 +97,9 @@ Arterial roads are dangerous places to walk. Higher speeds result in more seriou
 Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
 Most street lighting is designed for drivers, while people walking have to make do with whatever liught reached them from distant fixtures through the tree canopy. There is limited bus stop lighting. 
+
+# Conclusion
+
+Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
+
+Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining wether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. However this article is concerned with lack of crossing as it is one of hte greatest deterrents
