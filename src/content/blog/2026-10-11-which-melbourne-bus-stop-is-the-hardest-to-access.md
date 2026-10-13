@@ -16,9 +16,7 @@ Transport Agencies often set coverage targets for their bus network. Melbourne s
 
 While shorter walk times are prioritized, there are still examples around our network where there has been a disregard for pedestrian safety. A limitation of calculating coverage like this is that it fails to consider that people want to travel in both directions from a bus stop. If there's no safe crossing to make the return journey with PT, neither journey will be made. 
 
-
-
-I set out to see which bus stops 
+I set out to find which bus stops are most in need for crossings to be installed. 
 
 Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
 
@@ -36,7 +34,7 @@ Crossing roads is an unavoidable part of using the bus. 56% of the roads on whic
 
 # Installing Signals Effectively
 
-81% of people walking to thebus stop are under time pressure. 
+81% of people walking to the bus stop are under time pressure. 
 
 A short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
