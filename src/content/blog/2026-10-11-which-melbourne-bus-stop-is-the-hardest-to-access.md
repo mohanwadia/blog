@@ -77,6 +77,13 @@ Elmstead Dr/Ferntree Gully Rd has high patronage (11.2) compared to the stop opp
 
 However, people are generally considered to be able to cross a 2-lane road. How about the stops with both greater than 10 boardings per day as well as more than 2 lanes? Here we go:
 
+| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
+| ---------------------------------------------- | --------------- | --------- | ------------- | ---------------------- |
+| Heidelberg-Warrandyte Rd/Newmans Rd | 2 | 34.1 | 905 | 1493m |
+| Eltham College/Eltham-Yarra Glen Rd (Research) | 2 | 10.8 | 578, 579, 582 | 1327m |
+| Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
+| 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
+| Mahoneys Ct/Warrandyte Rd (Warrandyte) | 2 | 19.0 | 364, 906 | 914m |
 
 
 # Installing Signals Effectively
