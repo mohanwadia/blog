@@ -62,16 +62,6 @@ Additionally, walk times are set at a maximum of a 8 second green phase regardle
 
 Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-# But Signals Are Expensive
-
-**Medians**
-
-
-
-**Kerbs**
-
-
-
 # The Equality Angle
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
