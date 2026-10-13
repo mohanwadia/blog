@@ -74,7 +74,33 @@ No formal crossing from 64% of stops (bus audit). When there were crossings, 48%
 
 Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
 
-36% of stops did not have any ramp access (either kerb ramps or driveways) within 50m.
+36% of stops did not have any ramp access (either kerb ramps or driveways) within 50m. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
+
+Navigating side roads is complicated too as people need to navigate the main road and turning traffic for the side road. 
+
+Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
+
+**Indirect Routes**
+
+Barries such as train lines, arterials, and large buildings require detours. 
+
+Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016)
+
+As such the catchment area varies between straightline and real walking distance.
+
+**Safety**
+
+There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
+
+Females less likely than males to report feeling safe and more likely to feel unsafe. 
+
+Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. 
+
+People should feel safe crossing at all times of day.
+
+Often conversations about PT safety go to personal safety rather than road safety. 
+
+
 
 **Equitable**
 
