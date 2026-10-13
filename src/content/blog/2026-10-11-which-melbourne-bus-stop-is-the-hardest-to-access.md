@@ -38,17 +38,13 @@ Crossing roads is an unavoidable part of using the bus. 56% of the roads on whic
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
-Busy roads create a barrier to walking that is both physical and psychological. They are associated with less walking, reduced health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous and create an unpleasant walking environment. 
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
 
-Noisy environments are not pleasant for walking, and traffic noise has key factors speed and volume of traffic. There are also health concerns, as 'those living next to noisy roads are at higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma. Noise levels at busy intersections are 10x higher than background levels measured at nearby official monitoring stations. Children are most at risk of traffic pollution because their bodies are more sensitive to air polltion.
-
-"Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
-
-Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross.
-
-Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
+They also are associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher backhround levels), which brings up health concerns stemming from traffic pollution too (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma)
 
 # The Inaccessible Stops
+
+Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, more lanes mean it's less safe to cross. Nearly half (41% of stops were located on roads where a person would have to cross at least 4 lanes of traffic. 
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
