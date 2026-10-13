@@ -25,6 +25,8 @@ Almost all trips taken bus bus require walking, and those who walked made up 95%
 
 There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
 
+[Princes Hwy between Monash and Oakleigh]
+
 Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 55% of 391 responses claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
 
 If there's no safe crossing to make the return journey with PT, often neither journey will be made. Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
