@@ -9,7 +9,7 @@ tags:
   - scats
   - gis
   - gtfs
-description: Advocating for signalized crossings for bus passengers
+description: Advocating for signalized crossings at bus stops
 ---
 Melbourne bus passengers expect to walk short distances. 
 
