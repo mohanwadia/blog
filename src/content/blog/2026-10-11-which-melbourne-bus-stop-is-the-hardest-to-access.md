@@ -73,7 +73,7 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 | 1103 High Street Rd (Wantirna South) |  | 24.2 | 736, 737 | 954m |
 
 
-Elmstead Dr/Ferntree Gully Rd has high patronage, however opposite is Marykirk Dr which has low patronage (
+Elmstead Dr/Ferntree Gully Rd has high patronage, however opposite is Marykirk Dr which has low patronage (). Eltham College will receive upgraded services soon on routes ____, however this is irrelavent for people who live near Eltham-Yarra Glen Rd as they will be able to access the service in only one direction. 
 
 # Installing Signals Effectively
 
