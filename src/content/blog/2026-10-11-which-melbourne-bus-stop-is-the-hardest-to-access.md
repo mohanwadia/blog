@@ -65,12 +65,12 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 
 
 | Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
-| ------------------------------------------------- | --------------- | --------- | ------------- | -------------------------- |
-| Heidelberg-Warrandyte Rd/Newmans Rd (Templestowe) | 2 | 34.1 | 905 | 1493m |
-| Eltham College/Eltham-Yarra Glen Rd (Research) | 2 | 10.8 | 578, 579, 582 | 1327m |
-| Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
-| 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
-| Mahoneys Ct/Warrandyte Rd (Warrandyte) | 2 | 19.0 | 364, 906 | 914m |
+| ---------------------------------------------------- | --------------- | --------- | ------------- | -------------------------- |
+| #1 Heidelberg-Warrandyte Rd/Newmans Rd (Templestowe) | 2 | 34.1 | 905 | 1493m |
+| #2 Eltham College/Eltham-Yarra Glen Rd (Research) | 2 | 10.8 | 578, 579, 582 | 1327m |
+| #3 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
+| #4 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
+| #5 Mahoneys Ct/Warrandyte Rd (Warrandyte) | 2 | 19.0 | 364, 906 | 914m |
 
 
 Elmstead Dr/Ferntree Gully Rd is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
@@ -87,9 +87,9 @@ However, people are generally considered to be able to cross a 2-lane road. How 
 | #5 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
 
 
-This search produces some really meaningful results. 
+This search produces some really meaningful results. High-frequency services can be introduced quickly, such as 237 created in, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
-If however we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, we get the following:
+If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
 |  | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
@@ -100,6 +100,8 @@ If however we want to benefit the most amount of people rather than find those m
 | Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
 | Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
 
+
+McLaughlans Lane, with extremely high patronage and four lanes without a median to cross without a significant detour, is the perfect example of where signals could provide massive benefit.
 
 # Installing Signals Effectively
 
