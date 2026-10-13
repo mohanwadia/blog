@@ -26,53 +26,35 @@ Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mal
 
 **Why is this topic important? How do people feel about walking to the bus stop?**
 
-Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk. 
-
-Walking time is experienced slower than ride time. 
-
-The question 'what made your walk unpleasant' was asked, with traffic volume/speed and road crossings the largest factors. 
-
-Noisy environments are not pleasant for walking, and traffic noise has key factors speed and volume of traffic. There are also health concerns, as 'those living next to noisy roads are at higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma. Noise levels at busy intersections are 10x higher than background levels measured at nearby official monitoring stations. Children are most at risk of traffic pollution because their bodies are more sensitive to air polltion.
+Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
 
 Melbourne bus passengers expect to walk short distances; the most commonly walked distance is between 200 and 300 metres (VISTA). This would suggest that a 400m-radius is adequate for bus stop catchment planning, however other factors such as frequency interplay. - LOOK AT ARUNDEL ET AL 2017
 
-People also walk longer distances to avoid changing modes - PARKER 2006
+Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop.
 
-Crossing roads is an unavoidable part of using the bus. 
+# Installing Signals Effectively
 
-56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop.
-
-
-
-**Signals**
-
-People walking like to cross busy roads to the same side of the bus stop as early as possible due to unpredictable waiting times, minimising the risk fo delays in crossing later. 
-
-Most people (81%) walking to the bus stop are under time pressure, compared to 31% who have alighted the bus and are walking away from the stop.
+81% of people walking to thebus stop are under time pressure. 
 
 A short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
-Signals were an option to cross the road for less than half (45%0) of survey respondants, and most (76%) who had the option to cross using a green signal used it. Those that did not use it said there was a break in traffic or the lights were too far away or too slow to change. 
+Signals are well used (76%), with those ignoring them claiming there was a break in traffic or the lights were too far away or too slow to change. However they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. 
 
-Walking times are also decided at 1.2m/s which does not reflect the wide range in walking speeds (42.6% of people over 65 walk at less than 0.8m/s). Currently maximim walk (green) time is eight second, irrespectable of the parallel vehicle phase. Providing automatic and longer green time for crossing decreases delay. There are a wide range of automatic green signals for pedestrians. 
+Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used, increasing delay. 
 
 Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. 
-
-A bus stop located after the intersection is considered more efficient for operations (make up 60% per bus audit) however pedestrians are forced to backtrack to get to the signals so cross infront of the bus or after it's left. 
-
-Pedestrian crossings are great for minimising delay however only 3% of stops had a zebra crossing within 50m. 
+**Medians**
 
 Most roads do not ahve medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
 
 55% of 391 responsants claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
 
-No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
-
 Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
+
+**Kerbs**
 
 36% of stops did not have any ramp access (either kerb ramps or driveways) within 50m. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
@@ -122,7 +104,9 @@ Due to a lack of federal funding, there's a current funding level of $3 million 
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
-Busy roads create a barrier to walking that is both physical and psycological. They are associated with less walking,r educed health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arteirla roads can lead to longer walking distances because of limited places to cross the road, make crossing hte road difficult or dangerous and create an unpleasant walking environment. 
+Busy roads create a barrier to walking that is both physical and psychological. They are associated with less walking, reduced health and wellbeing, etc. Many bus stops in Melbourne are located on arterials because routes can be direct, fast, and have large catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous and create an unpleasant walking environment. 
+
+Noisy environments are not pleasant for walking, and traffic noise has key factors speed and volume of traffic. There are also health concerns, as 'those living next to noisy roads are at higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma. Noise levels at busy intersections are 10x higher than background levels measured at nearby official monitoring stations. Children are most at risk of traffic pollution because their bodies are more sensitive to air polltion.
 
 "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
 
