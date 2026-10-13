@@ -70,27 +70,15 @@ Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b 
 
 As such the catchment area varies between straightline and real walking distance.
 
-**Safety**
-
-There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
-
-Females less likely than males to report feeling safe and more likely to feel unsafe. 
-
-Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. 
-
-People should feel safe crossing at all times of day.
-
-Often conversations about PT safety go to personal safety rather than road safety. 
-
-
-
-**Equitable**
-
-Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessable, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessable. 
+# Equality
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
 
-Teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more succeptable to injury in the event of a crash. 
+Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessable, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessable. 
+
+People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. 
+
+In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more succeptable to injury in the event of a crash. There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
 
 **Other factors**
 
