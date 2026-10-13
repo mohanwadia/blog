@@ -50,12 +50,12 @@ Data was provided from Philip Mallis for patronage, SCATS for signalized interse
 Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections and roundabouts within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection or roundabout.
 
 
-| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
-| -------------------------------------------------------- | --------------- | --------- | ------------- | ---------------------- |
-| Valias St/Research-Warrandyte Rd (North Warrandyte) |  | 1.2 | 579 | 1789m |
-| Heidelberg-Warrandyte Rd/Newmans Rd |  | 34.1 | 905 | 1493m |
-| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) |  | 4.4 | 579 | 1444m |
-| Sutherland Rd/Yan Yean Rd (Plenty) |  | 2.5 | 385, 901 | 1384m |
+| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
+| -------------------------------------------------------- | --------------- | --------- | ------------- | -------------------------- |
+| Valias St/Research-Warrandyte Rd (North Warrandyte) | 2 | 1.2 | 579 | 1789m |
+| Heidelberg-Warrandyte Rd/Newmans Rd | 2 | 34.1 | 905 | 1493m |
+| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) | 2 | 4.4 | 579 | 1444m |
+| Sutherland Rd/Yan Yean Rd (Plenty) | 2 | 2.5 | 385, 901 | 1384m |
 | Lucieer Ct/Reynolds Rd (Templestowe) | 4 | 1.9 | 282, 309, 901 | 1332m |
 
 
@@ -64,8 +64,8 @@ Some of these stops have very low patronage, which is both an artefact of being 
 These stops are the furthest from a crossing point with 10+ boardings per day:
 
 
-| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
-| ---------------------------------------------- | --------------- | --------- | ------------- | ---------------------- |
+| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
+| ---------------------------------------------- | --------------- | --------- | ------------- | -------------------------- |
 | Heidelberg-Warrandyte Rd/Newmans Rd | 2 | 34.1 | 905 | 1493m |
 | Eltham College/Eltham-Yarra Glen Rd (Research) | 2 | 10.8 | 578, 579, 582 | 1327m |
 | Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
@@ -78,13 +78,27 @@ Elmstead Dr/Ferntree Gully Rd has high patronage (11.2) compared to the stop opp
 However, people are generally considered to be able to cross a 2-lane road. How about the stops with both greater than 10 boardings per day as well as more than 2 lanes? Here we go:
 
 
-| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
-| --------------------------------------------- | --------------- | --------- | ------------------ | ---------------------- |
-| Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
-| 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
-| Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 910m |
-| Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
+| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
+| ------------------------------------------------ | --------------- | --------- | ------------------ | -------------------------- |
+| #1 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
+| #2 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
+| #3 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 910m |
+| #4 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
+| #5 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
+
+
+This search produces some really meaningful results. 
+
+Filtering for distances greater than 500m and more than 2 lanes and sorting by patronage, we get the following:
+
+
+|  | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
+| -------------------------------------------- | ------- | ------------- | ------------------ | ---------------------- |
+| McLaughlans Lane/Diamond Creek Rd (Plenty) | 4 | 109.6 | 343, 385, 901 | 530m |
+| Gibbons Dr/McDonalds Rd (Epping) | 4 | 89.2 | 302, 304 | 577m |
 | Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
+| Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
+| Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
 
 
 # Installing Signals Effectively
