@@ -49,17 +49,13 @@ Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mal
 
 # Installing Signals Effectively
 
-81% of people walking to the bus stop are under time pressure. 
-
-A short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
+Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
 Signals are well used (76%), with those ignoring them claiming there was a break in traffic or the lights were too far away or too slow to change. However they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
 
-At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. 
+At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
 Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used, increasing delay. 
-
-Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
 # The Equality Angle
 
