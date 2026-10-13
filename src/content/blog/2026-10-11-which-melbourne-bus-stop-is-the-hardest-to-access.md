@@ -73,7 +73,7 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 | Mahoneys Ct/Warrandyte Rd (Warrandyte) | 2 | 19.0 | 364, 906 | 914m |
 
 
-Elmstead Dr/Ferntree Gully Rd has high patronage (11.2) compared to the stop opposite (1.4). 
+Elmstead Dr/Ferntree Gully Rd is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
 
 However, people are generally considered to be able to cross a 2-lane road. How about the stops with both greater than 10 boardings per day as well as more than 2 lanes? Here we go:
 
