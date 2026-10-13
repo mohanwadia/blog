@@ -14,7 +14,9 @@ Transport Agencies often set coverage targets for their bus network. Melbourne s
 
 ![87 per cent of households in Melbourne are within 400 metres of a bus stop. Melbourne has 366 bus routes covering over 6,000 kilometres. In 2024–25 Victorians took 114.9 million bus trips, which was 24.5 per cent of all public transport trips.](https://www.audit.vic.gov.au/sites/default/files/2025-26/Improving%20Bus%20Services/34961_Bus-services_Key-background-info_FA.svg)
 
-While shorter walk times are prioritized, there are still examples around our network where there has been a disregard for pedestrian safety. A limitation of calculating coverage like this is that it fails to consider that people want to travel in both directions from a bus stop. If there's no safe crossing to make the return journey with PT, neither journey will be made. 
+While shorter walk times are prioritized, there are still examples around our network where there has been a disregard for pedestrian safety. A limitation of calculating coverage like this is that it fails to consider that people want to travel in both directions from a bus stop. If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
+
+Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
@@ -22,9 +24,7 @@ Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD.
 
 Spatial analysis was completed in ArcGIS Pro, with data provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. 
 
-
-
-**Why is this topic important? How do people feel about walking to the bus stop?**
+# How do people feel about walking?
 
 Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
 
@@ -61,14 +61,6 @@ Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, a
 Navigating side roads is complicated too as people need to navigate the main road and turning traffic for the side road. 
 
 Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
-
-**Indirect Routes**
-
-Barries such as train lines, arterials, and large buildings require detours. 
-
-Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016)
-
-As such the catchment area varies between straightline and real walking distance.
 
 # Equality
 
