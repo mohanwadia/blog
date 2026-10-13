@@ -89,7 +89,7 @@ However, people are generally considered to be able to cross a 2-lane road. How 
 
 This search produces some really meaningful results. 
 
-Filtering for distances greater than 500m and more than 2 lanes and sorting by patronage, we get the following:
+If however we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, we get the following:
 
 
 |  | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
