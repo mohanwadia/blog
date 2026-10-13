@@ -50,14 +50,22 @@ Data was provided from Philip Mallis for patronage, SCATS for signalized interse
 Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections and roundabouts within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection or roundabout.
 
 
-| Bus Stop | Number of Lanes | Patronage | Weekly Services | Distance from Crossing |
-| -------------------------------------------------------- | --------------- | --------- | --------------- | ---------------------- |
-| Valias St/Research-Warrandyte Rd (North Warrandyte) |  | 1.2 |  | 1789m |
-| Newmans Rd/Newmans Rd (Templestowe) |  | 34.1 |  | 1493m |
-| Warrandyte Rd/Newmans Rd (Templestowe) |  | 7.2 |  | 1453m |
-| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) |  | 4.4 |  | 1444m |
-| Sutherland Rd/Yan Yean Rd (Plenty) |  | 2.5 |  | 1384m |
+| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
+| -------------------------------------------------------- | --------------- | --------- | ------------- | ---------------------- |
+| Valias St/Research-Warrandyte Rd (North Warrandyte) |  | 1.2 | 579 | 1789m |
+| Heidelberg-Warrandyte Rd/Newmans Rd |  | 34.1 | 905 | 1493m |
+| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) |  | 4.4 | 579 | 1444m |
+| Sutherland Rd/Yan Yean Rd (Plenty) |  | 2.5 | 385, 901 | 1384m |
+| Lucieer Ct/Reynolds Rd (Templestowe) | 4 | 1.9 | 282, 309, 901 | 1332m |
 
+
+Some of these stops have very low patronage, which is both an artefact of being harder to access but also may benefit a reduced amount of people. I'm interested in providing suggestions for intersections such as Heidelberg-Warrandyte Rd/Newmans Rd, which has lots of services (Route 905 runs every 15 minutes 7 days) as well as high patronage (34.1 boardings per day).
+
+These stops are the furthest from a crossing point with 10+ boardings per day:
+
+
+
+&nbsp;
 
 # Installing Signals Effectively
 
