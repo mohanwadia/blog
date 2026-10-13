@@ -81,4 +81,4 @@ Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%
 
 Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-Further analysis could look at patronage, service frequency, and other factors in determining which 
+Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. 
