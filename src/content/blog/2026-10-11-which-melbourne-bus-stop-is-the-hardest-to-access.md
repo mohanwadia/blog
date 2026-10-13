@@ -36,7 +36,7 @@ Crossing roads is an unavoidable part of using the bus. 56% of the roads on whic
 
 An arterial database of roads managed by DTP was chosen as "people will accept 70% longer walking distances in pedestrian-oriented environments compared to car-dominated environments. He notes that this could theoretically triple the catchment size of a public transport stop."
 
-There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, make crossing the road difficult or dangerous, including navigating side roads too. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
 
 They also are associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher backhround levels), which brings up health concerns stemming from traffic pollution too (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linkedinw tih increased rates of asthma)
 
@@ -64,17 +64,15 @@ Additionally, walk times are set at a maximum of a 8 second green phase regardle
 
 Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
+# But Signals Are Expensive
+
 **Medians**
 
-Most roads do not have medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
 
-Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
 
 **Kerbs**
 
 36% of stops did not have any ramp access (either kerb ramps or driveways) within 50m. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
-
-Navigating side roads is complicated too as people need to navigate the main road and turning traffic for the side road. 
 
 Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. 
 
@@ -93,3 +91,9 @@ In terms of road safety, teenagers may struggle with making good judgements arou
 Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
 
 Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
+
+Interim measures can provide immediate benefits. Median refuge island 
+
+Most roads do not have medians (60%), while 33% had a raised median, and 7% had a flush painted median. 
+
+Pedestrian refuge islands, narrowing the road so vehicles wait behind the bus, and raised platforms at signals are all solutions.
