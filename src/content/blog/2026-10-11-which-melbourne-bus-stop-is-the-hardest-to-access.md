@@ -63,7 +63,13 @@ Some of these stops have very low patronage, which is both an artefact of being 
 
 These stops are the furthest from a crossing point with 10+ boardings per day:
 
-
+| Bus Stop | Number of Lanes | Patronage | Routes | Distance from Crossing |
+| -------------------------------------------------------- | --------------- | --------- | ------------- | ---------------------- |
+| Valias St/Research-Warrandyte Rd (North Warrandyte) |  | 1.2 | 579 | 1789m |
+| Heidelberg-Warrandyte Rd/Newmans Rd |  | 34.1 | 905 | 1493m |
+| Stony Creek Rd/Research-Warrandyte Rd (North Warrandyte) |  | 4.4 | 579 | 1444m |
+| Sutherland Rd/Yan Yean Rd (Plenty) |  | 2.5 | 385, 901 | 1384m |
+| Lucieer Ct/Reynolds Rd (Templestowe) | 4 | 1.9 | 282, 309, 901 | 1332m |
 
 &nbsp;
 
