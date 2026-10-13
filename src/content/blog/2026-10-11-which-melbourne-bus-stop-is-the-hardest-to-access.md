@@ -127,7 +127,7 @@ Public bus users are more likely to be female, aged 10-29, be studying or in cas
 
 Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
-[Bus stop that is not wheelchair accessable - the one in oakleigh]
+[Bus stop that is not wheelchair accessible - the one in oakleigh]
 
 People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
@@ -145,4 +145,4 @@ Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%
 
 Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. But also, bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding. 
+Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. But also, bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding. There's huge potential in this field. 
