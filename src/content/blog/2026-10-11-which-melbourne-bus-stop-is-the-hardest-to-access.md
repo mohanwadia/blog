@@ -25,7 +25,7 @@ Almost all trips taken bus bus require walking, and those who walked made up 95%
 
 There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
 
-[Princes Hwy between Monash and Oakleigh with overpass]
+[People Jaywalking at Monash Uni]
 
 Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 55% of 391 responses claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
 
@@ -111,6 +111,8 @@ If we want to benefit the most amount of people rather than find those most isol
 
 McLaughlans Lane, with extremely high patronage and four lanes without a median to cross without a significant detour, is the perfect example of where signals could provide massive benefit.
 
+[Franklyn St with Overpass]
+
 Franklyn St has a huge 806 metre detour to the nearest signals, however the search doesn't recognize the pedestrian overpass. However with long ramps to navigate, I often observe people crossing at grade here. 
 
 # Installing Signals Effectively
@@ -129,7 +131,9 @@ Additionally, walk times are set at a maximum of a 8 second green phase regardle
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
 
-Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
+Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne. 
+
+35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
 [Bus stop that is not wheelchair accessible - the one in Oakleigh]
 
