@@ -95,7 +95,7 @@ The majority of entries on this list are 2-lane roads which most people are gene
 | #5 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
 
 
-This search produces some really meaningful results. High-frequency services can be established quickly, such as 237 created in, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
+This search produces some really meaningful results. Attractive high-frequency services can be established relatively quickly and cheaply, such as Route 237 created in 20______________________, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
@@ -110,6 +110,8 @@ If we want to benefit the most amount of people rather than find those most isol
 
 
 McLaughlans Lane, with extremely high patronage and four lanes without a median to cross without a significant detour, is the perfect example of where signals could provide massive benefit.
+
+Franklyn St has a huge 806 metre detour to the nearest signals, however the search doesn't recognize the pedestrian overpass. However with long ramps to navigate, I often observe people crossing at grade here. 
 
 # Installing Signals Effectively
 
