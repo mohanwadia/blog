@@ -143,10 +143,14 @@ In terms of road safety, teenagers may struggle with making good judgements arou
 
 Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
 
-Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
+Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. 
 
-[A bus stop with poor accessability]
+[A bus stop with poor accessibility because of busy neighbouring drivethroughs]
+
+There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
 
 Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
+
+[A bus stop with poor accessability because of a lack of ramp access and raised median]
 
 Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. But also, bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding. There's huge potential in this field. 
