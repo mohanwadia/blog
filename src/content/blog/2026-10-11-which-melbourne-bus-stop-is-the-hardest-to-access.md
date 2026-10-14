@@ -51,7 +51,7 @@ I set out to find which bus stops are most in need for crossings to be installed
 
 Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
 
-Data was provided from Philip Mallis for patronage, SCATS for signalized intersection locations, and OSM for roundabout locations. Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections and roundabouts not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection or roundabout.
+Data was provided from Philip Mallis for patronage, SCATS for signalized intersection locations, ~~and OSM for roundabout locations~~. Each dataset was loaded into ArcGIS Pro using 'XY Table to Point', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections ++~~and roundabouts~~++ not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection ~~or roundabout~~.
 
 
 | Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
