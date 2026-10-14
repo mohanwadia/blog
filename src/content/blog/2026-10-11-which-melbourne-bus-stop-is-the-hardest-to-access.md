@@ -79,9 +79,11 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 
 Elmstead Dr/Ferntree Gully Rd is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
 
+I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. 
+
 [Elmstead Dr/Ferntree Gully Rd Image]
 
-However, people are generally considered to be able to cross a 2-lane road. How about the stops with both greater than 10 boardings per day as well as more than 2 lanes? Here we go:
+The majority of entries on this list are 2-lane roads which most people are generally considered to be able to cross. Hence, the results can be filtered for both greater than 10 boardings per day as well as more than 2 lanes:
 
 
 | Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
@@ -93,7 +95,7 @@ However, people are generally considered to be able to cross a 2-lane road. How 
 | #5 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
 
 
-This search produces some really meaningful results. High-frequency services can be introduced quickly, such as 237 created in, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
+This search produces some really meaningful results. High-frequency services can be established quickly, such as 237 created in, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
@@ -127,7 +129,7 @@ Public bus users are more likely to be female, aged 10-29, be studying or in cas
 
 Walkable areas and quality of public transport service are not equally distributed. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
-[Bus stop that is not wheelchair accessible - the one in oakleigh]
+[Bus stop that is not wheelchair accessible - the one in Oakleigh]
 
 People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
