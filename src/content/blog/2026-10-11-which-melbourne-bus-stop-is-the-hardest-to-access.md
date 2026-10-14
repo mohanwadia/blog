@@ -157,4 +157,4 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 
 [A bus stop with poor accessability because of a lack of ramp access and raised median]
 
-Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. But also, bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding. There's huge potential in this field. 
+Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding. There's huge potential in this field. 
