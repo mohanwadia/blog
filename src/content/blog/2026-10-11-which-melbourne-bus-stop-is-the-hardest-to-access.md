@@ -79,9 +79,9 @@ These stops are the furthest from a crossing point with 10+ boardings per day:
 
 Elmstead Dr/Ferntree Gully Rd is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
 
-I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. 
-
 [Elmstead Dr/Ferntree Gully Rd Image]
+
+I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse as seen above; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. 
 
 The majority of entries on this list are 2-lane roads which most people are generally considered to be able to cross. Hence, the results can be filtered for both greater than 10 boardings per day as well as more than 2 lanes:
 
@@ -155,6 +155,6 @@ There's also a need to locate bus stops appropriately. Within 50m of a bus stop,
 
 Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-[A bus stop with poor accessability because of a lack of ramp access and raised median]
+[Springvale Cemetary]
 
 Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. There's huge potential in this field. 
