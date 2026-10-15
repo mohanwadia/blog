@@ -45,7 +45,7 @@ There are many positive reasons buses run on arterial roads, including directnes
 
 Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
 
-# The Inaccessible Stops
+# Discussion
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
@@ -143,7 +143,7 @@ People should feel safe crossing at all times of day. Women are more likely to f
 
 [stat about women feeling more unsafe]
 
-In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. There is no database of bus-related crashes. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
+In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 (who make up 11% of bus users generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. There is no database of bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
 
 # Conclusion
 
