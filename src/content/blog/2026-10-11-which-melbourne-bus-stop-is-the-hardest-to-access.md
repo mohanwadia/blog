@@ -81,7 +81,7 @@ Elmstead Dr/Ferntree Gully Rd is very far from the nearest signalized crossing, 
 
 [Elmstead Dr/Ferntree Gully Rd Image]
 
-I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse as seen above; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. 
+I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse as seen above; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al, 2025)](https://www.mdpi.com/2220-9964/14/5/205)
 
 The majority of entries on this list are 2-lane roads which most people are generally considered to be able to cross. Hence, the results can be filtered for both greater than 10 boardings per day as well as more than 2 lanes:
 
