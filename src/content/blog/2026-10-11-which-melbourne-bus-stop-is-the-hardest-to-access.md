@@ -115,7 +115,7 @@ McLaughlans Lane, with extremely high patronage and four lanes without a median 
 
 Franklyn St has a huge 806 metre detour to the nearest signals, however the search doesn't recognize the pedestrian overpass. However with long ramps to navigate, I often observe people crossing at grade here. 
 
-This situation reminds me of the funded Doncaster underpass which "recorded an increase in the number of pedestrians crossing at ground level"; grade separated interchanges often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
+This situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); grade separated interchanges often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
 
 # Installing Signals Effectively
 
@@ -127,7 +127,7 @@ Signals are well used (76%), with those ignoring them claiming there was a break
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
-Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. 
+Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
 
 # The Equality Angle
 
@@ -159,4 +159,6 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 
 [Springvale Cemetary]
 
-Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. There's huge potential in this field. 
+Arterials don't have to be at extremely high speeds to be dangerous. "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
+
+Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. "In urban Lima, the presence of a bus stop was associated with a threefold increase in risk of a pedestrian collision." [(Quistberg et al, 2013)](https://injuryprevention.bmj.com/content/21/e1/e15) There's huge potential in this field. 
