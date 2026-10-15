@@ -115,7 +115,7 @@ McLaughlans Lane, with extremely high patronage and four lanes without a median 
 
 Franklyn St has a huge 806 metre detour to the nearest signals, however the search doesn't recognize the pedestrian overpass. However with long ramps to navigate, I often observe people crossing at grade here. 
 
-This situation reminds me of the funded Doncaster underpass which "recorded an increase in the number of pedestrians crossing at ground level"; grade separated interchanges often prioritize vehicles over pedestrians. When they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
+This situation reminds me of the funded Doncaster underpass which "recorded an increase in the number of pedestrians crossing at ground level"; grade separated interchanges often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
 
 # Installing Signals Effectively
 
