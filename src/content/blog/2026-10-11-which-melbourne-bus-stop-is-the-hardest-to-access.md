@@ -49,7 +49,7 @@ Arterials are also associated with unpleasant walking environments, as traffic n
 
 Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
 
-
+The 'Detour Factor' assists us in determining which suburbs hinder the natural mobility of pedestrians, by comparing the Euclidean distance with the true walking distance. 
 
 # Discussion
 
