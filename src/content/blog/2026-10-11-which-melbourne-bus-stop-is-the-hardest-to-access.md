@@ -80,7 +80,7 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
-|  | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
+| Bus Stop | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
 | ----------------------------------------------- | ------- | ------------- | ------------------ | ---------------------- |
 | #1 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
 | #2 Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
