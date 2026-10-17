@@ -145,9 +145,7 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 
 [Springvale Cemetary]
 
-
-
-It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. "In urban Lima, the presence of a bus stop was associated with a threefold increase in risk of a pedestrian collision." [(Quistberg et al, 2013)](https://injuryprevention.bmj.com/content/21/e1/e15) There's huge potential in this field. 
-
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
+
+It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. 
 
