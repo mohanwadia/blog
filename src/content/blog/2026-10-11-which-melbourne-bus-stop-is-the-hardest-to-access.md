@@ -97,7 +97,7 @@ The situation reminds me of the funded Doncaster underpass which ["recorded an i
 
 **#2 Ormond Rd (West Footscray)** also has an overpass, however it fails to serve the community well. 
 
-**#3 Robertswood Cl (Doncaster East)** serves three SmartBus routes and correspondingly has high patronage. However, with four lanes without a median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
+**#3 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
 
 While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
