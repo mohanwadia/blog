@@ -79,6 +79,8 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 
 **#5 Noordenna Ave (Altona)** connects 100+ secluded residents to Altona train station, with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
 
+# Maximizing People Served
+
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
@@ -149,3 +151,4 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 
 It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. 
 
+With an upcoming election, community advocacy can play a huge part in getting changes made to our network. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. 
