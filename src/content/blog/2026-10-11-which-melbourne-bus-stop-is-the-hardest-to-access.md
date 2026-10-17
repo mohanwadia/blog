@@ -62,9 +62,9 @@ The furthest distances from signalized crossings can be filtered for both greate
 | ------------------------------------------------ | --------------- | --------- | ------------------ | -------------------------- |
 | #1 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
 | #2 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
-| #3 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 910m |
-| #4 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
-| #5 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
+| #3 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
+| #4 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
+|  |  |  |  |  |
 
 
 **#1 Elmstead Dr (Wheelers Hill)** is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
@@ -73,29 +73,33 @@ The furthest distances from signalized crossings can be filtered for both greate
 
 I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse as seen above; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al, 2025)](https://www.mdpi.com/2220-9964/14/5/205)
 
-While greater distances are typically found in middle- and outer-Melbourne, **#3 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
+**#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. As the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
-**#4 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. As the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
-
-If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
+If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
 |  | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
 | ----------------------------------------------- | ------- | ------------- | ------------------ | ---------------------- |
-| #1 McLaughlans Lane/Diamond Creek Rd (Plenty) | 4 | 109.6 | 343, 385, 901 | 530m |
-| #2 Gibbons Dr/McDonalds Rd (Epping) | 4 | 89.2 | 302, 304 | 577m |
-| #3 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
-| #4 Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
-| #5 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
+| #1 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
+| #2 Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
+| #3 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
+| #4 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 507m |
+| #5 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
 
 
-**#1 McLaughlans Lane (Plenty)**, with extremely high patronage and four lanes without a median to cross without a significant detour, is the perfect example of where signals could provide massive benefit. The 30m crossing distance 
+
+
+**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here.
 
 [Franklyn St with Overpass]
 
-**#3 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here.
-
 The situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); unfortunately grade separated pedestrian crossings often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
+
+**#2 Ormond Rd (West Footscray)** also has an overpass, however it fails to serve the community well. 
+
+**#3 Robertswood Cl (Doncaster East)** serves three SmartBus routes and correspondingly has high patronage. However, with four lanes without a median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip lanes.
+
+While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
 # Installing Signals Effectively
 
