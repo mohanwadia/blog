@@ -75,7 +75,7 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 
 **#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. As the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
-**#5 Noordenna Ave (Altona)** connects 100+ residents to Altona train station with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
+**#5 Noordenna Ave (Altona)** connects 100+ secluded residents to Altona train station, with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
@@ -89,8 +89,6 @@ If we want to benefit the most amount of people rather than find those most isol
 | #5 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
 
 
-
-
 **#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here.
 
 [Franklyn St with Overpass]
@@ -99,9 +97,11 @@ The situation reminds me of the funded Doncaster underpass which ["recorded an i
 
 **#2 Ormond Rd (West Footscray)** also has an overpass, however it fails to serve the community well. 
 
-**#3 Robertswood Cl (Doncaster East)** serves three SmartBus routes and correspondingly has high patronage. However, with four lanes without a median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip lanes.
+**#3 Robertswood Cl (Doncaster East)** serves three SmartBus routes and correspondingly has high patronage. However, with four lanes without a median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
 
 While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
+
+#5 Sandringham Hospital
 
 # Installing Signals Effectively
 
