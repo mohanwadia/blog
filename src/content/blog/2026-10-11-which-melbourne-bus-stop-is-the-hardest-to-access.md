@@ -64,7 +64,7 @@ The furthest distances from signalized crossings can be filtered for both greate
 | #2 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
 | #3 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
 | #4 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
-|  |  |  |  |  |
+| #5 Noordenne Ave/Millers Rd (Altona) | 4 | 23.2 | 411, 412, 415, 903 | 722m |
 
 
 **#1 Elmstead Dr (Wheelers Hill)** is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
