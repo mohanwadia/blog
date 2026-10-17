@@ -75,6 +75,8 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 
 **#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. As the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
+**#5 Noordenna Ave (Altona)** connects 100+ residents to Altona train station with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
+
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
