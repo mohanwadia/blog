@@ -95,8 +95,6 @@ If we want to benefit the most amount of people rather than find those most isol
 
 The situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); unfortunately grade separated pedestrian crossings often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
 
-**#2 Ormond Rd (West Footscray)** also has an overpass, however it fails to serve the community well. 
-
 **#3 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
 
 While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
