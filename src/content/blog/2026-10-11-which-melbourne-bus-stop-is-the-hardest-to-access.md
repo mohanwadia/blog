@@ -33,13 +33,15 @@ If there's no safe crossing to make the return journey with PT, often neither jo
 
 # Our Arterial Network
 
-Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, and more lanes mean it's less safe to cross. __% of bus stops in Melbourne are located on arterial roads. Nearly half (41%) of stops were located on roads where a person would have to cross at least 4 lanes of traffic. Below are the signalized arterial intersections, where the density of signalized intersections is often prioritized by vehicular volume.
+Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, and more lanes mean it's less safe to cross. This article analyses over 7000 bus stops that are placed on arterial roads in Melbourne. Arterials don't have to be at extremely high speeds to be dangerous either. 
+
+> "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
+
+Below are the signalized arterial intersections, where the density of signalized intersections is often prioritized by vehicular volume.
 
 ![image.png](/blog/images/image-44.png)
 
-"The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
-
-There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments with many bus stops as seen below. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. "Making 99% of a journey safe and convenient by foot or bike is futile if the remaining 1% contains a dangerous crossing" (Rod Tolley)
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments with many bus stops as seen below. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. 
 
 ![image.png](/blog/images/image-45.png)
 
@@ -143,6 +145,9 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 
 [Springvale Cemetary]
 
-Arterials don't have to be at extremely high speeds to be dangerous. "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
 
-Further analysis could look at patronage, service frequency, and other factors in determining where bus users would most greatly benefit from signalized crossings. It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. "In urban Lima, the presence of a bus stop was associated with a threefold increase in risk of a pedestrian collision." [(Quistberg et al, 2013)](https://injuryprevention.bmj.com/content/21/e1/e15) There's huge potential in this field. 
+
+It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. "In urban Lima, the presence of a bus stop was associated with a threefold increase in risk of a pedestrian collision." [(Quistberg et al, 2013)](https://injuryprevention.bmj.com/content/21/e1/e15) There's huge potential in this field. 
+
+> "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
+
