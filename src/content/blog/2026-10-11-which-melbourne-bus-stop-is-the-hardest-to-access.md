@@ -57,6 +57,8 @@ Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD.
 
 ![image.png](/blog/images/image-48.png)
 
+## Which bus stops are the most isolated?
+
 The furthest distances from signalized crossings can be filtered for both greater than 10 boardings per day as well as more than 2 lanes, which produces some really meaningful results:
 
 
@@ -79,7 +81,7 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 
 **#5 Noordenna Ave (Altona)** connects 100+ secluded residents to Altona train station, with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
 
-# Maximizing People Served
+## What if we prioritizing the amount of people served?
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
