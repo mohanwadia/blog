@@ -27,7 +27,7 @@ There are generally positive connotations with walking and are many individual a
 
 Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 55% of 391 responses claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
 
-If there's no safe crossing to make the return journey with PT, often neither journey will be made. Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
+If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
 # Our Arterial Network
 
@@ -44,6 +44,12 @@ There are many positive reasons buses run on arterial roads, including directnes
 ![image.png](/blog/images/image-45.png)
 
 Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
+
+# Our Cities Aren't Built For Buses
+
+Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
+
+
 
 # Discussion
 
