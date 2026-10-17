@@ -13,11 +13,9 @@ description: Advocating for signalized crossings for the safety of bus passenger
 ---
 Melbourne bus passengers expect to walk short distances. 
 
-The most commonly walked distance is between 200 and 300 metres (VISTA), and coverage planning by DTP is centred around a 400-metre radius. 
+The most commonly walked distance is between 200 and 300 metres (VISTA), leaving coverage planning by DTP to be centred around a 400-metre radius, boasting 87% of households meet this criteria. 
 
-While this metric claims residents are served by a bus route if they are within a 400 metre walk of any stop on the route, it doesn't make any assumptions about the opposite direction. 
-
-![87 per cent of households in Melbourne are within 400 metres of a bus stop. Melbourne has 366 bus routes covering over 6,000 kilometres. In 2024–25 Victorians took 114.9 million bus trips, which was 24.5 per cent of all public transport trips.](https://www.audit.vic.gov.au/sites/default/files/2025-26/Improving%20Bus%20Services/34961_Bus-services_Key-background-info_FA.svg)
+I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. 
 
 # How do people feel about walking?
 
@@ -62,8 +60,8 @@ Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD.
 The furthest distances from signalized crossings can be filtered for both greater than 10 boardings per day as well as more than 2 lanes, which produces some really meaningful results:
 
 
-| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance from Crossing++ |
-| ------------------------------------------------ | --------------- | --------- | ------------------ | -------------------------- |
+| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance to Signals++ |
+| ------------------------------------------------ | --------------- | --------- | ------------------ | ----------------------- |
 | #1 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
 | #2 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
 | #3 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
@@ -86,8 +84,8 @@ I would argue the adjacent stop to Elmstead Dr between the signalized intersecti
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
-| Bus Stop | # Lanes | ++Patronage++ | Routes | Distance from Crossing |
-| ----------------------------------------------- | ------- | ------------- | ------------------ | ---------------------- |
+| Bus Stop | # Lanes | ++Patronage++ | Routes | Distance to Signals |
+| ----------------------------------------------- | ------- | ------------- | ------------------ | ------------------- |
 | #1 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
 | #2 Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
 | #3 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
