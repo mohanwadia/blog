@@ -129,15 +129,19 @@ Signals are well used (76%), with those ignoring them claiming there was a break
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
+There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. 
+
+[NearMap satellite image of the Fire Station]
+
 Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
 
 # The Equality Angle
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
 
-Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne. 
+Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in outer Melbourne. 
 
-35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
+Signals also make bus stops more accessible for everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
 [Bus stop that is not wheelchair accessible - the one in Oakleigh]
 
