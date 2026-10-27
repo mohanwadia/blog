@@ -73,7 +73,7 @@ If we want to benefit the most amount of people rather than find those most isol
 | #2 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
 | #3 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 507m |
 | #4 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
-| #5 Princes Hwy Reserve/Princes Hwy (Oakleigh East) | 6 | 35.4 | 800, 802, 804, 862 | 577m |
+| #5 View Mount Rd/Ferntree Gully Rd (Wheelers Hill) | 6 | 32.8 | 693, 753 | 524m |
 
 
 **#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. **#5 Princes Hwy Reserve (Huntingdale)** also shows up on this list as the adjacent stop. While it has less patronage and distance, it's descriptive of a systemic issue along this corridor.
