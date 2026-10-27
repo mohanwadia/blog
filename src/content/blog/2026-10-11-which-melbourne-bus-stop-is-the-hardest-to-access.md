@@ -29,9 +29,7 @@ Arterials are also associated with unpleasant walking environments, as traffic n
 
 There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments with many bus stops as seen below. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. 
 
-![703.jpg](/blog/images/703.jpg)
-
-
+![703.jpg](/blog/images/703-2.jpg)
 
 Some bus routes aren't built for high-demand. Route 703 was created along an existing alignment when it was upgraded to SmartBus standards, and has the infrastructure to support crossing at many locations.
 
@@ -97,7 +95,7 @@ The situation reminds me of the funded Doncaster underpass which ["recorded an i
 
 While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
-The **#5 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. 
+The **#5 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. Near this stop, vehicular throughput is prioritized over safety. 
 
 # Installing Signals Effectively
 
