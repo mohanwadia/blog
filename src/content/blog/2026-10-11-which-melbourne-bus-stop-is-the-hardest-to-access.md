@@ -27,27 +27,19 @@ Many of these issues are seen with arterials, as they are objectively dangerous 
 
 Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
 
-There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments with many bus stops as seen below. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. 
+There are many positive *reasons* buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments to contain route/s. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross.
 
 ![703.jpg](/blog/images/703-2.jpg)
 
-Some bus routes aren't built for high-demand. Route 703 was created along an existing alignment when it was upgraded to SmartBus standards, and has the infrastructure to support crossing at many locations.
+Coverage within set increments are still limited by the geometry of the surrounding road network, and a coverage requirement in one direction (which the isochrones are developed from) doesn't guarantee access to the other direction. The detour associated with walking through secluded road networks also detracts from the viability of walking to a bus stop, however produces less safety concerns. 
 
-Coverage within set increments are still limited by the geometry of the surrounding road network, and a coverage requirement in one direction (which the isochrones are developed from) doesn't guarantee access to the other direction. 
-
-Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016). The 'Detour Factor' assists us in determining which suburbs hinder the natural mobility of pedestrians, by comparing the Euclidean distance with the true walking distance. 
-
-# Discussion
+# Which bus stops are the most isolated?
 
 I set out to find which bus stops are most in need for crossings to be installed. 
 
-Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. 
-
-Methodology: [GTFS stop locations with patronage](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalized intersection locations](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection.
+Methodology: Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. [GTFS stop locations with patronage](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalized intersection locations](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalized intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalized intersection.
 
 ![image.png](/blog/images/image-48.png)
-
-## Which bus stops are the most isolated?
 
 The furthest distances from signalized crossings can be filtered for both greater than 10 boardings per day as well as more than 2 lanes, which produces some really meaningful results:
 
@@ -71,7 +63,7 @@ This metric can't explain everything. I would argue the adjacent stop to Elmstea
 
 **#5 Noordenna Ave (Altona)** connects 100+ secluded houses to Altona train station, with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
 
-## What if we prioritizing the amount of people served?
+# What if we prioritizing the amount of people served?
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
