@@ -14,7 +14,7 @@ description: Advocating for signalised crossings for the safety and
 ---
 Melbourne bus passengers expect to walk short distances. 
 
-The most commonly walked distance is between 200 and 300 metres (VISTA), leaving coverage planning by DTP to be centred around a 400-metre radius, boasting 87% of households meet this criteria. 
+The most commonly walked distance is between [200 and 300 metres (Victoria Walks, pg31)](https://www.busvic.asn.au/sites/default/files/uploaded-content/website-content/Resources/BIIF/BIIF_FINAL/16_getting_to_the_bus_stop.pdf), leaving coverage planning by DTP to be centred around a 400-metre radius, boasting [87% of households (VAGO, 2026)](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=Key%20background%20information) meet this criteria. 
 
 I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. And if there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
@@ -38,7 +38,7 @@ Coverages will always be limited by the geometry of the surrounding road network
 
 I set out to find which bus stops are most in need for crossings to be installed, limiting scope to arterials managed by the Department of Transport and Planning (DTP) within 25km of Melbourne's CBD. 
 
-Methodology: [GTFS stop locations with patronage](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalised intersection locations](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalised intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalised intersection.
+Methodology: [GTFS stop locations with patronage (Mallis, 2019)](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalised intersection locations (Data VIC, 2026)](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalised intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalised intersection.
 
 ![image.png](/blog/images/image-48.png)
 
@@ -88,13 +88,13 @@ While greater distances are typically found in middle- and outer-Melbourne, **#3
 
 The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. At this stop, vehicular throughput is objectively prioritised over safety. 
 
-**#5 View Mount Rd (Wheelers Hill)** requires most of the unique residential coverage to cross at grade in the peak-heavy direction or walk two stops in either direction to the nearest signals. Concern arises as people are more likely to take risk when under time pressure, and this is the only bus stop in the local vicinity. 
+**#5 View Mount Rd (Wheelers Hill)** requires most of the unique residential coverage to cross at grade in the peak-heavy morning direction or walk two stops in either direction to the nearest signals. Concern arises as people are more likely to take risk when under time pressure, and this is the only bus stop in the local vicinity. 
 
 # Installing Signals Effectively
 
 Signals need to be placed effectively to support the natural movement of pedestrians. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-Signals are well used (76%), however they are only an option to use for the minority (45%) [(Victoria Walks pg46, 2021).](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) "Pedestrian provision almost always fits around vehicular requirements," leaving intersections such as the one below with existing infrastructure that has deliberately excluded the mobility of pedestrians, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). 
+Signals are well used (76%), however they are only an option to use for the minority (45%) [(Victoria Walks pg46-47, 2021).](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) "Pedestrian provision almost always fits around vehicular requirements," leaving intersections such as the one below with existing infrastructure that has deliberately excluded the mobility of pedestrians, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). 
 
 ![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
@@ -114,7 +114,7 @@ In Oakleigh, signals have been installed recently at Princes Hwy/Ferntree Gully 
 
 ![IMG_20261006_144833169_HDR.jpg](/blog/images/IMG_20261006_144833169_HDR.jpg)
 
-Interim measures to support crossing can also provide immediate benefits. ['Victoria Walks' 'Getting to the Bus Stop' (2021)](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) lists out where we stand: Infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
+Interim measures to support crossing can also provide immediate benefits. 35% of metropolitan bus stops are not wheelchair accessible [(Victoria Action Plan 2020-2024 pg14)](https://www.vic.gov.au/sites/default/files/2023-09/Accessible-PT-Action-Plan.pdf), and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. Medians aren't present at 60% of roads, and there's no ramp access at 36% of stops with kerbs within 50 metres [(Victoria Walks, 2021)](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf), which especially limits the mobility of people with wheeled devices or with limited mobility. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
 
 ![IMG_20261015_111455548_HDR.jpg](/blog/images/IMG_20261015_111455548_HDR.jpg)
 
