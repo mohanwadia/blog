@@ -127,7 +127,7 @@ There's also a need to locate bus stops appropriately. An example of a useless b
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
-Interim measures to support crossing can also provide immediate benefits. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
+Interim measures to support crossing can also provide immediate benefits. Infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
 
 ![IMG_20261015_111455548_HDR.jpg](/blog/images/IMG_20261015_111455548_HDR.jpg)
 
