@@ -40,6 +40,8 @@ I set out to find which bus stops are most in need for crossings to be installed
 
 Methodology: [GTFS stop locations with patronage (Mallis, 2019)](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalised intersection locations (Data VIC, 2026)](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalised intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to its closest signalised intersection.
 
+![mainmap.jpg](/blog/images/mainmap.jpg)
+
 ![image.png](/blog/images/image-48.png)
 
 The furthest distances from signalised crossings can then be filtered for both greater than 10 boardings per day as well as more than 2 lanes to achieve the following ranking:
