@@ -91,9 +91,9 @@ The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of sho
 
 # Installing Signals Effectively
 
-Signals need to be placed effectively, as inconvenient located street crossings and staged crossings can add 20-25% trip time to the walk to the bus stop. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
+Signals need to be placed effectively to support the natural movement of pedestrians. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-Signals are well used (76%), with those ignoring them claiming there was a break in traffic or the lights were too far away or too slow to change. However they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
+Signals are well used (76%), however they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
 
 ![IMG_20261006_144833169_HDR.jpg](/blog/images/IMG_20261006_144833169_HDR.jpg)
 
@@ -111,13 +111,13 @@ Public bus users are more likely to be female, aged 10-29, be studying or in cas
 
 Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in outer Melbourne. 
 
-Signals also make bus stops more accessible for everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
+![image.png](/blog/images/image-52.png)
 
-![IMG_20261013_144642162_HDR.jpg](/blog/images/IMG_20261013_144642162_HDR.jpg)
+Signals also make bus stops more accessible for nearly everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
 People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
-[stat about women feeling more unsafe]
+![IMG_20261013_144642162_HDR.jpg](/blog/images/IMG_20261013_144642162_HDR.jpg)
 
 In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
 
@@ -129,9 +129,9 @@ Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
-There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
+There's also a need to locate bus stops appropriately. An example of a useless bus stop is seen above at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
-Interim measures can also provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
+Interim measures to support crossing can also provide immediate benefits. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example is below at Springvale Crematorium in Mulgrave. 
 
 ![IMG_20261015_111455548_HDR.jpg](/blog/images/IMG_20261015_111455548_HDR.jpg)
 
