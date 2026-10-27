@@ -76,7 +76,7 @@ If we want to benefit the most amount of people rather than find those most isol
 | #5 View Mount Rd/Ferntree Gully Rd (Wheelers Hill) | 6 | 32.8 | 693, 753 | 524m |
 
 
-**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. **#5 Princes Hwy Reserve (Huntingdale)** also shows up on this list as the adjacent stop. While it has less patronage and distance, it's descriptive of a systemic issue along this corridor.
+**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. 
 
 ![image.png](/blog/images/image-51.png)
 
@@ -86,7 +86,9 @@ The situation reminds me of the funded Doncaster underpass which ["recorded an i
 
 While greater distances are typically found in middle- and outer-Melbourne, **#3 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
-The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. Near this stop, vehicular throughput is prioritized over safety. 
+The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. At this stop, vehicular throughput is objectively prioritized over safety. 
+
+**#5 View Mount Rd (Wheelers Hill)** requires most of the unique residential coverage to cross at grade in the peak-heavy direction or walk two stops in either direction to the nearest signals. Concern arises as people are more likely to take risk when under time pressure.
 
 # Installing Signals Effectively
 
