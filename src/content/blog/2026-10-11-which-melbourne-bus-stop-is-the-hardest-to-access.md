@@ -68,7 +68,11 @@ This metric can't explain everything. I would argue the adjacent stop at Petrone
 
 # What if we prioritise the amount of people served?
 
-If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes (manually), and sorting by the last publicly available patronage counts, to get the following:
+If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads and display these stops with sizes associated with patronage:
+
+[Insert Map]
+
+Manually filtering for the stops found above with more than 2 lanes, and sorting by the last publicly available patronage counts, the following ranking was achieved:
 
 
 | Bus Stop | # Lanes | ++Patronage++ | Routes | Distance to Signals |
