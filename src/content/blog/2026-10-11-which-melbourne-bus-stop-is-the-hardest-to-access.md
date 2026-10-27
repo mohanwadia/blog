@@ -76,19 +76,17 @@ If we want to benefit the most amount of people rather than find those most isol
 | #5 View Mount Rd/Ferntree Gully Rd (Wheelers Hill) | 6 | 32.8 | 693, 753 | 524m |
 
 
-**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. 
+**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. Grade separating pedestrians should be done when it's most convenient for pedestrians (such as the de-scoped SRL crossings), however they often are created out of vehicular prioritization. An example is the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at [grade]." (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf).
 
 ![image.png](/blog/images/image-51.png)
 
-The situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); unfortunately grade separated pedestrian crossings often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
-
-**#2 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
+Speaking of Doncaster, **#2 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, my recommendation is to signalize the Serpells Rd intersection and install new stops within bus queue jump lanes as typically seen on such SmartBus routes. 
 
 While greater distances are typically found in middle- and outer-Melbourne, **#3 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
 The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. At this stop, vehicular throughput is objectively prioritized over safety. 
 
-**#5 View Mount Rd (Wheelers Hill)** requires most of the unique residential coverage to cross at grade in the peak-heavy direction or walk two stops in either direction to the nearest signals. Concern arises as people are more likely to take risk when under time pressure.
+**#5 View Mount Rd (Wheelers Hill)** requires most of the unique residential coverage to cross at grade in the peak-heavy direction or walk two stops in either direction to the nearest signals. Concern arises as people are more likely to take risk when under time pressure, and this is the only bus stop in the local vicinity. 
 
 # Installing Signals Effectively
 
