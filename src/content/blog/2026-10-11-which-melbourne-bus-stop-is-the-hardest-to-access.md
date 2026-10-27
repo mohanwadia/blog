@@ -92,13 +92,13 @@ The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of sho
 
 Signals need to be placed effectively to support the natural movement of pedestrians. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-Signals are well used (76%), however they are only an option to use for the minority (45%). Pedestrian provision almost always fits around vehicular requirements, leaving intersections such as the one below with existing infrastructure that actively disallows pedestrians to cross, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). The signals below should be raised as an immediate priority for the local community. 
+Signals are well used (76%), however they are only an option to use for the minority (45%). Pedestrian provision almost always fits around vehicular requirements, leaving intersections such as the one below with existing infrastructure that has deliberately excluded the mobility of pedestrians, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). The signals below should be raised as an immediate priority for the local community. 
 
 ![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-There's a need for signal timing reform too. Signals are designed to maximize vehicle throughput and minimise delay, providing a lower quality service to pedestrians. This fails to support those walking to bus stops who are often under time pressure. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times [can help] make people feel safer crossing intersections" [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
+There's a need for signal timing reform too. Signals are designed to maximize vehicle throughput and minimise delay, providing a lower quality service to pedestrians. This fails to support those walking to bus stops who are often under time pressure. Automatic green signals are great tools and my recommendation for pedestrians, yet they are often disabled and hence increase pedestrian delay. "Increases to clearance times [can help] make people feel safer crossing intersections," [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf) and are inexpensive solutions with direct benefits. 
 
 # The Equality Angle
 
@@ -106,7 +106,7 @@ Public bus users are more likely to be female, aged 10-29, be studying or in cas
 
 ![image.png](/blog/images/image-52.png)
 
-People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. This deters women disproportionally, as women are more likely to feel unsafe walking alone than men, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
+People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. The issue of feeling unsafe walking alone deters women disproportionally, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
 
 # Conclusion
 
