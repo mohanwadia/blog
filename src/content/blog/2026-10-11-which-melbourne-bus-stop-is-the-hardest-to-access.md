@@ -24,7 +24,7 @@ I found one of Melbourne's most inaccessible bus stop, a stop with an 800m 1:14 
 
 Crossing roads is an unavoidable part of taking the bus. There are generally positive connotations with walking, along with many individual and societal benefits. Yet the main reason people gave for not walking to the bus stop was that it was too far, traffic volume/speed, and lack of road crossings as the largest factors towards unpleasantness. 
 
-Many of these issues are seen with arterials, as they are objectively dangerous places to walk. Higher speeds result in more serious injuries, and more lanes means it's less safe to cross. While signalised arterial intersections exist in many places in Melbourne, many gaps exist that leave pedestrians unsafe journeys to their nearest bus stop.
+Many of these issues are seen with arterials, as they are objectively dangerous places to walk. Higher speeds result in more serious injuries, and more lanes means it's less safe to cross. While signalised arterial intersections exist in many places in Melbourne, many gaps exist that leave pedestrians unsafe journeys to their nearest bus stop. People should feel safe crossing at all times of day, yet crossing arterials becomes [significantly more dangerous at dark too](https://aaafoundation.org/research/pedestrian-fatalities-on-urban-arterial-roads-at-night-an-in-depth-crash-analysis-and-three-case-studies/). 
 
 > "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
 
@@ -36,9 +36,9 @@ Coverages will always be limited by the geometry of the surrounding road network
 
 # Which bus stops are the most isolated?
 
-I set out to find which bus stops are most in need for crossings to be installed. 
+I set out to find which bus stops are most in need for crossings to be installed, limiting scope to arterials managed by the Department of Transport and Planning (DTP) within 25km of Melbourne's CBD. 
 
-Methodology: Scope was limited to arterials managed by DTP within 25km of Melbourne's CBD. [GTFS stop locations with patronage](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalised intersection locations](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalised intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalised intersection.
+Methodology: [GTFS stop locations with patronage](https://public.tableau.com/app/profile/philipmallis#!/vizhome/2018-19BusStopPatronageMelbourne/Map) were loaded into ArcGIS Pro using 'XY Table to Point', and [signalised intersection locations](https://discover.data.vic.gov.au/dataset/traffic-signal-volume-data) were imported using 'JSON to Feature', with freeways removed using 'Select by Attribute'. Then, 'Near' removed signalised intersections not within 20m of arterials. Finally, 'Select by Location' attributed each bus stop with the distance to it's closest signalised intersection.
 
 ![image.png](/blog/images/image-48.png)
 
@@ -94,19 +94,17 @@ The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of sho
 
 Signals need to be placed effectively to support the natural movement of pedestrians. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-Signals are well used (76%), however they are only an option to use for the minority (45%) [(Victoria Walks pg46, 2021).](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) "Pedestrian provision almost always fits around vehicular requirements," leaving intersections such as the one below with existing infrastructure that has deliberately excluded the mobility of pedestrians, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). The signals below should be raised as an immediate priority for the local community, as it's an inexpensive solution. 
+Signals are well used (76%), however they are only an option to use for the minority (45%) [(Victoria Walks pg46, 2021).](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) "Pedestrian provision almost always fits around vehicular requirements," leaving intersections such as the one below with existing infrastructure that has deliberately excluded the mobility of pedestrians, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). 
 
 ![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-There's a need for signal timing reform too. Too much emphasis has been placed on level of service of vehicle movements while accepting a lower quality service to pedestrians, hindering their ability to catch their bus. Automatic green signals are great tools and my recommendation for immediate installation, yet they are often disabled increasing pedestrian delay. "Increases to clearance times [can help] make people feel safer crossing intersections," [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf) and are inexpensive solutions with direct benefits. 
-
 There's also a need to locate bus stops appropriately, including considering the locations of signals. An example of a useless bus stop is seen below at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
-# Feasability
+# Feasibility
 
 Proposed crossings on arterial roads fall under the general road management state budget, which is currently at $756 million for 2026-27. [(Department Performance Statement, pg129)](https://s3.ap-southeast-2.amazonaws.com/vicbudgetfiles2026.27vicbudget/2026-27+State+Budget+-+Department+Performance+Statement.pdf)
 
@@ -122,13 +120,17 @@ Interim measures to support crossing can also provide immediate benefits. ['Vict
 
 # Conclusion
 
-Public bus users are more likely to be studying or in casual work, have no license, and low income. [(Victoria Walks pg20, 2021)](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf) Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
+Walkable areas and quality of public transport service are not equally spatially distributed. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
 
 ![image.png](/blog/images/image-55.png)
 
-People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. The issue of feeling unsafe walking alone deters women disproportionally, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
+
 
 # Archive [Delete]
+
+Public bus users are more likely to be studying or in casual work, have no license, and low income. [(Victoria Walks pg20, 2021)](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf)  
+
+The issue of feeling unsafe walking alone deters women disproportionally, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
 
 ![image.png](/blog/images/image-44.png)
 
