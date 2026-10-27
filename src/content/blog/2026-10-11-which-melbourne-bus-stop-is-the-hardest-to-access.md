@@ -97,9 +97,7 @@ Signals are well used (76%), however they are only an option to use for the mino
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-At signalized intersections, pedestrian provision almost always fits around vehicular requirements. Signals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
-
-There's a need for signal timing reform too. Walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
+There's a need for signal timing reform too. Signals are designed to maximize vehicle throughput and minimise delay, providing a lower quality service to pedestrians. This fails to support those walking to bus stops who are often under time pressure. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times [can help] make people feel safer crossing intersections" [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
 
 # The Equality Angle
 
