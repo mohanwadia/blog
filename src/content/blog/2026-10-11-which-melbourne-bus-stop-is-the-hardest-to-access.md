@@ -109,13 +109,13 @@ There's a need for signal timing reform too. Walk times are set at a maximum of 
 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
 
-Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in outer Melbourne. 
+Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
 
 ![image.png](/blog/images/image-52.png)
 
-Signals also make bus stops more accessible for nearly everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
+Signals make bus stops more accessible for nearly everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
-People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
+People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. This deters women disproportionally, as women are more likely to feel unsafe walking alone than men, particularly after dark. 
 
 ![IMG_20261013_144642162_HDR.jpg](/blog/images/IMG_20261013_144642162_HDR.jpg)
 
@@ -131,7 +131,7 @@ Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%
 
 There's also a need to locate bus stops appropriately. An example of a useless bus stop is seen above at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
-Interim measures to support crossing can also provide immediate benefits. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example is below at Springvale Crematorium in Mulgrave. 
+Interim measures to support crossing can also provide immediate benefits. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
 
 ![IMG_20261015_111455548_HDR.jpg](/blog/images/IMG_20261015_111455548_HDR.jpg)
 
