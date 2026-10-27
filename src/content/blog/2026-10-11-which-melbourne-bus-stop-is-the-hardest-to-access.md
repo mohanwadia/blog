@@ -27,7 +27,7 @@ Many of these issues are seen with arterials, as they are objectively dangerous 
 
 Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
 
-There are many positive *reasons* buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments to contain route/s. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross.
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments to contain route/s. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross.
 
 ![703.jpg](/blog/images/703-2.jpg)
 
@@ -101,9 +101,9 @@ At signalized intersections, pedestrian provision almost always fits around vehi
 
 There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. This is an example where the majority of the funding for crossing facilities has been provided yet pedestrians are neglected for the benefit of vehicle traffic. 
 
-[NearMap satellite image of the Fire Station]
+![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
-Additionally, walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
+There's a need for signal timing reform too. Walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
 
 # The Equality Angle
 
