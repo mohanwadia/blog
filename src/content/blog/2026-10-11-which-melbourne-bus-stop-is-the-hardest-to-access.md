@@ -1,7 +1,7 @@
 ---
 author: Mohan Wadia
-pubDatetime: 2026-10-19
-modDatetime: 2026-10-19
+pubDatetime: 2026-10-27
+modDatetime: 2026-10-27
 title: Which Melbourne bus stop is the hardest to access?
 featured: false
 draft: true
@@ -21,11 +21,13 @@ I'd like to bring you to a reason why this metric inflates true access: it doesn
 
 Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. 
 
+Crossing roads is an unavoidable part of taking the bus. 
+
 There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
 
 [People Jaywalking at Monash Uni]
 
-Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 55% of 391 responses claimed there was no crossing infrastructure at the bus stop they used. Most commonly, people must wait for a suitable gap in traffic to cross. 
+Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 
 
 If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
@@ -47,9 +49,15 @@ Arterials are also associated with unpleasant walking environments, as traffic n
 
 # Our Cities Aren't Built For Buses
 
-Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016).
+Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016). 
 
 The 'Detour Factor' assists us in determining which suburbs hinder the natural mobility of pedestrians, by comparing the Euclidean distance with the true walking distance. 
+
+Some bus routes aren't built for high-demand. Route 703 was created along an existing alignment when it was upgraded to SmartBus standards, and has the infrastructure to support crossing at many locations.
+
+Coverage within set increments are still limited by the geometry of the surrounding road network, and a coverage requirement in one direction (which the isochrones are developed from) doesn't guarantee access to the other direction. 
+
+![703.jpg](/blog/images/703.jpg)
 
 # Discussion
 
