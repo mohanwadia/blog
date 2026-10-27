@@ -2,7 +2,7 @@
 author: Mohan Wadia
 pubDatetime: 2026-10-27
 modDatetime: 2026-10-27
-title: Which Melbourne bus stop is the hardest to access?
+title: Which Melbourne bus stop is the hardest to walk to?
 featured: false
 draft: false
 tags:
@@ -139,7 +139,7 @@ Interim measures can also provide immediate benefits. Median refuge island aren'
 
 It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. With an upcoming election, community advocacy can play a huge part in getting changes made to our network. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. 
 
-# Archive
+# Archive [Delete]
 
 ![image.png](/blog/images/image-44.png)
 
