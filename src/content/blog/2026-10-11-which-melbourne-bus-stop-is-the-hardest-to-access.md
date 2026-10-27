@@ -91,15 +91,13 @@ The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of sho
 
 Signals need to be placed effectively to support the natural movement of pedestrians. Given people are already used to walking a short distance, it's unrealistic to make pedestrians walk too much further to signals. 
 
-Signals are well used (76%), however they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
+Signals are well used (76%), however they are only an option to use for the minority (45%). Pedestrian provision almost always fits around vehicular requirements, leaving intersections such as the one below with existing infrastructure that actively disallows pedestrians to cross, neglecting safety for the benefit of vehicle traffic. The road segment of Princes Hwy below serves Route 800, a high-quality service that recently got upgraded and recorded a massive [200% increase in patronage on saturdays](https://www.busnews.com.au/dandenong-route-bus-experiences-patronage-surge/#:~:text=200%20per%20cent%20rise%20in%20Saturday%20usage.). The signals below should be raised as an immediate priority for the local community. 
+
+![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. Signals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
-
-There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. This is an example where the majority of the funding for crossing facilities has been provided yet pedestrians are neglected for the benefit of vehicle traffic. 
-
-![EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg](/blog/images/EPSG3857_Date20260709_Lat-37.958927_Lon145.185481_Mpp0.075_Vert.jpg)
 
 There's a need for signal timing reform too. Walk times are set at a maximum of a 8 second green phase regardless of the parallel vehicle phase length, and are decided at 1.2m/s which does not reflect the wide range in walking speeds. Automatic green signals for pedestrians are also rarely used at intersections, increasing delay. "Increases to clearance times helped to make people feel safer crossing the intersections" while there is "a very strong positive relationship between pedestrian speed and crossing distance." [(Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf)
 
@@ -108,8 +106,6 @@ There's a need for signal timing reform too. Walk times are set at a maximum of 
 Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
 
 ![image.png](/blog/images/image-52.png)
-
-
 
 People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. This deters women disproportionally, as women are more likely to feel unsafe walking alone than men, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
 
