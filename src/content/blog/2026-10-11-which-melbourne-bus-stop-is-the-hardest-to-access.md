@@ -109,7 +109,7 @@ Signals are well used (76%), with those ignoring them claiming there was a break
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
-There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. 
+There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. This is an example where the majority of the funding for crossing facilities has been provided yet pedestrians are neglected for the benefit of vehicle traffic. 
 
 [NearMap satellite image of the Fire Station]
 
