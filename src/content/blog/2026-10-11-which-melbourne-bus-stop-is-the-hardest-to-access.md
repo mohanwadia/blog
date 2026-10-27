@@ -33,12 +33,6 @@ There are many positive reasons buses run on arterial roads, including directnes
 
 ![703.jpg](/blog/images/703.jpg)
 
-
-
-&nbsp;
-
-&nbsp;
-
 # Our Cities Aren't Built For Buses
 
 Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016). 
