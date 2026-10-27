@@ -42,7 +42,7 @@ Methodology: [GTFS stop locations with patronage (Mallis, 2019)](https://public.
 
 ![image.png](/blog/images/image-48.png)
 
-The furthest distances from signalised crossings can be filtered for both greater than 10 boardings per day as well as more than 2 lanes, which produces some really meaningful results:
+The furthest distances from signalised crossings can then be filtered for both greater than 10 boardings per day as well as more than 2 lanes to achieve the following ranking:
 
 
 | Bus Stop | Number of Lanes | Patronage | Routes | ++Distance to Signals++ |
@@ -60,13 +60,13 @@ The furthest distances from signalised crossings can be filtered for both greate
 
 This metric can't explain everything. I would argue the adjacent stop at Petronella Avenue has it worse; the options are a 1100m downhill detour through the underpass, an 800m detour up a 1:14 steep hill (note that DDA compliance requires such ramps to be a maximum of 9 metres), or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al., 2025)](https://www.mdpi.com/2220-9964/14/5/205)
 
-**#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. Partially resulting from being the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
+**#3 Church Rd (Templestowe)** has Route 901, the [8th highest performing bus route in Melbourne as well as the second most resource-intensive one. (Wadia, 2026)](https://mohanwadia.com/blog/posts/patronage-analysis/) Partially resulting from being the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
 **#5 Noordenna Ave (Altona)** connects 100+ secluded houses to Altona train station, with 8.5 buses per hour on weekdays in both directions. An installation of signals at the Noordeena Ave / Millers Rd intersection would provide a direct and safe crossing as well as a safer intersection for vehicles.
 
 # What if we prioritise the amount of people served?
 
-If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
+If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes (manually), and sorting by the last publicly available patronage counts, to get the following:
 
 
 | Bus Stop | # Lanes | ++Patronage++ | Routes | Distance to Signals |
@@ -124,7 +124,7 @@ Walkable areas and quality of public transport service are not equally spatially
 
 ![image.png](/blog/images/image-55.png)
 
-
+Limitations in this methodology stem from neccessity of data availability: the exclusion of pedestrian overpasses and underpasses, using 2018-2019 patronage, 
 
 # Archive [Delete]
 
