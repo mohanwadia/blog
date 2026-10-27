@@ -35,13 +35,9 @@ There are many positive reasons buses run on arterial roads, including directnes
 
 
 
-![image.png](/blog/images/image-44.png)
+&nbsp;
 
-
-
-![image.png](/blog/images/image-45.png)
-
-
+&nbsp;
 
 # Our Cities Aren't Built For Buses
 
@@ -164,3 +160,10 @@ Interim measures can provide immediate benefits. Median refuge island aren't pre
 It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. 
 
 With an upcoming election, community advocacy can play a huge part in getting changes made to our network. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. 
+
+# Archive
+
+![image.png](/blog/images/image-44.png)
+
+![image.png](/blog/images/image-45.png)
+
