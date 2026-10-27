@@ -65,29 +65,29 @@ This metric can't explain everything. I would argue the adjacent stop at Petrone
 
 # What if we prioritizing the amount of people served?
 
-If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 450m on roads with more than 2 lanes, and sorting by patronage, to get the following:
+If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads with more than 2 lanes, and sorting by patronage, to get the following:
 
 
 | Bus Stop | # Lanes | ++Patronage++ | Routes | Distance to Signals |
-| ----------------------------------------------- | ------- | ------------- | ------------------ | ------------------- |
+| -------------------------------------------------- | ------- | ------------- | ------------------ | ------------------- |
 | #1 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
-| #2 Ormond Rd/Geelong Rd (West Footscray) | 6 | 55.2 | 411, 412 | 470m |
-| #3 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
-| #4 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 507m |
-| #5 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
+| #2 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
+| #3 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 507m |
+| #4 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
+| #5 Princes Hwy Reserve/Princes Hwy (Oakleigh East) | 6 | 35.4 | 800, 802, 804, 862 | 577m |
 
 
-**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here.
+**#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. **#5 Princes Hwy Reserve (Huntingdale)** also shows up on this list as the adjacent stop. While it has less patronage and distance, it's descriptive of a systemic issue along this corridor.
 
 ![image.png](/blog/images/image-51.png)
 
 The situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); unfortunately grade separated pedestrian crossings often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
 
-**#3 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
+**#2 Robertswood Cl (Doncaster East)** is one of two corridors that serves 3+ SmartBus routes (the other being Hoddle St) and correspondingly has high patronage. However, with four lanes and no median to cross, I'd recommend signalizing the Serpells Rd intersection and installing new stops within bus skip queue lanes.
 
-While greater distances are typically found in middle- and outer-Melbourne, **#4 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
+While greater distances are typically found in middle- and outer-Melbourne, **#3 Rogers St (Port Melbourne)** is the exception at just 3km from the CBD. Attractive high-frequency services can be established relatively quickly and cheaply, such as when Route 237 received significant frequency improvements in 2022, however without the infrastructure to move people patronage within Fishermans Bend will suffer as a result. 
 
-The **#5 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. Near this stop, vehicular throughput is prioritized over safety. 
+The **#4 Sandringham Hospital (Black Rock)** bus stop also serves a strip of shops and lots of residents on either side. There is potential for extended traffic calming, as 300m north and south of the location, the road narrows to two lanes with a crossing median. Near this stop, vehicular throughput is prioritized over safety. 
 
 # Installing Signals Effectively
 
