@@ -15,9 +15,7 @@ Melbourne bus passengers expect to walk short distances.
 
 The most commonly walked distance is between 200 and 300 metres (VISTA), leaving coverage planning by DTP to be centred around a 400-metre radius, boasting 87% of households meet this criteria. 
 
-I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. 
-
-If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
+I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. And if there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
 # How do people feel about walking?
 
@@ -33,15 +31,13 @@ There are many positive reasons buses run on arterial roads, including directnes
 
 ![703.jpg](/blog/images/703.jpg)
 
-# Our Cities Aren't Built For Buses
 
-Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016). 
-
-The 'Detour Factor' assists us in determining which suburbs hinder the natural mobility of pedestrians, by comparing the Euclidean distance with the true walking distance. 
 
 Some bus routes aren't built for high-demand. Route 703 was created along an existing alignment when it was upgraded to SmartBus standards, and has the infrastructure to support crossing at many locations.
 
 Coverage within set increments are still limited by the geometry of the surrounding road network, and a coverage requirement in one direction (which the isochrones are developed from) doesn't guarantee access to the other direction. 
+
+Walking detours become unacceptable when they exceed around 40%. (Schmitz 1991b cited in Hillnhutter 2016). The 'Detour Factor' assists us in determining which suburbs hinder the natural mobility of pedestrians, by comparing the Euclidean distance with the true walking distance. 
 
 # Discussion
 
