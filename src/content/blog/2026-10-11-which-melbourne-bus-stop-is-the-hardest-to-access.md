@@ -17,35 +17,31 @@ The most commonly walked distance is between 200 and 300 metres (VISTA), leaving
 
 I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. 
 
-# How do people feel about walking?
-
-Almost all trips taken bus bus require walking, and those who walked made up 95% of all those who travelled to the bus stop. 
-
-Crossing roads is an unavoidable part of taking the bus. 
-
-There are generally positive connotations with walking and are many individual and societal benefits. However, the main reason people gave for not walking to the bus stop was that it was too far/long to walk, with traffic volume/speed and lack of road crossings the largest factors towards unpleasantness. 
-
-[People Jaywalking at Monash Uni]
-
-Crossing roads is an unavoidable part of using the bus. 56% of the roads on which bus stops were located had intersecting roads within 50 metres of the stop. 
-
 If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
-# Our Arterial Network
+# How do people feel about walking?
 
-Arterial roads are dangerous places to walk. Higher speeds result in more serious injuries, and more lanes mean it's less safe to cross. This article analyses over 7000 bus stops that are placed on arterial roads in Melbourne. Arterials don't have to be at extremely high speeds to be dangerous either. 
+Crossing roads is an unavoidable part of taking the bus. There are generally positive connotations with walking, along with many individual and societal benefits. Yet the main reason people gave for not walking to the bus stop was that it was too far, traffic volume/speed, and lack of road crossings as the largest factors towards unpleasantness. 
+
+Many of these issues are seen with arterials, as they are objectively dangerous places to walk. Higher speeds result in more serious injuries, and more lanes means it's less safe to cross. Signalized arterial intersections exist in many places in Melbourne, however gaps exist that leave pedestrians unsafe journeys to their nearest bus stop, as locations are prioritized by vehicular volume. 
 
 > "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
 
-Below are the signalized arterial intersections, where the density of signalized intersections is often prioritized by vehicular volume.
-
-![image.png](/blog/images/image-44.png)
+Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
 
 There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments with many bus stops as seen below. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. 
 
+![703.jpg](/blog/images/703.jpg)
+
+
+
+![image.png](/blog/images/image-44.png)
+
+
+
 ![image.png](/blog/images/image-45.png)
 
-Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
+
 
 # Our Cities Aren't Built For Buses
 
@@ -56,8 +52,6 @@ The 'Detour Factor' assists us in determining which suburbs hinder the natural m
 Some bus routes aren't built for high-demand. Route 703 was created along an existing alignment when it was upgraded to SmartBus standards, and has the infrastructure to support crossing at many locations.
 
 Coverage within set increments are still limited by the geometry of the surrounding road network, and a coverage requirement in one direction (which the isochrones are developed from) doesn't guarantee access to the other direction. 
-
-![703.jpg](/blog/images/703.jpg)
 
 # Discussion
 
@@ -159,7 +153,7 @@ Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%
 
 [Lee Rd/Wellington Rd]
 
-There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of hte greatest deterrents. 
+There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. While a wholistic approach should be taken, this article is concerned with lack of crossing as it is one of the greatest deterrents. 
 
 Interim measures can provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
