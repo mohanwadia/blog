@@ -25,9 +25,7 @@ Many of these issues are seen with arterials, as they are objectively dangerous 
 
 > "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
 
-Arterials are also associated with unpleasant walking environments, as traffic noise stems from speed and volume of traffic (10x higher background levels), as well as present health concerns stemming from traffic pollution too. (link higher risk of...premature death', and 2600 Australians die from air pollution each year, with traffic pollution linked in with increased rates of asthma)
-
-There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments to contain route/s. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult or dangerous. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross.
+There are many positive reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. This has left most residential arterial segments to contain route/s. However, locating bus routes on arterial roads can lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult but also [unpleasant with traffic noise as well as present health concerns (Franěk et al., 2018).](https://pmc.ncbi.nlm.nih.gov/articles/PMC5923794/#:~:text=However%2C%20as%20previously%20demonstrated%2C%20a%20fast%20walking%20speed%20in%20the%20context%20of%20the%20overall%20fast%20pace%20of%20life%20as%20a%20response%20to%20stressful%20environmental%20stimuli%20may%20have%20negative%20health%20consequences.%20Moreover%2C%20it%20was%20also%20shown%20that%20exposure%20to%20noise%20may%20influence%20the%20perception%20of%20an%20environment.) Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross.
 
 ![703.jpg](/blog/images/703-2.jpg)
 
@@ -57,7 +55,7 @@ The furthest distances from signalized crossings can be filtered for both greate
 
 ![IMG_20261014_171851280_HDR.jpg](/blog/images/IMG_20261014_171851280_HDR.jpg)
 
-This metric can't explain everything. I would argue the adjacent stop at Petronella Avenue has it worse; the options are a 1100m downhill detour through the underpass, an 800m detour up a 1:14 steep hill (note that DDA compliance requires such ramps to be a maximum of 9 metres), or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al, 2025)](https://www.mdpi.com/2220-9964/14/5/205)
+This metric can't explain everything. I would argue the adjacent stop at Petronella Avenue has it worse; the options are a 1100m downhill detour through the underpass, an 800m detour up a 1:14 steep hill (note that DDA compliance requires such ramps to be a maximum of 9 metres), or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al., 2025)](https://www.mdpi.com/2220-9964/14/5/205)
 
 **#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. Partially resulting from being the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
@@ -107,37 +105,31 @@ There's a need for signal timing reform too. Walk times are set at a maximum of 
 
 # The Equality Angle
 
-Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. 
-
-Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
+Public bus users are more likely to be female, aged 10-29, be studying or in casual work, have no license, and low income. Walkable areas and quality of public transport service are not equally spatially distributed either. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and a lack of signals are more commonly found in middle- and outer- Melbourne as seen in the distribution below:
 
 ![image.png](/blog/images/image-52.png)
 
-Signals make bus stops more accessible for nearly everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
-People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. This deters women disproportionally, as women are more likely to feel unsafe walking alone than men, particularly after dark. 
 
-![IMG_20261013_144642162_HDR.jpg](/blog/images/IMG_20261013_144642162_HDR.jpg)
-
-In terms of road safety, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. 
+People should feel safe crossing at all times of day, yet crossing arterials becomes significantly more dangerous at dark. This deters women disproportionally, as women are more likely to feel unsafe walking alone than men, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
 
 # Conclusion
 
 Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
 
-Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. 
+
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
 There's also a need to locate bus stops appropriately. An example of a useless bus stop is seen above at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
-Interim measures to support crossing can also provide immediate benefits. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
+Interim measures to support crossing can also provide immediate benefits. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. Median refuge island aren't present at 60% of roads, and there's no ramp access at 36% of stops within 50 metres, which especially limits the mobility of people with wheeled devices or with limited mobility. Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. An example of poor infrastructure is seen below at Springvale Crematorium in Mulgrave:
 
 ![IMG_20261015_111455548_HDR.jpg](/blog/images/IMG_20261015_111455548_HDR.jpg)
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-It's also worth mentioning bus passenger improvements are the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays. With an upcoming election, community advocacy can play a huge part in getting changes made to our network. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. 
+There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. Therefore, the importance of advocacy at a community level can play a huge part in receiving funding. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. Bus passenger improvements are at the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays.
 
 # Archive [Delete]
 
