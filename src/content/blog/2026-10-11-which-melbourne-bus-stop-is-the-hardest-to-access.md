@@ -55,9 +55,9 @@ The furthest distances from signalized crossings can be filtered for both greate
 
 **#1 Elmstead Dr (Wheelers Hill)** is very far from the nearest signalized crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
 
-[Elmstead Dr/Ferntree Gully Rd Image]
+![IMG_20261014_171851280_HDR.jpg](blob:https:/app.pagescms.org/79a50563-eaa7-403e-a8f2-452fb85ab7a1)
 
-This metric can't explain everything. I would argue the adjacent stop to Elmstead Dr between the signalized intersection and the underpass has it worse as seen above; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al, 2025)](https://www.mdpi.com/2220-9964/14/5/205)
+This metric can't explain everything. I would argue the adjacent stop at Petronella Avenue has it worse; the options are a ___m downhill detour through the underpass, a ___m detour up a very steep hill, or crossing six lanes of 80km/h traffic while navigating side streets and service lanes with an angled median. Topographical catchments are another limitations of current coverage goals, for example in the hilly city of Coimbra recorded "decrease in accessibility of circa 10%" was recorded. [(Pais et al, 2025)](https://www.mdpi.com/2220-9964/14/5/205)
 
 **#3 Church Rd (Templestowe)** has Route 901, the 8th highest performing bus route in Melbourne as well as the second most resource-intensive one. Partially resulting from being the longest bus route, it contains 20 bus stops with a greater crossing distance than 500m, the most of any bus route. When introduced in 2008, little attention was placed into improving the surrounding infrastructure to maximize the benefits. 
 
@@ -79,7 +79,7 @@ If we want to benefit the most amount of people rather than find those most isol
 
 **#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here.
 
-[Franklyn St with Overpass]
+![image.png](/blog/images/image-51.png)
 
 The situation reminds me of the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at ground level" (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf); unfortunately grade separated pedestrian crossings often prioritize vehicles over pedestrians. And when they would benefit high volumes of pedestrians immensely, such as when entering SRL stations, they are de-scoped for being too costly. 
 
@@ -95,7 +95,7 @@ Signals need to be placed effectively, as inconvenient located street crossings 
 
 Signals are well used (76%), with those ignoring them claiming there was a break in traffic or the lights were too far away or too slow to change. However they are only an option to use for the minority (45%). The bus stop access audits found signals were visible from 29% of stops, with 8% within 5 metres. No formal crossing from 64% of stops (bus audit). When there were crossings, 48% were more than 50 metres away. 
 
-[Oakleigh Intersection recently installed]
+![IMG_20261006_144833169_HDR.jpg](blob:https:/app.pagescms.org/c4e49dec-85c0-409e-b124-c517a6bc7e2a)
 
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
@@ -113,7 +113,7 @@ Walkable areas and quality of public transport service are not equally spatially
 
 Signals also make bus stops more accessible for everyone. 35% of metropolitan bus stops are not wheelchair accessible, and for a person with disability, they need take on the significant mental load to ensure every component of the journey is accessible. 
 
-[Bus stop that is not wheelchair accessible - the one in Oakleigh]
+![IMG_20261013_144642162_HDR.jpg](blob:https:/app.pagescms.org/dd159473-fbb8-44dd-8eb2-ff369b1ad05a)
 
 People should feel safe crossing at all times of day. Women are more likely to feel unsafe walking alone than men, particularly after dark. In Australia, the gap between the sexes is greater than any other OECD country. One of the greatest factors of feeling safe is adequate lighting, however there is limited lightning at bus stops. Street lighting is designed for drivers, while people walking have to make do with whatever light reached them from distant fixtures through the tree canopy. 
 
@@ -127,13 +127,13 @@ Due to a lack of federal funding, there's a current funding level of $3 million 
 
 Other infrastructure decisions such as lack of signage (6.1%), grass/soil (13.8%), and lack of shelter (75.1%) all play their part in determining whether a trip is made by bus. Other factors picked up in surveys such as ________________ are understandably at play too. 
 
-[Lee Rd/Wellington Rd]
+![IMG_20261024_090449644_HDR.jpg](blob:https:/app.pagescms.org/6cd8a89c-6d93-49e3-8e57-ef209105d401)
 
 There's also a need to locate bus stops appropriately. Within 50m of a bus stop, 11% had a driveway to an indiustrial, retail or aged care facility, and 9% had entrances to car parks. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
 Interim measures can also provide immediate benefits. Median refuge island aren't present at 60% of roads, while 33% have a raised median, and 7% have a flush painted median. There's no ramp access at 36% of stops within 50 metres. At 23% of stops where there were driveways but no kerb ramps, people using wheeled devices or with limited mobility would need to cross indirectly as driveways are built for property access. 
 
-[Springvale Cemetary]
+![IMG_20261015_111455548_HDR.jpg](blob:https:/app.pagescms.org/e9f4545f-a293-4f9e-a0b8-a58b6fe76c61)
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
