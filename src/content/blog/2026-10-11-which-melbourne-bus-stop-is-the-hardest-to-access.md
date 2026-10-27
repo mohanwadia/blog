@@ -95,7 +95,7 @@ Signals are well used (76%), however they are only an option to use for the mino
 
 ![IMG_20261006_144833169_HDR.jpg](/blog/images/IMG_20261006_144833169_HDR.jpg)
 
-At signalized intersections, pedestrian provision almost always fits around vehicular requirements. SIgnals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
+At signalized intersections, pedestrian provision almost always fits around vehicular requirements. Signals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
 There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. This is an example where the majority of the funding for crossing facilities has been provided yet pedestrians are neglected for the benefit of vehicle traffic. 
 
@@ -115,9 +115,9 @@ People should feel safe crossing at all times of day, yet crossing arterials bec
 
 # Conclusion
 
-Due to a lack of federal funding, there's a current funding level of $3 million for bus stop upgrades within existing state and territory budgets. This excludes crossings, which fall under general road management. 
+Proposed crossings on arterial roads fall under the general road management state budget, which is currently at $756 million for 2026-27. 
 
-
+There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. Therefore, the importance of advocacy at a community level can play a huge part in receiving funding. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. Bus passenger improvements are at the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays.
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
@@ -129,7 +129,7 @@ Interim measures to support crossing can also provide immediate benefits. 35% of
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. Therefore, the importance of advocacy at a community level can play a huge part in receiving funding. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. Bus passenger improvements are at the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays.
+
 
 # Archive [Delete]
 
