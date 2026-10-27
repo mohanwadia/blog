@@ -95,10 +95,6 @@ Signals are well used (76%), however they are only an option to use for the mino
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-In Oakleigh, signals have been installed recently at 
-
-![IMG_20261006_144833169_HDR.jpg](/blog/images/IMG_20261006_144833169_HDR.jpg)
-
 At signalized intersections, pedestrian provision almost always fits around vehicular requirements. Signals are designed to maximize vehicle throughput and minimse delay, providing a low quality service to pedestrians whose time is valued less. This neglects the fact that 81% of people walking to the bus stop are under time pressure to catch their service, and a short walk (around 300m) is increased by 10-15% due to one set of signals when crossing a busy road. 
 
 There is also a location in Noble Park North where signals exist, yet pedestrians are unable to cross. This is an example where the majority of the funding for crossing facilities has been provided yet pedestrians are neglected for the benefit of vehicle traffic. 
@@ -122,6 +118,10 @@ People should feel safe crossing at all times of day, yet crossing arterials bec
 Proposed crossings on arterial roads fall under the general road management state budget, which is currently at $756 million for 2026-27. [(Department Performance Statement, pg129)](https://s3.ap-southeast-2.amazonaws.com/vicbudgetfiles2026.27vicbudget/2026-27+State+Budget+-+Department+Performance+Statement.pdf)
 
 There is no coded database for bus-related crashes in Victoria. Facilities are also not provided unless certain high requirements are met, which means that infrastructure is often reactive rather than proactive. Therefore, the importance of advocacy at a community level can play a huge part in receiving funding. For example, [Chelsea Station's desperately needed direct pedestrian crossing](https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-31182) has been an election issue in the seat of Mordialloc. Bus passenger improvements are at the tip of the iceberg of Introduced crossing infrastructure funding; communities benefit at the expense of minor vehicle delays.
+
+In Oakleigh, signals have been installed recently at Princes Hwy/Ferntree Gully Rd, facilitating access to bus stops as well as the kindergarten who will directly benefit. [After bringing up the issue with council,](https://www.facebook.com/CrStuartJames/posts/pfbid0JBy1J6XReL1pVtQEg3gKvgbERs6rCdL31mF4w91vv3JcDGM8dNYn286CxwqxJrUjl) it took many years but the project will now benefit the community for years to come. 
+
+![IMG_20261006_144833169_HDR.jpg](/blog/images/IMG_20261006_144833169_HDR.jpg)
 
 There's also a need to locate bus stops appropriately. An example of a useless bus stop is seen below at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A wholistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
 
