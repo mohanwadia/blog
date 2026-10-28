@@ -42,8 +42,6 @@ Methodology: [GTFS stop locations with patronage (Mallis, 2019)](https://public.
 
 ![mainmap.jpg](/blog/images/mainmap.jpg)
 
-![image.png](/blog/images/image-48.png)
-
 The furthest distances from signalised crossings can then be filtered for both greater than 10 boardings per day as well as more than 2 lanes to achieve the following ranking:
 
 
@@ -70,7 +68,7 @@ This metric can't explain everything. I would argue the adjacent stop at Petrone
 
 If we want to benefit the most amount of people rather than find those most isolated, we can filter for distances greater than 500m on roads and display these stops with sizes associated with patronage:
 
-[Insert Map]
+![500.jpg](/blog/images/500.jpg)
 
 Manually filtering for the stops found above with more than 2 lanes, and sorting by the last publicly available patronage counts, the following ranking was achieved:
 
@@ -139,6 +137,4 @@ Public bus users are more likely to be studying or in casual work, have no licen
 The issue of feeling unsafe walking alone deters women disproportionally, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
 
 ![image.png](/blog/images/image-44.png)
-
-![image.png](/blog/images/image-45.png)
 
