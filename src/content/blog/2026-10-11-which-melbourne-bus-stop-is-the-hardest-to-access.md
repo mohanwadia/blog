@@ -129,12 +129,3 @@ Walkable areas and quality of public transport service are not equally spatially
 ![image.png](/blog/images/image-55.png)
 
 Limitations in this methodology stem from necessity of data availability: the exclusion of non-signalized crossings, using 2018-2019 patronage. 
-
-# Archive [Delete]
-
-Public bus users are more likely to be studying or in casual work, have no license, and low income. [(Victoria Walks pg20, 2021)](https://www.victoriawalks.org.au/Assets/Files/Getting_to_the_bus_stop_FINAL_with_graphics.pdf)  
-
-The issue of feeling unsafe walking alone deters women disproportionally, particularly after dark. Additionally, teenagers may struggle with making good judgements around risk, while adults over 60 generally have less physical capacity to cross roads or walk long distances and are more susceptible to injury in the event of a crash. 
-
-![image.png](/blog/images/image-44.png)
-
