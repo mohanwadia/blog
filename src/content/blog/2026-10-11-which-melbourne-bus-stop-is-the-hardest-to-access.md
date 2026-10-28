@@ -46,13 +46,13 @@ Methodology: [GTFS stop locations with patronage (Mallis, 2019)](https://public.
 The furthest distances from signalised crossings can then be filtered for both greater than 10 boardings per day as well as more than 2 lanes to achieve the following ranking:
 
 
-| Bus Stop | Number of Lanes | Patronage | Routes | ++Distance to Signals++ |
-| ------------------------------------------------ | --------------- | --------- | ------------------ | ----------------------- |
-| #1 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 6 | 11.2 | 693, 753 | 1172m |
-| #2 1103 High Street Rd (Wantirna South) | 4 | 24.2 | 736, 737 | 954m |
-| #3 Church Rd/Reynolds Rd (Templestowe) | 4 | 12.5 | 282, 309, 901 | 862m |
-| #4 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
-| #5 Noordenne Ave/Millers Rd (Altona) | 4 | 23.2 | 411, 412, 415, 903 | 722m |
+| Bus Stop | Patronage | Routes | ++Distance to Signals++ |
+| ------------------------------------------------ | --------- | ------------------ | ----------------------- |
+| #1 Elmstead Dr/Ferntree Gully Rd (Wheelers Hill) | 11.2 | 693, 753 | 1172m |
+| #2 1103 High Street Rd (Wantirna South) | 24.2 | 736, 737 | 954m |
+| #3 Church Rd/Reynolds Rd (Templestowe) | 12.5 | 282, 309, 901 | 862m |
+| #4 Franklyn St/Princes Hwy (Huntingdale) | 63.0 | 800, 802, 804, 862 | 806m |
+| #5 Noordenne Ave/Millers Rd (Altona) | 23.2 | 411, 412, 415, 903 | 722m |
 
 
 **#1 Elmstead Dr (Wheelers Hill)** is very far from the nearest signalised crossing, however does have an underpass as part of Dandenong Creek Trail which is susceptible to flooding. As a result, the westbound stop has high patronage (11.2) compared to the stop opposite (1.4) with no residential coverage. 
@@ -74,13 +74,13 @@ If we want to benefit the most amount of people rather than find those most isol
 Manually filtering for the stops found above with more than 2 lanes, and sorting by the last publicly available patronage counts, the following ranking was achieved:
 
 
-| Bus Stop | # Lanes | ++Patronage++ | Routes | Distance to Signals |
-| -------------------------------------------------- | ------- | ------------- | ------------------ | ------------------- |
-| #1 Franklyn St/Princes Hwy (Huntingdale) | 6 | 63.0 | 800, 802, 804, 862 | 806m |
-| #2 Robertswood Cl/Blackburn Rd (Doncaster East) | 4 | 53.9 | 901, 906, 908 | 607m |
-| #3 Rogers St/Lorimer St (Port Melbourne) | 4 | 40.8 | 237 | 507m |
-| #4 Sandringham Hospital/Bluff Rd (Black Rock) | 4 | 37.8 | 600, 825, 922, 923 | 638m |
-| #5 View Mount Rd/Ferntree Gully Rd (Wheelers Hill) | 6 | 32.8 | 693, 753 | 524m |
+| Bus Stop | ++Patronage++ | Routes | Distance to Signals |
+| -------------------------------------------------- | ------------- | ------------------ | ------------------- |
+| #1 Franklyn St/Princes Hwy (Huntingdale) | 63.0 | 800, 802, 804, 862 | 806m |
+| #2 Robertswood Cl/Blackburn Rd (Doncaster East) | 53.9 | 901, 906, 908 | 607m |
+| #3 Rogers St/Lorimer St (Port Melbourne) | 40.8 | 237 | 507m |
+| #4 Sandringham Hospital/Bluff Rd (Black Rock) | 37.8 | 600, 825, 922, 923 | 638m |
+| #5 View Mount Rd/Ferntree Gully Rd (Wheelers Hill) | 32.8 | 693, 753 | 524m |
 
 
 **#1 Franklyn St (Huntingdale)** shows up again with a huge 806 metre detour to the nearest signals. While there is a pedestrian overpass, with long ramps to navigate, I often observe people crossing at grade here. Grade separating pedestrians should be done when it's most convenient for pedestrians (such as the de-scoped SRL crossings), however they often are created out of vehicular prioritisation. An example is the funded Doncaster underpass which ["recorded an increase in the number of pedestrians crossing at [grade]." (Hutchinson, 2011)](https://apo.org.au/sites/default/files/resource-files/2011-12/apo-nid60033.pdf).
