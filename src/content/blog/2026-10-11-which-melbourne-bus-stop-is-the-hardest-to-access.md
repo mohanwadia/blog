@@ -17,7 +17,7 @@ Melbourne bus passengers expect to walk short distances.
 
 The most commonly walked distance is between [200 and 300 metres (Victoria Walks, pg31)](https://www.busvic.asn.au/sites/default/files/uploaded-content/website-content/Resources/BIIF/BIIF_FINAL/16_getting_to_the_bus_stop.pdf), leaving coverage planning by DTP to be centred around a 400-metre radius, boasting [87% of households (VAGO, 2026)](https://www.audit.vic.gov.au/report/improving-bus-services#:~:text=Key%20background%20information) meet this criterion.
 
-I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. And if there's no safe crossing to make the return journey with PT, often neither journey will be made. 
+I'd like to bring you to a reason why this metric inflates true access: it doesn't consider routes go in two directions. If there's no safe crossing to make the return journey with PT, often neither journey will be made. 
 
 I found one of Melbourne's most inaccessible bus stops, a stop with an 800m 1:14 grade detour to avoid crossing six 80km/h lanes, and even a set of signals installed that completely ignores the existence of pedestrians. 
 
