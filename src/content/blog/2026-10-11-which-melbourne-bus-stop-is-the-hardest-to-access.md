@@ -29,7 +29,7 @@ Crossing roads is an unavoidable part of taking the bus. There are generally pos
 
 ![703.jpg](/blog/images/703-2.jpg)
 
-There are many good reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. As a result, most Melbourne residential arterial road segments have bus routes. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross as seen above. 
+There are many good reasons buses run on arterial roads, including directness, speed, and catchment areas because of intersecting side streets. As a result, most Melbourne arterial roads have bus routes. Route 703 mostly runs on arterials yet is fortunate to have a lot of places to cross as seen above. 
 
 When locating bus routes on arterial roads, it can often lead to longer walking distances because of limited places to cross the road, causing journeys to be difficult but also [unpleasant with traffic noise as well as present health concerns (Franěk et al., 2018).](https://pmc.ncbi.nlm.nih.gov/articles/PMC5923794/#:~:text=However%2C%20as%20previously%20demonstrated%2C%20a%20fast%20walking%20speed%20in%20the%20context%20of%20the%20overall%20fast%20pace%20of%20life%20as%20a%20response%20to%20stressful%20environmental%20stimuli%20may%20have%20negative%20health%20consequences.%20Moreover%2C%20it%20was%20also%20shown%20that%20exposure%20to%20noise%20may%20influence%20the%20perception%20of%20an%20environment.) 
 
