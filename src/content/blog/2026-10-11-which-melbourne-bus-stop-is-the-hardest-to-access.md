@@ -23,9 +23,7 @@ I found one of Melbourne's most inaccessible bus stops, a stop with an 800m 1:14
 
 # How do people feel about walking?
 
-Crossing roads is an unavoidable part of taking the bus. There are generally positive connotations with walking, along with many individual and societal benefits. Yet the main reason people gave for not walking to the bus stop was that it was too far, traffic volume/speed, and lack of road crossings as the largest factors towards unpleasantness. 
-
-Many of these issues are seen with arterials, as they are dangerous places to walk. Higher speeds result in more serious injuries, and more lanes means it's less safe to cross. While signalised arterial intersections exist in many places in Melbourne, many gaps exist that leave pedestrians unsafe journeys to their nearest bus stop. People should feel safe crossing at all times of day, yet crossing arterials becomes [significantly more dangerous at dark too](https://aaafoundation.org/research/pedestrian-fatalities-on-urban-arterial-roads-at-night-an-in-depth-crash-analysis-and-three-case-studies/). 
+Crossing roads is an unavoidable part of taking the bus. There are generally positive connotations with walking, along with many individual and societal benefits. However when routes are places on arterials, danger arises as higher speeds result in more serious injuries, and more lanes means it's less safe to cross. This issue amplifies at night too when crossing becomes [significantly more dangerous](https://aaafoundation.org/research/pedestrian-fatalities-on-urban-arterial-roads-at-night-an-in-depth-crash-analysis-and-three-case-studies/). 
 
 > "The highest proportion of crashes occurring in 60 km/h speed zones, [hence] minor arterial roads represent a significant concern for pedestrian safety." [(Victoria Walks, 2020)](https://www.victoriawalks.org.au/Assets/Files/Understanding-Pedestrian-Crashes.pdf)
 
