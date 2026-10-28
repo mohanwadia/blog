@@ -105,7 +105,11 @@ Signals are well used (76%), however they are only an option to use for the mino
 
 > "The construction or improvement of pedestrian crossing facilities often becomes the main alternative to mitigate the impacts of roads on pedestrians, when solutions such as reducing traffic levels or lowering speed limits met with social and political resistance." (Anciaes, 2017)
 
-There's also a need to locate bus stops appropriately, including considering the locations of signals. An example of a useless bus stop is seen below at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. It records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A holistic approach needs to be taken in conjunction with the provided analysis on lack of crossings as one of the greatest deterrents. 
+Walkable areas and quality of public transport service are not equally spatially distributed. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and this issue extends to the lack of opportunities for signalised crossings in middle- and outer- Melbourne as seen in the distribution below:
+
+![image.png](/blog/images/image-56.png)
+
+There's also a need to consider the location of signals in conjunction with the location of bus stops. An example of a useless bus stop is seen below at Lee Rd/Wellington Rd (Wheelers Hill), where barriers have been installed for all residents on the south side, and there is no access to any locations where this would be the closest bus stop, yet it has a shelter installed. As a result, it records a ten-fold decrease in patronage compared to the stop opposite, at 0.87 compared to 9.5 passengers per day. A holistic approach needs to be adapted. 
 
 ![IMG_20261024_090449644_HDR.jpg](/blog/images/IMG_20261024_090449644_HDR.jpg)
 
@@ -127,8 +131,8 @@ Interim measures to support crossing can also provide immediate benefits. 35% of
 
 # Conclusion
 
-Walkable areas and quality of public transport service are not equally spatially distributed. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and this issue extends to the lack of opportunities for signalised crossings in middle- and outer- Melbourne as seen in the distribution below:
+Current Melbourne bus coverage requirements don't tell us whether people can actually use it. 
 
-![image.png](/blog/images/image-56.png)
+Across the stops I analysed, the same story emerges of a frequent route that is limited by the arterial it runs on. Funding does exist for the installation of inexpensive crossings, and persistent community advocacy can get these projects funded sooner. 
 
-Limitations in this methodology stem from necessity of data availability: the exclusion of non-signalized crossings, using 2018-2019 patronage. 
+If we want more people on buses, we need to measure both directions, not pretend it's good enough. 
