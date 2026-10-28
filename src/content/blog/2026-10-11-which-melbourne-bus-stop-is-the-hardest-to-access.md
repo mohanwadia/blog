@@ -3,6 +3,7 @@ author: Mohan Wadia
 pubDatetime: 2026-10-28
 modDatetime: 2026-10-28
 title: Which Melbourne bus stop is the hardest to walk to?
+slug: crossing
 featured: false
 draft: false
 tags:
