@@ -127,6 +127,6 @@ Interim measures to support crossing can also provide immediate benefits. 35% of
 
 Walkable areas and quality of public transport service are not equally spatially distributed. Cheaper locations with less opportunities often have fewer transport options too in Melbourne, and this issue extends to the lack of opportunities for signalised crossings in middle- and outer- Melbourne as seen in the distribution below:
 
-![image.png](/blog/images/image-55.png)
+![image.png](/blog/images/image-56.png)
 
 Limitations in this methodology stem from necessity of data availability: the exclusion of non-signalized crossings, using 2018-2019 patronage. 
